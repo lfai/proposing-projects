@@ -1,0 +1,49 @@
+== Elastic Deep Learning (EDL) Proposal
+
+*a.	name of project or proposed name of project (must be unique within Deep Learning):*
+
+EDL
+
+*b.	requested project maturity level (Graudation or Incubation stage):*
+
+Incubation stage
+
+*c.	project description (what it does, why it is valuable, origin and history):*
+
+EDL is an Elastic Deep Learning framework designed to help Deep Learning Cloud Service providers to build cluster cloud services using different deep learning frameworks PaddlePaddle, Tensorflow, etc.). EDL includes a Kubernetes controller, PaddlePaddle auto-scaler, which changes the number of processes of distributed jobs to the idle hardware resource in the cluster, and a new fault-tolerable architecture.
+
+*d.	statement on alignment with Deep Learning’s mission:*
+
+EDL falls within the mission of Deep Learning. The project helps cloud service providers build cluster cloud services using various deep learning frameworks.
+
+*e. Project’s license:* Apache-2.0 
+
+*f. Source control (GitHub, etc.):* https://github.com/paddlepaddle/edl
+
+*g. External dependencies (including licenses of those dependencies):*
+
+  * Kubernetes (Apache-2.0)
+  * Go                      
+
+*h. Initial committers (how long working on project):*
+
+  * Wangyi: Half a year, project founder
+  * Wuyi: Half a year, main contributor
+
+*i. RACI if applicable / exists:* Not applicable
+
+*j. Infrastructure requests (CI / cluster requirements):* None
+
+*k. Mailing lists currently in use:* None 
+
+*l. Issue tracker (GitHub by default):* GitHub issue tracker
+
+*m. Website:* https://github.com/PaddlePaddle/edl/
+
+*n. Release methodology and mechanics:* Released on GitHub
+
+*o. Social media accounts:* None
+
+*p. Existing sponsorship, if any:* Baidu
+
+*q. Tool chain:* It depends Kubernetes and Go.
