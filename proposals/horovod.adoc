@@ -1,0 +1,78 @@
+Name of the project
+Horovod
+Requested maturity level
+Incubation
+Project description
+Horovod is a distributed training framework for TensorFlow, Keras, and PyTorch. The goal of
+Horovod is to make distributed Deep Learning fast and easy to use.
+Alignment with Deep Learning Foundation mission
+Horovod provides the community of data scientists, researchers and AI developers with tooling
+to scale their deep learning models with ease and high performance.
+Possible integrations with existing LF DL projects:
+● https://github.com/PaddlePaddle/edl - schedule Horovod jobs in Kubernetes, add elastic
+support.
+License
+Apache License 2.0
+Source control
+https://github.com/uber/horovod
+External dependencies
+Depends on:
+● MPI (any implementation), Open MPI is licensed under BSD 3-clause
+● https://cffi.readthedocs.io/en/latest/, MIT
+● https://github.com/cloudpipe/cloudpickle [upcoming], BSD 3-clause
+● https://github.com/giampaolo/psutil [upcoming], BSD 3-clause
+
+● https://github.com/NVIDIA/nccl [optional], BSD 3-clause
+● IBM DDL [optional], proprietary
+● TensorFlow [optional], Apache License 2.0
+● PyTorch [optional], BSD 3-clause
+● Apache Spark [upcoming, optional], Apache License 2.0
+● Apache MXNet [upcoming, optional], Apache License 2.0
+Includes code from:
+● https://github.com/google/flatbuffers, Apache License 2.0
+● https://github.com/baidu-research/tensorflow-allreduce, Apache License 2.0
+● https://github.com/NVIDIA/cutlass, BSD 3-clause
+● https://github.com/eigenteam/eigen-git-mirror.git [upcoming], only code licensed as
+MPL2
+● https://github.com/yixuan/LBFGSpp.git [upcoming], MIT
+Initial committers
+● Alex Sergeev <asergeev@uber.com> (Uber), since Aug 2017
+● Travis Addair <taddair@uber.com> (Uber), since Jul 2018
+● Can Karakus <cakarak@amazon.com> (AWS), pending approval, since Sep 2018
+Infrastructure requests
+In order to facilitate external development, we need to make it easy for anyone to run integration
+tests.
+Currently, we’re using Travis CI for integration tests which provides CPU tests only. There has
+been a number of issues where only GPU components failed, while CPU tests were passing.
+This forces developers to run integration tests on GPU boxes manually.
+We’d like to make use of LF continuous integration environment and request a GPU support.
+Since AWS is planning to be involved in the project, we should discuss the potential of running
+the integration tests on AWS GPUs.
+Current mailing lists
+None, we will request LF to create lists for users, developers, and TSC.
+Resources
+● Issue tracker - https://github.com/uber/horovod/issues
+● CI - https://travis-ci.org/uber/horovod
+● DockerHub - https://hub.docker.com/r/uber/horovod/tags/
+
+● PyPI - https://pypi.org/project/horovod/
+Website
+Domain horovod.ai is registered and currently pointing to https://github.com/uber/horovod. We
+will request design resources to design a proper website.
+Release methodology & mechanics
+The release is performed when committers pass the vote to do so. The release is performed by
+the Release Manager (Alex Sergeev).
+The release procedure is as follows:
+1. Verify that Travis CI tests are passing.
+2. Run current master tests on GPU servers.
+3. Run ImageNet training convergence tests for Keras and PyTorch.
+4. Run synthetic performance tests for TensorFlow and PyTorch.
+5. Make PR to bump Horovod Python package version.
+6. Publish Horovod package to PyPI.
+7. Publish docker image to DockerHub.
+Social media accounts
+None
+Existing sponsorship
+Uber, Amazon, NVIDIA, IBM, and Intel have provided developer resources to improve Horovod.
+CII Best Practices Badge
+Passing: https://bestpractices.coreinfrastructure.org/projects/2373
