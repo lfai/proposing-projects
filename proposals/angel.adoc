@@ -1,0 +1,51 @@
+== Angel Project Proposal
+
+
+*a. Name of project (must be unique within LF DL):*  Angel
+
+*b. Project description (what it does, why it is valuable, origin and history):*
+
+Angel is a high-performance distributed machine-learning platform based on Parameter Server, running on YARN and Apache Spark. It is tuned for performance with big data/model and has a wide range of applicability and stability, demonstrating increasing advantage in handling higher dimension model.
+
+The philosophy of Angel is simple, clear-cut, easy-to-use. It focuses on characteristics related to machine learning and models, pursuing best performance of high-dimensional models.
+
+Angel supports big and complex models with billion of parameters. It partitions parameters of complex models into multiple parameter-server nodes, and implements a variety of machine learning algorithms using efficient model-updating interfaces and functions, as well as flexible consistency model for synchronization.
+
+High performance is the core feature of Angel. The system is designed for efficient iteration computation, so that the machine learning algorithms can benefit from it. Typically, Angel is 5 times faster than Apache Spark.
+
+Algorithms in Angel are out-of-the-box. Analysts and data scientists can submit job a without writing a single line code.
+
+*c. Statement on alignment with LF AI charter mission:* Pending
+
+*d. Sponsor from TAC who will be responsible for mentoring the project while in incubation:* Pending
+
+*e. Project’s license:* Apache-2.0 
+
+*f. Source control (GitHub, etc.):* https://github.com/Tencent/angel 
+
+*g. External dependencies (including licenses of those dependencies):*
+
+*h. Initial committers (how long working on project):*
+
+The two main developers of Angel are:
+
+  * Fitz <fitzwang@tencent.com>
+  * Paynie <payniexiao@tencent.com>
+
+*i. RACI if applicable / exists:*
+
+*j. Infrastructure requests (CI / cluster requirements):* None
+
+*k. Mailing lists currently in use:* None 
+
+*l. Issue tracker (GitHub by default):*
+
+*m. Website:* https://github.com/Tencent/angel 
+
+*n. Release methodology and mechanics:* Released on GitHub
+
+*o. Social media accounts:* None
+
+*p. Existing sponsorship, if any:* Tencent and Peking University have jointly developed Angel. 
+
+*q. Tool chain:*
