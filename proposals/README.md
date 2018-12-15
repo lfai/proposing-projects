@@ -4,7 +4,7 @@ This repo contains the proposals that the LF DL Foundation receives. If you are 
 
 ## Projects
 
-**Project**|**TAC Deck**|**Accepted**|**Maturity Level**
+**Project**|**Proposal**|**Accepted**|**Maturity Level**
 :-----:|:-----:|:-----:|:-----:
 [Horovod](https://github.com/uber/horovod/)|[Alex Sergeev](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc)|[12/06/18]|Incubation
 [Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Wu Yi](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation
