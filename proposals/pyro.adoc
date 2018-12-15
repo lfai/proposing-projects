@@ -1,0 +1,77 @@
+== Pyro Project Proposal
+
+*Name of the project*: Pyro
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+Pyro is a Deep Probabilistic Programming Language built on the PyTorch deep learning framework. Pyro provides a language for probabilistic modeling and inference, together with well-tested scalable implementations of inference algorithms including Stochastic Variational Inference and Hamiltonian Monte Carlo.
+
+Pyro was developed at Uber AI Labs as a platform for research in deep Bayesian models, including Bayesian Neural Nets and amortized Bayesian inference. Pyro has been used for time series forecasting, sensor fusion, and is widely used by AI researchers.
+
+
+*Possible integrations with existing LF DL projects:*
+
+*License*: Apache License 2.0
+
+*Source control*: https://github.com/uber/pyro
+
+*External dependencies*:
+
+Major dependencies:
+
+* PyTorch (Revised BSD)
+* Networkx (BSD)
+* Numpy (BSD)
+* Opt_einsum (MIT)
+* Python-Graphviz (MIT) 
+
+Minor dependencies:
+
+  * Tqdm (MIT)
+  * Six (MIT)
+  * Contextlib2 (Python Software Foundation License)
+
+We have additional open source dependencies for tests and tutorials; these are not required and are all open source. See https://github.com/uber/pyro/blob/dev/setup.py for full list.
+
+
+*Initial committers:*
+
+  * @fritzo Fritz Obermeyer, Uber (>1 year)
+  * @neerajprad Neeraj Pradhan, Uber (>1 year)
+  * @eb8680 Eli Bingham, Uber (>1 year)
+  * @jpchen JP Chen, Uber (>1 year)
+  * @martinjankowiak Martin Jankowiak, Uber (>1 year)
+  * @fehiepsi Du Phan, Pohang University of Science and Technology (>1 year)
+
+*Infrastructure requests:*
+
+Travis-ci testing (or similar) with at least 10 concurrent jobs.GPU support on CI
+
+
+*Current mailing lists:*
+
+No mailing list, but we have a discourse forum http://forum.pyro.ai 
+
+*Resources:*
+
+  * Issue tracker - http://github.com/uber/pyro
+  * CI - https://travis-ci.org/uber/pyro 
+  * PyPI - https://pypi.org/project/pyro/ 
+
+*Website:*
+
+* https://pyro.ai
+
+*Release methodology & mechanics:*
+
+  * Python package on PyPi (managed by Fritz)
+  * Docs on pyro.ai (managed by JP Chen)
+  * Python wheels on AWS (managed by Neeraj) 
+
+*Social media accounts:*
+None
+
+*Existing sponsorship:*
+Uber.
