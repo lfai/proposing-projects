@@ -13,7 +13,7 @@ Pyro was developed at Uber AI Labs as a platform for research in deep Bayesian m
 
 *Possible integrations with existing LF DL projects:*
 
-*License*: Apache License 2.0
+*License*: MIT
 
 *Source control*: https://github.com/uber/pyro
 
