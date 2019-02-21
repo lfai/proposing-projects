@@ -36,4 +36,5 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 :-----:|:-----:|:-----:|:-----:|:-----:
 [Angel](https://github.com/Angel-ML/angel/)|N/A|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82)|[06/07/18]|Incubation
 [Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|N/A|Wu Yi|[07/05/18]|Incubation
-[Horovod](https://github.com/uber/horovod/)|N/A|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5)|[12/06/18]|Incubation
+[Horovod](https://github.com/horovod/horovod)|N/A|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5)|[12/06/18]|Incubation
+[Pyro](https://github.com/pyro-ppl/pyro)|N/A|[Fritz Obermeyer](https://drive.google.com/file/d/1Sm9r5Fy4me48LLqaJTwrFC9BhIHE7fMJ/view)|[01/17/19]|Incubation
