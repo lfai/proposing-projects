@@ -10,7 +10,7 @@ To be accepted to at the Incubation stage, a project must:
 <ul>
 <li>Submit a completed Project Contribution Proposal to the TAC at the email address indicated in the proposal template.
 <li>Present the project and the proposal to the TAC and, if requested, the Governing Board.
-<li>Be deemed by the TAC and Governing Board to fall within the scope of LF DL Foundation mission, and add value to the open source AI/Ml/DL ecosystem.
+<li>Be deemed by the TAC and Governing Board to fall within the scope of LF DL Foundation mission, and add value to the open source AI/ML/DL ecosystem.
 <li>Have an OSI-approved open source license. 
 <li>Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.  In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join the Deep Learning effort.
 <li>Receive the affirmative vote of the TAC and Governing Board.
