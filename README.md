@@ -1,7 +1,7 @@
-![alt text](https://www.linuxfoundation.org/wp-content/uploads/2018/08/lfdl-horizontal-color-768x63.png)
+![alt text](https://raw.githubusercontent.com/lfai/artwork/master/lfai/horizontal/color/lfai-color.png)
 
-# Hosting Projects under the LF Deep Learning (LF DL) Foundation 
-This repo contains the LF DL Project Proposal Process and Project Lifecycle. They explain the process to host new projects in the <a href="https://deeplearningfoundation.org/">LF DL Foundation</a> and provide a proposal template. Projects may apply to join the LF DL Foundation by completing and submitting the Project Contribution Proposal Template. A vote of both the <a href="https://lists.deeplearningfoundation.org/g/tac-general/wiki/Home">Technical Advisory Committee (TAC)</a> and the Governing Board is required for a project to be accepted into the LF DL Foundation. 
+# Hosting Projects under the LF AI Foundation 
+This repo contains the LF AI Project Proposal Process and Project Lifecycle. They explain the process to host new projects in the LF AI Foundation and provide a proposal template. Projects may apply to join the LF AI Foundation by completing and submitting the Project Contribution Proposal Template. A vote of both the <a href="https://lists.deeplearningfoundation.org/g/tac-general/wiki/Home">Technical Advisory Committee (TAC)</a> and the Governing Board is required for a project to be accepted into the LF AI Foundation. 
 
 # Incubation Stage Requirements
 
@@ -10,7 +10,7 @@ To be accepted to at the Incubation stage, a project must:
 <ul>
 <li>Submit a completed Project Contribution Proposal to the TAC at the email address indicated in the proposal template.
 <li>Present the project and the proposal to the TAC and, if requested, the Governing Board.
-<li>Be deemed by the TAC and Governing Board to fall within the scope of LF DL Foundation mission, and add value to the open source AI/ML/DL ecosystem.
+<li>Be deemed by the TAC and Governing Board to fall within the scope of LF AI Foundation mission, and add value to the open source AI/ML/DL ecosystem.
 <li>Have an OSI-approved open source license. 
 <li>Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.  In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join the Deep Learning effort.
 <li>Receive the affirmative vote of the TAC and Governing Board.
