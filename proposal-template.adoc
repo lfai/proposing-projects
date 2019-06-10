@@ -1,0 +1,37 @@
+== Project Proposal Template
+
+
+* Name of project or proposed name of project (must be unique within LF AI)
+
+* Requested project maturity level: Graduation or Incubation stage
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development)
+
+* Statement on alignment with LF AI’s mission 
+
+* License name, version,a nd URL to license text 
+
+* Source control (GitHub, etc.)
+
+* External dependencies including licenses (name and version) of those dependencies
+
+* Initial committers (name, email, organization, and how long have they been working on project)
+
+* RACI matrix (“responsible, accountable, consulted and informed”) if applicable / exists
+
+* Infrastructure requests needed as part of hosting at the LF AI (CI / cluster requirements)
+
+* Mailing lists currently in use 
+
+* Issue tracker (GitHub by default) and other tools utilized
+
+* Project website 
+
+* Project governance 
+
+* Release methodology and mechanics
+
+* Social media accounts
+
+* Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any
+
