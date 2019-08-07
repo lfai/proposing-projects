@@ -4,9 +4,9 @@ This repo contains the proposals that the LF DL Foundation receives. If you are 
 
 ## Projects
 
-**Project**|**Proposal**|**Accepted**|**Maturity Level**
+**Project**|**Proposal**|**Accepted**|**Maturity Level**|**18-Months Incubation Milestone**
 :-----:|:-----:|:-----:|:-----:
-[Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/angel.adoc)|[06/07/18]|Incubation
-[Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Wu Yi](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation
-[Horovod](https://github.com/uber/horovod/)|[Alex Sergeev](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc)|[12/06/18]|Incubation
-[Pyro](https://github.com/uber/pyro)|[Brian Hsieh](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc)|[01/17/2019]|Incubation
+[Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/angel.adoc)|[06/07/18]|Incubation|[12/07/19]
+[Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Wu Yi](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation|[01/05/20]
+[Horovod](https://github.com/uber/horovod/)|[Alex Sergeev](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc)|[12/06/18]|Incubation|[06/06/20]
+[Pyro](https://github.com/uber/pyro)|[Brian Hsieh](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc)|[01/17/2019]|Incubation|[07/17/20]
