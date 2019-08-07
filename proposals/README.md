@@ -1,4 +1,4 @@
-![alt text](https://www.linuxfoundation.org/wp-content/uploads/2018/08/lfdl-horizontal-color-768x63.png)
+![alt text](https://github.com/lfai/artwork/blob/master/lfai/horizontal/color/lfai-color.png)
 
 This repo contains the proposals that the LF DL Foundation receives. If you are planning to submit a proposal, please use the latest proposal submited as an example to follow. For questions on the proposal or the process, please email info@lfdl.io. 
 
