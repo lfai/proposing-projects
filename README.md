@@ -8,12 +8,14 @@ This repo contains the LF AI Project Proposal Process and Project Lifecycle. The
 To be accepted to at the Incubation stage, a project must:
 
 <ul>
-<li>Submit a completed Project Contribution Proposal to the TAC at the email address indicated in the proposal template.
-<li>Present the project and the proposal to the TAC and, if requested, the Governing Board.
-<li>Be deemed by the TAC and Governing Board to fall within the scope of LF AI Foundation mission, and add value to the open source AI/ML/DL ecosystem.
-<li>Have an OSI-approved open source license. 
-<li>Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.  In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join the Deep Learning effort.
-<li>Receive the affirmative vote of the TAC and Governing Board.
+<li> The project uses an OSI-approved open source license
+<li> The project does not have dependencies on components that are either proprietary or licensed under a non OSI-approved license
+<li> Submit a completed Project Contribution Proposal to the TAC via a Github pull request (https://github.com/lfai/proposing-projects/tree/master/proposals) along with a short and a short email notification to info@lfai.foundation
+<li> Provide such additional information as the TAC or GB may reasonably request
+<li> Demonstrate a substantial ongoing flow of commits and merged contributions
+<li> Have a healthy number of committers. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project
+<li> Be deemed by the TAC and GB to add value to the artificial intelligence, machine learning and/or deep learning space and to fall within the mission and scope of LF AI
+<li> Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join LF AI effort
 </ul>
 
 # Graduation Stage Requirements
