@@ -1,7 +1,10 @@
 ![alt text](https://raw.githubusercontent.com/lfai/artwork/master/lfai/horizontal/color/lfai-color.png)
 
 # Hosting Projects under the LF AI Foundation 
-This repo contains the LF AI Project Proposal Process and Project Lifecycle. They explain the process to host new projects in the LF AI Foundation and provide a proposal template. Projects may apply to join the LF AI Foundation by completing and submitting the Project Contribution Proposal Template. A vote of both the <a href="https://lists.deeplearningfoundation.org/g/tac-general/wiki/Home">Technical Advisory Committee (TAC)</a> and the Governing Board is required for a project to be accepted into the LF AI Foundation. 
+This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/process%20and%20lifecylce/LF%20AI%20Project%20Process%20and%20Lifecycle%2009032019.pdf">LF AI Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI hosted project. 
+This repo also includes a <a href="https://github.com/lfai/proposing-projects/blob/master/proposal-template.adoc">template</a> that we recommend you use when making such a proposal. We also make available copies of <a href="https://github.com/lfai/proposing-projects/tree/master/proposals">previous proposals</a> for your referenece. 
+
+For any questions, please contact the LF AI staff via info@lfai.foundation.
 
 # Incubation Stage Requirements
 
