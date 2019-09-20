@@ -1,0 +1,66 @@
+== Adlik Project Proposal
+
+*Name of the project*: Adlik
+
+*Requested maturity level*: Incubation
+
+*Description*
+Adlik is an end-to-end optimizing framework for deep learning models. The goal of Adlik is to accelerate deep learning inference process both on cloud and embedded environment. 
+Adlik consists of two sub projects: Model compiler and Serving platform. Model compiler supports several optimizing technologies like pruning, quantization and structural compression to optimize models developed in major frameworks like Tensorflow, Keras, Caffe so that they can run with lower latency and higher computing efficiency. Serving platform provides deep learning models with optimized runtime based on the deployment environment like CPU,GPU,FPGA. Put simply, based on a deep learning model, the users of Adlik can optimize it with model compiler and then deploy it to a certain platform with serving platform.
+With Adlik framework, different deep learning models can be deployed to different platforms with high performance in a much flexible and easy way.
+
+*Statement of alignement with LF AI's mission:*
+In LF AI, though Acumos serves well as a marketplace that enables users to share and deploy models, there are still some cases where model users demand more than containerized deployment and call for model optimization tools to promote the inference performance. That's when Adlik comes into play. Models obtained from Acumos can be further optimized, compiled, deployed to both data centers and embedded platforms. So together with Acumos and other existing projects, Adlik will help make LF AI a better place for developers to build an end-to-end AI solution.
+
+*License*: 
+
+Apache 2.0
+
+*Source control*: 
+
+https://github.com/Adlik (code to be posted on this new org once approved by LF AI)
+
+*External dependencies*:
+
+ * Tensorflow (Apache 2.0)
+ * Tensorflow serving (Apache 2.0)
+ * Tensorflow light (Apache 2.0)
+
+*Initial committers:*
+
+ * Jinshiying, ZTE, jin.shiying@zte.com.cn, 2019.6
+ * Zhaolufan, ZTE, zhao.lufan30@zte.com.cn, 2019.6
+ * Wangzhenyu, ZTE	wang.zhenyu32@zte.com.cn, 2019.6
+ * Liutao, ZTE, 2019.6
+ * Wangchengcan, ZTE, wang.chengcan@zte.com.cn, 2019.6
+ * Suhong, ZTE, su.hong1@zte.com.cn, 2019.6
+ * Panjiayi, ZTE, pan.jiayi@zte.com.cn, 2019.6
+ * Hanbingtao, ZTE, han.bingtao@zte.com.cn, 2019.6
+ * Wangyongcheng, ZTE, wang.yongcheng@zte.com.cn, 2019.6
+
+*Infrastructure requests:*
+
+No funding is required from LF AI for project infrastructure
+
+
+*Current mailing lists:*
+
+None. We plan to use LF AI mailing lists and wiki (to be created) 
+	
+*Issue tracker and other tools utilized:* 
+Github
+
+*Website:*
+None (LF AI help us create Adlik web site)
+
+*Creative:* 
+LF AI to create logo for Adlik and own trademark 
+
+*Release methodology & mechanics:*
+Will be documented and published on GitHub
+
+*Social media accounts:*
+None
+
+*Existing sponsorship:*
+ZTE (LF AI Premier Member)
