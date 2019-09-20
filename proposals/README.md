@@ -10,4 +10,4 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/edl.adoc) by Wu Yi|[07/05/18]|Incubation|[01/05/20]
 [Horovod](https://github.com/uber/horovod/)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc) by Alex Sergeev|[12/06/18]|Incubation|[06/06/20]
 [Pyro](https://github.com/uber/pyro)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc) by Brian Hsieh|[01/17/2019]|Incubation|[07/17/20]
-[Adlik](https://github.com/Adlik)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/adlik.adoc) by Yuan Liya |[09/20/2019]|Incubation|[TBD after acceptance]
+[Adlik](https://github.com/Adlik)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/adlik.adoc) by Yuan Liya |[TBD on TAC's call on 09/26/2019]|Incubation|[TBD after acceptance]
