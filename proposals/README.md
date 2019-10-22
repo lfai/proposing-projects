@@ -11,3 +11,4 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [Horovod](https://github.com/uber/horovod/)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc) by Alex Sergeev|[12/06/18]|Incubation|[06/06/20]
 [Pyro](https://github.com/uber/pyro)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc) by Brian Hsieh|[01/17/2019]|Incubation|[07/17/20]
 [Adlik](https://github.com/Adlik)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/adlik.adoc) by Yuan Liya |[09/26/2019]|Incubation|[03/26/2021]
+[ONNX](https://github.com/onnx)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) by Ryan Loney |[10/22/2019]|Graduation|[n/a]
