@@ -16,9 +16,9 @@ ONNX is already being used in LFAI (Linux Foundation – Artificial Intelligence
 
 *Possible integrations with existing LFAI projects:*
 
-Acumos: https://docs.acumos.org/en/boreas/submodules/on-boarding/docs/onboarding-ONNX-PFA-guide.html
-Adlik: https://github.com/Adlik/Adlik
-Angel: https://github.com/Angel-ML/angel
+* Acumos: https://docs.acumos.org/en/boreas/submodules/on-boarding/docs/onboarding-ONNX-PFA-guide.html
+* Adlik: https://github.com/Adlik/Adlik
+* Angel: https://github.com/Angel-ML/angel
 
 *License*: MIT
 
@@ -31,7 +31,7 @@ There are multiple repositories under the ONNX GitHub organization at https://gi
 
 *Initial committers:*
 
-ONNX https://github.com/onnx/onnx/tree/master/community[open governance] defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a [set of teams](https://github.com/orgs/onnx/teams) defined in the GitHub organization corresponding to the SIGs.
+ONNX https://github.com/onnx/onnx/tree/master/community[open governance] defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a https://github.com/orgs/onnx/teams[set of teams] defined in the GitHub organization corresponding to the SIGs.
 
 *Infrastructure requests:*
 
