@@ -20,12 +20,13 @@ Acumos: https://docs.acumos.org/en/boreas/submodules/on-boarding/docs/onboarding
 Adlik: https://github.com/Adlik/Adlik
 Angel: https://github.com/Angel-ML/angel
 
-*License*: MIT 
+*License*: MIT
 
-*Source control*: 
+*Source control*:
 There are multiple repositories under the ONNX GitHub organization at https://github.com/onnx/
 
 *External dependencies*: 
+
   * protobuf 
 
 *Initial committers:*
@@ -33,6 +34,7 @@ There are multiple repositories under the ONNX GitHub organization at https://gi
 ONNX [open governance](https://github.com/onnx/onnx/tree/master/community) defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a [set of teams](https://github.com/orgs/onnx/teams) defined in the GitHub organization corresponding to the SIGs.
 
 *Infrastructure requests:*
+
   * Email list server (see below)
 
 *Current mailing lists:*
@@ -59,7 +61,7 @@ The release is performed according to community agreed process: https://github.c
   * https://facebook.com/onnxai
 
 *Existing sponsorship:*
-The [ONNX website](https://onnx.ai) lists the companies who support ONNX in their projects. The list includes Alibaba, AMD, ARM, AWS, Baidu, BITMAIN, CEVA, Facebook, Graphcore, Habana, HP, Huawei, IBM, Idein, Intel, Mathworks, Mediatek, Microsoft, Nvidia, NXP, Oath, Preferred Networks, Qualcom, SAS, Skymizer, Synopsys, Tencent, Xiaomi, Unity.
+The https://onnx.ai[ONNX website] lists the companies who support ONNX in their projects. The list includes Alibaba, AMD, ARM, AWS, Baidu, BITMAIN, CEVA, Facebook, Graphcore, Habana, HP, Huawei, IBM, Idein, Intel, Mathworks, Mediatek, Microsoft, Nvidia, NXP, Oath, Preferred Networks, Qualcom, SAS, Skymizer, Synopsys, Tencent, Xiaomi, Unity.
 Microsoft, Facebook, Intel, NVIDIA, Amazon, IBM, Qualcomm, NVIDIA, Apple are some of the active contributors to repositories in the ONNX  GitHub organization.
 
 *CII Best Practices Badge:*
