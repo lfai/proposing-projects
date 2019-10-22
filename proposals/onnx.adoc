@@ -39,6 +39,7 @@ ONNX [open governance](https://github.com/onnx/onnx/tree/master/community) defin
 ONNX currenlty does not have mailing lists.  We request that LF setup several lists using the onnx.ai domain name.
 
 *Resources:* 
+
   * Discussions - https://gitter.im/onnx/ 
   * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor). 
   * Issues - each repo tracks its issues via GitHub. 
@@ -53,6 +54,7 @@ Microsoft has sponsored a website refresh which is will go live in November.
 The release is performed according to community agreed process: https://github.com/onnx/onnx/blob/master/RELEASE-MANAGEMENT.md
 
 *Social media accounts:*
+
   * https://twitter.com/onnxai
   * https://facebook.com/onnxai
 
