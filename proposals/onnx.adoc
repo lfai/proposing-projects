@@ -31,7 +31,7 @@ There are multiple repositories under the ONNX GitHub organization at https://gi
 
 *Initial committers:*
 
-ONNX [open governance](https://github.com/onnx/onnx/tree/master/community) defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a [set of teams](https://github.com/orgs/onnx/teams) defined in the GitHub organization corresponding to the SIGs.
+ONNX https://github.com/onnx/onnx/tree/master/community[open governance] defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a [set of teams](https://github.com/orgs/onnx/teams) defined in the GitHub organization corresponding to the SIGs.
 
 *Infrastructure requests:*
 
