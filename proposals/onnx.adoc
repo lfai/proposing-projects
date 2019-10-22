@@ -38,12 +38,12 @@ ONNX [open governance](https://github.com/onnx/onnx/tree/master/community) defin
 *Current mailing lists:*
 ONNX currenlty does not have mailing lists.  We request that LF setup several lists using the onnx.ai domain name.
 
-*Resources:*
-  * Discussions - https://gitter.im/onnx/
+*Resources:* 
+  * Discussions - https://gitter.im/onnx/ 
   * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor). 
-  * Issues - each repo tracks its issues via GitHub.
-  *	DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem
-  *	packages - each repo publishes it's own packages to pypi and/or nuget
+  * Issues - each repo tracks its issues via GitHub. 
+  *	DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem 
+  *	packages - each repo publishes it's own packages to pypi and/or nuget 
 
 *Website:*
 The website is at https://onnx.ai and aliases onnx.github.io which serves content from https://github.com/onnx/onnx.github.io/.
