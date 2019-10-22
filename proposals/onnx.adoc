@@ -40,11 +40,11 @@ ONNX currenlty does not have mailing lists.  We request that LF setup several li
 
 *Resources:* 
 
-  * Discussions - https://gitter.im/onnx/ 
-  * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor). 
-  * Issues - each repo tracks its issues via GitHub. 
-  *	DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem 
-  *	packages - each repo publishes it's own packages to pypi and/or nuget 
+  * Discussions - https://gitter.im/onnx/
+  * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor).
+  * Issues - each repo tracks its issues via GitHub.
+  *	DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem
+  *	packages - each repo publishes it's own packages to pypi and/or nuget
 
 *Website:*
 The website is at https://onnx.ai and aliases onnx.github.io which serves content from https://github.com/onnx/onnx.github.io/.
