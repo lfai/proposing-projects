@@ -1,0 +1,64 @@
+== ONNX Project Proposal
+
+*Name of the project*: ONNX (Open Neural Network eXchange)
+
+*Requested maturity level*: Graduated
+
+*Description*
+
+ONNX is an open format to represent machine learning and deep learning models that can execute on a variety of hardware platforms and clouds.  ONNX provides portability, allowing AI developers to more easily move AI models between tools that are part of trusted AI/ML/DL workflows.  An ecosystem of products supporting ONNX provide model creation/export, visualization, optimization, and acceleration capabilities.  ONNX currently focuses on inference but is actively being expanded to support training.
+
+The ONNX community was established in 2017 by Facebook and Microsoft to create an open ecosystem for interchangeable models.  Support for ONNX has grown to over 30 registered companies and many more using ONNX around the world.  Quarterly community workshops attract many participants.  The most recent ONNX community meeting had over 150 attendees in Santa Clara, CA.  The upcoming community meeting at Microsoft in Shanghai on November 18th is capped at 100 attendees and will blend both the most active community contributors with a healthy number of new organizations and contributors ready to join the community and start contributing.
+
+ONNX is a mature project with [138 contributors, over 7K stars and over 1K forks](https://github.com/onnx/onnx/graphs/contributors) and with a steady stream of ongoing commits.  ONNX is used by and has active contributors from Microsoft, Facebook, Amazon, Intel, NVIDIA, Qualcomm, Apple, Uber, IBM.  ONNX is being adopted by companies with edge and IoT devices – which of interest to LF Edge and LF Energy.
+
+ONNX is already being used in LFAI (Linux Foundation – Artificial Intelligence Foundation) projects.  LFAI and ONNX values are strongly aligned:  Open, welcoming and respectful, transparent and accessible, merit, speed.  ONNX community is large and growing and LFAI can help education and onboard more ONNX users, as well as grow the community of contributors and capabilities.  
+
+*Possible integrations with existing LFAI projects:*
+
+Acumos: https://docs.acumos.org/en/boreas/submodules/on-boarding/docs/onboarding-ONNX-PFA-guide.html
+Adlik: https://github.com/Adlik/Adlik
+Angel: https://github.com/Angel-ML/angel
+
+*License*: MIT 
+
+*Source control*: 
+There are multiple repositories under the ONNX GitHub organization at https://github.com/onnx/
+
+*External dependencies*: 
+  * protobuf 
+
+*Initial committers:*
+
+ONNX [open governance](https://github.com/onnx/onnx/tree/master/community) defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a [set of teams](https://github.com/orgs/onnx/teams) defined in the GitHub organization corresponding to the SIGs.
+
+*Infrastructure requests:*
+  * Email list server (see below)
+
+*Current mailing lists:*
+ONNX currenlty does not have mailing lists.  We request that LF setup several lists using the onnx.ai domain name.
+
+*Resources:*
+  * Discussions - https://gitter.im/onnx/
+  * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor). 
+  * Issues - each repo tracks its issues via GitHub.
+  *	DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem
+  *	packages - each repo publishes it's own packages to pypi and/or nuget
+
+*Website:*
+The website is at https://onnx.ai and aliases onnx.github.io which serves content from https://github.com/onnx/onnx.github.io/.
+Microsoft has sponsored a website refresh which is will go live in November.
+
+*Release methodology & mechanics:*
+The release is performed according to community agreed process: https://github.com/onnx/onnx/blob/master/RELEASE-MANAGEMENT.md
+
+*Social media accounts:*
+  * https://twitter.com/onnxai
+  * https://facebook.com/onnxai
+
+*Existing sponsorship:*
+The [ONNX website](https://onnx.ai) lists the companies who support ONNX in their projects. The list includes Alibaba, AMD, ARM, AWS, Baidu, BITMAIN, CEVA, Facebook, Graphcore, Habana, HP, Huawei, IBM, Idein, Intel, Mathworks, Mediatek, Microsoft, Nvidia, NXP, Oath, Preferred Networks, Qualcom, SAS, Skymizer, Synopsys, Tencent, Xiaomi, Unity.
+Microsoft, Facebook, Intel, NVIDIA, Amazon, IBM, Qualcomm, NVIDIA, Apple are some of the active contributors to repositories in the ONNX  GitHub organization.
+
+*CII Best Practices Badge:*
+https://bestpractices.coreinfrastructure.org/en/projects/3313
