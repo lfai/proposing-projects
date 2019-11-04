@@ -1,0 +1,124 @@
+== NNStreamer Project Proposal
+
+
+*Name of the project*: NNStreamer
+
+*Requested maturity level*: Incubation stage
+
+*Description*:
+NNStreamer is a set of https://gstreamer.freedesktop.org[GStreamer] plugins that allow various neural network models and their frameworks along with tensor-related operations in GStreamer pipelines.
+NNStreamer also provides GStreamer plugins to attach other frameworks (ROS, Tizen Sensor F/W, Linux IIO, and so on) to GStreamer pipelines, which were generally not considered in conventional GStreamer applications, but are useful for neural network applications in general.
+
+
+NNStreamer promotes easier and efficient development of on-device AI systems by allowing to describe general systems with various input, outputs, processors, and neural networks easily with the pipe-and-filter architecture. It provides easy-to-use APIs with corresponding SDKs as well: C-APIs (all platforms), Tizen.NET (C#), and Android (Java) along with a wide range of nerual network frameworks and software platforms (Ubuntu, macOS, OpenEmbedded).
+NNStreamer has started as an open source project since 2018 and is under active developoment with Tizen project and a wide range of consumer electronic devices.
+
+
+More information is available at
+
+ * https://github.com/nnsuite/nnstreamer[Github repo] (The main NNStreamer page)
+ * https://arxiv.org/abs/1901.04985[Arxiv article] (2019.1.)
+ * https://www.youtube.com/watch?v=lTarxDXVluE&t=1287s[GstConf 18' presentation video] (2018.10.)
+ * https://www.youtube.com/watch?v=XvXxcnbRjgU[Naver TechTalk 18' presentation video] (2018.12.) (Korean)
+ * https://www.youtube.com/watch?v=wVbMbpOjbkw&t=38s[Samsung Developer Conference 19' presentation video] (2019.10.)
+
+
+*Statement on alignment with LF AI’s mission:* Machine Learning applications often process online stream input data in real-time, which may include multiple pre/post-processors, neural networks, input and output nodes, and complex data paths. Such a complex system can be easily represented and efficiently executed as a stream pipeline by NNStreamer along with conventional stream pipeline libraries (GStreamer and its plugins).
+
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.*:
+
+ * Acumos AI: import deployed AI models to NNStreamer pipelines or let models be updated via ACumos.
+ * Marquez: import data from Marquez pipelines as inputs of NNStreamer pipelines for neural network training.
+ * ONNX: NNStreamer APIs may need to support ONNX model files for ONNX-compliant frameworks.
+ * Sparklyr: import data from Sparklyr streams to NNStreamer pipelines.
+
+
+*License*: https://github.com/nnsuite/nnstreamer/blob/master/LICENSE[LGPL-2.1]
+
+*Source control*: https://github.com/nnsuite/nnstreamer[Github]
+
+*Issue tracker*: https://github.com/nnsuite/nnstreamer/issues[Github Issues]
+
+*Collaboration tools*: https://github.com/nnsuite/nnstreamer/issues[Github Issues], https://github.com/nnsuite/nnstreamer/wiki[Github Wiki], https://gitter.im/nnstreamer/Lobby[Gitter.im]
+
+*External dependencies*:
+
+ * Mandatory Dependencies
+ ** GStreamer (LGPL-2.1)
+ ** GLib (LGPL-2.1)
+
+ * Optional Dependencies
+ ** Protocol Buffers (BSD 3-clause)
+ ** Python (PSF)
+
+ * Plugins of NNStreamer, which may be chosen at build time or added later after the build.
+ ** ROS (BSD)
+ ** TensorFlow/TensorFlow-Lite (Apache-2.0)
+ ** PyTorch/Caffe2 (BSD-"style")
+ ** nnfw-runtime (Apache-2.0)
+ ** Movidius-NCSDK2 (Apache-2.0)
+ ** edge-TPU runtime (Apache-2.0)
+ ** openVINO (Apache-2.0)
+ ** Arm NN (MIT)
+ ** Note that users may write their own proprietary plugins of NNStreamer and attach them in run-time.
+
+*Initial committers*:
+
+ * Regular committers
+ ** MyungJoo Ham, myungjoo.ham@samsung.com, Samsung Research, since 2018.3.
+ ** Ji Joong Moon, jijoong.moon@samsung.com, Samsung Research, since 2018.5.
+ ** Geunsik Lim, geunsik.lim@samsung.com, Samsung Research, since 2018.6.
+ ** Wook Song, wook16.song@samsung.com, Samsung Research, since 2018.6.
+ ** Hyoung Joo Ahn, hello.ahn@samsung.com, Samsung Research, since 2018.7.
+ ** Jaeyun Jung, jy1210.jung@samsung.com, Samsung Research, since 2018.8.
+ ** Sangjung Woo, sangjung.woo@samsung.com, Samsung Research, since 2018.8.
+ ** Parichay Kapoor, pk.kapoor@samsung.com, Samsung Research, since 2019.2.
+ ** Dongju Chae, dongju.chae@samsung.com, Samsung Research, since 2019.3.
+ ** Gichan Jang, gichan2.jang@samsung.com, Samsung Research, since 2019.10.
+ ** Yongjoo Ahn, yongjoo1.ahn@samsung.com, Samsung Research, since 2020.1.
+
+ * Infrequent/casual committers
+ ** Sewon Oh, sewon.oh@samsung.com, Samsung Research, 2018.6. - 2018.11.
+ ** Jinhyuck Park, jinhyuck83.park@samsung.com, Samsung BioLogics, 2018.6. - 2018.11.
+ ** Injae Kang, abcinje@gmail.com, Student / Hobbyist, since 2019.10.
+ ** Niklas Jang, niklasajang@gmail.com, Student / Hobbyist, since 2019.10.
+ ** Junsang Mo, junsang.mo@samsung.com, Samsung, since 2019.10.
+ ** Jihoon Lee, ulla4571@gmail.com, Student / Hobbyist, since 2019.10.
+ ** Mauro Carvalho Chehab, mchehab+samsung@kernel.org, Samsung, since 2019.1.
+ ** Sung-Jae Lee, sj925.lee@samsung.com, Samsung Research, since 2018.8.
+ ** Hwansoon Sung, hs2704.sung@samsung.com, Samsung, since 2018.11.
+ ** Dongwon Lee, dongwon1103@naver.com, Student / Hobbyist, since 2019.10.
+ ** Won Jun Lee, dldnjs1013@nate.com, Student / Hobbyist, since 2019.10.
+
+*The roles of contributor, committer, maintainer, etc.*: https://github.com/nnsuite/nnstreamer/blob/master/MAINTAINERS.md[MAINTAINERS.md]
+
+*Total number of contributors to the project including their affiliations.*:
+
+* Samsung Research: 11 (active) / 2 (inactive / casual)
+* Hobbyist/Student: 5 (casual)
+
+*Release methodology*: https://github.com/nnsuite/nnstreamer/blob/master/RELEASES.md[RELEASES.md]
+
+*Code of conduct*: https://github.com/nnsuite/nnstreamer/blob/master/CODE_OF_CONDUCT.md[CODE_OF_CONDUCT.md]
+
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*: None so far. Infrastructure we currently use include:
+
+ * Per-PR build and test infrastructure in AWS, sponsored by Samsung Research.
+ * Tizen OBS build and release infrastructure
+ * Ubuntu Launchpad/PPA build and release infrastructure
+ * JFrog/JCenter Android Studio extension release infrastructure
+ * Coverity static code analyzer
+
+*Project website*:
+
+ * We do not have a web site other than out https://github.com/nnsuite/nnstreamer[Github main]
+ * We do not have a domain reserved.
+ * We would like to have one with demos, documents, and example apps.
+
+*Project governance*: https://github.com/nnsuite/nnstreamer/blob/master/Documentation/contributing.md[contributing.md]
+
+*Social media accounts*: None
+
+*Existing sponsorship*: Samsung Research, Samsung (LF Platinum member)
+
