@@ -12,3 +12,4 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [Pyro](https://github.com/uber/pyro)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc) by Brian Hsieh|[01/17/2019]|Incubation|[07/17/20]
 [Adlik](https://github.com/Adlik)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/adlik.adoc) by Yuan Liya |[09/26/2019]|Incubation|[03/26/2021]
 [ONNX](https://github.com/onnx)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) by Ryan Loney |[TAC 10/21/2019 & GB 10/31/2019]|Graduation|[n/a]
+[Sparklyr](https://github.com/rstudio/sparklyr)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) by Javier Luraschi |Scheduled for TAC Presentation on 12/05/2019]| Incubation | [tbd]
