@@ -6,10 +6,11 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 
 **Project**|**Proposal**|**Accepted**|**Maturity Level**|**18-Months Incubation Milestone**
 :-----:|:-----:|:-----:|:-----:|:-----:
-[Angel](https://github.com/Angel-ML/angel/)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/angel.adoc) by Fitz Wang|[06/07/18]|Incubation|[12/07/19]
+[Acumos](https://acumos.org)|n/a|[03/26/18]| Accepted as Graduation | n/a
+[Angel](https://github.com/Angel-ML/angel/)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/angel.adoc) by Fitz Wang|[06/07/18]|Graduation (03-12-2019) | n/a
 [Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/edl.adoc) by Wu Yi|[07/05/18]|Incubation|[01/05/20]
 [Horovod](https://github.com/uber/horovod/)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/horovod.adoc) by Alex Sergeev|[12/06/18]|Incubation|[06/06/20]
 [Pyro](https://github.com/uber/pyro)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/pyro.adoc) by Brian Hsieh|[01/17/2019]|Incubation|[07/17/20]
 [Adlik](https://github.com/Adlik)|[Proposal](https://github.com/LFDLFoundation/proposing-projects/blob/master/proposals/adlik.adoc) by Yuan Liya |[09/26/2019]|Incubation|[03/26/2021]
-[ONNX](https://github.com/onnx)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) by Ryan Loney |[TAC 10/21/2019 & GB 10/31/2019]|Graduation|[n/a]
+[ONNX](https://github.com/onnx)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) by Ryan Loney |[TAC 10/21/2019 & GB 10/31/2019]|Accepted as Graduation|[n/a]
 [Sparklyr](https://github.com/rstudio/sparklyr)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) by Javier Luraschi |Scheduled for TAC Presentation on 12/05/2019]| Incubation | [tbd]
