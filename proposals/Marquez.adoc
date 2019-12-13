@@ -42,7 +42,7 @@ Marquez is an open source metadata service for the collection, aggregation, and 
   * Rodrigo Araya
   * Shawn Shah
   * Aleks Shulman
-  * Juliet Hougland
+  * Juliet Hougland <juliet.hougland@gmail.com>
   * Katherine Mello 
   * Jill Hubley
   * Grant Foster
