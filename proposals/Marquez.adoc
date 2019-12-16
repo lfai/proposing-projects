@@ -1,0 +1,72 @@
+== Marquez Project Proposal
+
+*Name of the project*: Marquez
+
+*Requested maturity level*: Incubation
+
+*Description*
+Marquez is an open source metadata service for the collection, aggregation, and visualization of a data ecosystem’s metadata. It maintains the provenance of how datasets are consumed and produced, provides global visibility into job runtime and frequency of dataset access, centralization of dataset lifecycle management, and much more. 
+
+*Alignment with LF AI’s mission*: Machine Learning requires better data pipelines. Marquez gives visibility into data quality, enables reproducibility, facilitates  operations and build accountability and trust.
+
+*Possible integrations with existing LF AI projects*:
+
+ * Acumos
+ * EDL
+ * Horovod
+ * Pyro
+ * Sparklyr
+ 
+*License*: Apache License 2.0
+
+*Source control*: https://github.com/MarquezProject
+
+*External dependencies*:
+
+  * Java
+  * Python
+  * Go
+  * Postgres (PostgreSQL License)
+  * Apache Airflow (Apache-2 license)
+  * Dropwizard (Apache-2 license)
+  * Prometheus (Apache-2 license)
+  * Jdbi (Apache-2 license)
+  * Google Guava (Apache-2 license)
+  * flywaydb (Apache-2 license)
+  * Lombok (MIT license)
+
+*Initial committers*:
+
+  * Willy Lulciuc
+  * Julien Le Dem <julien@apache.org>
+  * Rodrigo Araya
+  * Shawn Shah
+  * Aleks Shulman
+  * Juliet Hougland <juliet.hougland@gmail.com>
+  * Katherine Mello 
+  * Jill Hubley
+  * Grant Foster
+ 
+*Infrastructure requests*: mailing list
+
+*Creative*: LFAI to create logo for Marquez
+
+*Current mailing lists*: google group, we will request LF to create lists for users, developers, and TSC.
+
+*Resources*:
+
+  * GitHub - https://github.com/MarquezProject (source control, issue tracker)
+  * CI - https://circleci.com/gh/MarquezProject/marquez/tree/master
+  * Chat - https://gitter.im/marquez-project/community
+  * Docker hub - https://hub.docker.com/r/marquezproject/
+  * Pypi - https://pypi.org/project/marquez-python/
+  * Maven repository - https://search.maven.org/search?q=g:io.github.marquezproject
+  * Website - https://marquezproject.github.io/marquez/
+ 
+*Release methodology & mechanics*: The release is performed when committers agree to do so. The release is performed by tagging in github, and pushing artifacts to maven, pypi and dockerhub.
+The release procedure is described in https://github.com/MarquezProject/marquez/blob/master/RELEASING.md
+
+*Social media accounts*: https://twitter.com/MarquezProject
+
+*Existing sponsorship*: WeWork has started and is the main contributor to the project.
+
