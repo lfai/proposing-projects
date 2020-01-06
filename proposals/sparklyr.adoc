@@ -1,0 +1,80 @@
+== sparklyr Project Proposal
+
+*Name of the project*: sparklyr
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+The sparklyr R package provides a modern interface to Apache Spark, a fast and general engine for big data processing. This package supports connecting to local and remote Apache Spark clusters, provides a dplyr compatible back-end, an interface to Spark's built-in machine learning algorithms, support for Spark structured streams, Spark pipelines, support to execute custom R code across Spark clusters, and enables multiple extensions to use H2O, XGBoost, GraphFrames, MLeap and many others in Spark from R.
+
+*Possible integrations with existing LF AI projects:*
+
+https://github.com/uber/horovod - Enable support for Horovod in R with sparklyr.
+https://github.com/onnx/onnx - Enable support to export models and pipelines.
+
+*License*: Apache License 2.0
+
+*Source control*: https://github.com/sparklyr/sparklyr
+
+*External dependencies*:
+
+Depends on:
+
+  * https://CRAN.R-project.org/package=assertthat, GPL-3
+  * https://CRAN.R-project.org/package=base64enc, GPL-2 | GPL-3
+  * https://CRAN.R-project.org/package=config, GPL-3
+  * https://CRAN.R-project.org/package=DBI, LGPL-2 | LGPL-2.1 | LGPL-3
+  * https://CRAN.R-project.org/package=dplyr, MIT
+  * https://CRAN.R-project.org/package=dbplyr, MIT
+  * https://CRAN.R-project.org/package=digest, GPL-2 | GPL-3
+  * https://CRAN.R-project.org/package=forge, Apache License 2.0
+  * https://CRAN.R-project.org/package=generics, GPL-2
+  * https://CRAN.R-project.org/package=httr, MIT
+  * https://CRAN.R-project.org/package=jsonlite, MIT
+  * https://CRAN.R-project.org/package=openssl, MIT
+  * https://CRAN.R-project.org/package=purrr, GPL-3
+  * https://CRAN.R-project.org/package=r2d3, BSD 3-clause
+  * https://CRAN.R-project.org/package=rappdirs, MIT
+  * https://CRAN.R-project.org/package=rlang, GPL-3
+  * https://CRAN.R-project.org/package=rprojroot, GPL-3
+  * https://CRAN.R-project.org/package=rstudioapi, MIT
+  * https://CRAN.R-project.org/package=tibble, MIT
+  * https://CRAN.R-project.org/package=tidyr, MIT
+  * https://CRAN.R-project.org/package=withr, GPL-2 | GPL-3
+  * https://CRAN.R-project.org/package=xml2, GPL-2 | GPL-3
+  * https://CRAN.R-project.org/package=ellipsis, GPL-3
+  * Apache Spark [optional], Apache License 2.0
+
+*Initial committers:*
+
+  * Javier Luraschi <javier@rstudio.com> (RStudio), since Mar 2016
+  * Kevin Kuo <kevin.kuo@rstudio.com> (RStudio), since Jun 2017
+  * Edgar Ruiz <edgar@rstudio.com> (RStudio), since Aug 2017
+  * Lu Wang <u.wang@databricks.com> (Databricks), since Oct 2019
+
+*Infrastructure requests:*
+None
+
+*Current mailing lists:*
+None, we will request LF to create lists for users, developers, and TSC.
+
+*Resources:*
+
+  * Issue tracker - https://github.com/sparklyr/sparklyr/issues
+  * CI - https://travis-ci.org/sparklyr/sparklyr
+
+*Website:*
+Currently https://spark.rstudio.com, need to transfer site to new domain.
+
+*Release methodology & mechanics:*
+The release is performed when committers pass the vote to do so. The release is performed by
+the Release Manager (Javier Luraschi).
+
+The release procedure is describede in https://github.com/sparklyr/sparklyr/wiki/Releases
+
+*Social media accounts:*
+None
+
+*Existing sponsorship:*
+RStudio, Databricks, and Qubole have provided developer resources to improve sparklyr.
