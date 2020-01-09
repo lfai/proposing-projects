@@ -9,7 +9,7 @@
 Milvus is an open source similarity search engine for massive-scale feature vectors. Milvus is built with heterogeneous computing architecture for the best cost efficiency. Milvus can be used in a wide variety of scenarios to boost AI application development.
 
 *Alignment with LF AI’s mission:*
-Vector search engine is a necessary and important component for many AI applications like image retrieval systems, recommendation system and etc. Milvus would help users to build AI applications with full open source AI technology.
+Vector search engine is a necessary and important component for many AI applications like image retrieval systems, recommendation system and etc. Milvus would help users to build up AI applications with full open source AI technology.
 
 *Possible integrations with existing LF AI projects*:
 
@@ -21,19 +21,28 @@ Vector search engine is a necessary and important component for many AI applicat
 
 *Source control:* https://github.com/milvus-io/milvus
 
-*External dependencies including licenses:*
-
+*External dependencies including licenses:* Please refer
+https://github.com/milvus-io/milvus/blob/master/NOTICE.md
 
 *Initial committers:*
 
   * Hai Jin, hai.jin@zilliz.com, ZILLIZ, 12 months with the project 
   * Peng Xu, peng.xu@zilliz.com, ZILLIZ, 12 months with the project
-  * 
-
+  * Yihua Mo, yihua.mo@zilliz.com, ZILLIZ, 12 months with the project
+  * Charles Xie, starlord@zilliz.com, ZILLIZ, 12 months with the project
+  * Xiangyu Wang, xiangyu.wang@zilliz.com, ZILLIZ, 12 months with the project
+  * Xiaojun Lin, xiaojun.lin@zilliz.com, ZILLIZ, 12 months with the project
+  * Zhiru Zhu, zhiru.zhu@zilliz.com, ZILLIZ, 12 months with the project
+  * Zhifeng Zhang, zhifeng.zhang@zilliz.com, ZILLIZ, 12 months with the project
+  * Yudong Cai, yudong.cai@zilliz.com, ZILLIZ, 12 months with the project
+  * Zhenxiang Li, zhenxiang.li@zilliz.com, ZILLIZ, 6 months with the project
+  * Jielin Xu, jielin.xu@zilliz.com, ZILLIZ, 6 months with the project
+  * Kun Yu, kun.yu@zilliz.com, ZILLIZ, 6 months with the project
+  * Shouyu Luo, 6 months with the project
 
 *RACI matrix:* N/A
 
-* Infrastructure requests needed as part of hosting at the LF AI (CI / cluster requirements)
+*Infrastructure requests:* Mailing list
 
 *Mailing lists currently in use:* None 
 
@@ -41,9 +50,19 @@ Vector search engine is a necessary and important component for many AI applicat
 
 *Project website:* https://milvus.io
 
-*Project governance:*
+*Project governance:* Project committee will hold regular discussion regarding development requirements and future road map. Milvus project committee is open for the community. ZILLIZ welcomes outside contributors to join the team.
 
-*Release methodology and mechanics:*
+*Release methodology and mechanics:* Milvus releases are packages that have been approved for general public release, with varying degrees of caveat regarding their perceived quality or potential for change. 
+They are stable releases intended for everyday usage by developers and non-developers.
+
+Project versioning follows the specification of [Semantic Versioning 2.0.0](https://semver.org/).
+
+  * Release criteria
+    - Milvus core test code coverage must be at least 90%.
+    - Reported bugs should not have any critical issues.
+    - All bugs, new features, enhancements must be tested.
+    - All documents need to be reviewed with no broken link.
+    - Pressure testing, stability testing, accuracy testing and performance testing results should be evaluated.
 
 *Social media accounts:*
 
