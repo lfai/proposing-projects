@@ -1,0 +1,53 @@
+== Milvus Project Proposal
+
+
+*Name of project:* Milvus
+
+*Requested maturity level*: Incubation
+
+*Description:*
+Milvus is an open source similarity search engine for massive-scale feature vectors. Milvus is built with heterogeneous computing architecture for the best cost efficiency. Milvus can be used in a wide variety of scenarios to boost AI application development.
+
+*Alignment with LF AI’s mission:*
+Vector search engine is a necessary and important component for many AI applications like image retrieval systems, recommendation system and etc. Milvus would help users to build AI applications with full open source AI technology.
+
+*Possible integrations with existing LF AI projects*:
+
+ * Acumos AI
+ * Angel ML
+ * EDL
+
+*License:* Apache License 2.0
+
+*Source control:* https://github.com/milvus-io/milvus
+
+*External dependencies including licenses:*
+
+
+*Initial committers:*
+
+  * Hai Jin, hai.jin@zilliz.com, ZILLIZ, 12 months with the project 
+  * Peng Xu, peng.xu@zilliz.com, ZILLIZ, 12 months with the project
+  * 
+
+
+*RACI matrix:* N/A
+
+* Infrastructure requests needed as part of hosting at the LF AI (CI / cluster requirements)
+
+*Mailing lists currently in use:* None 
+
+*Issue tracker:* https://github.com/milvus-io/milvus/issues
+
+*Project website:* https://milvus.io
+
+*Project governance:*
+
+*Release methodology and mechanics:*
+
+*Social media accounts:*
+
+  * Twitter: https://twitter.com/milvusio
+  * Medium: https://medium.com/@milvusio
+
+*Existing sponsorship*: ZILLIZ started and has been the main contributor to the project so far.
