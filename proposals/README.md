@@ -15,3 +15,6 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [ONNX](https://github.com/onnx)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) by Ryan Loney |[TAC 10/21/2019 & GB 10/31/2019]|Accepted as Graduation|[n/a] | May 2020 
 [Sparklyr](https://github.com/rstudio/sparklyr)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) by Javier Luraschi |[12/05/2019]| Incubation | [06/05/2021] | n/a
 [Marquez](https://github.com/MarquezProject/marquez)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) by Julien Le Dem |[12/19/2019]| Incubation | [06/19/2021] | n/a
+[Milvus](https://github.com/milvus-io)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) by Jun Gu |Scheduled for [01/16/2020]| Incubation | tbd | n/a
+
+
