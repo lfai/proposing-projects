@@ -37,7 +37,7 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 
 ## Projects
 
-**Project**|**TAC Deck**|**Accepted**|**Maturity Level**|**Graduation Date**
+**Project**|**Proposal**|**Accepted**|**Maturity Level**|**Graduation Date**
 :-----:|:-----:|:-----:|:-----:|:-----:
 [Acumos](https://acumos.org)|n/a|[03/26/18]| Accepted as Graduation | n/a
 [Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82)|[06/07/18]|Graduation / ([Graduation Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Angel-Graduation-Proposal.pdf)) | 12/03/2019
