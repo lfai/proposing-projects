@@ -41,7 +41,7 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 :-----:|:-----:|:-----:|:-----:|:-----:
 [Acumos](https://acumos.org)|n/a|[03/26/18]| Accepted as Graduation | n/a
 [Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82)|[06/07/18]|Graduation / ([Graduation Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Angel-Graduation-Proposal.pdf)) | 12/03/2019
-[Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Wu Yi](https://github.com/lfai/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation | tbd
+[Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Daxiang Dong](https://github.com/lfai/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation | tbd
 [Horovod](https://github.com/horovod/horovod)|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5)|[12/06/18]|Incubation | tbd
 [Pyro](https://github.com/pyro-ppl/pyro)|[Fritz Obermeyer](https://drive.google.com/file/d/1Sm9r5Fy4me48LLqaJTwrFC9BhIHE7fMJ/view)|[01/17/19]|Incubation | tbd
 [Adlik](https://github.com/Adlik/adlik)| [Yuan Liya](https://github.com/lfai/proposing-projects/blob/master/proposals/adlik.adoc)|[09/26/19]|Incubation | tbd
