@@ -48,4 +48,4 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 [ONNX](https://github.com/onnx)|  [Prasanth Pulavarthi](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) | [10/31/2019]| Accepted as Graduation | n/a
 [Sparklyr](https://github.com/rstudio/sparklyr)|  [Javier Luraschi](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) | [12/05/2019]| Incubation | tbd
 [Marquez](https://github.com/MarquezProject/marquez)|  [Julien Le Dem](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) | [12/19/2019]| Incubation | tbd
-[Milvus](https://github.com/milvus-io)|[Jun Gu](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) | Scheduled for [01/16/2020]| Incubation | n/a
+[Milvus](https://github.com/milvus-io)|[Jun Gu](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) | [01/16/2020]| Incubation | n/a
