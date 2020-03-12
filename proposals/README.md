@@ -16,5 +16,5 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [Sparklyr](https://github.com/rstudio/sparklyr)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) by Javier Luraschi |[12/05/2019]| Incubation | [06/05/2021] | n/a
 [Marquez](https://github.com/MarquezProject/marquez)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) by Julien Le Dem |[12/19/2019]| Incubation | [06/19/2021] | n/a
 [Milvus](https://github.com/milvus-io)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) by Jun Gu |[01/16/2020]| Incubation | [07/16/2021] | n/a
-
+[NNstreamer](https://github.com/nnsuite/nnstreamer)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/nnstreamer.adoc) by MyungJoo Ham |[03/12/2020]| Incubation | [09/03/2021] | n/a
 
