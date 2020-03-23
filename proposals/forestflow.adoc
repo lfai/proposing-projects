@@ -1,0 +1,77 @@
+== ForestFlow Project Proposal
+
+*Name of the project*: ForestFlow
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+ForestFlow is a scalable policy-based cloud-native machine learning model server.
+ForestFlow strives to strike a balance between the flexibility it offers data scientists and the adoption of standards
+while reducing friction between Data Science, Engineering and Operations teams.
+
+ForestFlow is policy-based because we believe automation for Machine Learning/Deep Learning operations is critical to
+scaling human resources. ForestFlow lends itself well to workflows based on automatic retraining, version control,
+A/B testing, Canary Model deployments, Shadow testing, automatic time or performance-based model deprecation and time
+or performance-based model routing in real-time.
+
+Our aim with ForestFlow is to provide data scientists a simple means to deploy models to a production system with
+minimal friction accelerating the development to production value proposition.
+
+To achieve these goals, ForestFlow looks to address the proliferation of model serving formats and standards for
+inference API specifications by adopting, what we believe, are currently, or are becoming widely adopted open source
+frameworks, formats, and API specifications. We do this in a pluggable format such that we can continue to evolve
+ForestFlow as the industry and space matures and we see a need for additional support.
+
+
+*Alignment with LF AI’s mission:*
+
+ForestFlow provides the community with an easy way to deploy ML models to production and realize business value
+on an open-source platform that can scale as user's projects and requirements scale.
+
+*Possible integrations with existing LF DL projects:*
+
+https://github.com/onnx/onnx - ONNX is an obvious choice to integrate with ForestFlow as a flavor of models
+that ForestFlow supports deployments for.
+
+*License*: Apache License 2.0
+
+*Source control*: https://github.com/dreamworksanimation/ForestFlow
+
+*External dependencies*:
+Please refer to: https://github.com/dreamworksanimation/ForestFlow/blob/master/NOTICE.md
+
+*Initial committers:*
+
+* Ahmad Alkilani ahmad.alkilani@dreamworks.com, since inception
+
+*Infrastructure requests:*
+
+We'll need some sort of CI in addition to a dockerhub account to provide official release
+images
+
+*Current mailing lists:*
+None, we will request LF to create lists for users, developers, and TSC.
+
+*Resources:*
+
+* Issue tracker - https://github.com/dreamworksanimation/ForestFlow/issues
+* CI - Needs Setup
+* DockerHub - Need Account
+
+*Website:*
+Domain is not registered. Relying on Github pages generated from docs at the moment: https://dreamworksanimation.github.io/ForestFlow/
+
+We will request design resources to design a proper website.
+
+*Project governance:*
+
+A release is performed when committers pass the vote to do so. Preferred release approach is via a docker image.
+Please see requirements for dockerhub. CI also needs to be setup in addition to test-case coverage which is minimal at
+the moment.
+
+*Social media accounts:*
+None
+
+*Existing sponsorship:*
+DreamWorks Animation has previously provided developer resources to create and improve upon ForestFlow.
