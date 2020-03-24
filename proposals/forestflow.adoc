@@ -29,46 +29,56 @@ ForestFlow as the industry and space matures and we see a need for additional su
 ForestFlow provides the community with an easy way to deploy ML models to production and realize business value
 on an open-source platform that can scale as user's projects and requirements scale.
 
-*Possible integrations with existing LF DL projects:*
+*Possible integrations with existing LF AI projects:*
 
 https://github.com/onnx/onnx - ONNX is an obvious choice to integrate with ForestFlow as a flavor of models
 that ForestFlow supports deployments for.
 
-*License*: Apache License 2.0
+*License*:
+Apache License 2.0 https://github.com/dreamworksanimation/ForestFlow/blob/master/LICENSE
 
 *Source control*: https://github.com/dreamworksanimation/ForestFlow
 
-*External dependencies*:
+*Issue tracker*: https://github.com/dreamworksanimation/ForestFlow/issues
+
+*Collaboration tools*: None currently in use. Need mailing list and slack channel for users, developers and TSC.
+
+*External dependencies & licenses*:
 Please refer to: https://github.com/dreamworksanimation/ForestFlow/blob/master/NOTICE.md
 
 *Initial committers:*
 
 * Ahmad Alkilani ahmad.alkilani@dreamworks.com, since inception
 
+*Project role definitions*: None yet, except DreamWorks has a Contribution guide and CLA for corporations and individuals.
+I imagine this would be supplanted by LFAI if project moves over.
+See: https://github.com/dreamworksanimation/ForestFlow/blob/master/docs/contributing.md
+
+*Total # of contributors & affiliations*:
+3 total contributors all affiliated with DreamWorks Animation.
+
+*Release methodology*:
+
+Not fully fledged yet however a release is performed when committers pass the vote to do so.
+Preferred release approach is via a docker image.
+Please see requirements for dockerhub. CI also needs to be setup in addition to test-case coverage which is minimal at
+the moment. An updated RELEASES.md will be provided upon project approval and governance.
+
+*Code of conduct*: Nothing exists today outside of CLAs, see here: https://github.com/dreamworksanimation/ForestFlow/blob/master/docs/contributing.md
+Creation of CODE_OF_CONDUCT.md file that points to LF CoC will be created upon project
+approval and transition of Github.
+
 *Infrastructure requests:*
 
 We'll need some sort of CI in addition to a dockerhub account to provide official release
 images
 
-*Current mailing lists:*
-None, we will request LF to create lists for users, developers, and TSC.
-
-*Resources:*
-
-* Issue tracker - https://github.com/dreamworksanimation/ForestFlow/issues
-* CI - Needs Setup
-* DockerHub - Need Account
-
-*Website:*
+*Project Website:*
 Domain is not registered. Relying on Github pages generated from docs at the moment: https://dreamworksanimation.github.io/ForestFlow/
 
 We will request design resources to design a proper website.
 
-*Project governance:*
-
-A release is performed when committers pass the vote to do so. Preferred release approach is via a docker image.
-Please see requirements for dockerhub. CI also needs to be setup in addition to test-case coverage which is minimal at
-the moment.
+*Project governance:* None.
 
 *Social media accounts:*
 None
