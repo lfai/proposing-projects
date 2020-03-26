@@ -50,3 +50,4 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 [Marquez](https://github.com/MarquezProject/marquez)|  [Julien Le Dem](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) | [12/19/2019]| Incubation | tbd
 [Milvus](https://github.com/milvus-io)|[Jun Gu](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) | [01/16/2020]| Incubation | n/a
 [NNstreamer](https://github.com/nnsuite/nnstreamer)|[MyungJoo Ham](https://github.com/lfai/proposing-projects/blob/master/proposals/nnstreamer.adoc) | [03/12/2020]| Incubation | n/a
+[ForestFlow](https://github.com/nnsuite/nnstreamer)|[Ahmad Alkilani](https://github.com/lfai/proposing-projects/blob/master/proposals/forestflow.adoc) | [03/26/2020]| Incubation | n/a
