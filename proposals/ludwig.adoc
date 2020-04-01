@@ -1,0 +1,100 @@
+== Project Proposal Template
+
+
+* Name of project: Ludwig
+
+* Requested project maturity level: Incubation
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development).
+
+Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code.
+
+All you need to provide is your data, a list of fields to use as inputs, and a list of fields to use as outputs, Ludwig will do the rest. Simple commands can be used to train models both locally and in a distributed way, and to use them to predict on new data.
+
+A programmatic API is also available in order to use Ludwig from your python code. A suite of visualization tools allows you to analyze models' training and test performance and to compare them.
+
+Ludwig is built with extensibility principles in mind and is based on data type abstractions, making it easy to add support for new data types as well as new model architectures.
+
+It can be used by practitioners to quickly train and test deep learning models as well as by researchers to obtain strong baselines to compare against and have an experimentation setting that ensures comparability by performing standard data preprocessing and visualization.
+
+Ludwig provides a set of model architectures that can be combined together to create an end-to-end model for a given use case. As an analogy, if deep learning libraries provide the building blocks to make your building, Ludwig provides the buildings to make your city, and you can chose among the available buildings or add your own building to the set of available ones.
+
+Ludwig was developed at Uber AI Labs over the course of two years by Piero Molino before its open source release in February 2019, with the Help of Yaroslav Dudin and Sai Sumanth Miryala. It was initially meant to be a tool for simplifying the comparison of NLP models on a specific task, but adding more tasks and data types support made it a generic tool that started being used by several teams at the company.
+As Ludwig leverages many open source libraries, it was released itself as open source to give back to the community.
+
+The ongoing development of new features, which include eager execution, model zoo, generic data pipelines and seamless hyperparameter optimization aim at making Ludwig the default choice for open source deep learning based AutoML. 
+
+* Statement on alignment with LF AI’s mission: Deep Learning is still perceived as a difficult technology to grasp and use. Ludwig gives the possibility for a much broader audience of less experienced engineers and data scientists to use those models in their project by providing easy-to-use tools and APIs for Deep Learning, with the goal of democratizing it.
+
+* Possible collaboration opportunities with current LF AI hosted projects:
+
+- Horovod, it is already integrated with Ludwig, but we plan a tighter collaboration in the future 
+- Elastic Deep Learning
+- Milvus
+- ONNX
+
+* License: Apache License 2.0
+
+* Source control (GitHub, etc.) - http://github.com/uber/ludwig 
+
+* Issue tracker (GitHub, JIRA, etc) - GitHub
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Gitq
+
+* External dependencies:
+
+- Cython - Apache License 2.0
+- h5py - BSD 3-Clause
+- numpy - BSD 3-Clause
+- pandas - BSD 3-Clause
+- scipy - BSD 3-Clause
+- tabulate - Creative Commons Zero v1.0 Universal
+- scikit-learn - BSD 3-Clause
+- tqdm - MIT licence
+- tensorflow - Apache License 2.0
+- PyYAML - MIT License
+- absl-py - Apache License 2.0
+- soundfile - BSD 3-Clause
+- scikit-image - BSD 3-Clause
+- uvicorn - BSD 3-Clause
+- fastapi - MIT License
+- pydantic - MIT License
+- python-multipart - Apache License 2.0
+- pytest - MIT License
+- six - MIT License
+- spacy - MIT License
+- bert-tensorflow - Apache License 2.0
+- matplotlib - PSF based https://matplotlib.org/users/license.html
+- seaborn - BSD 3-Clause
+
+Version numbers are ever changing, please refer to http://github.com/uber/ludwig varius requirements files for the most current version of each dependency.
+
+* Initial committers:
+
+- Piero Molino, piero.molino@gmail.com, Uber, 3+ years
+- Yaroslav Dudin, ydudin@uber.com, Uber, 1.5+ years
+- Sai Sumanth Miryala, smiryala@uber.com, Uber, 1+ years
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? Pending.
+
+* Total number of contributors to the project including their affiliations.
+
+65 contributors at the time of writing: https://github.com/uber/ludwig/graphs/contributors . Do not know the affiliations of al of them, but some are from other companies, like Apple, IBM, CometML and Weights and Biases.
+
+* Release methodology: https://github.com/uber/ludwig/blob/master/RELEASES.md
+
+* Code of conduct: https://github.com/uber/ludwig/blob/master/RELEASES.md
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+- Travis-ci testing (or similar) with at least 10 concurrent jobs.
+- GPU support on CI.
+- Small cluster (min two remote machines with GPUs) to run tests and debug distributed training.
+
+* Project website: http://ludwig.ai It would be great to receive help for improving it.
+
+* Project governance: Pending.
+
+* Social media accounts - No social media accounts, so far I've announced releases from personal accounts (@w4nderlust on Twitter) or through Uber's Engineering and Open Source accounts.
+
+* Existing sponsorship: Uber started and has been the main contributor so far.
