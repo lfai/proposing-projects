@@ -75,7 +75,7 @@ Version numbers are ever changing, please refer to http://github.com/uber/ludwig
 - Yaroslav Dudin, ydudin@uber.com, Uber, 1.5+ years
 - Sai Sumanth Miryala, smiryala@uber.com, Uber, 1+ years
 
-* Have the project defined the roles of contributor, committer, maintainer, etc.? Pending.
+* Contributors, committers and maintainers: Third and second last questions here: https://github.com/uber/ludwig/blob/master/mkdocs/docs/faq.md
 
 * Total number of contributors to the project including their affiliations.
 
