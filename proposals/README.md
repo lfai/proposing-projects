@@ -18,4 +18,4 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [Milvus](https://github.com/milvus-io)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) by Jun Gu |[01/16/2020]| Incubation | [07/16/2021] | n/a
 [NNstreamer](https://github.com/nnsuite/nnstreamer)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/nnstreamer.adoc) by MyungJoo Ham |[03/12/2020]| Incubation | [09/03/2021] | n/a
 [ForestFlow](https://github.com/dreamworksanimation/ForestFlow)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/forestflow.adoc) by Ahmad Alkilani |[03/27/2020]| Incubation | [09/27/2021] | n/a
-[Ludwig](https://github.com/uber/ludwig)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/ludwig.ado) by Piero Molino |[05/07/2020]| Incubation | [11/07/2021] | n/a
+[Ludwig](https://github.com/uber/ludwig)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/ludwig.adoc) by Piero Molino |[05/07/2020]| Incubation | [11/07/2021] | n/a
