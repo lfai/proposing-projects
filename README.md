@@ -37,18 +37,18 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 
 ## Projects
 
-**Project**|**Proposal**|**Accepted**|**Maturity Level**|**Graduation Date**
-:-----:|:-----:|:-----:|:-----:|:-----:
-[Acumos](https://acumos.org)|n/a|[03/26/18]| Accepted as Graduation | n/a
-[Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82)|[06/07/18]|Graduation / ([Graduation Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Angel-Graduation-Proposal.pdf)) | 12/03/2019
-[Elastic Deep Learning](https://github.com/PaddlePaddle/edl)|[Daxiang Dong](https://github.com/lfai/proposing-projects/blob/master/proposals/edl.adoc)|[07/05/18]|Incubation | tbd
-[Horovod](https://github.com/horovod/horovod)|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5)|[12/06/18]|Incubation | tbd
-[Pyro](https://github.com/pyro-ppl/pyro)|[Fritz Obermeyer](https://drive.google.com/file/d/1Sm9r5Fy4me48LLqaJTwrFC9BhIHE7fMJ/view)|[01/17/19]|Incubation | tbd
-[Adlik](https://github.com/Adlik/adlik)| [Yuan Liya](https://github.com/lfai/proposing-projects/blob/master/proposals/adlik.adoc)|[09/26/19]|Incubation | tbd
-[ONNX](https://github.com/onnx)|  [Prasanth Pulavarthi](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) | [10/31/2019]| Accepted as Graduation | n/a
-[Sparklyr](https://github.com/rstudio/sparklyr)|  [Javier Luraschi](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) | [12/05/2019]| Incubation | tbd
-[Marquez](https://github.com/MarquezProject/marquez)|  [Julien Le Dem](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) | [12/19/2019]| Incubation | tbd
-[Milvus](https://github.com/milvus-io)|[Jun Gu](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) | [01/16/2020]| Incubation | n/a
-[NNstreamer](https://github.com/nnsuite/nnstreamer)|[MyungJoo Ham](https://github.com/lfai/proposing-projects/blob/master/proposals/nnstreamer.adoc) | [03/12/2020]| Incubation | n/a
-[ForestFlow](https://github.com/dreamworksanimation/ForestFlow)|[Ahmad Alkilani](https://github.com/lfai/proposing-projects/blob/master/proposals/forestflow.adoc) | [03/26/2020]| Incubation | n/a
-[Ludwig](https://github.com/uber/ludwig)|[Piero Molino](https://github.com/lfai/proposing-projects/blob/master/proposals/ludwig.adoc) | [05/07/2020]| Incubation | n/a
+**Project**|**Proposal**|**Accepted**|**Maturity Level**|**Graduation Date**|**Project Technical Lead**|**TAC Sponsor**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+[Acumos](https://acumos.org) | n/a | [03/26/18]|Accepted as Graduation | n/a| TSC Chair Vacant | tbd
+[Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82) | [06/07/18] |Graduation / ([Graduation Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Angel-Graduation-Proposal.pdf)) | [12/03/19] | Bruce Tao, brucetao@tencent.com | tbd
+[Elastic Deep Learning](https://github.com/PaddlePaddle/edl) | [Daxiang Dong](https://github.com/lfai/proposing-projects/blob/master/proposals/edl.adoc) | [07/05/18] | Incubation | tbd | Daxiang Dong, dongdaxiang@baidu.com | tbd
+[Horovod](https://github.com/horovod/horovod)|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5) | [12/06/18] | Incubation | tbd | Travis Addair, taddair@uber.com | tbd
+[Pyro](https://github.com/pyro-ppl/pyro) | [Fritz Obermeyer](https://drive.google.com/file/d/1Sm9r5Fy4me48LLqaJTwrFC9BhIHE7fMJ/view) | [01/17/19]|Incubation | tbd | Fritz Obermeyer, fritz.obermeyer@gmail.com | tbd
+[Adlik](https://github.com/Adlik/adlik)| [Yuan Liya](https://github.com/lfai/proposing-projects/blob/master/proposals/adlik.adoc) | [09/26/19] | Incubation | tbd| Wei Meng, meng.wei2@zte.com.cn | tbd
+[ONNX](https://github.com/onnx) |  [Prasanth Pulavarthi](https://github.com/lfai/proposing-projects/blob/master/proposals/onnx.adoc) | [10/31/2019] | Accepted as Graduation | n/a | ONNX TSC, onnx@lfai.foundation | tbd
+[Sparklyr](https://github.com/rstudio/sparklyr) |  [Javier Luraschi](https://github.com/lfai/proposing-projects/blob/master/proposals/sparklyr.adoc) | [12/05/2019] | Incubation | tbd | Javier Luraschi, javier@rstudio.com  | tbd
+[Marquez](https://github.com/MarquezProject/marquez) |  [Julien Le Dem](https://github.com/lfai/proposing-projects/blob/master/proposals/Marquez.adoc) | [12/19/2019] | Incubation | tbd | Julien Le Dem, julien@apache.org  | tbd
+[Milvus](https://github.com/milvus-io) | [Jun Gu](https://github.com/lfai/proposing-projects/blob/master/proposals/milvus.adoc) | [01/16/2020] | Incubation | tbd | Jun Gu, jun.gu@zilliz.com | tbd
+[NNstreamer](https://github.com/nnsuite/nnstreamer) |[MyungJoo Ham](https://github.com/lfai/proposing-projects/blob/master/proposals/nnstreamer.adoc) | [03/12/2020] | Incubation | tbd |  MyungJoo Ham, myungjoo.ham@samsung.comm | tbd
+[ForestFlow](https://github.com/dreamworksanimation/ForestFlow) | [Ahmad Alkilani](https://github.com/lfai/proposing-projects/blob/master/proposals/forestflow.adoc) | [03/26/2020] | Incubation | tbd | Ahmad Alkilani, ahmad.alkilani@dreamworks.com  | tbd
+[Ludwig](https://github.com/uber/ludwig) | [Piero Molino](https://github.com/lfai/proposing-projects/blob/master/proposals/ludwig.adoc) | [05/07/2020] | Incubation | tbd |  Piero Molino, piero.molino@gmail.com | tbd
