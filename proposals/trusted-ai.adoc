@@ -1,0 +1,129 @@
+== Trusted AI Projects Proposal
+
+*Name of the project*: 
+
+Adversarial Robustness 360 (ART)
+AI Fairness 360 (AIF360)
+AI Explainability 360 (AIX360)
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+IBM has open sourced three state-of-the-art, trusted AI toolkits  — AI Fairness 360, Adversarial Robustness 360, and 
+AI Explainability 360.
+
+The AI Fairness 360 (AIF360) Toolkit is an open source toolkit that can help detect and mitigate unwanted bias in machine 
+learning models and datasets. With the toolkit, developers and data scientists can easily check and mitigate for biases at 
+multiple points along their machine learning lifecycle, using the appropriate fairness metrics for their circumstances. 
+It provides metrics to test for biases, and algorithms to mitigate bias in datasets and models. The AI Fairness 360 
+interactive experience provides a gentle introduction to the concepts and capabilities. 
+
+
+The Adversarial Robustness 360 (ART) Toolbox, is a Python library for Machine Learning Security. ART provides tools that 
+enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against 
+the adversarial threats of Evasion, Poisoning, Extraction, and Inference. ART supports all popular machine learning 
+frameworks (TensorFlow, Keras, PyTorch, MXNet, scikit-learn, XGBoost, LightGBM, CatBoost, GPy, etc.), all data types 
+(images, tables, audio, video, etc.) and machine learning tasks (classification, object detection, generation, 
+certification, etc.).
+
+
+The AI Explainability 360 (AIX360) Toolkit is a comprehensive open source toolkit of diverse algorithms, code, guides, 
+tutorials, and demos that support the interpretability and explainability of machine learning models. The AI Explainability 
+360 interactive experience provides a gentle introduction to the concepts and capabilities by walking through an example 
+use case for different consumer personas.
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
+
+Opportunities exist with Acumos, Angel, ONNX and other projects
+
+*License*: 
+
+  * ART: MIT License 
+https://github.com/IBM/adversarial-robustness-toolbox/blob/master/LICENSE
+
+  * AIF360/AIX360: Apache 2.0
+     * https://github.com/IBM/AIF360/blob/master/LICENSE
+     * https://github.com/IBM/AIX360/blob/master/LICENSE
+
+*Source control*:
+
+  * https://github.com/IBM/adversarial-robustness-toolbox
+  * https://github.com/IBM/AIF360
+  * https://github.com/IBM/AIX360
+
+* External dependencies including licenses (name and version) of those dependencies. 
+
+ART: 
+
+  * Global dependencies:
+Python 3.6, 3.7 or 3.8 (PSF)
+matplotlib (PSF)
+numpy (BSD)
+scipy (BSD)
+six 1.13.0 (MIT)
+scikit-learn 0.22.1 (BSD)
+pillow 6.0.0 (HPND)
+tqdm (MIT License, Mozilla Public License 2.0 (MPL 2.0) (MPLv2.0, MIT Licences))
+pytest-pep8 (MIT)
+typing_extensions (Python Software Foundation License (PSF))
+codecov (Apache 2.0)
+h5py (BSD)
+requests (Apache 2.0)
+pydub (MIT)
+pytest-mock (MIT)
+  * Depending on which ML/DL framework is used:
+tensorflow (v1 and v2) (Apache 2.0)
+tensorflow_addons (Apache 2.0)
+keras (MIT)
+torch (BSD)
+torchvision (BSD)
+mxnet (Apache 2.0)
+xgboost (Apache 2.0)
+lightgbm (MIT)
+catboost (Apache 2.0)
+gpy (BSD)
+statsmodels (BSD)
+cma (BSD)
+resampy (ISC License (ISCL) (ISC))
+ffmpeg-python (MIT)
+
+
+
+*Initial committers:*
+
+ONNX https://github.com/onnx/onnx/tree/master/community[open governance] defines Contributors and Approvers. SIGs are responsible for different parts of the code base. GitHub permissions are managed via a https://github.com/orgs/onnx/teams[set of teams] defined in the GitHub organization corresponding to the SIGs.
+
+*Infrastructure requests:*
+
+  * Email list server (see below)
+
+*Current mailing lists:*
+ONNX currenlty does not have mailing lists.  We request that LF setup several lists using the onnx.ai domain name.
+
+*Resources:* 
+
+  * Discussions - https://gitter.im/onnx/
+  * CI - each project repository under the ONNX GitHub organization has a CI (Travis CI, Azure Pipelines, or Appveyor).
+  * Issues - each repo tracks its issues via GitHub.
+  * DockerHub - https://hub.docker.com/r/onnx/onnx-ecosystem
+  * packages - each repo publishes it's own packages to pypi and/or nuget
+
+*Website:*
+The website is at https://onnx.ai and aliases onnx.github.io which serves content from https://github.com/onnx/onnx.github.io/.
+Microsoft has sponsored a website refresh which is will go live in November.
+
+*Release methodology & mechanics:*
+The release is performed according to community agreed process: https://github.com/onnx/onnx/blob/master/RELEASE-MANAGEMENT.md
+
+*Social media accounts:*
+
+  * https://twitter.com/onnxai
+  * https://facebook.com/onnxai
+
+*Existing sponsorship:*
+The https://onnx.ai[ONNX website] lists the companies who support ONNX in their projects. The list includes Alibaba, AMD, ARM, AWS, Baidu, BITMAIN, CEVA, Facebook, Graphcore, Habana, HP, Huawei, IBM, Idein, Intel, Mathworks, Mediatek, Microsoft, Nvidia, NXP, Oath, Preferred Networks, Qualcom, SAS, Skymizer, Synopsys, Tencent, Xiaomi, Unity.
+Microsoft, Facebook, Intel, NVIDIA, Amazon, IBM, Qualcomm, NVIDIA, Apple are some of the active contributors to repositories in the ONNX GitHub organization.
+
+*CII Best Practices Badge:*
+https://bestpractices.coreinfrastructure.org/en/projects/3313
