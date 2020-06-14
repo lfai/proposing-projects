@@ -36,7 +36,7 @@ use case for different consumer personas.
 *Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
 
 Opportunities identified with Acumos, Angel, ONNX and other projects. Additionally, integratuion touchpoints with the projects 
-have been [presented at and driven through Trusted AI Committee](https://docs.google.com/presentation/d/1mAoU2k7RKLo4Rz2My-nxUN5VAaZxoEPiuZZPysmu9Mw/edit), and additional integrations have been enabled with SKLearn, Apache Nifi, R and Kubeflow
+have been presented at and driven through Trusted AI Committee, and additional integrations have been enabled with SKLearn, Apache Nifi, R and Kubeflow
 communities.
 
 
