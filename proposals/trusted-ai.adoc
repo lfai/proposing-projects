@@ -2,9 +2,9 @@
 
 *Name of the projects*: 
 
-  - [Adversarial Robustness 360 (ART)](https://github.com/IBM/adversarial-robustness-toolbox)
-  - [AI Fairness 360 (AIF360)](https://github.com/IBM/AIF360)
-  - [AI Explainability 360 (AIX360)](https://github.com/IBM/AIX360)
+  - Adversarial Robustness 360 (ART)
+  - AI Fairness 360 (AIF360)
+  - AI Explainability 360 (AIX360)
 
 *Requested maturity level*: Incubation
 
@@ -35,7 +35,9 @@ use case for different consumer personas.
 
 *Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
 
-Opportunities exist with Acumos, Angel, ONNX and other projects
+Opportunities identified with Acumos, Angel, ONNX and other projects. Additionally, integratuion touchpoints with the projects 
+have been [presented at and driven through Trusted AI Committee](), and additional integrations have been enabled with SKLearn, Apache Nifi, R and Kubeflow
+communities.
 
 
 *License*: 
@@ -118,7 +120,7 @@ ffmpeg-python (MIT)
 
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
- - ART: https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
+- ART: https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
 
 - AIF360: https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
 
@@ -139,7 +141,7 @@ https://github.com/IBM/AIX360/graphs/contributors
 
 *Infrastructure requests:*
 
-  - Website Hosting.
+  - Website Hosting. Additionally help with Website design and development.
 
 *Current mailing lists:*
   - Projects currenlty do not have mailing lists.  We request that LF setup several lists using the trusted.ai domain name.
