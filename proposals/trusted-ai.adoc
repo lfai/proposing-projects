@@ -13,14 +13,14 @@ AI Explainability 360 (AIX360)
 IBM has open sourced three state-of-the-art, trusted AI toolkits  — AI Fairness 360, Adversarial Robustness 360, and 
 AI Explainability 360.
 
-The AI Fairness 360 (AIF360) Toolkit is an open source toolkit that can help detect and mitigate unwanted bias in machine 
+*The AI Fairness 360 (AIF360)* Toolkit is an open source toolkit that can help detect and mitigate unwanted bias in machine 
 learning models and datasets. With the toolkit, developers and data scientists can easily check and mitigate for biases at 
 multiple points along their machine learning lifecycle, using the appropriate fairness metrics for their circumstances. 
 It provides metrics to test for biases, and algorithms to mitigate bias in datasets and models. The AI Fairness 360 
 interactive experience provides a gentle introduction to the concepts and capabilities. 
 
 
-The Adversarial Robustness 360 (ART) Toolbox, is a Python library for Machine Learning Security. ART provides tools that 
+*The Adversarial Robustness 360 (ART)* Toolbox, is a Python library for Machine Learning Security. ART provides tools that 
 enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against 
 the adversarial threats of Evasion, Poisoning, Extraction, and Inference. ART supports all popular machine learning 
 frameworks (TensorFlow, Keras, PyTorch, MXNet, scikit-learn, XGBoost, LightGBM, CatBoost, GPy, etc.), all data types 
@@ -28,7 +28,7 @@ frameworks (TensorFlow, Keras, PyTorch, MXNet, scikit-learn, XGBoost, LightGBM, 
 certification, etc.).
 
 
-The AI Explainability 360 (AIX360) Toolkit is a comprehensive open source toolkit of diverse algorithms, code, guides, 
+*The AI Explainability 360 (AIX360)* Toolkit is a comprehensive open source toolkit of diverse algorithms, code, guides, 
 tutorials, and demos that support the interpretability and explainability of machine learning models. The AI Explainability 
 360 interactive experience provides a gentle introduction to the concepts and capabilities by walking through an example 
 use case for different consumer personas.
@@ -49,44 +49,44 @@ Opportunities exist with Acumos, Angel, ONNX and other projects
 
 *Source control*:
 
-  * https://github.com/IBM/adversarial-robustness-toolbox
-  * https://github.com/IBM/AIF360
-  * https://github.com/IBM/AIX360
+  * ART: https://github.com/IBM/adversarial-robustness-toolbox
+  * AIF360: https://github.com/IBM/AIF360
+  * AIX360: https://github.com/IBM/AIX360
 
 *External dependencies including licenses (name and version) of those dependencies*:
 
   - ART:
   * Global dependencies:
-Python 3.6, 3.7 or 3.8 (PSF)
-matplotlib (PSF)
-numpy (BSD)
-scipy (BSD)
-six 1.13.0 (MIT)
-scikit-learn 0.22.1 (BSD)
-pillow 6.0.0 (HPND)
-tqdm (MIT License, Mozilla Public License 2.0 (MPL 2.0) (MPLv2.0, MIT Licences))
-pytest-pep8 (MIT)
-typing_extensions (Python Software Foundation License (PSF))
-codecov (Apache 2.0)
-h5py (BSD)
-requests (Apache 2.0)
-pydub (MIT)
+Python 3.6, 3.7 or 3.8 (PSF),
+matplotlib (PSF),
+numpy (BSD),
+scipy (BSD),
+six 1.13.0 (MIT),
+scikit-learn 0.22.1 (BSD),
+pillow 6.0.0 (HPND),
+tqdm (MIT License, Mozilla Public License 2.0 (MPL 2.0) (MPLv2.0, MIT Licences)),
+pytest-pep8 (MIT),
+typing_extensions (Python Software Foundation License (PSF)),
+codecov (Apache 2.0),
+h5py (BSD),
+requests (Apache 2.0),
+pydub (MIT),
 pytest-mock (MIT)
 
  * Depending on which ML/DL framework is used:
-tensorflow (v1 and v2) (Apache 2.0)
-tensorflow_addons (Apache 2.0)
-keras (MIT)
-torch (BSD)
-torchvision (BSD)
-mxnet (Apache 2.0)
-xgboost (Apache 2.0)
-lightgbm (MIT)
-catboost (Apache 2.0)
-gpy (BSD)
-statsmodels (BSD)
-cma (BSD)
-resampy (ISC License (ISCL) (ISC))
+tensorflow (v1 and v2) (Apache 2.0),
+tensorflow_addons (Apache 2.0),
+keras (MIT),
+torch (BSD),
+torchvision (BSD),
+mxnet (Apache 2.0),
+xgboost (Apache 2.0),
+lightgbm (MIT),
+catboost (Apache 2.0),
+gpy (BSD),
+statsmodels (BSD),
+cma (BSD),
+resampy (ISC License (ISCL) (ISC)),
 ffmpeg-python (MIT)
 
 
