@@ -55,7 +55,7 @@ Opportunities exist with Acumos, Angel, ONNX and other projects
 
 *External dependencies including licenses (name and version) of those dependencies*:
 
-  *ART*: 
+  *ART:*
 
     * Global dependencies:
 Python 3.6, 3.7 or 3.8 (PSF)
@@ -94,6 +94,7 @@ ffmpeg-python (MIT)
 *Initial Committers:*
 
 *ART:*
+
   - Beat Buesser (beat-buesser), beat.buesser@ie.ibm.com, IBM
   - Ngoc Minh Tran (minhitbk), m.n.tran@ibm.com, IBM
   - Irina Nicolae (ririnicolae), irinutza.n@gmail.com, Bosch Center for Artificial Intelligence
@@ -119,40 +120,40 @@ ffmpeg-python (MIT)
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
 *ART:*
-https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
+  * https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
 
 *AIF360:*
-https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
+  * https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
 
 *AIX360:*
-https://github.com/IBM/AIX360/blob/master/MAINTAINERS.md
+  * https://github.com/IBM/AIX360/blob/master/MAINTAINERS.md
 
 *Total number of contributors to the project including their affiliations:*
 
 *ART:*
-35 contributors, IBM, Bosch Center for Artificial Intelligence, Kyushu University, Two Six Labs Research Organization,  
+  * 35 contributors, IBM, Bosch Center for Artificial Intelligence, Kyushu University, Two Six Labs Research Organization,  
 Purdue University, NRI SecureTechnologies
 https://github.com/IBM/adversarial-robustness-toolbox/graphs/contributors
 
 *AIF360:*
-31 contributors, don't know the affiliation of all of them but they are from IBM, SKLearn community, University of 
+  * 31 contributors, don't know the affiliation of all of them but they are from IBM, SKLearn community, University of 
 Pennsylvania, Stony Brook University, Rocketmat Inc etc.
 https://github.com/IBM/AIF360/graphs/contributors
 
 *AIX360:*
-17 contributors, mostly IBMers
+  * 17 contributors, mostly IBMers
 https://github.com/IBM/AIX360/graphs/contributors
 
 *Infrastructure requests:*
 
-  * Single Website Hosting.
+  * Website Hosting.
 
 *Current mailing lists:*
 Projects currenlty do not have mailing lists.  We request that LF setup several lists using the trusted.ai domain name.
 
 *Resources:* 
 
-  * Discussions - https://gitter.im/onnx/
+  * Discussions - Slack
   * CI - Each of the projects have their own build and CI (Travis CI).
   * Issues - each repo tracks its issues via GitHub.
   * packages - each repo publishes it's own packages to pypi
