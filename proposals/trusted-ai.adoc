@@ -1,10 +1,10 @@
 == Trusted AI Projects Proposal
 
-*Name of the project*: 
+*Name of the projects*: 
 
-Adversarial Robustness 360 (ART)
-AI Fairness 360 (AIF360)
-AI Explainability 360 (AIX360)
+  - [Adversarial Robustness 360 (ART)](https://github.com/IBM/adversarial-robustness-toolbox)
+  - [AI Fairness 360 (AIF360)](https://github.com/IBM/AIF360)
+  - [AI Explainability 360 (AIX360)](https://github.com/IBM/AIX360)
 
 *Requested maturity level*: Incubation
 
@@ -71,7 +71,7 @@ codecov (Apache 2.0),
 h5py (BSD),
 requests (Apache 2.0),
 pydub (MIT),
-pytest-mock (MIT)
+pytest-mock (MIT)   
 
  * Depending on which ML/DL framework is used:
 tensorflow (v1 and v2) (Apache 2.0),
