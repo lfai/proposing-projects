@@ -133,21 +133,15 @@ ffmpeg-python (MIT)
 
 *Total number of contributors to the project including their affiliations:*
 
-*ART:*
-
-  - 35 contributors, IBM, Bosch Center for Artificial Intelligence, Kyushu University, Two Six Labs Research Organization,  
+*ART:* 35 contributors, IBM, Bosch Center for Artificial Intelligence, Kyushu University, Two Six Labs Research Organization,  
 Purdue University, NRI SecureTechnologies
 https://github.com/IBM/adversarial-robustness-toolbox/graphs/contributors
 
-*AIF360:*
-
-  - 31 contributors, don't know the affiliation of all of them but they are from IBM, SKLearn community, University of 
+*AIF360:* 31 contributors, don't know the affiliation of all of them but they are from IBM, SKLearn community, University of 
 Pennsylvania, Stony Brook University, Rocketmat Inc etc.
 https://github.com/IBM/AIF360/graphs/contributors
 
-*AIX360:*
-
-  - 17 contributors, mostly IBMers
+*AIX360:* 17 contributors, mostly IBMers
 https://github.com/IBM/AIX360/graphs/contributors
 
 *Infrastructure requests:*
@@ -166,17 +160,11 @@ https://github.com/IBM/AIX360/graphs/contributors
 
 *Website:*
 
-*ART:*
+*ART:* https://art-demo.mybluemix.net/
 
-  - https://art-demo.mybluemix.net/
+*AIF360:* http://aif360.mybluemix.net/
 
-*AIF360:*
-
-  - http://aif360.mybluemix.net/
-
-*AIX360:*
-
-  - http://aix360.mybluemix.net/
+*AIX360:* http://aix360.mybluemix.net/
 
 *Release methodology & mechanics:*
 
@@ -195,17 +183,7 @@ https://github.com/IBM/AIX360/graphs/contributors
 
 *Social media accounts:*
 
-*ART:*
-
-  - https://art-demo.mybluemix.net/
-
-*AIF360:*
-
-  - http://aif360.mybluemix.net/
-
-*AIX360:*
-
-  - http://aix360.mybluemix.net/
+N/A
 
 *Existing sponsorship:*
 
