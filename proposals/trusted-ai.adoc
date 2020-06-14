@@ -57,7 +57,7 @@ Opportunities exist with Acumos, Angel, ONNX and other projects
 
   *ART:*
 
-    * Global dependencies:
+  - Global dependencies:
 Python 3.6, 3.7 or 3.8 (PSF)
 matplotlib (PSF)
 numpy (BSD)
@@ -74,7 +74,7 @@ requests (Apache 2.0)
 pydub (MIT)
 pytest-mock (MIT)
 
-  * Depending on which ML/DL framework is used:
+  - Depending on which ML/DL framework is used:
 tensorflow (v1 and v2) (Apache 2.0)
 tensorflow_addons (Apache 2.0)
 keras (MIT)
@@ -119,17 +119,11 @@ ffmpeg-python (MIT)
 
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
-*ART:*
+*ART:* https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
 
-  - https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
+*AIF360:* https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
 
-*AIF360:*
-
-  - https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
-
-*AIX360:*
-
-  - https://github.com/IBM/AIX360/blob/master/MAINTAINERS.md
+*AIX360:* https://github.com/IBM/AIX360/blob/master/MAINTAINERS.md
 
 *Total number of contributors to the project including their affiliations:*
 
