@@ -55,9 +55,8 @@ Opportunities exist with Acumos, Angel, ONNX and other projects
 
 *External dependencies including licenses (name and version) of those dependencies*:
 
-  *ART:*
-
-  - Global dependencies:
+  - ART:
+  * Global dependencies:
 Python 3.6, 3.7 or 3.8 (PSF)
 matplotlib (PSF)
 numpy (BSD)
@@ -74,7 +73,7 @@ requests (Apache 2.0)
 pydub (MIT)
 pytest-mock (MIT)
 
-  - Depending on which ML/DL framework is used:
+ * Depending on which ML/DL framework is used:
 tensorflow (v1 and v2) (Apache 2.0)
 tensorflow_addons (Apache 2.0)
 keras (MIT)
