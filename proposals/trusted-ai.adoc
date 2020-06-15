@@ -92,16 +92,17 @@ resampy (ISC License (ISCL) (ISC)),
 ffmpeg-python (MIT)
 
  - AIF360:
-numpy -- BSD 3-clause, 
-scipy -- BSD 3-clause, 
-pandas -- BSD 3-clause, 
-scikit-learn -- BSD 3-clause, 
-matplotlib -- PSF, 
-numba -- BSD 2-clause, 
-lime -- BSD 2-clause, 
-BlackBoxAuditing -- Apache-2.0, 
-tensorflow -- Apache-2.0, 
-cvxpy -- Apache-2.0
+   * Global dependencies:
+numpy (BSD 3-clause), 
+scipy (BSD 3-clause), 
+pandas (BSD 3-clause), 
+scikit-learn (BSD 3-clause),
+matplotlib (PSF), 
+numba (BSD 2-clause), 
+lime (BSD 2-clause),
+BlackBoxAuditing (Apache 2.0),
+tensorflow (Apache 2.0),
+cvxpy (Apache 2.0)
 
 *Initial Committers:*
 
