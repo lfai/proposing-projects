@@ -1,0 +1,235 @@
+== Trusted AI Projects Proposal
+
+*Name of the projects*: 
+
+  - Adversarial Robustness 360 (ART)
+  - AI Fairness 360 (AIF360)
+  - AI Explainability 360 (AIX360)
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+IBM has open sourced three state-of-the-art, trusted AI toolkits  — AI Fairness 360, Adversarial Robustness 360, and 
+AI Explainability 360.
+
+*The AI Fairness 360 (AIF360)* Toolkit is an open source toolkit that can help detect and mitigate unwanted bias in machine 
+learning models and datasets. With the toolkit, developers and data scientists can easily check and mitigate for biases at 
+multiple points along their machine learning lifecycle, using the appropriate fairness metrics for their circumstances. 
+It provides metrics to test for biases, and algorithms to mitigate bias in datasets and models. The AI Fairness 360 
+interactive experience provides a gentle introduction to the concepts and capabilities. 
+
+
+*The Adversarial Robustness 360 (ART)* Toolbox, is a Python library for Machine Learning Security. ART provides tools that 
+enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against 
+the adversarial threats of Evasion, Poisoning, Extraction, and Inference. ART supports all popular machine learning 
+frameworks (TensorFlow, Keras, PyTorch, MXNet, scikit-learn, XGBoost, LightGBM, CatBoost, GPy, etc.), all data types 
+(images, tables, audio, video, etc.) and machine learning tasks (classification, object detection, generation, 
+certification, etc.).
+
+
+*The AI Explainability 360 (AIX360)* Toolkit is a comprehensive open source toolkit of diverse algorithms, code, guides, 
+tutorials, and demos that support the interpretability and explainability of machine learning models. The AI Explainability 
+360 interactive experience provides a gentle introduction to the concepts and capabilities by walking through an example 
+use case for different consumer personas.
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
+
+Opportunities identified with Acumos, Angel, ONNX and other projects. Additionally, integratuion touchpoints with the projects 
+have been presented at and driven through Trusted AI Committee, and additional integrations have been enabled with SKLearn, Apache Nifi, R and Kubeflow
+communities.
+
+
+*License*: 
+
+  - ART: MIT License 
+    * https://github.com/IBM/adversarial-robustness-toolbox/blob/master/LICENSE
+
+  - AIF360/AIX360: Apache 2.0
+     * https://github.com/IBM/AIF360/blob/master/LICENSE
+     * https://github.com/IBM/AIX360/blob/master/LICENSE
+
+*Source control*:
+
+  * ART: https://github.com/IBM/adversarial-robustness-toolbox
+  * AIF360: https://github.com/IBM/AIF360
+  * AIX360: https://github.com/IBM/AIX360
+
+*External dependencies including licenses (name and version) of those dependencies*:
+
+  - ART:
+  * Global dependencies:
+Python 3.6, 3.7 or 3.8 (PSF),
+matplotlib (PSF),
+numpy (BSD),
+scipy (BSD),
+six 1.13.0 (MIT),
+scikit-learn 0.22.1 (BSD),
+pillow 6.0.0 (HPND),
+tqdm (MIT License, Mozilla Public License 2.0 (MPL 2.0) (MPLv2.0, MIT Licences)),
+pytest-pep8 (MIT),
+typing_extensions (Python Software Foundation License (PSF)),
+codecov (Apache 2.0),
+h5py (BSD),
+requests (Apache 2.0),
+pydub (MIT),
+pytest-mock (MIT)   
+
+ * Depending on which ML/DL framework is used:
+tensorflow (v1 and v2) (Apache 2.0),
+tensorflow_addons (Apache 2.0),
+keras (MIT),
+torch (BSD),
+torchvision (BSD),
+mxnet (Apache 2.0),
+xgboost (Apache 2.0),
+lightgbm (MIT),
+catboost (Apache 2.0),
+gpy (BSD),
+statsmodels (BSD),
+cma (BSD),
+resampy (ISC License (ISCL) (ISC)),
+ffmpeg-python (MIT)
+
+ - AIF360:
+   * Global dependencies:
+numpy (BSD 3-clause), 
+scipy (BSD 3-clause), 
+pandas (BSD 3-clause), 
+scikit-learn (BSD 3-clause),
+matplotlib (PSF), 
+numba (BSD 2-clause), 
+lime (BSD 2-clause),
+BlackBoxAuditing (Apache 2.0),
+tensorflow (Apache 2.0),
+cvxpy (Apache 2.0)
+
+ - AIX360:
+   * Global dependencies:
+joblib (BSD 3-clause),
+numpy (BSD 3-clause),
+scikit-learn (BSD 3-clause),
+scipy (BSD 3-clause),
+pandas (BSD 3-clause),
+torch (BSD 3-clause),
+torchvision (BSD 3-clause),
+cvxpy (Apache 2.0),
+cvopt (GPLv3),
+Image (BSD 3-clause),
+Keras (MIT),
+matplotlib (PSF),
+tensorflow (Apache 2.0),
+lime (BSD 2-clause),
+SHAP (MIT),
+xport (MIT), 
+scikit-image (BSD License (Modified BSD),
+requests (Apache 2.0),
+xgboost (Apache 2.0),
+bleach (Apache 2.0),
+docutils (BSD 2-clause),
+Pygments (BSD 2-clause),
+qpsolvers (GNU Lesser General Public License v3.0)
+
+*Initial Committers:*
+
+*ART:*
+
+  - Beat Buesser (beat-buesser), beat.buesser@ie.ibm.com, IBM
+  - Ngoc Minh Tran (minhitbk), m.n.tran@ibm.com, IBM
+  - Irina Nicolae (ririnicolae), irinutza.n@gmail.com, Bosch Center for Artificial Intelligence
+  - Mathieu Sinn (mathsinn), mathieu.sinn@ie.ibm.com, IBM
+  - Ian Molloy (imolloy), molloyim@us.ibm.com, IBM
+
+*AIF360:*
+
+  - Michael Hind (michaelhind), 2 years
+  - Sam Hoffman (hoffmansc), 2 years
+  - Karthi Natesan Ramamurthy (nrkarthikeyan), 2 years
+  - Prasanna Sattigeri (pronics2004), 2 years
+  - Animesh Singh (animeshsingh), 2 years
+  - Kush Varshney (krvarshney), 2 years
+
+*AIX360:*
+
+  - Vijay Arya (vijay-arya)
+  - Amit Dhurandhar (sadhamanus), 1 year
+  - Michael Hind (michaelhind)
+  - Animesh Singh (animeshsingh)
+  - Kush Varshney (krvarshney)
+  - Dennis Wei (dennislwei), 1 year
+
+
+*Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
+
+- ART: https://github.com/IBM/adversarial-robustness-toolbox/blob/master/MAINTAINERS.md
+
+- AIF360: https://github.com/IBM/AIF360/blob/master/MAINTAINERS.md
+
+- AIX360: https://github.com/IBM/AIX360/blob/master/MAINTAINERS.md
+
+*Total number of contributors to the project including their affiliations:*
+
+- ART: 35 contributors, IBM, Bosch Center for Artificial Intelligence, Kyushu University, Two Six Labs Research Organization,  
+Purdue University, NRI SecureTechnologies
+https://github.com/IBM/adversarial-robustness-toolbox/graphs/contributors
+
+- AIF360: 31 contributors, don't know the affiliation of all of them but they are from IBM, SKLearn community, University of 
+Pennsylvania, Stony Brook University, Rocketmat Inc etc.
+https://github.com/IBM/AIF360/graphs/contributors
+
+- AIX360: 17 contributors, mostly IBMers
+https://github.com/IBM/AIX360/graphs/contributors
+
+*Infrastructure requests:*
+
+  - Website Hosting. Additionally help with Website design and development.
+
+*Current mailing lists:*
+  - Projects currently do not have mailing lists.  We request that LF setup several lists using the trusted.ai domain name.
+
+*Resources:* 
+
+  * Discussions - Slack
+  * CI - Each of the projects have their own build and CI (Travis CI).
+  * Issues - each repo tracks its issues via GitHub.
+  * packages - each repo publishes it's own packages to pypi
+
+*Website:*
+
+- ART: https://art-demo.mybluemix.net/
+
+- AIF360: http://aif360.mybluemix.net/
+
+- AIX360: http://aix360.mybluemix.net/
+
+*Release methodology & mechanics:*
+
+*ART:*
+
+  - https://github.com/IBM/adversarial-robustness-toolbox/releases
+  - https://github.com/IBM/adversarial-robustness-toolbox/wiki/Releasing-ART
+
+*AIF360/AIX360:*
+
+  - https://github.com/IBM/AIF360/releases
+  - https://github.com/IBM/AIX360/releases
+
+General Release Methodology for *AIF360/AIX360*:
+
+  - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
+  - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
+  - Follow a MAJOR.MINOR.PATCH version numbering
+  - The PATCH number is increased when fixes or small features are added
+  - The MINOR number is increased when new algorithms or major (but backward-compatible) features are added
+  - The MAJOR number is increased when major backward-incompatible changes are made
+
+
+*Social media accounts:*
+
+N/A
+
+*Existing sponsorship:*
+
+*ART:*
+Since January 2020, IBM Research is under a 4-year $3.4M contract with DARPA for their Guaranteeing AI Robustness against Deceptions (GARD) program. Under this program, IBM will extend ART to support additional types of input data, ML/DL models and modeling tasks (e.g. object detection, regression, sequence-to-sequence predictions). Moreover, IBM will work with Government Evaluators on using ART for the evaluation of novel defenses against adversarial attacks developed under the GARD program.
+https://www.ibm.com/blogs/research/2020/02/3-4m-darpa-grant-awarded-to-ibm-to-defend-ai-against-adversarial-attacks/
