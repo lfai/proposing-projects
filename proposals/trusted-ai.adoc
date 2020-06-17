@@ -104,6 +104,32 @@ BlackBoxAuditing (Apache 2.0),
 tensorflow (Apache 2.0),
 cvxpy (Apache 2.0)
 
+ - AIX360:
+   * Global dependencies:
+joblib (BSD 3-clause),
+numpy (BSD 3-clause),
+scikit-learn (BSD 3-clause),
+scipy (BSD 3-clause),
+pandas (BSD 3-clause),
+torch (BSD 3-clause),
+torchvision (BSD 3-clause),
+cvxpy (Apache 2.0),
+cvopt (GPLv3),
+Image (BSD 3-clause),
+Keras (MIT),
+matplotlib (PSF),
+tensorflow (Apache 2.0),
+lime (BSD 2-clause),
+SHAP (MIT),
+xport (MIT), 
+scikit-image (BSD License (Modified BSD),
+requests (Apache 2.0),
+xgboost (Apache 2.0),
+bleach (Apache 2.0),
+docutils (BSD 2-clause),
+Pygments (BSD 2-clause),
+qpsolvers (GNU Lesser General Public License v3.0)
+
 *Initial Committers:*
 
 *ART:*
@@ -126,9 +152,13 @@ cvxpy (Apache 2.0)
 *AIX360:*
 
   - Vijay Arya (vijay-arya)
+  - Amit Dhurandhar (sadhamanus), 1 year
   - Michael Hind (michaelhind)
   - Animesh Singh (animeshsingh)
   - Kush Varshney (krvarshney)
+  - Vijay Arya (vijay-arya), 1 year
+  - Dennis Wei (dennislwei), 1 year
+
 
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
@@ -156,7 +186,7 @@ https://github.com/IBM/AIX360/graphs/contributors
   - Website Hosting. Additionally help with Website design and development.
 
 *Current mailing lists:*
-  - Projects currenlty do not have mailing lists.  We request that LF setup several lists using the trusted.ai domain name.
+  - Projects currently do not have mailing lists.  We request that LF setup several lists using the trusted.ai domain name.
 
 *Resources:* 
 
@@ -187,6 +217,16 @@ https://github.com/IBM/AIX360/graphs/contributors
 *AIX360:*
 
   - https://github.com/IBM/AIX360/releases
+
+*General Release Methodology for AIF360/AIX360:*
+
+  - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
+  - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
+  - Follow a MAJOR.MINOR.PATCH version numbering
+  - The PATCH number is increased when fixes or small features are added
+  - The MINOR number is increased when new algorithms or major (but backward-compatible) features are added
+  - The MAJOR number is increased when major backward-incompatible changes are made
+
 
 *Social media accounts:*
 
