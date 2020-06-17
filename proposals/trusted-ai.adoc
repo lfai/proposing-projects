@@ -204,20 +204,17 @@ https://github.com/IBM/AIX360/graphs/contributors
 
 *Release methodology & mechanics:*
 
- - ART:
+*ART:*
 
   - https://github.com/IBM/adversarial-robustness-toolbox/releases
   - https://github.com/IBM/adversarial-robustness-toolbox/wiki/Releasing-ART
 
- - AIF360:
+*AIF360/AIX360:*
 
   - https://github.com/IBM/AIF360/releases
-
- - AIX360:
-
   - https://github.com/IBM/AIX360/releases
 
-General Release Methodology for AIF360/AIX360:
+General Release Methodology for *AIF360/AIX360*:
 
   - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
   - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
