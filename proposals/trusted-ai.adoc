@@ -156,7 +156,6 @@ qpsolvers (GNU Lesser General Public License v3.0)
   - Michael Hind (michaelhind)
   - Animesh Singh (animeshsingh)
   - Kush Varshney (krvarshney)
-  - Vijay Arya (vijay-arya), 1 year
   - Dennis Wei (dennislwei), 1 year
 
 
@@ -218,7 +217,7 @@ https://github.com/IBM/AIX360/graphs/contributors
 
   - https://github.com/IBM/AIX360/releases
 
-*General Release Methodology for AIF360/AIX360:*
+General Release Methodology for AIF360/AIX360:
 
   - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
   - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
