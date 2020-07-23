@@ -1,28 +1,28 @@
 == Amundsen Project Proposal
 
 
-* Name of project*: Amundsen
+*Name of project*: Amundsen
 
-* Requested project maturity level*: Incubation
+*Requested project maturity level*: Incubation
 
-* Project description*
+*Project description*
 Amundsen is open-sourced by Lyft in 2019. It is a metadata driven application for improving the productivity of data analysts,
 data scientists and engineers when interacting with data.
 It does that by indexing data resources (tables, dashboards, streams, etc.)
 and powering a page-rank style search based on usage patterns (e.g. highly queried tables show up earlier than less queried tables).
 
-* Statement on alignment with LF AI’s mission*:
+*Statement on alignment with LF AI’s mission*:
 Amundsen collects and aggregates various system metadata and provides visibility into data entities context. This provides trust in data and powers users to make data-driven decisions.
 
-* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)?
 - Horovod
 - Ludwig
 - Marquez
 
-* License name
+*License name*
 - Apache License 2.0
 
-* Source control (GitHub, etc.)
+*Source control (GitHub, etc.)*
 - https://github.com/lyft/amundsen
 - https://github.com/lyft/amundsencommon/
 - https://github.com/lyft/amundsendatabuilder/
@@ -30,13 +30,13 @@ Amundsen collects and aggregates various system metadata and provides visibility
 - https://github.com/lyft/amundsenmetadatalibrary/
 - https://github.com/lyft/amundsensearchlibrary/
 
-* Issue tracker (GitHub, JIRA, etc)
+*Issue tracker (GitHub, JIRA, etc)*
 - we use the github issues for checking issues and feature requests([link](https://github.com/lyft/amundsen/issues)).
 
-* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+*Collaboration tools* (mailing lists, wiki, IRC, Slack, Glitter, etc.)
 - slack.
 
-* External dependencies including licenses (name and version) of those dependencies.
+*External dependencies including licenses (name and version) of those dependencies.
 
 Major External Dependencies:
 
