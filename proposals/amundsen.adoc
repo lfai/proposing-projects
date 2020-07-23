@@ -41,7 +41,7 @@ Have you identified possible collaboration opportunities with current LF AI host
 
 - slack.
 
-*External dependencies including licenses (name and version) of those dependencies.
+*External dependencies including licenses (name and version) of those dependencies*
 
 Major External Dependencies:
 
@@ -63,7 +63,7 @@ The actual dependencies with its license for different components could be found
 - amundsendatabuilder: https://github.com/lyft/amundsendatabuilder/blob/master/requirements.txt
 - amundsencommon: https://github.com/lyft/amundsencommon/blob/master/requirements.txt
 
-* Initial committers (name, email, organization) and how long have they been working on project?
+*Initial committers (name, email, organization) and how long have they been working on project*
 
 - Tao Feng (Lyft) (https://github.com/feng-tao), 2+ years
 - Jin Hyuk Chang (Lyft) (https://github.com/jinhyukchang), 2+ years
@@ -77,10 +77,10 @@ The actual dependencies with its license for different components could be found
 - Bolke de Bruin (ING) (https://github.com/bolkedebruin), 1.5+ years
 
 
-* Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
-We don't have this doc yet, but will add it in the future.
+*Have the project defined the roles of contributor, committer, maintainer, etc*
+We don't have this doc yet, but will add the MAINTAINERS.md in the future.
 
-* Total number of contributors to the project including their affiliations.
+*Total number of contributors to the project including their affiliations*
 
 - amundsen: https://github.com/lyft/amundsen/graphs/contributors (40)
 - amundsenfrontendlibrary: https://github.com/lyft/amundsenfrontendlibrary/graphs/contributors (32)
@@ -90,7 +90,7 @@ We don't have this doc yet, but will add it in the future.
 - amundsencommon: https://github.com/lyft/amundsencommon/graphs/contributors (9)
 
 
-* Does the project have a release methodology? Please document it in RELEASES.md.
+*Does the project have a release methodology*
 
 - Python package on PyPi (Amundsen has 2 libraries and 3 services, each has different release cadences)
 - Docs on https://lyft.github.io/amundsen/
@@ -99,25 +99,25 @@ We don't have this doc yet, but will add it in the future.
 We will document the release cadence in RELEASES.md in the future.
 
 
-* Does the project have a code of conduct?
+*Does the project have a code of conduct*
 The file could be found in https://github.com/lyft/amundsen/blob/master/CODE_OF_CONDUCT.md
 
-* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
 Travis-ci testing (or similar) with at least 10 concurrent jobs.
 
-* Project website
+*Project website*
 
 - homepage: https://www.amundsen.io/
 - document: https://lyft.github.io/amundsen/
 
-* Project governance:
+*Project governance*
 
 - https://docs.google.com/document/d/12hcfKLSwvt7km0cPi4HvDiaizYtC6cjROqjAShBh9Nk/edit , we will move the doc as the governance.md into Amundsen.
 
-* Social media accounts
+*Social media accounts*
 
 - Twitter: https://twitter.com/amundsenio
 - Youtube: https://www.youtube.com/channel/UCgOyzG0sEoolxuC9YXDYPeg
 
-* Existing sponsorship
+*Existing sponsorship*
 Lyft started the project. Now the project is officially used by 20 companies with more than 700+ people in the community slack channel.
