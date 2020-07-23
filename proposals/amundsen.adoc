@@ -78,6 +78,7 @@ The actual dependencies with its license for different components could be found
 
 
 *Have the project defined the roles of contributor, committer, maintainer, etc*
+
 We don't have this doc yet, but will add the MAINTAINERS.md in the future.
 
 *Total number of contributors to the project including their affiliations*
@@ -100,9 +101,11 @@ We will document the release cadence in RELEASES.md in the future.
 
 
 *Does the project have a code of conduct*
+
 The file could be found in https://github.com/lyft/amundsen/blob/master/CODE_OF_CONDUCT.md
 
 *Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
+
 Travis-ci testing (or similar) with at least 10 concurrent jobs.
 
 *Project website*
@@ -120,4 +123,5 @@ Travis-ci testing (or similar) with at least 10 concurrent jobs.
 - Youtube: https://www.youtube.com/channel/UCgOyzG0sEoolxuC9YXDYPeg
 
 *Existing sponsorship*
+
 Lyft started the project. Now the project is officially used by 20 companies with more than 700+ people in the community slack channel.
