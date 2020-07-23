@@ -22,3 +22,5 @@ This repo contains the proposals that the LF AI Foundation receives. If you are 
 [AI Fairness 360](https://github.com/IBM/AIF360)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/trusted-ai.adoc) by Animesh Singh, Mathieu Sinn, and Mike Hind | [06/18/2020] | Incubation | [12/18/2021] | n/a
 [Adversarial Robustness 360](https://github.com/IBM/adversarial-robustness-toolbox)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/trusted-ai.adoc) by Animesh Singh, Mathieu Sinn, and Mike Hind | [06/18/2020] | Incubation | [12/18/2021] | n/a
 [AI Explainability 360](https://github.com/IBM/AIX360)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/trusted-ai.adoc) by Animesh Singh, Mathieu Sinn, and Mike Hind | [06/18/2020] | Incubation | [12/18/2021] | n/a
+[Amundsen](https://github.com/lyft/amundsen)|[Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/amundsen.adoc) by Tao Feng| [Scheuled for 08/30/2020] | Incubation | [04/08/2022] | n/a
+
