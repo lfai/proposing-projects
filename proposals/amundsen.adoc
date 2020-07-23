@@ -1,0 +1,110 @@
+== Amundsen Project Proposal
+
+
+* Name of project*: Amundsen
+
+* Requested project maturity level*: Incubation
+
+* Project description*
+Amundsen is open-sourced by Lyft in 2019. It is a metadata driven application for improving the productivity of data analysts,
+data scientists and engineers when interacting with data.
+It does that by indexing data resources (tables, dashboards, streams, etc.)
+and powering a page-rank style search based on usage patterns (e.g. highly queried tables show up earlier than less queried tables).
+
+* Statement on alignment with LF AI’s mission*:
+Amundsen collects and aggregates various system metadata and provides visibility into data entities context. This provides trust in data and powers users to make data-driven decisions.
+
+* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+- Horovod
+- Ludwig
+- Marquez
+
+* License name
+- Apache License 2.0
+
+* Source control (GitHub, etc.)
+- https://github.com/lyft/amundsen
+- https://github.com/lyft/amundsencommon/
+- https://github.com/lyft/amundsendatabuilder/
+- https://github.com/lyft/amundsenfrontendlibrary/
+- https://github.com/lyft/amundsenmetadatalibrary/
+- https://github.com/lyft/amundsensearchlibrary/
+
+* Issue tracker (GitHub, JIRA, etc)
+- we use the github issues for checking issues and feature requests([link](https://github.com/lyft/amundsen/issues)).
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+- slack.
+
+* External dependencies including licenses (name and version) of those dependencies.
+
+Major External Dependencies:
+
+- Neo4j (GPL)
+- Apache Atlas (Apache-2)
+- Elasticsearch (Apache-2)
+
+Amundsen connects to the major system through different drivers. Here are the list of driver dependencies:
+- neo4j-python-driver (Apache-2)
+- pyatlasclient (Apache-2)
+- elasticsearch-py (Apache-2)
+
+The actual dependencies with its license for different components could be found in the following places:
+- amundsenfrontendlibrary: https://github.com/lyft/amundsenfrontendlibrary/blob/master/requirements.txt
+- amundsenmetadatalibrary: https://github.com/lyft/amundsenmetadatalibrary/blob/master/requirements.txt
+- amundsensearchlibrary: https://github.com/lyft/amundsensearchlibrary/blob/master/requirements.txt
+- amundsendatabuilder: https://github.com/lyft/amundsendatabuilder/blob/master/requirements.txt
+- amundsencommon: https://github.com/lyft/amundsencommon/blob/master/requirements.txt
+
+* Initial committers (name, email, organization) and how long have they been working on project?
+- Tao Feng (Lyft) (https://github.com/feng-tao), 2+ years
+- Jin Hyuk Chang (Lyft) (https://github.com/jinhyukchang), 2+ years
+- Tamika Tannis (Lyft) (https://github.com/ttannis), 2+ years
+- Daniel Won (Lyft) (https://github.com/danwom), 1.5+ years
+- Marcos Iglesias (Lyft) (https://github.com/golodhros), 2 months
+- Diksha Thakur (Lyft) (https://github.com/dikshathakur3119), 2 months
+- Shenghu Yang (Lyft) (https://github.com/shenghuy), 2+ years
+- Mark Grover (Lyft) (https://github.com/markgrover), 2+ years
+- Verdan Mahmood (ING) (https://github.com/verdan), 1.5+ years
+- Bolke de Bruin (ING) (https://github.com/bolkedebruin), 1.5+ years
+
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+We don't have this doc yet, but will add it in the future.
+
+* Total number of contributors to the project including their affiliations.
+- amundsen: https://github.com/lyft/amundsen/graphs/contributors (40)
+- amundsenfrontendlibrary: https://github.com/lyft/amundsenfrontendlibrary/graphs/contributors (32)
+- amundsenmetadatalibrary: https://github.com/lyft/amundsenmetadatalibrary/graphs/contributors (24)
+- amundsensearchlibrary: https://github.com/lyft/amundsensearchlibrary/graphs/contributors (22)
+- amundsendatabuilder: https://github.com/lyft/amundsendatabuilder/graphs/contributors (45)
+- amundsencommon: https://github.com/lyft/amundsencommon/graphs/contributors (9)
+
+
+* Does the project have a release methodology? Please document it in RELEASES.md.
+- Python package on PyPi (Amundsen has 2 libraries and 3 services, each has different release cadences)
+- Docs on https://lyft.github.io/amundsen/
+- Docker image (https://hub.docker.com/u/amundsendev)
+
+We will document the release cadence in RELEASES.md in the future.
+
+
+* Does the project have a code of conduct?
+The file could be found in https://github.com/lyft/amundsen/blob/master/CODE_OF_CONDUCT.md
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+Travis-ci testing (or similar) with at least 10 concurrent jobs.
+
+* Project website
+- homepage: https://www.amundsen.io/
+- document: https://lyft.github.io/amundsen/
+
+* Project governance:
+- https://docs.google.com/document/d/12hcfKLSwvt7km0cPi4HvDiaizYtC6cjROqjAShBh9Nk/edit , we will move the doc as the governance.md into Amundsen.
+
+* Social media accounts
+- Twitter: https://twitter.com/amundsenio
+- Youtube: https://www.youtube.com/channel/UCgOyzG0sEoolxuC9YXDYPeg
+
+* Existing sponsorship
+Lyft started the project. Now the project is officially used by 20 companies with more than 700+ people in the community slack channel.
