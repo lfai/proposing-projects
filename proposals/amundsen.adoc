@@ -75,6 +75,7 @@ The actual dependencies with its license for different components could be found
 - Mark Grover (Lyft) (https://github.com/markgrover), 2+ years
 - Verdan Mahmood (ING) (https://github.com/verdan), 1.5+ years
 - Bolke de Bruin (ING) (https://github.com/bolkedebruin), 1.5+ years
+- Mariusz Gorski (ING) (https://github.com/mgorsk1), 1 year
 
 
 *Have the project defined the roles of contributor, committer, maintainer, etc*
