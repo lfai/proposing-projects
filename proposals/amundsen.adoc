@@ -71,6 +71,7 @@ The actual dependencies with its license for different components could be found
 - Daniel Won (Lyft) (https://github.com/danwom), 1.5+ years
 - Marcos Iglesias (Lyft) (https://github.com/golodhros), 2 months
 - Diksha Thakur (Lyft) (https://github.com/dikshathakur3119), 2 months
+- Allison Suarez Miranda (Lyft) (https://github.com/allisonsuarez), 2 months
 - Shenghu Yang (Lyft) (https://github.com/shenghuy), 2+ years
 - Mark Grover (Lyft) (https://github.com/markgrover), 2+ years
 - Verdan Mahmood (ING) (https://github.com/verdan), 1.5+ years
