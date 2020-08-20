@@ -1,0 +1,60 @@
+== SOAJS Project Proposal
+
+*Name of project:* SOAJS
+
+*Requested maturity level*: Incubation
+
+*Description:*
+SOAJS is an open source microservices management platform, SOAJS eliminates the IT plumbing challenges, so you can deploy microservices significantly earlier and faster. IT initiatives such as digital transformation are simplified, accelerated, cost reduced, and risk mitigated. Our fully integrated, world-class API lifecycle management, multi-cloud orchestration, release management, and IT Ops automation capabilities eliminate your IT organization’s modernization pain.
+
+*Alignment with LF AI’s mission:*
+SOAJS API-Aware pipeline can be a key contribution to LF AI ML Workflow and interop committee by helping multiple projects close the loop and take advantage of its Multi Environment Marketplace, Smart Deployment, Multi Tenant Authentication and Authorization Gateway, and Middleware to standardize, release, deploy and operate ML models the way Acumos is using it today.
+
+*Possible integrations with existing LF AI projects*: Acumos AI
+
+*License:* Apache License 2.0
+
+*Source control:* https://www.github.com/soajs
+
+*Project website:* https://www.soajs.org
+
+*Please list tools in use by the project:*
+
+	* Github
+	* Jira
+	* Confluence
+	* Travis-ci
+	* Coveralls
+	* Docker Hub
+	* Jetbrain IDE (GO, WS)
+	* Sourceforge
+
+*External dependencies including licenses:*
+
+	* Nginx
+	* Mongo
+	* Node
+	* NPM
+	* Go
+	* Kubernetes
+	* Angular
+
+*Initial committers:*
+
+  * Antoine Hage, antoine@soajs.org
+  * Ragheb Dargham, ragheb@soajs.org
+  * Vinny Nordi, vinny@soajs.org
+  * Mike Hajj, mike@mikehajj.com
+  * Gabriel Pinheiro, gabriel.pinheiro.silva@gmail.com
+  * Vinny Miana, vinicius@miana.com.br
+  * Keith Bacon, inbox@redpepper.io
+  * Etienne Daher, etienneadaher@gmail.com
+  * Sam Carver, sahaca@gmail.com
+
+*Infrastructure:* Kubernetes
+
+*Social media accounts:*
+
+  * Twitter: https://twitter.com/soajsorg
+
+*Existing sponsorship*: Herrontech started and has been the main contributor to the project so far.
