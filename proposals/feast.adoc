@@ -1,0 +1,110 @@
+== Feast Project Proposal
+
+*Name of project*: Feast
+
+*Requested project maturity level*: Incubation
+
+*Project description*
+
+Feast is an open source feature store for machine learning. It was developed as a collaboration between Gojek and Google in 2018.
+
+Feast aims to:
+
+* Provide scalable and performant access to feature data for ML models during training or serving.
+* Provide a consistent view of features for both training and serving.
+* Enable re-use of features through discovery, documentation, and metadata tracking.
+* Ensures model performance by tracking, validating, and monitoring features in production.
+
+*Statement on alignment with LF AI’s mission*:
+
+Many of the largest challenges with operational machine learning center around data. These challenges are both technical and operational. Feast provides a means for defining, managing, storing, and serving features to production ML systems. Feast allows data scientists and engineers to collaborate through shared definitions of features, allowing teams to get new features into production faster and more reliably. 
+
+Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)?
+
+- Horovod
+- Ludwig
+
+*License name*
+
+- Apache License 2.0
+
+*Source control (GitHub, etc.)*
+
+- https://github.com/feast-dev/feast
+
+*Issue tracker (GitHub, JIRA, etc)*
+
+- we use the github issues for checking issues and feature requests (https://github.com/feast-dev/feast/issues)
+
+*Collaboration tools* (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+- Slack, Kubeflow.org, #Feast Channel
+
+*External dependencies including licenses (name and version) of those dependencies*
+
+Major External Dependencies:
+
+- Apache Kafka (Apache-2)
+- Apache Beam (Apache-2)
+
+Feast persists feature data in either offline or online database through driver clients. 
+
+- Redis: lettuce (Apache-2)
+- BigQuery: java-bigquery (Apache-2)
+
+The individual packages in use by the project can be found in the following locations:
+
+- https://github.com/feast-dev/feast/blob/master/pom.xml
+- https://github.com/feast-dev/feast/blob/master/sdk/python/setup.py
+- https://github.com/feast-dev/feast/blob/master/sdk/go/go.mod
+
+*Initial committers (name, email, organization) and how long have they been working on project*
+
+- Willem Pienaar (Gojek) (https://github.com/woop), 2+ years
+- Zhiling Chen (Getground) (https://github.com/zhilingc), 2+ years
+- David Heryanto (Gojek) (https://github.com/davidheryanto), 2+ years
+- Pradithya Aria Pura (Gojek) (https://github.com/pradithya), 2+ years
+
+*Have the project defined the roles of contributor, committer, maintainer, etc*
+
+This will be a part of the governance document.
+
+*Total number of contributors to the project including their affiliations*
+
+- Feast: https://github.com/feast-dev/feast (42)
+
+*Does the project have a release methodology*
+
+- Release process on https://docs.feast.dev/contributing/release-process
+- Release cadence determined by https://docs.feast.dev/roadmap
+- Artifacts of a release
+    - Docker images for Feast Core, Serving, and Job Controller (gcr.io/kf-feast/)
+    - Python package on Pypi (https://pypi.org/project/feast/)
+    - Java libraries on Maven (https://mvnrepository.com/artifact/dev.feast)
+    - Documentation (https://docs.feast.dev/)
+
+*Does the project have a code of conduct*
+
+The code of conduct will be linked to https://www.linuxfoundation.org/code-of-conduct/
+
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
+
+Google is currently providing infrastructure for running our tests.
+
+*Project website*
+
+- Homepage: http://feast.dev/
+- Document: https://docs.feast.dev/
+
+*Project governance*
+
+- [WIP]
+
+*Social media accounts*
+
+- Twitter: None yet
+- Youtube: None yet
+
+*Existing sponsorship*
+
+Gojek initiated the project and it was developed in collaboration with Google. Google still provides some test infrastructure to the project. Feast is now running at scale in production in at least 5+ large companies (unicorn or publicly listed), and has over 250 members in its Slack channel.
