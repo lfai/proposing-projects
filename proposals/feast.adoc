@@ -34,7 +34,7 @@ Have you identified possible collaboration opportunities with current LF AI host
 
 *Issue tracker (GitHub, JIRA, etc)*
 
-- we use the github issues for checking issues and feature requests (https://github.com/feast-dev/feast/issues)
+- Github issues for checking issues and feature requests (https://github.com/feast-dev/feast/issues)
 
 *Collaboration tools* (mailing lists, wiki, IRC, Slack, Glitter, etc.)
 
