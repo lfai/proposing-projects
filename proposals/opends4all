@@ -1,0 +1,60 @@
+OpenDS4All Project Proposal
+Name of project: OpenDS4All
+Requested project maturity level: Incubation
+Project description
+OpenDS4All is a project created to accelerate the creation of data science curricula at academic institutions. While a great deal of online material is available for data science, including online courses, we recognize that the best way for many students to learn (and for many institutions to deliver) content is through a combination of lectures, recitation or flipped classroom activities, and hands-on assignments. OpenDS4All attempts to fill this important niche. Our goal is to provide recommendations, slide sets, sample Jupyter notebooks, and other materials for creating, customizing, and delivering data science and data engineering education.  The project hosts educational modules that may be used as building blocks for a data science curriculum.
+Statement on alignment with LF AI’s mission:
+Many of the largest challenges with operational machine learning center around data. These challenges are both technical and education (talent). OpenDS4All addressed the education challenge.
+Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)?
+•	Trusted AI
+•	Ludwig
+License name
+Apache 2.0 for code and CC BY 4.0 for PowerPoint slides and other documentation
+Source control (GitHub, etc.)
+https://github.com/odpi/OpenDS4All
+Issue tracker (GitHub, JIRA, etc)
+•	Github issues for checking issues and feature requests (https://github.com/odpi/OpenDS4All/issues)
+Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+•	https://lists.odpi.org/g/opends4all-discussion
+•	odpi-opends4all-private@lists.odpi.org (Private mailing list)
+•	#odpi-opends4all (Slack Channel - under ODPi umbrella)
+External dependencies including licenses (name and version) of those dependencies
+Jupyter Notebooks. Microsoft PowerPoint and Word.
+Initial committers (name, email, organization) and how long have they been working on project
+•	John Mertic (Linux Foundation) (jmertic@linuxdoundation.org), 1 year
+•	Andre de Waal (IBM) (andre.dewaal@ibm.com), 1 year
+•	Ana Echeverri (IBM) (ana.echeverri@us.ibm.com), 1 year
+•	Zack Ives (UPenn) (zives@cis.upenn.edu), 1 year
+•	Leshang Chen (UPenn) (leshangc@seas.upenn.edu), 1 year 
+•	Susan Davidson (UPenn) (susan@seas.upenn.edu), 1 year
+Have the project defined the roles of contributor, committer, maintainer, etc
+https://github.com/odpi/OpenDS4All/blob/master/GOVERNANCE.md 
+Total number of contributors to the project including their affiliations
+https://lfanalytics.io/projects/odpi%2Fopends4all/dashboard 
+Does the project have a release methodology
+•	Release cycle
+•	Planning the 1st release soon as the content is stable
+•	Test suite that gets run before a release
+•	Part of the planning for the 1st release
+Does the project have a code of conduct
+https://github.com/odpi/OpenDS4All/blob/master/CODE_OF_CONDUCT.md
+Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+None.
+Project website
+•	Homepage: https://www.odpi.org/projects/opends4all
+Project governance
+•	Technical Steering Committee
+o	David Mongeau (Executive Director, Berkeley Institute for Data Science, University of California, Berkeley)
+o	Susan Davidson (Professor, Computer and Information Science, UPenn)
+o	Zack Ives (Professor, Computer and Information Science, UPenn)
+o	Jennifer Priestley (Professor, Analytics and Data Science Institute, Kennesaw State University)
+o	Aric LaBarr (Professor, Institute for Advanced Analytics, NC State)
+o	Goutam Chakraborty (Professor, Spears School of Business, OSU)
+o	Ana Echeverri (IBM)
+o	Andre de Waal (IBM) – chairperson
+o	James Harroun (SAS Institute)]
+Social media accounts
+Uses existing ODPi social media accounts
+Existing sponsorship
+ODPi, with Founding funding from IBM, and content from university partners (UPenn, etc.).
+
