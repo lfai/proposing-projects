@@ -1,32 +1,41 @@
-ODPi Egeria Project Proposal
+== ODPi Egeria Project Proposal
 
-Name of the project: ODPi Egeria - Open Metadata and Governance 
-Requested maturity level: Graduated 
-Description 
+* Name of the project *: ODPi Egeria - Open Metadata and Governance 
+
+* Requested maturity level *: Graduated 
+
+* Description * 
+
 ODPi Egeria provides the Apache 2.0 licensed open metadata and governance type system, frameworks, APIs, event payloads and interchange protocols to enable tools, engines and platforms to exchange metadata in order to get the best value from data and the digital services that use it, whilst ensuring they are properly governed. 
+
 The Egeria runtime (called the OMAG Server Platform) is designed to scale from edge devices such as the Raspberry Pi to large, horizontally scaled Kubernetes clusters in the cloud. It supports multi-tenant operation so it can be part of a SaaS offering. Typically, an enterprise would deploy at least one OMAG Server Platform in each of its cloud platforms and data centers. 
+
 The OMAG Server Platform is configured to run one-to-many OMAG Servers. The OMAG Servers host connectors to third party technologies. An OMAG Server acts like a pump to push and pull the appropriate metadata in and out of a third-party technology. It also communicates with another OMAG Servers (irrespective of the platform they are running on) which is how metadata is exchanged across the enterprise. 
+
 With Egeria deployed, people that use different tool sets begin to share knowledge. This knowledge becomes connected, providing the enterprise with a comprehensive “catalog” of their digital ecosystem. This knowledge base is also digitized and can be used to automatically configure and control the systems that support the enterprise. The enterprise becomes more agile and resilient because it is able to understand, optimize and adapt its operations to changing situations. 
 •	Overview: https://egeria.odpi.org/ 
 •	Dojo: https://egeria.odpi.org/open-metadata-resources/open-metadata-tutorials/egeria-dojo/ 
 •	History: https://egeria.odpi.org/open-metadata-publication/website/why-egeria/ 
 •	Module Structure: https://egeria.odpi.org/open-metadata-publication/website/why-egeria/ 
 •	Dashboard: https://lfanalytics.io/projects/odpi%2Fegeria/dashboard 
-Alignment with LF AI Mission
+
+* Alignment with LF AI Mission *
 The alignment with the LF AI mission of ... 
 Our mission is to build and support an open AI community, and drive open source innovation in the AI, ML and DL domains by enabling collaboration and the creation of new opportunities for all the members of the community 
 ... is that Egeria seeks to create a safe and governed ecosystem for AI, ML and DL based operations. 
-Possible integrations with existing LFAI projects: 
+
+* Possible integrations with existing LFAI projects *: 
 •	Amundsen: https://github.com/amundsen-io/amundsen 
-•	All projects that use or produce metadata as part of business processes, and end-to-end 
-Data and AI workflows
+•	All projects that use or produce metadata as part of business processes, and end-to-end Data and AI workflows
 
-License: Apache 2.0 - https://github.com/odpi/egeria/blob/master/LICENSE
+* License *: Apache 2.0 - https://github.com/odpi/egeria/blob/master/LICENSE
 
-Source control: https://github.com/odpi/egeria
+* Source control *: https://github.com/odpi/egeria
 
-External dependencies: https://github.com/odpi/egeria/blob/master/THIRD_PARTY.md 
-Initial committers: https://github.com/odpi/egeria/blob/master/MAINTAINERS.md 
+* External dependencies *: https://github.com/odpi/egeria/blob/master/THIRD_PARTY.md 
+
+* Initial committers *: https://github.com/odpi/egeria/blob/master/MAINTAINERS.md 
+
 Tools used by the project: 
 •	Email list server (see below) and calendar 
 •	GitHub for content, issues, releases 
@@ -35,14 +44,18 @@ Tools used by the project:
 •	Slack (continue to use ODPi Slack which is a free service) and Zoom (https://zoom.us/j/523629111) for community collaboration 
 •	Most developers use IDEA IntelliJ community edition and Postman but there is no requirement to use these tools
 Tools guidance: https://github.com/odpi/egeria/tree/master/developer-resources/tools 
-Current mailing lists: 
-- https://lists.odpi.org/g/odpi-project-egeria 
-- https://lists.odpi.org/g/odpi-project-egeria-maintainers (private list) 
-+ email account “egeria-security@odpi.org” for reporting security vulnerabilities. 
-Issue Tracker: https://github.com/odpi/egeria/issues 
-Website: https://egeria.odpi.org
 
-Project governance structure and officials: 
+* Current mailing lists *: 
+* https://lists.odpi.org/g/odpi-project-egeria 
+* https://lists.odpi.org/g/odpi-project-egeria-maintainers (private list) 
++ email account “egeria-security@odpi.org” for reporting security vulnerabilities. 
+
+* Issue Tracker *: https://github.com/odpi/egeria/issues 
+
+* Website *: https://egeria.odpi.org
+
+* Project governance structure and officials *: 
+
 •	Established governance badges, processes and conformance program: https://github.com/odpi/egeria/blob/master/GOVERNANCE.md 
 
 •	New Egeria TSC proposal:
@@ -50,14 +63,16 @@ Today Egeria does not have its own TSC, although the ODPi TSC allows this. The l
 below is the proposal for a project-level TSC for Egeria. 
 https://github.com/odpi/data-governance/wiki/ODPi-Egeria-Weekly-Meeting- 10th-September-2020 
 This is a good time for the project to establish a project level TSC for Egeria as the size of the community is growing. 
-Release methodology & mechanics: 
-Roadmap - https://egeria.odpi.org/open-metadata-publication/website/roadmap/ 
-Monthly releases - https://github.com/odpi/egeria/releases - through automated Azure pipelines to maven central
 
-Social media accounts: Uses ODPi existing accounts – see Egeria Community Guide - 
-https://egeria.odpi.org/Community-Guide.html
+* Release methodology & mechanics *: 
+* Roadmap - https://egeria.odpi.org/open-metadata-publication/website/roadmap/ 
+* Monthly releases - https://github.com/odpi/egeria/releases - through automated Azure pipelines to maven central
 
-Existing sponsorship: ODPi Membership - https://www.odpi.org/about/members
+* Social media accounts *: 
+* Uses ODPi existing accounts
+* see Egeria Community Guide: https://egeria.odpi.org/Community-Guide.html
 
-CII Best Practices Badge: https://bestpractices.coreinfrastructure.org/en/projects/3044 
+* Existing sponsorship *: ODPi Membership - https://www.odpi.org/about/members
+
+* CII Best Practices Badge *: https://bestpractices.coreinfrastructure.org/en/projects/3044 
 
