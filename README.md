@@ -59,5 +59,5 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 [DELTA](https://github.com/didi/delta) | [Tiger Wang](https://github.com/lfai/proposing-projects/blob/master/proposals/DELTA-LFAI-ProjectProposal.md) | [09/10/2020] | Incubation | tbd | Tiger Wang, wangyunbo@didiglobal.com | tbd | [03/10/2022] | n/a
 [SOAJS](https://www.github.com/soajs) | [Antoine Hage](https://github.com/lfai/proposing-projects/blob/master/proposals/soajs.adoc) | [09/10/2020] | Incubation | tbd | Antoine Hage, antoine@soajs.org | tbd | [03/10/2022] | n/a
 [FEAST](https://github.com/feast-dev/feast) | [Willem Pienaar](https://github.com/lfai/proposing-projects/blob/master/proposals/feast.adoc) | [Scheduled for 09/24/2020] | Incubation | tbd | Willem Piennar, willem.p@gojek.com | tbd | tbd | n/a
-
+[ODPi Egeria](https://github.com/odpi/egeria) | [Mandy Chessell](proposals/odpi-egeria-project-proposal.pdf) | [Scheduled for 09/24/2020] | Graduation Proposal ([link](proposals/odpi-egeria-project-proposal.pdf)) | tbd | Mandy Chessell, mandy_chessell@uk.ibm.com | tbd | n/a | n/a
 
