@@ -63,10 +63,11 @@ The individual packages in use by the project can be found in the following loca
 
 *Initial committers (name, email, organization) and how long have they been working on project*
 
-- Willem Pienaar (Gojek) (https://github.com/woop), 2+ years
-- Zhiling Chen (Getground) (https://github.com/zhilingc), 2+ years
-- David Heryanto (Gojek) (https://github.com/davidheryanto), 2+ years
-- Pradithya Aria Pura (Gojek) (https://github.com/pradithya), 2+ years
+- Willem Pienaar (git@willem.co, https://github.com/woop), 2+ years
+- Zhiling Chen (chnzhlng@gmail.com, https://github.com/zhilingc), 2+ years
+- Pradithya Aria Pura (pradithya.aria@gmail.com, https://github.com/pradithya), 2+ years
+- Oleg Avdeev (oleg.v.avdeev@gmail.comm, https://github.com/oavdeev), 6 months
+- Tsotne Tabidze (tsotnet@gmail.com, http://github.com/tsotnet), 6 months 
 
 *Have the project defined the roles of contributor, committer, maintainer, etc*
 
