@@ -66,7 +66,7 @@ The individual packages in use by the project can be found in the following loca
 - Willem Pienaar (git@willem.co, https://github.com/woop), 2+ years
 - Zhiling Chen (chnzhlng@gmail.com, https://github.com/zhilingc), 2+ years
 - Pradithya Aria Pura (pradithya.aria@gmail.com, https://github.com/pradithya), 2+ years
-- Oleg Avdeev (oleg.v.avdeev@gmail.comm, https://github.com/oavdeev), 6 months
+- Oleg Avdeev (oleg.v.avdeev@gmail.com, https://github.com/oavdeev), 6 months
 - Tsotne Tabidze (tsotnet@gmail.com, http://github.com/tsotnet), 6 months 
 
 *Have the project defined the roles of contributor, committer, maintainer, etc*
