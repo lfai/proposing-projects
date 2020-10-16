@@ -1,0 +1,206 @@
+== RosaeNLG Project Proposal
+
+*Name of project*: RosaeNLG
+
+*Requested project maturity level*: Incubation
+
+=== Project description
+
+NLG automates the production of relatively repetitive texts based on structured input data and textual templates. Typical usecases are describing a product based on its features (SEO), produce structured reports (e.g. risk reports or fund performance in the financial industry), or generate well formed chatbot answers.
+
+NLG is widespread in large corporations, especially in the financial industry.
+
+RosaeNLG is an open source Natural Language Generation (NLG) project. It aims to offer the same NLG features as product NLG solutions, to be developer and IT friendly for template configuration, and to provide NLG on both server-side and browser-side.
+
+
+=== Statement on alignment with LF AI’s mission
+
+NLG is a brick to *build business services directly aimed at final users*. It is widely used in the industry.
+
+NLG concurs to *democratization and understandability of AI*:
+
+* Non-expert users don’t understand figures and dashboards and prefer textual explanations
+* Computer-generated texts can be superior (from the reader's perspective) to human-written texts
+* NLG is used to generate value from data: typically at the end of an AI pipeline, to *automate and convey expertise, explain and summarize situations*, and communicate with end users
+* Bring *thrusted AI*, typically in collaboration with https://ai-explainability-360.org/[AI Explainability 360] and http://aif360.mybluemix.net/[AI Fairness 360]
+
+RosaeNLG project will also:
+
+* Increase diversity: first *French originated* project
+* Foster usage, contributions and diversity in *NLG domain*, supporting languages presently not covered by any NLG system
+
+
+=== Possible collaboration opportunities with current LF AI hosted projects
+
+RosaeNLG currently runs on Acumos for Orange AI Marketplace.
+
+RosaeNLG can be used at the end of the AI pipeline, to *explain a decision* to non-experts:
+
+* https://ai-explainability-360.org/[AI Explainability 360]: provide a clear, readable, summarized explanation for an end user (e.g. Bank Customer) asking for explanations
+* http://aif360.mybluemix.net/[AI Fairness 360]: generate comprehensive compliance reports on fairness (initial situation, what was done, final situation)
+
+
+=== License name
+
+MIT
+
+
+=== Source control (GitHub, etc.)
+
+* https://gitlab.com/rosaenlg-projects
+* main: https://gitlab.com/rosaenlg-projects/rosaenlg
+
+
+=== Issue tracker (GitHub, JIRA, etc)
+
+GitLab issues for checking issues and feature requests: https://gitlab.com/rosaenlg-projects/rosaenlg/-/issues
+
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+* Through GitLab issues
+* and through direct communication with the author by email
+
+
+=== External dependencies including licenses (name and version) of those dependencies
+
+RosaeNLG is a fork of the [Pug](https://pugjs.org/) template engine (MIT).
+
+It is composed of 70 submodules.
+
+Resources derived from linguistic resources (WordNet, lefff, german-pos-dict, morph-it) remain under their original licence.
+
+.Used for all languages
+[options="header"]
+|===
+| Resource | Usage | Licence
+| https://github.com/ckknight/random-js[random-js] | random numbers | MIT
+| http://momentjs.com[moment.js] | dates and times formatting | MIT
+| http://numeraljs.com[numeral.js] | numbers formatting | MIT
+| https://github.com/forzagreen/n2words#readme[n2words] | Cardinal numbers in letters: 5 -> five etc. | MIT
+| https://github.com/shibukawa/snowball-stemmer.jsx[snowball-stemmer.jsx] | stemming | MIT
+| https://github.com/stopwords-iso/[stopwords-de, stopwords-en, stopwords-es, stopwords-fr, stopwords-it] | lists of stop words | MIT
+| http://winkjs.org/[wink-tokenizer] | tokenizer | MIT
+|===
+
+.English specific
+[options="header"]
+|===
+| Resource | Usage | Licence
+| WordNet | English gerunds (`ing`) & list of words or adjectives that must be preceded by `an` | https://wordnet.princeton.edu/license-and-commercial-use[WordNet licence]
+| https://github.com/marlun78/number-to-words | ordinal numbers in English | MIT
+| https://github.com/bdougherty/better-title-case#readme[better-title-case] | title case (for titles) in English | MIT
+|===
+
+.French specific
+[options="header"]
+|===
+| Resource | Usage | Licence
+| https://en.wikipedia.org/wiki/Aspirated_h[Aspirated h] | French words that are 'aspiré' (vs. 'muet') | https://creativecommons.org/licenses/by-sa/3.0/[CC BY-SA 3.0]
+| https://www.labri.fr/perso/clement/lefff/[LEFFF - lexique des formes fléchies du français] | gender and plural of French words | https://www.labri.fr/perso/clement/lefff/licence-LGPLLR.html[LGPLLR]
+| https://github.com/swestrich/pluralize-fr#readme[pluralize-fr] | pluralize nouns | MIT
+| https://github.com/benoitvallon/titlecase-french#readme[titlecase-french] | title case (for titles) in French | MIT
+|===
+
+.German specific
+[options="header"]
+|===
+| Resource | Usage | Licence
+| https://github.com/languagetool-org/german-pos-dict[German part-of-speech dictionary] | German adjectives, words and verbs agreement | https://github.com/languagetool-org/german-pos-dict/blob/master/LICENSE[CC-BY-SA-4.0 License]
+|===
+
+.Italian specific
+[options="header"]
+|===
+| Resource | Usage | Licence
+| https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it[Morph-it! Free Morphological Lexicon for the Italian Language] | agreement of Italian adjectives, words and verbs | https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it#licensing_information[CC BY-SA 2.0]
+|===
+
+.Spanish specific
+[options="header"]
+|===
+| Resource | Usage | Licence
+| https://github.com/swestrich/gender-es[gender-es] | gender of Spanish words | MIT
+| https://github.com/jfromaniello/pluralize-es[pluralize-es] | plural of Spanish words | MIT
+| https://github.com/ehoogerbeets/conjugator[conjugator] | Spanish verbs conjugation | Apache 2.0
+|===
+
+
+=== Initial committers (name, email, organization) and how long have they been working on project
+
+* Ludan Stoecklé (ludan.stoeckle@rosaenlg.org, https://gitlab.com/ludan), 2+ years
+* Marco Riva (https://github.com/rivamarco) on Italian
+* Ongoing discussions with https://redlab.paris/[RedLab Paris] to have PhDs as contributors
+
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc
+
+This will be a part of the governance document.
+
+
+=== Total number of contributors to the project including their affiliations
+
+* Ludan Stoecklé (57 000 lines of code, 100+ commits since first public version in Sept. 2019)
+* Marco Riva (https://github.com/rivamarco) on Italian
+
+
+=== Does the project have a release methodology
+
+For JavaScript version (main), see https://gitlab.com/rosaenlg-projects/rosaenlg/-/blob/master/packages/rosaenlg/doc/modules/advanced/pages/contrib.adoc#user-content-publishing-a-new-version[how to publish a new version]:
+
+* orchestrated by GitLab CI
+* uses `vXX.XX.XX` branches
+* https://sonarcloud.io/organizations/rosaenlg-projects/projects[Sonar] quality gate
+* GitLab CI builds, tests, and publishes:
+** https://www.npmjs.com/~ludan.stoeckle[the 70 npm modules]
+** https://gitlab.com/rosaenlg-projects/rosaenlg/container_registry[Docker images]
+* currently around 2 releases per month 
+* documentation automatically published using https://antora.org/[Antora] framework on https://rosaenlg.org[rosaenlg.org]
+
+For Java version, see https://gitlab.com/rosaenlg-projects/rosaenlg-java#contrib:
+
+* automated, but does not use CI
+* artifacts:
+** https://mvnrepository.com/search?q=rosaenlg[libraries on Maven Central]
+** https://gitlab.com/rosaenlg-projects/rosaenlg-java/container_registry[Docker images]
+
+
+=== Does the project have a code of conduct
+
+https://gitlab.com/rosaenlg-projects/rosaenlg/-/blob/master/CODE_OF_CONDUCT.md[RosaeNLG code of conduct] which redirects to https://lfprojects.org/policies/code-of-conduct/
+
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+GitLab CI is used to build the project. Free plan could be upgraded to have more CI/CD minutes.
+
+
+=== Project website
+
+Documentation: https://rosaenlg.org
+
+
+=== Project governance
+
+*TODO*
+
+
+=== Social media accounts
+
+* articles on Medium https://medium.com/search?q=RosaeNLG[Medium]
+* https://www.linkedin.com/company/rosaenlg[LinkedIn Company page] (which is not used today)
+
+
+=== Existing sponsorship
+
+Corporate:
+
+* https://www.addventa.com/[Addventa] (company specialized in NLG, based in Paris) provides commercial support on RosaeNLG (support with SLA and Professional Services)
+* RosaeNLG is available for commercial usage on https://demo.ai-marketplace.orange-business.com/[Orange AI marketplace]
+Specialized technology companies: https://www.lizeo-group.com/us[Lizeo] (tires descriptions), https://radicalbit.io/[Radicalbit]
+* Financial corporations users: https://www.exane.com/corporate/[Exane], https://group.bnpparibas/en/[BNP Paribas]
+
+Academic:
+
+* Used in thesis (Marco Riva, Making a Time-Series Database "smart": human and machine communication towards conversational analytics, Laurea in Informatica, https://www.unimi.it/en[Università degli Studi di Milano], 2020), also contributor on Italian version of RosaeNLG
+* Ongoing discussions with http://www.redlab.paris[RedLab Paris] to have junior PhDs as contributors (and subsidiary http://www.joonam.ai/[Joonam] for business applications)
