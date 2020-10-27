@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/lfai/artwork/master/lfai/horizontal/color/lfai-color.png)
+![alt text](https://artwork.lfaidata.foundation/lfaidata-assets/lfaidata/horizontal/color/lfaidata-horizontal-color.png)
 
 # Hosting Projects under the LF AI Foundation 
 This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/process%20and%20lifecylce/LF%20AI%20Project%20Process%20and%20Lifecycle%2009032019.pdf">LF AI Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI hosted project. 
