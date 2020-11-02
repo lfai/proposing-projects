@@ -1,3 +1,5 @@
+**ACCEPTED September 24, 2020**
+
 == ODPi Egeria Project Proposal
 
 * Name of the project *: ODPi Egeria - Open Metadata and Governance 
