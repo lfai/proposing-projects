@@ -1,3 +1,5 @@
+**ACCEPTED September 24, 2020**
+
 == OpenDS4All Project Proposal
 
 * Name of project *: OpenDS4All
