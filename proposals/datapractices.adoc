@@ -1,0 +1,91 @@
+== DataPractices.org Projects Proposal for LF AI & Data 
+
+*Name of the project*: DataPractices.org 
+
+*Requested maturity level*: Incubation
+
+*Project Description*
+
+link:https://datapractices.org[DataPractices.org] was originally launched as the DataPractices manifesto, the result of the link:https://data.world/scuttlemonkey/2017-open-data-science-leadership-summit[Open Data Science Leadership Summit].  This summit, held on 10 Nov 2017, was a collaborative gathering of some of the leaders in the Data Science, Semantics, Journalism, and Visualization worlds. The aim was to start discussions that could help crystalize thinking and action in the industry to better define Data Science and help the community to evolve with cohesion.
+
+As a part of the ongoing DataPractices effort to increase awareness and data literacy in the data ecosystem, it was always the plan to move beyond the "words on a page" of the Manifesto and give people real education and tools to help them increase their capabilities around modern data teamwork.  Since the original lauch, many contributors have helped to contribute open courseware content. All of the assets and courseware developed as a part of this effort will continue be freely available to all, for personal or commercial use.
+
+*Statement on alignment with LF AI’s mission:*
+
+DataPractices.org was created to help raise the level of data literacy and modern, ethical, data practice throughout the ecosystem. Our ethical framework, and open courseware, will help to further the mission of the LF AI & Data foundation.
+
+*Describe identified possible collaboration opportunities with current LF AI hosted projects:*:
+
+DataPractices.org has the unique potential to collaborate with any AI or Data initiative by hosting educational content, or helping with values and principles in the development of culture or content. That said, OpenDS4All would be a great place to build on courseware and leverage expert connections to create more. Downstream, datapractices.org could be a platform to collaboratively develop and publish content to help elevate data and AI literacy more broadly, especially around the AI toolkit projects.
+
+*License*: 
+
+  - link:https://creativecommons.org/licenses/by/4.0/deed.ast[CC BY 4.0]
+
+*Source control*:
+
+  * link:https://github.com/datadotworld/data-practices-site[Data Practices Github]
+
+*Tools in use by this project*:
+
+  - Node.js
+  - Wintersmith
+  - Axios
+  - Mandrill
+  - Github sites
+
+*Issue tracker*:
+
+  - None
+ 
+*Collaboration tools*:
+  
+  - None
+  
+*External dependencies including licenses (name and version) of those dependencies*:
+  
+  - None 
+
+*Initial committers*:
+  
+  - Patrick McGarry - patrick@data.world, data.world, 3 years
+  - Joe Boutros - data.world, 2 years
+  - Mark DiMarco - mark@data.world, 3 years 
+  
+*Have the project defined the roles of contributor, committer, maintainer, etc.?*
+  
+  - All volunteer contributions, no roles assigned beyond "signatory"
+
+*Total number of contributors to the project*:
+  
+  - 35 authors
+  - 2,239 signatories
+
+*Does the project have a release methodology? Please document it in RELEASES.md*:
+  
+  - No 
+  
+*Code of conduct*:
+  
+  - link:https://datapractices.org/courseware/coc.html[Data Practice Code of Conduct]
+
+*Infrastructure requests*:
+  
+  - Complete the automation work to remove manual approval process
+  - Migrate hosting to an LF-owned github 
+
+*Project website*:
+  
+  - https://datapractices.org/ 
+
+*Project governance*:
+  
+  - No current explicit project governance 
+
+*Social media accounts*
+  
+  - None 
+  
+*Existing sponsorship*:
+  
+  - data.world provided incubation, development, and resources prior to donation to The Linux Foundation
