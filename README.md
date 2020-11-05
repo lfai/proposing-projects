@@ -1,10 +1,10 @@
 ![alt text](https://artwork.lfaidata.foundation/lfaidata-assets/lfaidata/horizontal/color/lfaidata-horizontal-color.png)
 
-# Hosting Projects under the LF AI Foundation 
-This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/process%20and%20lifecylce/LF%20AI%20Project%20Process%20and%20Lifecycle%2009032019.pdf">LF AI Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI hosted project. 
+# Hosting Projects under the LF AI & Data Foundation 
+This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/process%20and%20lifecylce/LF%20AI%20Project%20Process%20and%20Lifecycle%2009032019.pdf">LF AI & Data Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI & Data Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI & Data hosted project. 
 This repo also includes a <a href="https://github.com/lfai/proposing-projects/blob/master/proposal-template.adoc">template</a> that we recommend you use when making such a proposal. We also make available copies of <a href="https://github.com/lfai/proposing-projects/tree/master/proposals">previous proposals</a> for your referenece. 
 
-For any questions, please contact the LF AI staff via info@lfai.foundation.
+For any questions, please contact the LF AI & Data staff via info@lfaidata.foundation.
 
 # Incubation Stage Requirements
 
@@ -17,8 +17,8 @@ To be accepted to at the Incubation stage, a project must:
 <li> Provide such additional information as the TAC or GB may reasonably request
 <li> Demonstrate a substantial ongoing flow of commits and merged contributions
 <li> Have a healthy number of committers. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project
-<li> Be deemed by the TAC and GB to add value to the artificial intelligence, machine learning and/or deep learning space and to fall within the mission and scope of LF AI
-<li> Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join LF AI effort
+<li> Be deemed by the TAC and GB to add value to the artificial intelligence, machine learning and/or deep learning space and to fall within the mission and scope of LF AI & Data 
+<li> Agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. In the case of projects with established trademarks where a trademark transfer is difficult, we generally recommend the project begin operations under a new name. Note that no patent or copyright assignment is necessary in order for a project to join LF AI & Data effort
 </ul>
 
 # Graduation Stage Requirements
@@ -59,6 +59,6 @@ To be accepted to the Graduation stage, a project must meet the Incubation stage
 [DELTA](https://github.com/didi/delta) | [Tiger Wang](https://github.com/lfai/proposing-projects/blob/master/proposals/DELTA-LFAI-ProjectProposal.md) | [09/10/2020] | Incubation | tbd | Tiger Wang, wangyunbo@didiglobal.com | tbd | [03/10/2022] | n/a
 [SOAJS](https://www.github.com/soajs) | [Antoine Hage](https://github.com/lfai/proposing-projects/blob/master/proposals/soajs.adoc) | [09/10/2020] | Incubation | tbd | Antoine Hage, antoine@soajs.org | tbd | [03/10/2022] | n/a
 [FEAST](https://github.com/feast-dev/feast) | [Willem Pienaar](https://github.com/lfai/proposing-projects/blob/master/proposals/feast.adoc) | [09/24/2020] | Incubation | tbd | Willem Piennar, willem.p@gojek.com | tbd | [04/24/2022] | n/a
-[ODPi Egeria](https://github.com/odpi/egeria) | [Mandy Chessell](https://github.com/lfai/proposing-projects/blob/master/proposals/egeria) | [09/24/2020] | Graduation | [10/6/2020] | Mandy Chessell, mandy_chessell@uk.ibm.com | tbd | n/a | n/a
-[OpenDS4All](https://github.com/odpi/OpenDS4All) | [Andre de Waal](https://github.com/lfai/proposing-projects/blob/master/proposals/opends4all) | [09/24/2020] | Incubation Proposal | tbd | Andre de Wal, andre.dewaal@ibm.com | tbd |[04/24/2022]| n/a
+[Egeria](https://github.com/odpi/egeria) | [Mandy Chessell](https://github.com/lfai/proposing-projects/blob/master/proposals/egeria) | [09/24/2020] | Graduation | [10/6/2020] | Mandy Chessell, mandy_chessell@uk.ibm.com | tbd | n/a | n/a
+[OpenDS4All](https://github.com/odpi/OpenDS4All) | [Andre de Waal](https://github.com/lfai/proposing-projects/blob/master/proposals/opends4all) | [09/24/2020] | Incubation | tbd | Andre de Wal, andre.dewaal@ibm.com | tbd |[04/24/2022]| n/a
 [DataPractices.org](https://datapractices.org/) | [Patrick McGarry](https://github.com/lfai/proposing-projects/blob/master/proposals/datapractices.adoc) | [Scheduled for 11/05/2020] | Incubation Proposal | tbd | Patrick McGarry, patrick@data.world | tbd |[tbd]| n/a
