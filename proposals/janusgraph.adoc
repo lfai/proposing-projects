@@ -1,0 +1,102 @@
+== JanusGraph Project Proposal
+
+*Name of the project:* JanusGraph
+
+*Requested maturity level:* Incubation
+
+*Project description:*
+
+JanusGraph is an open source, distributed graph database under The Linux Foundation.
+JanusGraph is available under the Apache License 2.0. The project is supported by IBM, Google,
+Hortonworks and Grakn Labs.
+
+JanusGraph supports various storage backends (Apache Cassandra, Apache HBase, Google Cloud Bigtable,
+Oracle BerkeleyDB, Scylla). Additionally, JanusGraph supports 3rd party storage adapters to be used with other
+underlying storage databases (existing adapters: Aerospike, DynamoDB, FoundationDB).
+Scalability of JanusGraph depends on the underlying technologies, which are used with JanusGraph.
+For example, by using Apache Cassandra as a storage backend scaling to multiple datacenters is provided out of the box.
+
+In addition to online transactional processing (OLTP), JanusGraph supports global graph analytics (OLAP)
+with its Apache Spark integration.
+
+JanusGraph supports geo, numeric range, and full-text search via external index storages
+(ElasticSearch, Apache Solr, Apache Lucene).
+
+JanusGraph has native integration with the Apache TinkerPop graph stack (Gremlin graph query language,
+Gremlin graph server, Gremlin applications).
+
+Originally, JanusGraph is the fork of TitanDB graph database (which is being developed since 2012).
+The first version of JanusGraph 0.1.0 was released on April 20, 2017.
+
+JanusGraph is a valuable graph database because it is developed to be a layer on top of other databases and thus,
+developers of JanusGraph may focuse more on solving challenges related to graph itself.
+Instead of spending time "reinventing the wheel", developers may leverage existing stores which focus on low level
+storage optimizations / performance / consistency / compression while use JanusGraph which focus more on
+query optimizations, TinkerPop stack up-to date implementations, data storage / index storage integration, etc.
+
+*Alignment with LF AI & Data Mission:*
+
+JanusGraph seeks to provide users with an open source, scalable graph database which can be easily used to store and query graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
+
+The most natural way to express neural networks in AI and ML is to use graphs (the network forms a directed, weighted graph).
+
+JanusGraph aligns with the LF AI & Data Mission by providing the technology, which supports storing, querying and scaling massive graph data.
+
+*Possible collaboration opportunities with current LF AI hosted projects:*
+
+•	Egeria (graduate project) has a number of open JanusGraph connectors. A direct collaboration could be done to improve these connectors.
+•	Amundsen (incubating project) has “Amundsen Metadata Service” project which can use either Neo4j or Apache Atlas as a persistent layer. Apache Atlas uses JanusGraph internally which creates indirect collaboration between Amundsen and JanusGraph but we can go even farther and add direct JanusGraph support to the project.
+•	All projects that need to store and query big graph data
+
+*License:* APACHE-2.0 and CC-BY-4.0 - https://github.com/JanusGraph/janusgraph/blob/master/LICENSE.txt
+
+*Source control:*
+
+•	https://github.com/JanusGraph/janusgraph[janusgraph] – Main database repository. Includes Java Gremlin Language Variant (GLV)
+•	https://github.com/JanusGraph/janusgraph-dotnet[janusgraph-dotnet] -  JanusGraph .NET Gremlin Language Variant (GLV)
+•	https://github.com/JanusGraph/janusgraph-python[janusgraph-python] -  JanusGraph Python Gremlin Language Variant (GLV)
+•	https://github.com/JanusGraph/janusgraph-docker[janusgraph-docker] - JanusGraph Docker images
+•	https://github.com/JanusGraph/janusgraph-ambari[janusgraph-ambari] -  JanusGraph Ambari plugin
+•	https://github.com/JanusGraph/janusgraph-cassandra[janusgraph-cassandra] -  Cassandra Thrift and Embedded Backend Adapter for JanusGraph
+•	https://github.com/JanusGraph/janusgraph-foundationdb[janusgraph-foundationdb] - FoundationDB storage adapter for JanusGraph
+•	https://github.com/JanusGraph/janusgraph.org[janusgraph.org] – Main web page repository
+•	https://github.com/JanusGraph/docs.janusgraph.org[docs.janusgraph.org] – Documentation repository
+•	https://github.com/JanusGraph/logos[logos] – JanusGraph logos
+•	https://github.com/JanusGraph/blog.janusgraph.org[blog.janusgraph.org] – was intended to be a blog
+•	https://github.com/JanusGraph/legal[legal] – Repository to support CLA paper signers (deprecated as it was replaced by EasyCLA)
+
+*Issue Tracker:* https://github.com/JanusGraph/janusgraph/issues
+
+*Collaboration tools:*
+
+•	https://gitter.im/janusgraph/janusgraph[Gitter users group]
+•	https://gitter.im/janusgraph/janusgraph-dev[Gitter developers group]
+•	https://groups.google.com/g/janusgraph-users[Google users group]
+•	https://groups.google.com/g/janusgraph-dev[Google developers group]
+•	https://groups.google.com/g/janusgraph-private[Google TSC group]
+
+*External dependencies:* https://github.com/JanusGraph/janusgraph/blob/master/NOTICE.txt
+
+*Initial committers:* https://github.com/JanusGraph/janusgraph/blob/master/CONTRIBUTORS.txt
+
+*Project defined roles:*
+
+•	*Committers* - members with direct write access to the project repositories. Have voting power during PR reviews.
+•	*Technical Steering Committee* - members who are responsible for the direction of the project and for the release lifecycle.
+
+*Total number of contributors to the project including their affiliations:* 129
+
+*Release lifecycle:* https://github.com/JanusGraph/janusgraph/blob/master/RELEASING.md
+
+*Code of conduct:* https://github.com/JanusGraph/janusgraph/blob/master/CODE_OF_CONDUCT.md
+
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?:* No
+
+*Project website:* https://janusgraph.org
+
+*Development documentation:* https://docs.janusgraph.org/development
+
+*Social media accounts:*
+
+•	https://twitter.com/JanusGraph
+•	https://www.linkedin.com/company/janusgraph
