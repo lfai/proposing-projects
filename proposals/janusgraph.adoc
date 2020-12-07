@@ -1,3 +1,5 @@
+ACCEPTED December 3, 2020
+
 == JanusGraph Project Proposal
 
 *Name of the project:* JanusGraph
