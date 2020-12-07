@@ -1,3 +1,5 @@
+*ACCEPTED November 5, 2020*
+
 == DataPractices.org Projects Proposal for LF AI & Data 
 
 *Name of the project*: DataPractices.org 
