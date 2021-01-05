@@ -1,0 +1,77 @@
+== Mars Project Proposal
+
+
+*Name of the project*: Mars
+
+*Requested project maturity level*: Incubation
+
+*Project description*
+
+Mars is a tensor-based unified framework for large-scale data computation
+which scales Numpy, pandas, Scikit-learn and Python functions.
+
+Mars is designed to be production-grade, utilizing parallel and distributed technology to
+accelerate Python data science technique stack. NVIDIA GPU can be leveraged as well for acceleration purpose.
+
+Mars is fairly simple to integrate with large amount of popular Python machine learning and
+deep learning libraries, e.g. XGBoost, LightGBM, TensorFlow, PyTorch, Statsmodels and joblib.
+
+*Statement on alignment with LF AI’s mission:*
+
+Mars tensor as well as DataFrame are dedicated to accelerate numpy and pandas which is crucial for data preprocessing,
+Mars learn is designed to bring scikit-learn to a cluster to accelerate machine learning workloads.
+Besides, Mars is born to be more friendly to integrate with existing machine learning and deep learning libraries.
+
+*Describe identified possible collaboration opportunities with current LF AI hosted projects:*:
+
+* Horovod
+* ONNX
+* Ludwig
+* Milvus
+
+*License*: Apache License 2.0
+
+*Source control (GitHub, etc.)*: https://github.com/mars-project/mars
+
+*Issue tracker (GitHub, JIRA, etc)*: https://github.com/mars-project/mars/issues
+
+*Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)*
+
+Mailing list: https://groups.google.com/forum/#!forum/mars-dev
+
+*External dependencies including licenses (name and version) of those dependencies.*
+
+Please refer to: https://github.com/mars-project/mars/blob/dddc7d2dbedbb014c9576dd1cd3adc7b0d6b8aef/LICENSE#L208
+
+*Initial committers (name, email, organization) and how long have they been working on project?*
+
+* Chris Qin, qinxuye@gmail.com, Alibaba Group, 25 months.
+* Wenjun Si, swj0066@gmail.com, Alibaba Group, 25 months.
+* Kaisheng He, heks93@163.com, Alibaba Group, 25 months.
+
+*Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.*: https://github.com/mars-project/mars/blob/master/MAINTAINERS.md[MAINTAINERS.md]
+
+*Total number of contributors to the project including their affiliations.*
+
+17 contributors at the time of writing: https://github.com/mars-project/mars/graphs/contributors .
+
+*Does the project have a release methodology? Please document it in RELEASES.md.*: https://github.com/mars-project/mars/blob/master/RELEASES.md[RELEASES.md]
+
+*Does the project have a code of conduct?*: https://github.com/mars-project/mars/blob/master/CODE_OF_CONDUCT.md[CODE_OF_CONDUCT.md]
+
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
+
+* GPU support on CI.
+
+*Project website*: Subdomain docs.pymars.org is used to host documentation, it would be great to receive help for main page.
+
+*Project governance*: Project committee will hold regular discussion regarding development requirements and future road map.
+Mars project committee is open for the community. It's welcomed that outside contributors could join the team.
+
+*Social media accounts*
+
+* Twitter: https://twitter.com/pymars_dev
+
+*Existing sponsorship*
+
+Aliyun started and has been the main contributor to the project so far.
