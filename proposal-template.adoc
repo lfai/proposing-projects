@@ -3,7 +3,7 @@
 
 * Name of project -- or proposed name (must be unique within LF AI)
 
-* Requested project maturity level: Graduation or Incubation stage.
+* Requested project maturity level: Sandbox | Incubation | Graduated.
 
 * Project description (what it does, why it is valuable, origin and history, ongoing development).
 
