@@ -15,6 +15,10 @@
 
 * Source control (GitHub, etc.) - Please confirm tools in use. 
 
+* Does the project sits in its own GH organization?
+
+* Do you have the GH DCO app active in the repos? 
+
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
 
 * Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
@@ -30,6 +34,8 @@
 * Does the project have a release methodology? Please document it in RELEASES.md. 
 
 * Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+
+* Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level. 
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 
