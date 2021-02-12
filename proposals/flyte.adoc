@@ -5,7 +5,7 @@
 *Requested project maturity level*: Incubation 
 
 *Project description* (what it does, why it is valuable, origin and history, ongoing development).
-Flyte is a production-grade, declarative, structured and highly scalalble cloud-native workflow
+Flyte is a production-grade, declarative, structured and highly scalable cloud-native workflow
 orchestration platform. It allows users to describe their ML/Data pipelines
 using Python, Java or (in the future other languages) and Flyte manages the
 data flow, parallelization, scaling and orchestration of these pipelines. Flyte
