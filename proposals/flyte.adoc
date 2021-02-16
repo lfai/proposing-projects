@@ -34,60 +34,84 @@ feature serving, Marquez etc. It might be a great central system for many projec
 to interact and enrich the users workflows.
 
 *License name, version, and URL to license text*
+
 Apache 2.0
 https://github.com/flyteorg/flyte/blob/master/LICENSE
 
 *Source control (GitHub, etc.) - Please confirm tools in use.*
+
 Github: https://github.com/flyteorg/flyte
 
 *Does the project sits in its own GH organization?*
+
 Yes
 
 *Do you have the GH DCO app active in the repos?*
 
 *Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.*
-https://github.com/flyteorg/flyte/issues
+
+GitHub Issues: https://github.com/flyteorg/flyte/issues
 
 *Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.*
-Slack: http://flyte-org.slack.com/
-Mailing List: https://groups.google.com/a/flyte.org/g/users?pli=1
-ReadTheDocs: http://flyte.readthedocs.org/
-Github Workflows for CI.
+
+- Slack: http://flyte-org.slack.com/
+- Mailing List: https://groups.google.com/a/flyte.org/g/users?pli=1
+- ReadTheDocs: http://flyte.readthedocs.org/
+- Github Workflows for CI.
 
 *External dependencies including licenses (name and version) of those dependencies.*
+
+**System dependencies**
 - Kubernetes
 - Postgres
 - Golang
 - Python
 - Java
+- Protobuf
+- gRPC
+
+**Plugin Dependencies**
+- Pandas
+- Apache Spark
+- AWS SDK
+- GCP SDK
+- Sagemaker training toolkit
 
 *Initial committers (name, email, organization) and how long have they been working on project?*
-- Ketan Umare ketan.umare@gmail.com - Lyft (formerly) (48 months+)
-- Haytham Abuelfutuh
-- Anand Swaminathan
-- Yee Tong
-- Honxing
-- Gleb Kanterov
-- Jeev
-- Katrina Rogan
+- Ketan Umare - @kumare3 - Lyft (formerly) (48 months+)
+- Haytham Abuelfutuh - @EngHabu Lyft (formerly) (36 months+)
+- Anand Swaminathan - @aswaminathan Lyft (40 months+)
+- Yee Tong - @wild-endeavor Lyft (formerly) (40+ months)
+- Katrina Rogan - @katrogan Lyft (formerly) (40+ months)
+- Honxing - @honnix Spotify (12+ months)
+- Gleb Kanterov - @kanterov Spotify (12+ months)
+- Jeev B - @jeev Freenome (12+ months)
 
 
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.*
 Not yet - but in the process.
 
 *Total number of contributors to the project including their affiliations.*
-45+ - Will add a link here
+45+ contributors.
+The contributors are split across multiple repositories and have small contributions to large contributions
+A core group of contributors (30+) is managed by this Github team - https://github.com/orgs/flyteorg/teams/flyte-contributors/members
 
 *Does the project have a release methodology? Please document it in RELEASES.md.*
+
 Since open sourcing we have never broken any of our users (no backwards incompatible changes), but we release a new `minor` version every month end. 
 
-*Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.*
+*Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to 
+
+https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.*
 
 *Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.*
 
-* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+*Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
+
+Ideally a cloud account where we could run Kubernetes integration tests.
 
 *Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?*
+
 We have a website [https://flyte.org](https://flyte.org), we definitely want to update the content and have a proper build process around it.
 
 *Project governance - Do you have a working governance model for the project?  Please provide URL to where it is documented, typically GOVERNANCE.md.*
