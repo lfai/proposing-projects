@@ -62,7 +62,7 @@ Github Workflows for CI.
 - Java
 
 *Initial committers (name, email, organization) and how long have they been working on project?*
-- Ketan Umare ketan.umare@gmail.com - Lyft, now Nuclyde (48 months+)
+- Ketan Umare ketan.umare@gmail.com - Lyft (formerly) (48 months+)
 - Haytham Abuelfutuh
 - Anand Swaminathan
 - Yee Tong
