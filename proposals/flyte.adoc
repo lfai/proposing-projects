@@ -117,7 +117,9 @@ We have a website [https://flyte.org](https://flyte.org), we definitely want to 
 *Project governance - Do you have a working governance model for the project?  Please provide URL to where it is documented, typically GOVERNANCE.md.*
 
 *Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.*
-Only Twitter as of now - [#flyteorg](https://twitter.com/flyteorg)
+
+ - Twitter as of now - [#flyteorg](https://twitter.com/flyteorg)
+ - Youtube channel - [#flyte](https://www.youtube.com/channel/UCNduEoLOToNo3nFVly-vUTQ)
 
 *Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.*
 This project was incubated and created at Lyft. Now it is used by other major organizations and with a sizeable number of contributors. 
