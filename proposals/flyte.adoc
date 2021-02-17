@@ -78,6 +78,7 @@ GitHub Issues: https://github.com/flyteorg/flyte/issues
 - Sagemaker training toolkit
 
 *Initial committers (name, email, organization) and how long have they been working on project?*
+
 - Ketan Umare - @kumare3 - Lyft (formerly) (48 months+)
 - Haytham Abuelfutuh - @EngHabu Lyft (formerly) (36 months+)
 - Anand Swaminathan - @aswaminathan Lyft (40 months+)
