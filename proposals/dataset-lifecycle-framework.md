@@ -1,6 +1,6 @@
 **Name of proposed project:**
-
-Dataset Lifecycle Framework
+ 
+Dataset Lifecycle Framework (project renamed Datashim)
 
 **Requested project maturity level:**
   
