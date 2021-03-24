@@ -39,6 +39,7 @@ LF AI & Data's mission includes to drive open source innovation in the AI, ML, D
 
 - [DockerHub](https://hub.docker.com/orgs/substrafoundation)
 - [PyPI](https://pypi.org/project/substra/)
+- [Helm Charts](https://artifacthub.io/packages/search?page=1&repo=substra)
 - <tbc>
 
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
