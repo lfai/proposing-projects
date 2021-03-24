@@ -19,6 +19,8 @@ It is currently under development by the Substra engineering team at Owkin. The 
 
 * Statement on alignment with LF AI’s mission:
 
+LF AI & Data's mission includes to drive open source innovation in the AI, ML, DL, and Data domains by enabling collaboration and the creation of new opportunities for all the members of the community. In its effort to enable and foster new privacy-preserinv collaborations on Machine Learning challenges, Substra Framework aligns well and complements other LF AI & Data supported projects in the field of federated learning and privacy-preserving AI.
+
 * Describe identified possible collaboration opportunities with current LF AI hosted projects:
 
 * License name, version, and URL to the license text:
@@ -34,6 +36,10 @@ It is currently under development by the Substra engineering team at Owkin. The 
 - [Substra documentation](https://github.com/SubstraFoundation/substra-documentation)
 
 * Please list tools in use by the project:
+
+- [DockerHub](https://hub.docker.com/orgs/substrafoundation)
+- [PyPI](https://pypi.org/project/substra/)
+- <tbc>
 
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
 
