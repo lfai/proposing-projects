@@ -18,13 +18,12 @@ one keeps their private datasets behind their own firewall.
 Origin and history:
 
 - Following-up on a previous collaborative initiative called
-    [Morpheo](http://morpheo.co/), the main concepts underlying the Substra
-    Framework were designed during the elaboration of a multi-partner research
-    project proposal in H2 2017 - H1 2018. It became an actual project once
-    supported by Bpifrance as part of the Healthchain consortium, which
-    resulted from the Digital Investments Program for the major challenges of
-    the future RFP. As part of the Healthchain initiative, a consortium
-    coordinated by Owkin (a private company) has been established, including
+    [Morpheo](http://morpheo.co/), the main concepts underlying the Substra Framework
+    were designed during the elaboration of a multi-partner research project,
+    named HealthChain, in H2 2017 - H1 2018. This HealthChain project was
+    supported by Bpifrance as part of the Digital Investments Program for the
+    major challenges of the future. This enabled the creation of a consortium consortium
+    coordinated by Owkin (a private company), including
     Substra Foundation, Apricity (a private company), the Assistance Publique
     des Hôpitaux de Paris, the University Hospital Center of Nantes, the Léon
     Bérard Center, the French National Center for Scientific Research, the
