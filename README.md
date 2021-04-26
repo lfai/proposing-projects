@@ -10,7 +10,7 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 
 **Project**|**Proposal**|**Accepted**|**Maturity Level**|**Graduation Date**|**Project Technical Lead**|**TAC Sponspor**|**18-Months Incubation Milestone**|
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-[Acumos](https://acumos.org) | n/a | [03/26/18]|Accepted as Graduation | n/a| TSC Chair Vacant | tbd | n/a 
+[Acumos](https://acumos.org) | n/a | [03/26/18]|Accepted as Graduation | n/a| Nat Subramanian, natarajan.subramanian@techmahindra.com | tbd | n/a 
 [Angel](https://github.com/Angel-ML/angel/)|[Fitz Wang](https://drive.google.com/open?id=1uEz94yqA1teKFgSegB4HcDgiS47v0q82) | [06/07/18] | Graduation / [Graduation Proposal](https://github.com/lfai/proposing-projects/blob/master/proposals/Angel-Graduation-Proposal.pdf) | [12/03/2019] | Bruce Tao, brucetao@tencent.com | tbd | n/a 
 [Elastic Deep Learning](https://github.com/PaddlePaddle/edl) | [Daxiang Dong](https://github.com/lfai/proposing-projects/blob/master/proposals/edl.adoc) | [07/05/18] | Incubation | tbd | Daxiang Dong, dongdaxiang@baidu.com | tbd | [01/05/20] 
 [Horovod](https://github.com/horovod/horovod)|[Alex Sergeev](https://drive.google.com/open?id=1cFNEA_FT-2Vw9pFaB77MYOkea1FVVLU5) | [12/06/18] | Graduation / [Graduation Proposal](https://docs.google.com/presentation/d/1nGRY3OCzNH1kiwLZDtWOsd8ziGYLDgN4ksc2-j9l_M4/edit#slide=id.g7a9b93e949_0_0)| [09/01/2020] | Travis Addair, taddair@uber.com | tbd | n/a 
