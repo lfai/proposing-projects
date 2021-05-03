@@ -1,16 +1,14 @@
-== Machine Laraning Exchange (MLX) Project Proposal
+== Machine Learning Exchange (MLX) Project Proposal
 
 *Name of the projects*: 
 
-  - Machine Laraning Exchange (MLX)
+  - Machine Learning Exchange (MLX)
 
 *Requested maturity level*: Incubation
 
 *Description*
 
-We are open sourcing Machine Laraning Exchange (MLX), a Data and AI Assets Catalog and Execution Engine
-
-*Machine Laraning Exchange (MLX)* is a platform we are open sourcing to upload, register, execute, and deploy 
+We are open sourcing *Machine Learning Exchange (MLX)* , a Data and AI Assets Catalog and Execution Engine. It allows upload, register, execute, and deploy 
 
  - AI pipelines and Components
  - Models
@@ -25,7 +23,6 @@ Additionally it provides:
  - Datasets Management by Datashim
  - Preregistered Datasets from Data Asset Exchange (DAX) and Models from Model Asset Exchange(MAX)
  - Model Metadata schema aligned with MLSpec
-
 
 *Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
 
