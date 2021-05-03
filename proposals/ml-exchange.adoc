@@ -4,7 +4,7 @@
 
   - Machine Learning Exchange (MLX)
 
-*Requested maturity level*: Incubation
+*Requested maturity level*: Sandbox
 
 *Description*
 
@@ -106,12 +106,12 @@ https://github.com/machine-learning-exchange/mlx/graphs/contributors
   - Hosting MlX on a Kubernetes Cluster. Additionally help with Website design and development.
 
 *Current mailing lists:*
-  - Project currently do not have mailing lists.  
+  - Project currently does not have mailing list.  
 
 *Resources:* 
 
   * Discussions - Slack
-  * CI - .
+  * CI - Currently on IBM Cloud. Would request LFAI and Data for Infrastrucuture support.
   * Issues - repo tracks its issues via GitHub.
   * packages - repo publishes it's own packages to pypi
 
