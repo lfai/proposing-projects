@@ -38,17 +38,16 @@ Acumos SDK to generate compliant metadata.
 
 *License*: 
 
-  - MLX: Apache 2.0
+  - Apache 2.0
      * https://github.com/machine-learning-exchange/mlx/blob/master/LICENSE
 
 *Source Control*:
 
-  - MLX: https://github.com/machine-learning-exchange/mlx
+  - https://github.com/machine-learning-exchange/mlx
 
 *External dependencies including licenses (name and version) of those dependencies*:
 
-  - MLX:
-  * Python dependencies (from API):
+  - Python dependencies (from API):
 ai-pipeline-params (MIT License), 
 autopep8 (MIT License), 
 certifi (Mozilla Public License 2.0), 
@@ -72,7 +71,7 @@ swagger-ui-bundle (Apache 2.0),
 urllib3 (MIT License), 
 Werkzeug (BSD License)
 
-  * NodeJS dependencies (from UI/dashboard):
+ - NodeJS dependencies (from UI/dashboard):
 codemirror (MIT), 
 dagre (MIT), 
 deepmerge (MIT), 
@@ -89,7 +88,6 @@ yamljs (MIT)
 
 *Initial Committers:*
 
-*MLX:*
   - Andrew Butler, IBM
   - Animesh Singh, IBM
   - Christian Kadner, IBM
@@ -98,7 +96,7 @@ yamljs (MIT)
 
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
-- MLX: https://github.com/machine-learning-exchange/mlx/blob/master/MAINTAINERS.md
+- https://github.com/machine-learning-exchange/mlx/blob/master/MAINTAINERS.md
 
 *Total number of contributors to the project including their affiliations:*
 
@@ -122,16 +120,14 @@ https://github.com/machine-learning-exchange/mlx/graphs/contributors
 
 *Website:*
 
-- MLX: N/A
+- N/A
 
 *Release methodology & mechanics:*
-
-*MLX:*
 
   - https://github.com/machine-learning-exchange/mlx/releases
 
 
-General Release Methodology for *AIF360/AIX360*:
+General Release Methodology:
 
   - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
   - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
