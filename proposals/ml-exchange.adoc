@@ -1,0 +1,143 @@
+== Machine Learning Exchange (MLX) Project Proposal
+
+*Name of the projects*: 
+
+  - Machine Learning Exchange (MLX)
+
+*Requested maturity level*: Sandbox
+
+*Description*
+
+We are open sourcing *Machine Learning Exchange (MLX)* , a Data and AI Assets Catalog and Execution Engine. It allows upload, register, execute, and deploy 
+
+ - AI pipelines and Components
+ - Models
+ - Datasets
+ - Notebooks
+
+Additionally it provides: 
+
+ - Automated sample pipeline code generation to execute egistered models, datasets and notebooks
+ - Pipelines Engine powered by Kubeflow Pipelines on Tekton, core of Watson Pipelines
+ - Serving engine by KFServing (Next gen base for WML)
+ - Datasets Management by Datashim
+ - Preregistered Datasets from Data Asset Exchange (DAX) and Models from Model Asset Exchange(MAX)
+ - Model Metadata schema aligned with MLSpec
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
+
+MLX already has integration hooks with LFAI Trusted AI projects, including Adversarial Robustness 360 (ART), AI Fairness 360 (AIF360), AI Explainability 360 (AIX360)
+by creatiing Pipeline components for these. Additionally Datasets execution is powered by Datashim for downloads and PVC creation, which is also in LFAI and Data. 
+
+We have also been exploring integration with Acumos projects, by identifying how to take models from Machine Learning Exchnage and moving them to Acumos Marketplace by using
+Acumos SDK to generate compliant metadata.
+
+
+*License*: 
+
+  - Apache 2.0
+     * https://github.com/machine-learning-exchange/mlx/blob/master/LICENSE
+
+*Source Control*:
+
+  - https://github.com/machine-learning-exchange/mlx
+
+*External dependencies including licenses (name and version) of those dependencies*:
+
+  - Python dependencies (from API):
+ai-pipeline-params (MIT License), 
+autopep8 (MIT License), 
+certifi (Mozilla Public License 2.0), 
+connexion (Apache 2.0), 
+Flask (BSD License), 
+Flask-Cors (MIT License), 
+kfp (Apache Software License), 
+kfp-notebook (Apache Software License), 
+kfp-pipeline-spec (Apache 2.0), 
+kfp-server-api (Apache 2.0), 
+kfp-tekton (Apache Software License), 
+kfserving (Apache Software License), 
+ubernetes (Apache Software License), 
+minio (Apache Software License), 
+mysql-connector-python (GNU General Public License (GPL)), 
+python-dateutil (BSD License, Apache Software License), 
+PyYAML (MIT License), 
+requests (Apache Software License), 
+six (MIT License), 
+swagger-ui-bundle (Apache 2.0), 
+urllib3 (MIT License), 
+Werkzeug (BSD License)
+
+ - NodeJS dependencies (from UI/dashboard):
+codemirror (MIT), 
+dagre (MIT), 
+deepmerge (MIT), 
+jest (MIT), 
+js-yaml (MIT), 
+material-ui (MIT), 
+node (MIT), 
+react (MIT), 
+reactjs (MIT), 
+styled-components (MIT), 
+typescript (Apache-2.0), 
+typestyle (MIT), 
+yamljs (MIT)
+
+*Initial Committers:*
+
+  - Andrew Butler, IBM
+  - Animesh Singh, IBM
+  - Christian Kadner, IBM
+  - Tommy Chaopling Li, IBM
+ 
+
+*Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
+
+- https://github.com/machine-learning-exchange/mlx/blob/master/MAINTAINERS.md
+
+*Total number of contributors to the project including their affiliations:*
+
+- Project is an IBM incubared project, with 
+https://github.com/machine-learning-exchange/mlx/graphs/contributors
+
+
+*Infrastructure requests:*
+
+  - Hosting MlX on a Kubernetes Cluster. Additionally help with Website design and development.
+
+*Current mailing lists:*
+  - Project currently does not have mailing list.  
+
+*Resources:* 
+
+  * Discussions - Slack
+  * CI - Currently on IBM Cloud. Would request LFAI and Data for Infrastrucuture support.
+  * Issues - repo tracks its issues via GitHub.
+  * packages - repo publishes it's own packages to pypi
+
+*Website:*
+
+- N/A
+
+*Release methodology & mechanics:*
+
+  - https://github.com/machine-learning-exchange/mlx/releases
+
+
+General Release Methodology:
+
+  - Builds on the master branch (and pull requests to the master branch) are tested with Travis CI on our unit tests (Linux machine only).
+  - Non-critical fixes/features are generally held until a critical feature/fix is added and then all new additions are compiled into a release at that time
+  - Follow a MAJOR.MINOR.PATCH version numbering
+  - The PATCH number is increased when fixes or small features are added
+  - The MINOR number is increased when new algorithms or major (but backward-compatible) features are added
+  - The MAJOR number is increased when major backward-incompatible changes are made
+
+
+*Social media accounts:*
+
+N/A
+
+*Existing sponsorship:*
+
+N/A
