@@ -1,0 +1,181 @@
+== Kompute Project Proposal
+
+*Name of project*: Kompute
+
+*Requested project maturity level*: Sandbox
+
+=== Project description
+
+General purpose GPU compute framework for cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases. 
+
+Typical usecases are:
+
+* General Purpose GPU Computing
+* Develop GPU accelerated kernels for advanced data processing use-cases
+* Extend scientific applications to enable for mobile and cross vendor GPU support
+
+Kompute Mission:
+
+* Further the GPGPU ecosystem for scientific and industry applications through cross-vendor graphics card tooling and capabilities (across AMD, Qualcomm, NVIDIA & Friends)
+* Foster ecosystem of parallel & distributed frameworks, standards and applications that enables for efficient and robust GPGPU
+* Standardisation of underlying cross-vendor GPGPU computing across advanced data processing frameworks
+* Enable high performance processing for GPU accelerated mobile and edge processing use-cases
+
+
+=== Statement on alignment with LF AI’s mission
+
+Kompute Project will:
+
+* Provide interoperability for applications to introduce GPGPU through  higher level C++, Python, or other
+* Enable edge processing capabilities through current capabilities in Android, IOS, Raspberry Pi, etc
+* Build ecosystem of higher level tools for specialised functionality
+* Serve as an anchor to the Khronos Group as LFAI has core DL/ML application
+
+
+=== Possible collaboration opportunities with current LF AI hosted projects
+
+[options="header"]
+|===
+| Project Name|Potential Collaboration Description 
+| ADLIK | GPU for cross vendor graphics cards as well as edge and mobile integrations 
+| ONNX | Extensions to the server for cross vendor GPU support 
+| Acumos AI | Marketplace entry for deploying Kompute acceletated applications 
+| Angel | Cross vendor GPU support (using a JNI interface extended from Android support) 
+| Milvus | GPU for cross vendor graphics cards as well as edge and mobile integrations 
+| KubeEdge | Integration for GPU support on edge device and examples 
+| OpenYurt | Integration for GPU support on edge device and examples 
+| Kubernetes | General initiative to add support for cross-vendor GPU integration 
+| MLFlow | Runtime / backend for exporting / deploying kompute accelerated algorithms
+| Pyro | Exploration for backend for GPU acceleration in cross-vendor GPUs
+| Deltalake | Cross vendor GPU Acceleration for data processing
+| AI Fairness 360 | Backend integration for GPU accelerated algorithms in cross-vendor GPUs
+| AI Explainability 360 | Backend integration for GPU accelerated algorithms in cross-vendor GPUs
+| AI Adv Robustness | Backend integration for GPU accelerated algorithms in cross-vendor GPUs
+| Horovod | Example deploying Kompute powered application on non-standard GPU device 
+|===
+
+
+=== License name
+
+https://github.com/EthicalML/vulkan-kompute/blob/master/LICENSE[Apache 2.0]
+
+
+=== Source control (GitHub, etc.)
+
+* https://github.com/EthicalML/vulkan-kompute
+
+
+Technical tooling:
+
+* Github Actions for the CI
+
+
+=== GH organization
+
+* https://github.com/EthicalML/vulkan-kompute
+
+
+=== Issue tracker (GitHub, JIRA, etc)
+
+https://github.com/EthicalML/vulkan-kompute/issues
+
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+* https://github.com/EthicalML/vulkan-kompute/issues
+* Vulkan Kompute Discord Chat
+
+
+=== External dependencies including licenses (name and version) of those dependencies
+
+* Vulkan SDK (Apache License 2.0)
+
+
+[options="header"]
+|===
+| Resource | Usage | Licence
+| Vulkan SDK | GPU Integration | Apache 2.0
+| fmt | Text formatting for printing values | MIT
+| glslang | Shader language compilation | Apache 2.0
+| Google Test | Unit tests | BSD 3-clause
+| spdlog | Logging framework | MIT
+|===
+
+
+
+=== Initial committers (name, email, organization) and how long have they been working on project
+
+* Alejandro Saucedo, https://github.com/axsaucedo/, 1 year
+* Donald Whyte, https://github.com/DonaldWhyte, Donsoft, 6 months
+
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc
+
+Yes, see:
+
+* https://github.com/EthicalML/vulkan-kompute/blob/master/GOVERNANCE.md[GOVERNANCE.md]
+* https://github.com/EthicalML/vulkan-kompute/blob/master/CONTRIBUTING.md[CONTRIBUTING.md]
+
+
+=== Total number of contributors to the project including their affiliations
+
+Total contributors: 9
+
+Main Contributors:
+
+* https://github.com/axsaucedo
+* https://github.com/DonaldWhyte
+* https://github.com/hpgmiskin
+* https://github.com/alexander-g
+* https://github.com/unexploredtest
+
+
+=== Does the project have a release methodology
+
+CI and Release Steps: https://kompute.cc/overview/ci-tests.html#performing-release
+
+
+=== Does the project have a code of conduct
+
+https://github.com/EthicalML/vulkan-kompute/blob/master/CODE_OF_CONDUCT.md[Code of conduct], which refers to https://lfprojects.org/policies/code-of-conduct/.
+
+
+=== Did the project achieve any of the CII best practices badges
+
+Yes: https://bestpractices.coreinfrastructure.org/en/projects/4834/
+
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+* Github Actions
+* documentation is hosted on github pages
+
+
+=== Project website
+
+* Documentation: https://kompute.cc/
+
+
+=== Project governance
+
+Yes: https://github.com/EthicalML/vulkan-kompute/blob/master/GOVERNANCE.md
+
+
+=== Social media accounts
+
+* N/A
+
+
+=== Existing sponsorship
+
+Support:
+
+* N/A
+
+
+Early adopters:
+
+* https://github.com/alexander-g/vkJAX
+* https://github.com/EthicalML/
+* https://github.com/cytera
+
