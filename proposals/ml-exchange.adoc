@@ -8,29 +8,29 @@
 
 *Description*
 
-We are open sourcing *Machine Learning Exchange (MLX)* , a Data and AI Assets Catalog and Execution Engine. It allows upload, register, execute, and deploy 
+We are open sourcing *Machine Learning Exchange (MLX)*, a Data and AI Assets Catalog and Execution Engine. It allows upload, registration, execution, and deployment of:
 
- - AI pipelines and Components
- - Models
+ - AI pipelines and pipeline components
+ - Models
  - Datasets
  - Notebooks
 
 Additionally it provides: 
 
- - Automated sample pipeline code generation to execute egistered models, datasets and notebooks
- - Pipelines Engine powered by Kubeflow Pipelines on Tekton, core of Watson Pipelines
+ - Automated sample pipeline code generation to execute registered models, datasets and notebooks
+ - Pipelines engine powered by Kubeflow Pipelines on Tekton, core of Watson Pipelines
  - Serving engine by KFServing (Next gen base for WML)
- - Datasets Management by Datashim
- - Preregistered Datasets from Data Asset Exchange (DAX) and Models from Model Asset Exchange(MAX)
+ - Datasets management by Datashim
+ - Preregistered Datasets from Data Asset Exchange (DAX) and Models from Model Asset Exchange (MAX)
  - Model Metadata schema aligned with MLSpec
 
 *Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
 
 MLX already has integration hooks with LFAI Trusted AI projects, including Adversarial Robustness 360 (ART), AI Fairness 360 (AIF360), AI Explainability 360 (AIX360)
-by creatiing Pipeline components for these. Additionally Datasets execution is powered by Datashim for downloads and PVC creation, which is also in LFAI and Data. 
+by creating Pipeline components for these. Additionally, Datasets execution is powered by Datashim for downloads and PVC creation, which is also in LFAI and Data. 
 
-We have also been exploring integration with Acumos projects, by identifying how to take models from Machine Learning Exchnage and moving them to Acumos Marketplace by using
-Acumos SDK to generate compliant metadata.
+We have also been exploring integration with the Acumos projects, by identifying how to take models from Machine Learning Exchange and moving them to Acumos
+Marketplace by using the Acumos SDK to generate compliant metadata.
 
 
 *License*: 
@@ -40,7 +40,8 @@ Acumos SDK to generate compliant metadata.
 
 *Source Control*:
 
-  - https://github.com/machine-learning-exchange/mlx
+  - Git
+     * https://github.com/machine-learning-exchange/mlx
 
 *External dependencies including licenses (name and version) of those dependencies*:
 
@@ -90,34 +91,34 @@ yamljs (MIT)
   - Christian Kadner, IBM
   - Tommy Chaopling Li, IBM
  
-
 *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
 
 - https://github.com/machine-learning-exchange/mlx/blob/master/MAINTAINERS.md
 
 *Total number of contributors to the project including their affiliations:*
 
-- Project is an IBM incubared project, with 
+- Project is an IBM incubated project, with 
 https://github.com/machine-learning-exchange/mlx/graphs/contributors
 
 
 *Infrastructure requests:*
 
-  - Hosting MlX on a Kubernetes Cluster. Additionally help with Website design and development.
+  - Hosting MLX on a Kubernetes cluster. Additionally we request help with website design and development
 
 *Current mailing lists:*
-  - Project currently does not have mailing list.  
+
+  - Project currently does not have a mailing list.  
 
 *Resources:* 
 
   * Discussions - Slack
   * CI - Currently on IBM Cloud. Would request LFAI and Data for Infrastrucuture support.
   * Issues - repo tracks its issues via GitHub.
-  * packages - repo publishes it's own packages to pypi
+  * Packages - repo publishes its own packages to PyPI
 
 *Website:*
 
-- N/A
+  - N/A
 
 *Release methodology & mechanics:*
 
@@ -136,8 +137,8 @@ General Release Methodology:
 
 *Social media accounts:*
 
-N/A
+  - N/A
 
 *Existing sponsorship:*
 
-N/A
+  - N/A
