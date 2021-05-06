@@ -32,6 +32,16 @@ Includes code from:
   * Keqiu Hu <khu@linkedin.com> (LinkedIn), since Mar 2018
   * Jonathan Hung <jhung@linkedin.com> (LinkedIn), since Mar 2018
 
+*Have the project defined the roles of contributor, committer, maintainer, etc.?*
+
+None, we will work with LF to set up the open governance model for this.
+
+*Total number of contributors to the project including their affiliations at the time of submitting this proposal:*
+28
+
+*Does the project have a code of conduct?*
+https://github.com/linkedin/TonY/blob/master/CODE_OF_CONDUCT.md
+
 *Infrastructure requests:*
 
 None at the moment.
