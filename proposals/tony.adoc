@@ -36,6 +36,10 @@ Includes code from:
 
 None, we will work with LF to set up the open governance model for this.
 
+*Project governance*
+
+None, we will work with LF to set up the open governance model for this.
+
 *Total number of contributors to the project including their affiliations at the time of submitting this proposal:*
 28
 
