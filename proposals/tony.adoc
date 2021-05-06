@@ -1,0 +1,82 @@
+== TonY Project Proposal
+
+*Name of the project*: TonY
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+TonY is a framework to natively run deep learning jobs on Apache Hadoop. It currently supports TensorFlow, PyTorch, MXNet and Horovod. TonY enables running either single node or distributed training as a Hadoop application. This native connector, together with other TonY features, aims to run machine learning jobs reliably and flexibly. For a quick overview of TonY and comparisons to other frameworks, please see this presentation.
+
+*Possible integrations with existing LFAI projects:*
+
+* Horovod: https://github.com/linkedin/TonY/tree/master/tony-examples/horovod-on-tony
+
+*License*: BSD 2-CLAUSE LICENSE
+
+*Source control*:
+https://github.com/linkedin/TonY
+
+*External dependencies*:
+
+  * Apache Hadoop https://hadoop.apache.org/, Apache License 2.0
+  * Azkaban https://github.com/azkaban/azkaban, Apache License 2.0
+
+Includes code from:
+
+  * TensorFlow (https://github.com/tensorflow), Apache License 2.0
+  * TensorFlowOnYARN (https://github.com/Intel-bigdata/TensorFlowOnYARN), Apache-2.0
+
+*Initial committers:*
+
+  * Keqiu Hu <khu@linkedin.com> (LinkedIn), since Mar 2018
+  * Jonathan Hung <jhung@linkedin.com> (LinkedIn), since Mar 2018
+
+*Have the project defined the roles of contributor, committer, maintainer, etc.?*
+
+None, we will work with LF to set up the open governance model for this.
+
+*Project governance*
+
+None, we will work with LF to set up the open governance model for this.
+
+*Total number of contributors to the project including their affiliations at the time of submitting this proposal:*
+28
+
+*Does the project have a code of conduct?*
+https://github.com/linkedin/TonY/blob/master/CODE_OF_CONDUCT.md
+
+*Infrastructure requests:*
+
+None at the moment.
+
+*Current mailing lists:*
+
+None, we will request LF to create lists for users, developers, and TSC.
+
+*Resources:*
+
+  * Discussions - https://li-tony.slack.com/
+  * CI - https://app.circleci.com/pipelines/github/linkedin/TonY
+  * Issues - https://github.com/linkedin/TonY/issues
+  * packages - https://oss.sonatype.org/#welcome
+
+*Website:*
+
+None, we will request design resources to register a domain and design a proper website.
+
+*Release methodology & mechanics:*
+
+The release is performed when committers agree to do so. The release procedure is as follows:
+
+  * Verify Circle CI tests are passsing.
+  * Committers can run `./gradlew publish closeAndReleaseRepository` to automatically publish to artifactory.
+
+*Social media accounts:*
+None
+
+*Existing sponsorship:*
+LinkedIn, Google, iQiyi, and Netease have contributed to improve TonY.
+
+*CII Best Practices Badge:*
+None, will add.
