@@ -1,4 +1,4 @@
-==Kedro Project Proposal
+## Kedro Project Proposal
 
 *Name of the project*: Kedro
 
@@ -8,7 +8,7 @@
 
 *Alignment with LF AI & Data’s mission*: Kedro provides a framework for authoring machine learning code underpinned by software engineering best practice which in turn makes code easier to deploy into production systems. Kedro is a framework that supports LF AI & Data's objectives in MLOPs as well as Machine Learning Engineering.
 
-Have you identified possible collaboration opportunities with [current LF AI hosted projects](https://lfai.foundation/projects/)?
+Have you identified possible collaboration opportunities with current LF AI hosted projects?
 
  - Amundsen
  - Feast
@@ -35,46 +35,54 @@ Have you identified possible collaboration opportunities with [current LF AI hos
 
 *External dependencies*:
 
- - Languages:
-  - Python
-  - Javascript
+Languages:
+
+- Python
+- Javascript
   
- - Dependencies:
-   - Kedro: https://github.com/quantumblacklabs/kedro/blob/master/requirements.txt
-   - Kedro-Viz: https://github.com/quantumblacklabs/kedro-viz/blob/main/package.json
-   - Kedro-Docker: https://github.com/quantumblacklabs/kedro-docker/blob/develop/requirements.txt
-   - Kedro-Airflow: https://github.com/quantumblacklabs/kedro-airflow/blob/develop/requirements.txt
-   - Kedro-UI: https://github.com/quantumblacklabs/kedro-ui/blob/master/package.json
-   - Kedro-Telemetry: https://github.com/quantumblacklabs/kedro-telemetry/blob/main/requirements.txt
+
+Dependencies:
+ 
+ - Kedro: https://github.com/quantumblacklabs/kedro/blob/master/requirements.txt
+ - Kedro-Viz: https://github.com/quantumblacklabs/kedro-viz/blob/main/package.json
+ - Kedro-Docker: https://github.com/quantumblacklabs/kedro-docker/blob/develop/requirements.txt
+ - Kedro-Airflow: https://github.com/quantumblacklabs/kedro-airflow/blob/develop/requirements.txt
+ - Kedro-UI: https://github.com/quantumblacklabs/kedro-ui/blob/master/package.json
+ - Kedro-Telemetry: https://github.com/quantumblacklabs/kedro-telemetry/blob/main/requirements.txt
 
 *Initial committers*:
 
-  - [Ivan Danov](https://github.com/idanov)
-  - [Yetunde Dada](https://github.com/yetudada)
-  - [Joel Schwarzmann](https://github.com/datajoely)
-  - [Lim Hoang](https://github.com/limdauto)   
-  - [Lorena Balan](https://github.com/lorenabalan)
-  - [Merel Theisen](https://github.com/MerelTheisenQB)
-  - [Antony Milne](https://github.com/AntonyMilneQB)
-  - [Rashida Kanchwala](https://github.com/rashidakanchwala)
-  - [Susanna Wong](https://github.com/studioswong)
-  - [Gabriel Comym](https://github.com/GabrielComymQB)
-  - [Hamza Oza](https://github.com/hamzaoza)
+  - Ivan Danov: https://github.com/idanov
+  - Yetunde Dada: https://github.com/yetudada
+  - Joel Schwarzmann: https://github.com/datajoely
+  - Lim Hoang: https://github.com/limdauto
+  - Lorena Balan: https://github.com/lorenabalan
+  - Merel Theisen: https://github.com/MerelTheisenQB
+  - Antony Milne: https://github.com/AntonyMilneQB
+  - Rashida Kanchwala: https://github.com/rashidakanchwala
+  - Susanna Wong: https://github.com/studioswong
+  - Gabriel Comym: https://github.com/GabrielComymQB
+  - Hamza Oza: https://github.com/hamzaoza
 
-*Infrastructure requests*:
+*Total number of contributors at the time of submitting this proposal:* 107
 
- - Website
- - CircleCI
- - Snyk
+*Has the project defined the roles of contributor, committer, maintainer, etc.?* None, we will work with LF to set up the open governance model for this.
+
+*Project governance*: None, we will work with LF to set up the open governance model for this.
+
+*Does the project have a code of conduct?* Yes, please see the Code of Conduct: https://github.com/quantumblacklabs/kedro/blob/master/CODE_OF_CONDUCT.md.
 
 *Current mailing lists*:
- - Discord Server - https://discord.com/invite/akJDeVaxnB
- - GitHub Discussions - https://github.com/quantumblacklabs/kedro/discussions
+
+ - Discord Server: https://discord.com/invite/akJDeVaxnB
+ - GitHub Discussions:https://github.com/quantumblacklabs/kedro/discussions
+ 
+*Infrastructure requests:* None at the moment
 
 *Resources*:
 
-  - CI - https://circleci.com/gh/quantumblacklabs/kedro/tree/master
-  - Chat - https://discord.gg/akJDeVaxnB
+  - CI: https://circleci.com/gh/quantumblacklabs/kedro/tree/master
+  - Chat: https://discord.gg/akJDeVaxnB
   - PyPI (Kedro): https://pypi.org/project/kedro/
   - PyPI (Kedro-Viz): https://pypi.org/project/kedro-viz/
   - PyPI (Kedro-Docker): https://pypi.org/project/kedro-docker/
@@ -89,9 +97,9 @@ Have you identified possible collaboration opportunities with [current LF AI hos
 
 *Social media accounts*: None
 
-*Project documentation*:
+*Website:* None, we will request design resources to register a domain and design a proper website.
 
- - Documentation: https://kedro.readthedocs.io/en/stable/
+*Project documentation*: Documentation: https://kedro.readthedocs.io/en/stable/
 
 *Existing sponsorship*:
 McKinsey and QuantumBlack are the originators of the project and the main contributors to the project. Kedro continues to be used on a [growing list of companies](https://github.com/quantumblacklabs/kedro#who-likes-kedro).
