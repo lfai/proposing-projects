@@ -15,7 +15,7 @@ Have you identified possible collaboration opportunities with current LF AI host
  - Flyte
  - OpenLineage
 
-*License*: Apache License 2.0
+*License*: Apache License 2.0, see: https://github.com/quantumblacklabs/kedro/blob/master/LICENSE.md
 
 *Source control*:
 
@@ -39,7 +39,6 @@ Languages:
 
 - Python
 - Javascript
-  
 
 Dependencies:
  
@@ -62,11 +61,11 @@ Dependencies:
   - Rashida Kanchwala: https://github.com/rashidakanchwala
   - Susanna Wong: https://github.com/studioswong
   - Gabriel Comym: https://github.com/GabrielComymQB
-  - Hamza Oza: https://github.com/hamzaoza
+  - Hamza Oza: https: https://github.com/hamzaoza
 
-*Total number of contributors at the time of submitting this proposal:* 107
+*Total number of contributors at the time of submitting this proposal*: 107
 
-*Has the project defined the roles of contributor, committer, maintainer, etc.?* None, we will work with LF to set up the open governance model for this.
+*Has the project defined the roles of contributor, committer, maintainer, etc.?* None, we will work with LF to set up the project role model.
 
 *Project governance*: None, we will work with LF to set up the open governance model for this.
 
@@ -77,7 +76,7 @@ Dependencies:
  - Discord Server: https://discord.com/invite/akJDeVaxnB
  - GitHub Discussions:https://github.com/quantumblacklabs/kedro/discussions
  
-*Infrastructure requests:* None at the moment
+*Infrastructure requests*: None at the moment
 
 *Resources*:
 
@@ -97,9 +96,9 @@ Dependencies:
 
 *Social media accounts*: None
 
-*Website:* None, we will request design resources to register a domain and design a proper website.
+*Website*: None, we will request design resources to register a domain and design a proper website.
 
-*Project documentation*: Documentation: https://kedro.readthedocs.io/en/stable/
+*Project documentation*: Available on Read the Docs: https://kedro.readthedocs.io/en/stable/
 
 *Existing sponsorship*:
-McKinsey and QuantumBlack are the originators of the project and the main contributors to the project. Kedro continues to be used on a [growing list of companies](https://github.com/quantumblacklabs/kedro#who-likes-kedro).
+McKinsey and QuantumBlack are the originators of the project and the main contributors to the project. Kedro continues to be used on a growing list of companies: https://github.com/quantumblacklabs/kedro#who-likes-kedro.
