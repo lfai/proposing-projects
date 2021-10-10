@@ -4,13 +4,14 @@
 
 * Project description [what it does, why it is valuable, origin and history, ongoing development]:
 
-  KServe provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases    by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX.
-
-It encapsulates the complexity of autoscaling, networking, health checking, and server configuration to bring cutting edge serving features like GPU Autoscaling, Scale to Zero, and Canary Rollouts to your ML deployments. It enables a simple, pluggable, and complete story for Production ML Serving including prediction, pre-processing, post-processing and explainability.
+  KServe provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases    by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX. It encapsulates the complexity of autoscaling, networking, health checking, and server configuration to bring cutting edge serving features like GPU Autoscaling, Scale to Zero, and Canary Rollouts to your ML deployments. It enables a simple, pluggable, and complete story for Production ML Serving including prediction, pre-processing, post-processing and explainability.
 
 * Statement on alignment with LF AI’s mission:
 
 * Describe identified possible collaboration opportunities with current LF AI hosted projects:
+
+  - Feast
+  - AIX 
 
 * License name, version, and URL to the license text:
 
@@ -30,7 +31,7 @@ It encapsulates the complexity of autoscaling, networking, health checking, and 
 
   - Slack: https://kubeflow.slack.com/join/shared_invite/zt-cpr020z4-PfcAue_2nw67~iIDy7maAQ
 
-  - Mailing List: https://groups.google.com/u/3/g/kfserving
+  - Mailing List: https://groups.google.com/u/3/g/kserve-io
 
   - Website: https://kserve.github.io/website
 
@@ -62,6 +63,7 @@ It encapsulates the complexity of autoscaling, networking, health checking, and 
   https://github.com/kserve/kserve/blob/master/release/RELEASE_PROCESS.md
 
 * Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+  The code of conduct will be linked to https://www.linuxfoundation.org/code-of-conduct/
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 
