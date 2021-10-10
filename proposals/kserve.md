@@ -66,7 +66,7 @@
 
 * Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
 
-  We have defined the appprovers and reviewers in https://github.com/kserve/kserve/blob/master/OWNERS
+  We have defined the approvers and reviewers in https://github.com/kserve/kserve/blob/master/OWNERS
 
 * Total number of contributors to the project including their affiliations at the time of submitting this proposal:
 
