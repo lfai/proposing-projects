@@ -11,7 +11,9 @@
 * Describe identified possible collaboration opportunities with current LF AI hosted projects:
 
   - Feast
-  - AIX 
+  - AI Explainability 360
+  - AI Fairness 360
+  - Adversarial Robustness Toolbox (ART) 
 
 * License name, version, and URL to the license text:
 
@@ -39,6 +41,18 @@
 
 * External dependencies including licenses (name and version) of those dependencies.
 
+  Major External Dependencies:
+
+  - Knative (Apache-2)
+  - Istio (Apache-2)
+  - Seldon MLServer/Alibi (Apache-2)
+  - Triton Inference Server (?)
+
+  The individual packages in use by the project can be found in the following locations:
+
+  - https://github.com/kserve/kserve/blob/master/python/kserve/setup.py
+  - https://github.com/kserve/kserve/blob/master/go.mod
+
 * Initial committers (name, email, organization) and how long have they been working on project?
 
   - Dan Sun @yuzisun Bloomberg(30 months+)
@@ -56,13 +70,18 @@
 
 * Total number of contributors to the project including their affiliations at the time of submitting this proposal:
 
-  Total 137 contributors
+  Total 137 contributors from https://github.com/kserve/kserve/graphs/contributors
 
 * Does the project have a release methodology? Please document it in RELEASES.md.
 
-  https://github.com/kserve/kserve/blob/master/release/RELEASE_PROCESS.md
+  - Release process defined in https://github.com/kserve/kserve/blob/master/release/RELEASE_PROCESS.md
+  - Artifacts of a release
+    - Docker images for KServe model serving runtimes, and KServe/ModelMesh (docker.io/kserve)
+    - Python package on Pypi (https://pypi.org/project/kserve)
+    - Documentation (https://kserve.github.io/website)
 
 * Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+  
   The code of conduct will be linked to https://www.linuxfoundation.org/code-of-conduct/
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
@@ -73,6 +92,7 @@
 
 * Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
 
-* Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers. 
+* Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+  Not yet.
 
 * Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
