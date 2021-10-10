@@ -86,6 +86,8 @@
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 
+AWS is currently providing infrastructure for running our e2e tests, but the budget is going to expire by end of the year so we'd like 
+
 * Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
 
   Currently we are hosting the website on github pages https://kserve.github.io/website, but we have reserved the domain `kserve.io`.
