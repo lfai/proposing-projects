@@ -1,0 +1,46 @@
+== OpenBytes Project Proposal
+*Name of project*: OpenBytes
+
+*Requested project maturity level*: Sandbox
+
+=== Project description
+OpenBytes aims to facilitate wider sharing of, and collaboration with, data in the AI community through the promotion of data standards and formats and enabling contributions of data. 
+The value of this project lies in its stimulus on academic interest and AI innovation by promoting high-quality datasets and pushing the boundaries
+of science further.
+
+=== Statement on alignment with LF AI’s mission
+* Encouraging people to contribute data under a neutral governance without bias.
+* Working with CDLA, aiming to promote licenses and standards especially for open datasets to protect the AI ecosystem.
+* Harnessing the power of collaborative development through the project to accelerate AI innovation.
+
+=== Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)?
+* Horovod
+
+=== License name, version, and URL to license text
+* CDLA-Permissive 2.0
+* Community Specification License Agreement 1.0
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+* Slack.
+* Further tools: mailing lists.
+
+=== Initial committers (name, email, organization) and how long have they been working on the project?
+
+* Graviti(mailto:contact@graviti.com[[.underline]#contact@graviti.com#]), 2 months
+* Jina(mailto:hello@jina.ai[[.underline]#hello@jina.ai#]), 1 month
+* Zilliz(mailto:info@zilliz.com[[.underline]#info@zilliz.com#]), 1 month
+* Electrifai(mailto:info@electrifai.net[[.underline]#info@electrifai.net#]), 1 month
+* Motional(mailto:partnerships@motional.com[[.underline]#partnerships@motional.com#]), 1 month
+* Predibase(http://www.predibase.com[[.underline]#http://www.predibase.com#]), 1 month
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+* We will add the MAINTAINERS.md to https://github.com/Project-OpenBytes[[.underline]#https://github.com/Project-OpenBytes#]
+
+=== Does the project have a code of conduct?
+
+* We will upload the code of conduct to https://github.com/Project-OpenBytes[[.underline]#https://github.com/Project-OpenBytes#]
+
+=== Project website
+
+* Homepage: https://www.openbytes.io
