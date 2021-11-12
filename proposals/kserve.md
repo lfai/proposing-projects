@@ -52,6 +52,7 @@
 
   - https://github.com/kserve/kserve/blob/master/python/kserve/setup.py
   - https://github.com/kserve/kserve/blob/master/go.mod
+  - https://github.com/kserve/modelmesh-serving/blob/main/go.mod
 
 * Initial committers (name, email, organization) and how long have they been working on project?
 
@@ -62,7 +63,9 @@
   - Yuzhui Liu @yuzliu Bloomberg(30 months+)
   - Theofilos Papapanagiotou @theofpa Prosus(18 months+)
   - Qianshan Chen @iamlovingit Inspur(18 months+)
+  - Nick Hill @njhill IBM(12 months+)
   - Paul Van Eck @pvaneck IBM(12 months+)
+  - Jagadeesh J @jagadeeshi2i Ideas2IT(12 months+)
 
 * Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
 
@@ -86,7 +89,7 @@
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 
-AWS is currently providing infrastructure for running our e2e tests, but the budget is going to expire by end of the year so we'd like 
+  AWS is currently providing infrastructure for running our e2e tests, but the budget is going to expire soon so we'd like move to a new cloud account to run e2e tests. 
 
 * Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
 
@@ -98,3 +101,4 @@ AWS is currently providing infrastructure for running our e2e tests, but the bud
   Not yet.
 
 * Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+  This project was originally incubated under Kubeflow, now it is moved to an independent github organization maintained by Bloomberg, IBM as well as community contributors.
