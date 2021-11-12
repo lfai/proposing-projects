@@ -4,9 +4,11 @@
 
 * Project description [what it does, why it is valuable, origin and history, ongoing development]:
 
-  KServe provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases    by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX. It encapsulates the complexity of autoscaling, networking, health checking, and server configuration to bring cutting edge serving features like GPU Autoscaling, Scale to Zero, and Canary Rollouts to your ML deployments. It enables a simple, pluggable, and complete story for Production ML Serving including prediction, pre-processing, post-processing and explainability.
+  KServe provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX. It encapsulates the complexity of autoscaling, networking, health checking, and server configuration to bring cutting edge serving features like GPU Autoscaling, Scale to Zero, and Canary Rollouts to your ML deployments. It enables a simple, pluggable, and complete story for Production ML Serving including prediction, pre-processing, post-processing and explainability.
 
 * Statement on alignment with LF AI’s mission:
+
+  KServe is built to offer a standard managed inference services that could help unify the model deployment process across ML frameworks, shorten the time-to-market for serving ML models in production at scale and reduce the complexity of implementation. KServe can be a great addition for the complete soultion for the end to end ML lifecycle and integrated with feature store, trusted AI projects under LF umbrella.
 
 * Describe identified possible collaboration opportunities with current LF AI hosted projects:
 
