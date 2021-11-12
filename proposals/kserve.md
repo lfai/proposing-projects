@@ -101,4 +101,5 @@
   Not yet.
 
 * Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+  
   This project was originally incubated under Kubeflow, now it is moved to an independent github organization maintained by Bloomberg, IBM as well as community contributors.
