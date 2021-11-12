@@ -21,19 +21,22 @@
 
 * URL to location of source code (GitHub, etc.):
 
-  https://github.com/kserve/kserve
+  https://github.com/kserve
 
 * Please list tools in use by the project:
 
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
 
   https://github.com/kserve/kserve/issues
+  https://github.com/kserve/modelmesh-serving/issues
 
 * Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use:
 
-  - Slack: https://kubeflow.slack.com/join/shared_invite/zt-cpr020z4-PfcAue_2nw67~iIDy7maAQ
+  - Slack: https://kubeflow.slack.com/join/shared_invite/zt-cpr020z4-PfcAue_2nw67~iIDy7maAQ kubeflow-kfserving channel
 
-  - Mailing List: https://groups.google.com/u/3/g/kserve-io
+  - Mailing List: 
+    https://groups.google.com/u/1/g/kubeflow-discuss
+    https://groups.google.com/u/3/g/kserve-io
 
   - Website: https://kserve.github.io/website
 
@@ -102,4 +105,4 @@
 
 * Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
   
-  This project was originally incubated under Kubeflow, now it is moved to an independent github organization maintained by Bloomberg, IBM as well as community contributors.
+  This project was originally incubated under Kubeflow, now it is moved to an independent github organization maintained by Bloomberg, IBM and community contributors.
