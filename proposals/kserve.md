@@ -27,8 +27,8 @@
 
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
 
-  https://github.com/kserve/kserve/issues
-  https://github.com/kserve/modelmesh-serving/issues
+  - https://github.com/kserve/kserve/issues
+  - https://github.com/kserve/modelmesh-serving/issues
 
 * Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use:
 
