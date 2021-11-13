@@ -51,7 +51,7 @@
   - Knative (Apache-2)
   - Istio (Apache-2)
   - Seldon MLServer/Alibi (Apache-2)
-  - Triton Inference Server (?)
+  - Triton Inference Server (BSD)
 
   The individual packages in use by the project can be found in the following locations:
 
