@@ -66,6 +66,7 @@
   - Clive Cox @cliveseldon Seldon(30 months+)
   - David Goodwin @deadeyegoodwin NVIDIA(30 months+)
   - Yuzhui Liu @yuzliu Bloomberg(30 months+)
+  - Tommy Li @Tomcli IBM(30 months+)
   - Theofilos Papapanagiotou @theofpa Prosus(18 months+)
   - Qianshan Chen @iamlovingit Inspur(18 months+)
   - Nick Hill @njhill IBM(12 months+)
