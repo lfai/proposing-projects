@@ -1,0 +1,118 @@
+== Project Proposal Template
+
+* Name of project:
+
+Artigraph
+
+* Requested project maturity level:
+
+Sandbox
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development).
+
+Artigraph is a tool to improve the authorship, management, and quality of data. It emphasizes that the core deliverable of a data pipeline or workflow is the data, not the tasks.
+
+The project was started at Replica, Inc and open sourced in January 2022.
+
+* Statement on alignment with LF AI’s mission.
+
+Artigraph aims to shift tooling focus towards managing the entire data lifecycle (lineage, metadata, schema, storage formats and systems, etc), which overlaps with a number of LF AI & Data goals and projects.
+
+* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+
+Yes:
+
+- AI Explainability 360 / AI Fairness 360: explain and assess bias in model outputs
+- Amundsen: data discovery and visualization
+- Flyte / Kedro: pipeline execution/integration
+- ONNX: serialize model outputs
+- OpenLineage / Egeria / Marquez: metadata backend
+- RosaeNLG: user-friendly content in dashboards
+
+* License name, version, and URL to license text:
+
+Apache 2.0 - https://github.com/artigraph/artigraph/blob/golden/LICENSE
+
+* Source control (GitHub, etc.):
+
+GitHub - https://github.com/artigraph/artigraph
+
+* Does the project sits in its own GH organization?
+
+Yes
+
+* Do you have the GH DCO app active in the repos?
+
+Yes
+
+* Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
+
+GitHub
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
+
+We currently use:
+
+- GitHub (source control, Actions, Discussions, etc)
+
+We would like to have:
+
+- Slack
+
+* External dependencies including licenses (name and version) of those dependencies.
+
+The current python package dependencies are:
+
+- frozendict:     GNU Lesser General Public License v3 (LGPLv3)
+- multimethod:    Apache Software License
+- parse:          BSD License
+- pydantic:       MIT License
+- pyfarmhash:     MIT License
+- python-box:     MIT License
+
+Additional dependencies may be added, particularly optional connectors for additional formats, storage systems, executors, etc.
+
+* Initial committers (name, email, organization) and how long have they been working on project?
+
+- Jacob Hayes <jacob.r.hayes@gmail.com> since inception
+- Kael Greco <kael@replicahq.com> from Replica since November 2021
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+Not yet.
+
+* Total number of contributors to the project including their affiliations.
+
+7, mostly current or former Replica employees.
+
+* Does the project have a release methodology? Please document it in RELEASES.md.
+
+Not yet - releases are created manually with `poetry publish`
+
+* Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+
+Not yet.
+
+* Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+
+Self-certification not completed
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+No.
+
+* Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
+
+artigraph.dev has been reserved. Having a website created would be great.
+
+* Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+
+Not yet.
+
+* Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+
+None
+
+* Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+
+None
