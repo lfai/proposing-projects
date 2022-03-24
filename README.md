@@ -46,3 +46,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [OpenBytes](https://github.com/Project-OpenBytes)| [Edward Cui](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenBytes.adoc) |[10/21/2021] | Sandbox  | tbd | Edward Cui | tbd | [TBD]
 [KServe](https://github.com/kserve/kserve)| [Dan Sun](https://github.com/lfai/proposing-projects/blob/master/proposals/kserve.md) |[11/18/2021] | Incubation  | tbd | Dan Sun | tbd | [5/18/2023]
 [Artigraph](https://github.com/artigraph/artigraph)| [Jacob Hayes](https://github.com/lfai/proposing-projects/blob/master/proposals/artigraph.adoc) |[01/27/2022] | Sandbox  | tbd | Jacob Hayes | tbd | [tbd]
+[1chipML](https://github.com/1chipML/1chipML)| [Jean Michel Sellier](https://github.com/lfai/proposing-projects/blob/master/proposals/1chipML.md) |[04/07/2022] | Sandbox  | tbd | Jean Michel Sellier | tbd | [tbd]
