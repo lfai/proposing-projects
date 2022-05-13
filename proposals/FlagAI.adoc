@@ -1,53 +1,40 @@
-== RosaeNLG Project Proposal
+== FlagAI Project Proposal
 
-*Name of project*: RosaeNLG
+*Name of project*: FlagAI
 
 *Requested project maturity level*: Sandbox
 
 === Project description
 
-Template-based Natural Language Generation (NLG) automates the production of relatively repetitive texts based on structured input data and textual templates, run by a NLG engine. Production usage is widespread in large corporations, especially in the financial industry.
+FlagAI aims to help researchers and developers to freely train and test large-scale models for NLP tasks. 
 
-Typical usecases are:
-
-* describing a product based on its features for SEO purposes
-* produce structured reports like risk reports or fund performance in the financial industry
-* generate well formed chatbot answers
-
-RosaeNLG is an open source NLG engine. It aims:
-
-* to offer the same NLG features as product NLG solutions
-* to be developer and IT friendly for template configuration and integration
-* to provide NLG on both server-side and browser-side
-
+* Now it supports GLM, Bert, RoBerta, GPT2, T5 models and models from Huggingface Transformers.
+* It provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub.
+* These models can be applied on Text, for tasks like text classification, information extraction, question answering, summarization, text generation, especially in Chinese.
+* FlagAI is backed by the three most popular data/model parallel libraries — PyTorch/Deepspeed/Megatron-LM — with a seamless integration between them. Your can paralle your training/testing process with less than ten lines of code.
 
 === Statement on alignment with LF AI’s mission
 
-NLG is a brick to *build business services directly aimed at final users*. It is widely used in the industry.
+Transformer-based large-scale model is a keypath to *build general AI*. It becames the most powerful and famouse technique lately.
 
-NLG concurs to *democratization and understandability of AI*:
+Transformer-based model can *understand natrual language, category images and play vedio games as human beings*:
 
-* Non-expert users don’t understand figures and dashboards and prefer textual explanations
-* Computer-generated texts can be superior (from the reader's perspective) to human-written texts
-* At the end of an AI pipeline, NLG can *automate and convey expertise, explain and summarize situations*, and communicate with end users
-* Bring *trusted AI*, typically in collaboration with https://ai-explainability-360.org/[AI Explainability 360] and http://aif360.mybluemix.net/[AI Fairness 360]
+* Provide off-the-shelf tools for researchers/engneers to train/inference large-scale models, e.g., data-/model- parallel training algorithms. 
+* Build-in supports for most used model structures, e.g., encoder, decoder and enc-dec structure. User can even download 10-billion parameters model and run it on a single GPU (V100).
+* Build-in supports for many popular downstream tasks. User can directly pull the finetuned model and run the model with a few lines of codes.
 
-RosaeNLG project will also:
+FlagAI project will also:
 
-* Increase diversity: first project *originated in France*
-* Foster usage, contributions and diversity in *NLG domain*, supporting languages presently not covered by any NLG system at all
+* Easy to use: unified and simplied framework to build and train models.
+
 
 
 === Possible collaboration opportunities with current LF AI hosted projects
 
-RosaeNLG currently runs on Acumos for Orange AI Marketplace.
 
-RosaeNLG can be used at the end of the AI pipeline, to *explain a decision* to non-experts:
+FlagAI provide full life-circle for large-scale AI model, especially *inference* and *deploy*:
 
-* https://ai-explainability-360.org/[AI Explainability 360]: provide a clear, readable, summarized explanation for an end user (e.g. Bank Customer) asking for explanations
-* http://aif360.mybluemix.net/[AI Fairness 360]: generate comprehensive compliance reports on fairness (initial situation, what was done, final situation)
-
-Potential usage of https://mlflow.org/[MLflow], especially Model Registry, to manage templates.
+Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
 
 === License name
 
@@ -56,19 +43,8 @@ https://github.com/RosaeNLG/rosaenlg/blob/master/LICENSE[Apache 2.0]
 
 === Source control (GitHub, etc.)
 
-* https://github.com/RosaeNLG/[RosaeNLG organization on Github]
-* https://github.com/RosaeNLG/rosaenlg[main repo]
-
-
-Technical tooling:
-
-* Github Actions for the CI
-* https://sonarcloud.io/dashboard?id=RosaeNLG_RosaeNLG[SonarCloud]
-
-
-=== GH organization
-
-The project has it own GH organization: https://github.com/RosaeNLG/[RosaeNLG organization on Github]
+* https://github.com/BAAI-WuDao/[BAAI-WuDao organization on Github]
+* https://github.com/BAAI-WuDao/Sailing[main repo]
 
 
 === GH DCO app
@@ -76,179 +52,90 @@ The project has it own GH organization: https://github.com/RosaeNLG/[RosaeNLG or
 GH DCO app is active.
 
 
-=== Issue tracker (GitHub, JIRA, etc)
+=== Issue tracker
 
-https://github.com/RosaeNLG/rosaenlg/issues[Github issues for checking issues and feature requests]
+https://github.com/BAAI-WuDao/Sailing/issues[Github issues for checking issues and feature requests]
 
 
 === Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
 
-* https://github.com/RosaeNLG/rosaenlg/issues[Github issues]
-* https://www.meetup.com/fr-FR/rosaenlg/[RosaeNLG meetup group]: for example,
-** https://rosaenlg.org/meetup/meetup_rosaenlg_1.html[#1 RosaeNLG meetup presentation]
-** https://rosaenlg.org/meetup/meetup_rosaenlg_2.html[#2 RosaeNLG meetup presentation]
+* https://github.com/BAAI-WuDao/Sailing/issues[Github issues]
 * direct communication with the author by email
-* https://rosaenlgorg.slack.com/[Slack channel] (not largely used as of today)
+
 
 
 === External dependencies including licenses (name and version) of those dependencies
 
-RosaeNLG is a fork of the https://pugjs.org/[Pug] template engine (MIT).
-
-It is composed of 70 submodules. Most of these modules are an original part of RosaeNLG, with the same Apache 2.0 license, and are not listed below.
-
-Depending on the output language, RosaeNLG will load some linguistic resources and use linguistic libraries, to make agreements and to conjugate verbs.
-
-Resources derived from linguistic resources (mainly `WordNet`, `lefff`, `german-pos-dict`, `morph-it`) remain under their original licence.
-
-
-.Used by all languages
-[options="header"]
-|===
-| Resource | Usage | Licence
-| link:https://www.npmjs.com/package/random-js[random-js] | random numbers | MIT
-| link:https://date-fns.org[date-fns] | dates and times formatting. | MIT
-| link:http://numeraljs.com[numeral.js] | numbers formatting | MIT
-| link:https://github.com/forzagreen/n2words[n2words] | Cardinal numbers in letters: 5 -> five etc. (except for German) | MIT
-| link:https://github.com/shibukawa/snowball-stemmer.jsx[snowball-stemmer.jsx] | stemming | MIT
-| link:https://github.com/stopwords-iso/[stopwords-de, stopwords-en, stopwords-es, stopwords-fr, stopwords-it] | lists of stop words | MIT
-| link:http://winkjs.org/[wink-tokenizer] | tokenizer | MIT
-|===
+Models remain under their original licence.
 
 .English specific
 [options="header"]
 |===
-| Resource | Usage | Licence
-| link:https://wordnet.princeton.edu/[WordNet] | English gerunds (`ing`) & list of words or adjectives that must be preceded by `an` | link:https://wordnet.princeton.edu/license-and-commercial-use[WordNet licence]
-| link:https://github.com/bdougherty/better-title-case#readme[better-title-case] | title case (for titles) in English | MIT
-| link:https://github.com/marlun78/number-to-words[number-to-words] | ordinal numbers in English | MIT
+| Model  | Licence
+| link:https://github.com/THUDM/GLM/[GLM]  | link:https://github.com/THUDM/GLM/blob/main/LICENSE[MIT]
+| link:https://github.com/google-research/bert/[BERT] | link:https://github.com/google-research/bert/blob/master/LICENSE[Apache 2.0]
 |===
 
-.French specific
+.Chinese specific
 [options="header"]
 |===
-| Resource | Usage | Licence
-| link:https://en.wikipedia.org/wiki/Aspirated_h[Aspirated h] | French words that are 'aspiré' (vs. 'muet') | link:https://creativecommons.org/licenses/by-sa/3.0/[CC BY-SA 3.0]
-| link:https://www.labri.fr/perso/clement/lefff/[LEFFF - lexique des formes fléchies du français] | gender and plural of French words | link:https://www.labri.fr/perso/clement/lefff/licence-LGPLLR.html[LGPLLR]
-| link:https://github.com/swestrich/pluralize-fr#readme[pluralize-fr] | pluralize nouns | MIT
-| link:https://github.com/benoitvallon/titlecase-french#readme[titlecase-french] | title case (for titles) in French | MIT
+| Model  | Licence
+| link:https://github.com/THUDM/GLM/[GLM]  | link:https://github.com/THUDM/GLM/blob/main/LICENSE[MIT]
+| link:https://github.com/ymcui/Chinese-BERT-wwm/[RoBERTa-www-ext] | link:https://github.com/ymcui/Chinese-BERT-wwm/blob/master/LICENSE[Apache 2.0]
+| link:https://github.com/renmada/t5-pegasus-pytorch/[t5-pegasus-base] | None
+| link:https://github.com/Morizeyao/GPT2-Chinese/[GPT2-Chinese] | link:https://github.com/Morizeyao/GPT2-Chinese/blob/old_gpt_2_chinese_before_2021_4_22/LICENSE[MIT] 
 |===
-
-.German specific
-[options="header"]
-|===
-| Resource | Usage | Licence
-| link:https://github.com/languagetool-org/german-pos-dict[German part-of-speech dictionary (german-pos-dict)] | German adjectives, words and verbs agreement | link:https://github.com/languagetool-org/german-pos-dict/blob/master/LICENSE[CC-BY-SA-4.0 License]
-|===
-
-.Italian specific
-[options="header"]
-|===
-| Resource | Usage | Licence
-| link:https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it[Morph-it!] | agreement of Italian adjectives, words and verbs | link:https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it#licensing_information[CC BY-SA 2.0]
-|===
-
-.Spanish specific
-[options="header"]
-|===
-| Resource | Usage | Licence
-| link:https://www.npmjs.com/package/ordinal-spanish[ordinal-spanish] | ordinal numbers for Spanish | Apache 2.0
-| link:https://github.com/swestrich/gender-es[gender-es] | gender of Spanish words | MIT
-| link:https://github.com/jfromaniello/pluralize-es[pluralize-es] | plural of Spanish words | MIT
-| link:https://github.com/ehoogerbeets/conjugator[conjugator] | Spanish verbs conjugation | Apache 2.0
-|===
-
 
 === Initial committers (name, email, organization) and how long have they been working on project
 
-* Ludan Stoecklé, ludan.stoeckle@rosaenlg.org, personal author, 3+ years
-* Marco Riva, https://github.com/rivamarco, on Italian in 2020
+* Zak Liu, liuguang@baai.ac.cn, BAAI, 3+ month 
 
 
 === Have the project defined the roles of contributor, committer, maintainer, etc
 
 Yes, see:
 
-* https://github.com/RosaeNLG/rosaenlg/blob/master/GOVERNANCE.md[GOVERNANCE.md]
-* https://github.com/RosaeNLG/rosaenlg/blob/master/CONTRIBUTING.md[CONTRIBUTING.md]
+* https://github.com/BAAI-WuDao/Sailing/blob/master/GOVERNANCE.md[GOVERNANCE.md]
+* https://github.com/BAAI-WuDao/Sailing/blob/master/CONTRIBUTING.md[CONTRIBUTING.md]
 
 
 === Total number of contributors to the project including their affiliations
 
-* Ludan Stoecklé (> 60 000 lines of code, 100+ commits since first public version in Sept. 2019)
-* Marco Riva (https://github.com/rivamarco) on Italian (company: https://radicalbit.io/[Radicalbit])
-* Ongoing work with https://redlab.paris/[RedLab Paris] to have PhDs as contributors
+* Zak Liu, liuguang@baai.ac.cn, https://github.com/BAAI-Open/ [BAAI-Open]
 
 
-=== Does the project have a release methodology
-
-For JavaScript version (main), see https://github.com/RosaeNLG/rosaenlg/blob/master/DEVELOPER_GUIDE.md#publish-a-new-version[Publish a new version]:
-
-* orchestrated by GitHub Actions
-* uses `vXX.XX.XX` branches
-* https://sonarcloud.io/dashboard?id=RosaeNLG_RosaeNLG[Sonar] quality gate
-* GitHub Actions builds, tests, and publishes:
-** https://www.npmjs.com/~ludan.stoeckle[the ~70 npm modules]
-** Docker images on docker hub: https://hub.docker.com/repository/docker/rosaenlg/server[RosaeNLG server  image] and https://hub.docker.com/repository/docker/rosaenlg/cli[RosaeNLG CLI image]
-** documentation on https://rosaenlg.org[main doc website] and https://rosaenlg.github.io/rosaenlg[github pages]
-
-For Java version, see https://github.com/RosaeNLG/rosaenlg-java/blob/master/DEVELOPER_GUIDE.md#publish-a-new-version[Publish a new version]:
-
-* orchestrated by GitHub Actions
-* uses `vXX.XX.XX` branches
-* publishes libraries on https://mvnrepository.com/search?q=rosaenlg[Maven Central]
-* creates https://hub.docker.com/repository/docker/rosaenlg/server-java[Java Server image] on docker hub
 
 
 === Does the project have a code of conduct
 
-https://github.com/RosaeNLG/rosaenlg/blob/master/CODE_OF_CONDUCT.md[RosaeNLG code of conduct], which refers to https://lfprojects.org/policies/code-of-conduct/.
+https://github.com/BAAI-WuDao/Sailing/blob/master/CODE_OF_CONDUCT.md[FlagAI code of conduct], which refers to https://lfprojects.org/policies/code-of-conduct/.
 
 
 === Did the project achieve any of the CII best practices badges
 
-Yes for both repos:
+Yes: [TODO]
 
 * https://bestpractices.coreinfrastructure.org/fr/projects/4482[main project on bestpractices.coreinfrastructure.org]
-* https://bestpractices.coreinfrastructure.org/fr/projects/4502[Java version on bestpractices.coreinfrastructure.org]
-
 
 
 === Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 
 * Github Actions
-* documentation is hosted on AWS (S3 + CloudFront)
+
 
 
 === Project website
 
-* Documentation: https://rosaenlg.org
 * Documentation site and project on Github might be sufficient
 
 
 === Project governance
 
-Yes: https://github.com/RosaeNLG/rosaenlg/blob/master/GOVERNANCE.md
+Yes: https://github.com/BAAI-WuDao/Sailing/blob/master/GOVERNANCE.md
 
 
-=== Social media accounts
-
-* articles on https://medium.com/search?q=RosaeNLG[Medium]
-* https://www.linkedin.com/company/rosaenlg[LinkedIn Company page] (which is not used today)
 
 
-=== Existing sponsorship
-
-Support:
-
-* https://www.addventa.com/[Addventa] (company specialized in NLG, based in Paris) provides commercial support on RosaeNLG (support with SLA and Professional Services)
-* RosaeNLG is available for commercial usage on https://demo.ai-marketplace.orange-business.com/[Orange AI marketplace]
-* Ongoing discussions with http://www.redlab.paris[RedLab Paris] to have junior PhDs as contributors
 
 
-Early adopters:
-
-* https://www.lizeo-group.com/us[Lizeo] (tires descriptions)
-* https://radicalbit.io/[Radicalbit]
-* https://www.exane.com/corporate/[Exane]
 
