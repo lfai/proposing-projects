@@ -88,10 +88,12 @@ Models remain under their original licence.
 
 === Initial committers (name, email, organization) and how long have they been working on project
 
-* Zak Liu, liuguang@baai.ac.cn, BAAI, 3+ month 
-* Yan Zhaodong, yanzhaodong2021@163.com
+* Zak Liu, liuguang@baai.ac.cn, BAAI, 3+ month
+* Ledell Wu, wuyu.ledell@gmail.com, BAAI, 3+ month
+* Yan Zhaodong, yanzhaodong2021@163.com, BAAI, 3+ month
+* Xiang Wen, xw747777271@gmail.com, BAAI, 3+ month
 * Xin Zhaohu, 920232796@qq.com, BAAI intern, 2+ month
-* Xiang Wen,xw747777271@gmail.com, BAAI,
+ 
 
 
 
@@ -114,6 +116,7 @@ Yes, see:
 * Xi Yang, xiyang85@126.com, https://github.com/BAAI-Open/[BAAI-Open]
 * Guoqiang Wang, 862876363@qq.com, https://github.com/BAAI-Open/[BAAI-Open]
 * Haocheng Wang, 2371156095@qq.com, https://github.com/BAAI-Open/[BAAI-Open], Intern
+* Ledell Wu, wuyu.ledell@gmail.com, https://github.com/BAAI-Open/[BAAI-Open]
 
 
 
