@@ -6,11 +6,11 @@
 
 === Project description
 
-FlagAI (Fast LArge-scale General AI models) aims to help researchers and developers freely train and test large-scale models for NLP tasks. 
+FlagAI (Fast LArge-scale General AI models) is an fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality. Currently, we are focusing on NLP models and tasks. In near futher, we will support for other modalities.
 
 * Now it supports GLM, BERT, RoBERTa, GPT2, T5, and models from Huggingface Transformers.
 * It provides APIs to quickly download and use those pre-trained models on a given text, and fine-tune them on your own datasets.
-* These models can be applied to Text, for tasks like text classification, information extraction, question answering, summarization, and text generation, especially in Chinese.
+* These models can be applied to (chinese/english) Text, for tasks like text classification, information extraction, question answering, summarization, and text generation. 
 * FlagAI is backed by the three most popular data/model parallel libraries — PyTorch/Deepspeed/Megatron-LM — with seamless integration between them. Your can parallel your training/testing process with less than ten lines of code.
 
 === Statement on alignment with LF AI’s mission
@@ -25,8 +25,8 @@ The transformer-based model can *understand natural language, category images an
 
 FlagAI project will also:
 
-* Easy to use: unified and simplified framework to build and train models.
-
+* Easy to use: unified and simplified APIs to build and train models.
+* Easy to scale: one can run a 10-b model with a few lines of code.
 
 
 
