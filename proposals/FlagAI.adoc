@@ -6,33 +6,36 @@
 
 === Project description
 
-FlagAI (Fast LArge-scale General AI models) aims to help researchers and developers to freely train and test large-scale models for NLP tasks. 
+FlagAI (Fast LArge-scale General AI models) aims to help researchers and developers freely train and test large-scale models for NLP tasks. 
 
-* Now it supports GLM, Bert, RoBerta, GPT2, T5 models and models from Huggingface Transformers.
-* It provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets.
-* These models can be applied on Text, for tasks like text classification, information extraction, question answering, summarization, text generation, especially in Chinese.
-* FlagAI is backed by the three most popular data/model parallel libraries — PyTorch/Deepspeed/Megatron-LM — with a seamless integration between them. Your can paralle your training/testing process with less than ten lines of code.
+* Now it supports GLM, BERT, RoBERTa, GPT2, T5, and models from Huggingface Transformers.
+* It provides APIs to quickly download and use those pre-trained models on a given text, and fine-tune them on your own datasets.
+* These models can be applied to Text, for tasks like text classification, information extraction, question answering, summarization, and text generation, especially in Chinese.
+* FlagAI is backed by the three most popular data/model parallel libraries — PyTorch/Deepspeed/Megatron-LM — with seamless integration between them. Your can parallel your training/testing process with less than ten lines of code.
 
 === Statement on alignment with LF AI’s mission
 
-Transformer-based large-scale model is a keypath to *build general AI*. It becames the most powerful and famouse technique lately.
+Transformer-based large-scale model is a keypath to *build general AI*. It becomes the most powerful and famous technique lately.
 
-Transformer-based model can *understand natrual language, category images and play vedio games as human beings*:
+The transformer-based model can *understand natural language, category images and play video games as human beings*:
 
-* Provide off-the-shelf tools for researchers/engneers to train/inference large-scale models, e.g., data-/model- parallel training algorithms. 
-* Build-in supports for most used model structures, e.g., encoder, decoder and enc-dec structure. User can even download 10-billion parameters model and run it on a single GPU (V100).
-* Build-in supports for many popular downstream tasks. User can directly pull the finetuned model and run the model with a few lines of codes.
+* Provide off-the-shelf tools for researchers/engineers to train/infer large-scale models, e.g., data-/model- parallel training algorithms. 
+* Build-in supports for most used model structures, e.g., encoder, decoder, and enc-dec structure. Users can even download a 10-billion parameters model and run it on a single GPU (V100).
+* Build-in supports for many popular downstream tasks. Users can directly pull the finetuned model and run the model with a few lines of code.
 
 FlagAI project will also:
 
-* Easy to use: unified and simplied framework to build and train models.
+* Easy to use: unified and simplified framework to build and train models.
+
 
 
 
 === Possible collaboration opportunities with current LF AI hosted projects
 
 
-FlagAI provide full life-circle for large-scale AI model, especially *inference* and *deploy*:
+FlagAI provides full technical support for the life-circle of large-scale AI model, especially *inference* and *deploy*:
+
+Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
 
 Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
 
