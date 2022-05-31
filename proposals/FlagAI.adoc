@@ -1,0 +1,158 @@
+== FlagAI Project Proposal
+
+*Name of project*: FlagAI
+
+*Requested project maturity level*: Sandbox
+
+=== Project description
+
+FlagAI (Fast LArge-scale General AI models) is an fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality. Currently, we are focusing on NLP models and tasks. In near futher, we will support for other modalities.
+
+* Now it supports GLM, BERT, RoBERTa, GPT2, T5, and models from Huggingface Transformers.
+* It provides APIs to quickly download and use those pre-trained models on a given text, and fine-tune them on your own datasets.
+* These models can be applied to (chinese/english) Text, for tasks like text classification, information extraction, question answering, summarization, and text generation. 
+* FlagAI is backed by the three most popular data/model parallel libraries — PyTorch/Deepspeed/Megatron-LM — with seamless integration between them. Your can parallel your training/testing process with less than ten lines of code.
+
+=== Statement on alignment with LF AI’s mission
+
+Transformer-based large-scale model is a keypath to *build general AI*. It becomes the most powerful and famous technique lately.
+
+The transformer-based model can *understand natural language, category images and play video games as human beings*:
+
+* Provide off-the-shelf tools for researchers/engineers to train/infer large-scale models, e.g., data-/model- parallel training algorithms. 
+* Build-in supports for most used model structures, e.g., encoder, decoder, and enc-dec structure. Users can even download a 10-billion parameters model and run it on a single GPU (V100).
+* Build-in supports for many popular downstream tasks. Users can directly pull the finetuned model and run the model with a few lines of code.
+
+FlagAI project will also:
+
+* Easy to use: unified and simplified APIs to build and train models.
+* Easy to scale: one can run a 10-b model with a few lines of code.
+
+
+
+=== Possible collaboration opportunities with current LF AI hosted projects
+
+
+FlagAI provides full technical support for the life-circle of large-scale AI model, especially *inference* and *deploy*:
+
+Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
+
+Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
+
+=== License name
+
+https://github.com/BAAI-Open/FlagAI/blob/master/LICENSE[Apache 2.0]
+
+
+=== Source control (GitHub, etc.)
+
+* https://github.com/BAAI-Open/[BAAI-Open organization on Github]
+* https://github.com/BAAI-Open/FlagAI[main repo]
+
+
+=== GH DCO app
+
+GH DCO app is active.
+
+
+=== Issue tracker
+
+https://github.com/BAAI-Open/FlagAI/issues[Github issues for checking issues and feature requests]
+
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+* https://github.com/BAAI-Open/FlagAI/issues[Github issues]
+* direct communication with the author by email
+
+
+
+=== External dependencies including licenses (name and version) of those dependencies
+
+Models remain under their original licence.
+
+.English specific
+[options="header"]
+|===
+| Model  | Licence
+| link:https://github.com/THUDM/GLM/[GLM]  | link:https://github.com/THUDM/GLM/blob/main/LICENSE[MIT]
+| link:https://github.com/google-research/bert/[BERT] | link:https://github.com/google-research/bert/blob/master/LICENSE[Apache 2.0]
+|===
+
+.Chinese specific
+[options="header"]
+|===
+| Model  | Licence
+| link:https://github.com/THUDM/GLM/[GLM]  | link:https://github.com/THUDM/GLM/blob/main/LICENSE[MIT]
+| link:https://github.com/ymcui/Chinese-BERT-wwm/[RoBERTa-www-ext] | link:https://github.com/ymcui/Chinese-BERT-wwm/blob/master/LICENSE[Apache 2.0]
+| link:https://github.com/renmada/t5-pegasus-pytorch/[t5-pegasus-base] | link:https://github.com/ZhuiyiTechnology/t5-pegasus/blob/main/LICENSE[Apache 2.0]
+| link:https://github.com/Morizeyao/GPT2-Chinese/[GPT2-Chinese] | link:https://github.com/Morizeyao/GPT2-Chinese/blob/old_gpt_2_chinese_before_2021_4_22/LICENSE[MIT] 
+|===
+
+=== Initial committers (name, email, organization) and how long have they been working on project
+
+* Zak Liu, liuguang@baai.ac.cn, BAAI, 3+ month
+* Ledell Wu, wuyu.ledell@gmail.com, BAAI, 3+ month
+* Yan Zhaodong, yanzhaodong2021@163.com, BAAI, 3+ month
+* Xiang Wen, xw747777271@gmail.com, BAAI, 3+ month
+* Xin Zhaohu, 920232796@qq.com, BAAI intern, 2+ month
+ 
+
+
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc
+
+Yes, see:
+
+* https://github.com/BAAI-Open/FlagAI/blob/master/GOVERNANCE.md[GOVERNANCE.md]
+* https://github.com/BAAI-Open/FlagAI/blob/master/CONTRIBUTING.md[CONTRIBUTING.md]
+
+
+=== Total number of contributors to the project including their affiliations
+
+* Zak Liu, liuguang@baai.ac.cn, https://github.com/BAAI-Open/[BAAI-Open]
+* Yan Zhaodong, yanzhaodong2021@163.com, https://github.com/BAAI-Open/[BAAI-Open]
+* Xin Zhaohu, 920232796@qq.com, https://github.com/BAAI-Open/[BAAI-Open], Intern
+* Xiang Wen, xw747777271@gmail.com, https://github.com/BAAI-Open/[BAAI-Open]
+* Jie Yang, 2674524945@qq.com, https://github.com/BAAI-Open/[BAAI-Open], Intern
+* Richeng Xuan, xuanricheng@hotmail.com, https://github.com/BAAI-Open/[BAAI-Open]
+* Xi Yang, xiyang85@126.com, https://github.com/BAAI-Open/[BAAI-Open]
+* Guoqiang Wang, 862876363@qq.com, https://github.com/BAAI-Open/[BAAI-Open]
+* Haocheng Wang, 2371156095@qq.com, https://github.com/BAAI-Open/[BAAI-Open], Intern
+* Ledell Wu, wuyu.ledell@gmail.com, https://github.com/BAAI-Open/[BAAI-Open]
+
+
+
+=== Does the project have a code of conduct
+
+https://github.com/BAAI-Open/FlagAI/blob/master/CODE_OF_CONDUCT.md[FlagAI code of conduct], which refers to https://lfprojects.org/policies/code-of-conduct/.
+
+
+=== Did the project achieve any of the CII best practices badges
+
+Yes: 
+
+* https://bestpractices.coreinfrastructure.org/projects/6052[ FlagAI on bestpractices.coreinfrastructure.org]
+
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+* Github Actions
+
+
+
+=== Project website
+
+* None
+
+
+=== Project governance
+
+Yes: https://github.com/BAAI-Open/FlagAI/blob/master/GOVERNANCE.md
+
+
+
+
+
+
+
