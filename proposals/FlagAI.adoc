@@ -37,8 +37,6 @@ FlagAI provides full technical support for the life-circle of large-scale AI mod
 
 Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
 
-Potential usage of https://github.com/onnx/[ONNX], to deploy the model.
-
 === License name
 
 https://github.com/BAAI-Open/FlagAI/blob/master/LICENSE[Apache 2.0]
