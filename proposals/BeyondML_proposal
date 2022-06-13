@@ -1,0 +1,149 @@
+
+
+Name of the project: 
+
+BeyondML
+
+
+
+Requested project maturity level: 
+
+Sandbox
+
+
+
+Project description:
+
+BeyondML is a framework for developing sparse neural networks that can perform multiple tasks across multiple data domains. This framework provides value to the community by: 
+
+- simplifying of the development and deployment of advanced machine learning capabilities for use on low-end devices and in dynamic environments characteristic of the resource-constrained edge
+
+- reducing in the complexity and cost of deploying ML models or systems of models to cloud platforms
+
+- reducing in the carbon footprint of deployed ML models
+
+
+
+Statement on alignment with LF AI’s mission.
+
+BeyondML provides the community with an open way to train and utilize ML models which are economical (due to the lessened computational requirements compared to the state-of-the-art in deep neural networks) and simple to deploy (due to the ability of BeyondML to package multiple models/tasks within a single neural network), making ML more accessible for all members of the community. Additionally, BeyondML seeks to promote the use of high-performance deep learning models on low-end hardware, driving innovation in autonomous and embedded systems on the edge, as well as the implications for considered design decisions in reducing the carbon footprint of deployed ML models.
+
+
+
+Possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)?
+
+ONNX - BeyondML would be a natural fit to grow into one of ONNX's supported ML model building and inference frameworks.
+
+ForestFlow - Using MANN (BeyondML) to augment ForestFlow's approach to grouping models into Contracts could be a powerful early proof of value of BeyondML to the community, as well as enabling ForestFlow to benefit from BeyondML's sparsification in providing further memory and resource management. We would also like to explore the use of ForestFlow's Policy-Based Routing methodology as a basis for design decisions in routing traffic to individual subnetworks within a BeyondML multitask model.
+
+TrustedAI - BeyondML can contribute to the Trusted AI Committee in 2 ways. First, BeyondML has been actively researching using it's framework to enable a classifier to determine whether an input is in-domain vs. out-of-domain, enabling it to communicate to the consumer of the model result both the classification and the 'trustworthiness' of the model's classification. Second, BeyondML supports self-ensembled models, allowing the streamlined deployment of an ensemble of models performing the same task, with implications for adversarial robustness, predictive accuracy, and differential privacy.
+
+Horovod - Horovod would simplify and enhance the necessarily complex data pipelines involved in developing multitask models. Additionally, Horovod's scalable parallelization would be a boon to community users developing larger models (e.g. YOLO, Transformers) for use in the BeyondML framework.
+
+
+
+License name, version, and URL to license text:
+
+All BeyondML source code is subject to the Apache-2.0 license (https://github.com/Beyond-ML-Labs/mann/blob/main/LICENSE)
+
+
+
+Source control:
+
+BeyondML uses Github for source control (https://github.com/Beyond-ML-Labs)
+
+
+
+Does the project sit in its own GH organization?
+
+The BeyondML project sits in its own Github organization, BeyondML Labs (https://github.com/Beyond-ML-Labs)
+
+
+
+Do you have the GH DCO app active in the repos?
+
+No, we do not have the GH DCO app active in the BeyondML repos.
+
+
+
+Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
+
+BeyondML uses Github for issue tracking (https://github.com/Beyond-ML-Labs/mann/issues)
+
+
+
+Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you’d like to use.
+
+None currently in use. Request wiki and Discourse instance for users/developers communication and collaboration
+
+
+
+External dependencies including licenses (name and version) of those dependencies.
+
+Tensorflow (Apache 2.0)
+
+
+Initial committers (name, email, organization) and how long have they been working on project?
+
+Jacob Renn <jacob.renn@squared.ai>; AI Squared, inc.; working on BeyondML from inception of project (November, 2021)
+Ian Sotnek <ian.sotek@squared.ai>; AI Squared, inc.; working on BeyondML from inception of project (November, 2021)
+
+
+
+Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+Project roles have not been formally defined. We will work with LFAI to create these roles and document them if the project moves over.
+
+
+
+Total number of contributors to the project including their affiliations:
+
+There are 2 contributors to BeyondML (the initial committers).
+
+
+
+Release methodology:
+
+Not fully fledged yet - currently a release is performed when committers pass a vote to do so. Release approach is to update the version of the package accessible via PyPi. An updated RELEASES.md will be provided upon project approval and guidance.
+
+
+
+Code of conduct: 
+
+BeyondML cares deeply about fostering an open, inclusive community and is committed to upholding the standards required of such a community. We have a published Code of Conduct (https://github.com/Beyond-ML-Labs/mann/blob/main/CODE_OF_CONDUCT.md), and if the project moves over we will work with LFAI to further ensure that the code of conduct comports with best practices in supporting an open and inclusive community.
+
+
+
+Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+
+We have not yet achieved any of the CII best practices badges.
+
+
+
+Infrastructure requests:
+
+None at this time.
+
+
+
+Project website:
+
+We have not registered the domain, we have been relying solely on Github for the time being. We will request design resources to design a proper website.
+
+
+
+Project governance:
+
+There is currently no formal project governance model in place.
+
+
+
+Social media accounts:
+
+We do not currently have any social media accounts associated with the project.
+
+
+
+Existing sponsorship:
+
+AI Squared, inc. has previously provided developer resources to create and improve upon BeyondML.
