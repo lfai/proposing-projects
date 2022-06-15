@@ -40,6 +40,9 @@ TrustedAI - BeyondML can contribute to the Trusted AI Committee in 2 ways. First
 
 Horovod - Horovod would simplify and enhance the necessarily complex data pipelines involved in developing multitask models. Additionally, Horovod's scalable parallelization would be a boon to community users developing larger models (e.g. YOLO, Transformers) for use in the BeyondML framework.
 
+1chipML - 1chipML is enabling the running of machine learning models and other computational operations on microcontrollers. BeyondML and 1chipML are a natural fit to work together, as BeyondML can facilitate the training of models which are designed to be even more performant than traditional models on resource-constrained hardware.
+
+Machine Learning eXchange - MLX and BeyondML can be utilized in conjunction with one another to facilitate the cataloging, deployment, and usage of resource-friendly machine learning models.
 
 
 License name, version, and URL to license text:
@@ -81,6 +84,10 @@ None currently in use. Request wiki and Discourse instance for users/developers 
 External dependencies including licenses (name and version) of those dependencies.
 
 Tensorflow (Apache 2.0)
+
+PyTorch (BSD-3)
+
+NumPy (BSD-3)
 
 
 Initial committers (name, email, organization) and how long have they been working on project?
