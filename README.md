@@ -48,4 +48,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [Artigraph](https://github.com/artigraph/artigraph)| [Jacob Hayes](https://github.com/lfai/proposing-projects/blob/master/proposals/artigraph.adoc) |[01/27/2022] | Sandbox  | tbd | Jacob Hayes | tbd | [tbd]
 [1chipML](https://github.com/1chipML/1chipML)| [Jean Michel Sellier](https://github.com/lfai/proposing-projects/blob/master/proposals/1chipML.md) |[04/07/2022] | Sandbox  | tbd | Jean Michel Sellier | tbd | [tbd]
 [BeyondML](https://github.com/Beyond-ML-Labs/)| [Jacob Renn](https://github.com/lfai/proposing-projects/blob/master/proposals/BeyondML_proposal) | [06/16/2022] | Sandbox  | tbd | Jacob Renn | tbd | [tbd]
-[FlagAI](https://github.com/BAAI-Open/FlagAI)| [Zac Liu](https://github.com/marscrazy/proposing-projects/blob/master/proposals/FlagAI.adoc) | Scheduled for TAC vote on [06/30/2022] | Sandbox  | tbd | Zac Liu | tbd | [tbd]
+[FlagAI](https://github.com/BAAI-Open/FlagAI)| [Zac Liu](https://github.com/marscrazy/proposing-projects/blob/master/proposals/FlagAI.adoc) | [06/30/2022] | Sandbox  | tbd | Zac Liu | tbd | [tbd]
