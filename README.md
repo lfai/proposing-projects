@@ -50,3 +50,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [BeyondML](https://github.com/Beyond-ML-Labs/)| [Jacob Renn](https://github.com/lfai/proposing-projects/blob/master/proposals/BeyondML_proposal) | [06/16/2022] | Sandbox  | tbd | Jacob Renn | tbd | [tbd]
 [FlagAI](https://github.com/BAAI-Open/FlagAI)| [Zac Liu](https://github.com/marscrazy/proposing-projects/blob/master/proposals/FlagAI.adoc) | [06/30/2022] | Sandbox  | tbd | Zac Liu | tbd | [tbd]
 [OpenDataology](https://github.com/OpenDataology)| [Clement Li](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenDataology.md) | Scheduled for [07/14/2022] | Sandbox  | tbd | Clement Li | tbd | [tbd]
+[FATE](https://github.com/FederatedAI) | [Wenbin Wei](https://github.com/lfai/proposing-projects/blob/master/proposals/FATE.md) | Scheduled for [07/28/2022] | Incubation  | tbd | Wenbin Wei | tbd | [tbd]
