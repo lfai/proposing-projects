@@ -1,0 +1,107 @@
+== Feathr Project Proposal
+
+*Name of the project*: Feathr
+
+*Requested maturity level*: Incubation
+
+*Description*
+
+Feathr is an enterprise-grade, high-performance feature store. Feathr automatically computes your feature values and joins them to your training data, using point-in-time-correct semantics to avoid data leakage, and supports materializing and deploying your features for use online in production.
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain:*
+
+* Milvus as databases to store embeddings features via Feathr.
+* JanusGraph as databases to store graph-like features via Feathr. 
+* OpenLineage for our feature lineage metadata tracking.
+
+*License*: Apache 2.0 https://github.com/linkedin/feathr/blob/main/LICENSE
+
+*Source control*:
+https://github.com/linkedin/feathr
+
+*External dependencies*:
+
+  * Apache Spark
+  * typesafe
+  * fasterxml
+  * Apache hadoop
+  * Apache avro
+  * Apache xbean
+  * Microsoft azure
+  * Apache kafka
+  * Google guava
+  * testng
+  * mockito
+  * equalsverifier
+  * scalatest
+  * unimi dsi
+  * mvel mvel2
+  * jasonclawson jackson-dataformat-hocon
+  * redislabs spark-redis
+  * google protobuf
+  * snowflake snowflake-jdbc
+  * apache commons
+  * xerial sqlite-jdbc
+  * changvvb jackson-module-caseclass
+  * azure cosmos
+  * eclipse jetty
+  * microsoft sqlserver
+  * postgresql
+
+
+*Initial committers:*
+
+  * David Stein <dstein@linkedin.com> (LinkedIn), since April 2022
+  * Jinghui Mo <jmo@linkedin.com> (LinkedIn), since April 2022
+  * Hangfei Lin <hnlin@linkedin.com> (LinkedIn), since April 2022
+  * Xiaoyong Zhu <xiaoyzhu@microsoft.com> (Microsoft), since April 2022
+
+*Have the project defined the roles of contributor, committer, maintainer, etc.?*
+
+None, we will work with LF to set up the open governance model for this.
+
+*Project governance*
+
+We have our own technical steering committee. We will work with LF to set up a new open governance model for this.
+
+*Total number of contributors to the project including their affiliations at the time of submitting this proposal:*
+26
+
+*Does the project have a code of conduct?*
+https://github.com/linkedin/feathr/blob/main/CONTRIBUTING.md#code-of-conduct
+
+*Infrastructure requests:*
+
+None at the moment.
+
+*Current mailing lists:*
+
+None, we will request LF to create lists for users, developers, and TSC.
+
+*Resources:*
+
+  * Discussions - https://feathrai.slack.com/
+  * CI - https://github.com/linkedin/feathr/actions
+  * Issues - https://github.com/linkedin/feathr/issues
+  * packages - https://oss.sonatype.org/#welcome, https://pypi.org/
+
+*Website:*
+
+None, we will request design resources to register a domain and design a proper website.
+
+*Release methodology & mechanics:*
+
+The release is performed when committers agree to do so. The release procedure is as follows:
+
+  * Verify Circle CI tests are passsing.
+  * Release to Maven
+  * Release to PyPi
+
+*Social media accounts:*
+https://www.youtube.com/channel/UCatG3di6U21BMFJtea2fSWA
+
+*Existing sponsorship:*
+LinkedIn, Microsoft are the major sponsors
+
+*CII Best Practices Badge:*
+None, will add.
