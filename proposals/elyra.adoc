@@ -1,0 +1,94 @@
+## Elyra Project Proposal
+
+*Name of the project*: Elyra, Elyra Pipelines
+
+*Requested maturity level*: Incubation
+
+*Description*: Elyra is an open-source low code / no code framework for creating reproducible, scalable and component based data science pipelines. It allows senior data scientist to create reusable componentes easily. Citizen data scientists can reuse their code without programming skills. MLOps engineers are provided with tested and maintainable deliverables, and scale on Kubeflow, Airflow and others.
+
+*Alignment with LF AI & Data’s mission*: Elyra is not reinventing the wheel. In contrast, it allows for consumption of existing LF AI projects in a streamlined, stable and reproducible way.
+
+Have you identified possible collaboration opportunities with current LF AI hosted projects?
+
+* Ray
+* TensorFlow
+* PyTorch
+* Kubeflow
+* mlflow
+* Seldon
+* DASK
+* scikit-learn
+* OpenCV
+* Tekton
+* Pandas
+* Argo
+* MLExchange
+* AIF360
+* ART
+* AIX360
+* Streamlit
+
+*License*: Apache License 2.0, see: https://github.com/elyra-ai/elyra/blob/main/LICENSE
+
+*Source control*:
+
+https://github.com/elyra-ai/elyra
+
+*Issue tracker*:
+
+https://github.com/elyra-ai/elyra/issues
+
+*External dependencies*:
+
+Languages:
+
+- Python
+- Javascript
+- TypeScript
+
+Dependencies:
+ 
+https://github.com/elyra-ai/elyra/blob/main/build_requirements.txt
+
+*Initial committers*:
+
+  - Luciano Resende: https://github.com/lresende
+  - Alan Chin: https://github.com/akchinSTC
+  - Patrick Titzler: https://github.com/ptitzler
+  - Kevin Bates:https://github.com/kevin-bates
+  - Alex Bozarth: https://github.com/ajbozarth
+  - Kiersten Stokes: https://github.com/kiersten-stokes
+  - Martha Cryan: https://github.com/marthacryan
+  - Karla Spuldaro: https://github.com/karlaspuldaro
+
+*Total number of contributors at the time of submitting this proposal*: 58
+
+*Has the project defined the roles of contributor, committer, maintainer, etc.?* Yes, ASF inspired
+
+*Project governance*: None, we will work with LF to set up the open governance model for this.
+
+*Does the project have a code of conduct?* Yes, please see the Code of Conduct: https://github.com/elyra-ai/community/blob/main/code-of-conduct.md
+
+*Current mailing lists*:
+
+ - Gitter: https://gitter.im/elyra-ai/community
+ - Slack: elyra-ai.slack.com
+ 
+*Infrastructure requests*: None at the moment
+
+
+*Release methodology & mechanics*: Releases are performed when committers agree to do so. The release is performed by tagging in Github, and pushing artefacts to PyPi, npm, docker hub and quay. Usually every 2-4 weeks a release is published.
+
+*Social media accounts*: None
+
+*Website*: 
+
+Not yet
+
+*Project documentation*: 
+
+https://elyra.readthedocs.io/
+
+*Existing sponsorship*:
+
+IBM currently sponsers 11 FTE to work on the project exclusively
