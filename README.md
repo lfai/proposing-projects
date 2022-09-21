@@ -52,5 +52,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [OpenDataology](https://github.com/OpenDataology)| [Clement Li](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenDataology.md) | [08/11/2022] | Sandbox  | tbd | Clement Li | tbd | [tbd]
 [FATE](https://github.com/FederatedAI) | [Wenbin Wei](https://github.com/lfai/proposing-projects/blob/master/proposals/FATE.md) | [07/28/2022] | Incubation  | tbd | Wenbin Wei | tbd | [01/28/2024]
 [Feathr](https://github.com/linkedin/feathr) | [Hangfei Lin](https://github.com/lfai/proposing-projects/blob/master/proposals/FATE.md) | [08/25/2022] | Sandbox   | tbd | Hangfei Lin | tbd | tbd
-
-https://github.com/lfai/proposing-projects/blob/master/proposals/feathr.adoc
+[Elyra](https://github.com/elyra-ai/elyra) | [Romeo Kienzler Lin](https://github.com/lfai/proposing-projects/blob/master/proposals/elyra.adoc) | [Scheduled for 09/22/2022] | Sandbox   | tbd | Romeo Kienzler | tbd | tbd
