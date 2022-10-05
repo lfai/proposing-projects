@@ -109,7 +109,7 @@ Yes, see:
 
 === Does the project have a code of conduct
 
-https://github.com/jina-ai/docarray/blob/main/CODE_OF_CONDUCT.md[DocArray code of conduct].
+https://github.com/jina-ai/docarray/blob/main/.github/CODE_OF_CONDUCT.md[DocArray code of conduct].
 
 
 === Did the project achieve any of the CII best practices badges
