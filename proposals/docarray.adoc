@@ -1,0 +1,141 @@
+== DocArray Project Proposal
+
+*Name of project*: DocArray
+
+*Requested project maturity level*: Sandbox
+
+=== Project description
+
+DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc. It allows deep-learning engineers to efficiently process, embed, search, recommend, store, and transfer the multi-modal data with a Pythonic API.
+
+- Door to cross-/multi-modal world: super-expressive data structure for representing complicated/mixed/nested text, image, video, audio, 3D mesh data.
+- Data science powerhouse: greatly accelerate data scientists’ work on embedding, k-NN matching, querying, visualizing, evaluating via Torch/TensorFlow/ONNX/PaddlePaddle on CPU/GPU.
+- Data in transit: optimized for network communication, ready-to-wire at anytime with fast and compressed serialization in Protobuf, bytes, base64, JSON, CSV, DataFrame. Perfect for streaming and out-of-memory data.
+- One-stop k-NN: Unified and consistent API for mainstream vector databases that allows nearest neighboour search including Elasticsearch, Redis, ANNLite, Qdrant, Weaviate.
+- For modern apps: GraphQL support makes your server versatile on request and response; built-in data validation and JSON Schema (OpenAPI) help you build reliable webservices.
+- Pythonic experience: designed to be as easy as a Python list. If you know how to Python, you know how to DocArray. Intuitive idioms and type annotation simplify the code you write.
+- Integrate with IDE: pretty-print and visualization on Jupyter notebook & Google Colab; comprehensive auto-complete and type hint in PyCharm & VS Code.
+
+=== Statement on alignment with LF AI’s mission
+
+1. DocArray can take advantage of the expertise and resources of the Linux Foundation to help promote and develop the project.
+
+2. The LF AI & Data can help to ensure that DocArray is compatible with other open source projects and technologies.
+
+3. The LF AI & Data can help DocArray to reach a wider audience of users and developers.
+
+4. The LF AI & Data can provide DocArray with a platform for collaboration and development.
+
+5. The LF AI & Data can help DocArray to become a sustainable project with long-term support.
+
+
+=== Possible collaboration opportunities with current LF AI hosted projects
+
+- Milvus integration for document store
+- ONNX integration for inference acceleration
+
+=== License name
+
+https://github.com/BAAI-Open/FlagAI/blob/master/LICENSE[Apache 2.0]
+
+
+=== Source control (GitHub, etc.)
+
+* https://github.com/jina-ai/docarray[main repo]
+
+
+=== GH DCO app
+
+GH DCO app is active.
+
+
+=== Issue tracker
+
+https://github.com/jina-ai/docarray/issues[Github issues for checking issues and feature requests]
+
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+* https://github.com/jina-ai/docarray[Github issues]
+* https://slack.jina.ai/[Slack channel]
+* direct communication with the author by email
+
+
+
+=== External dependencies including licenses (name and version) of those dependencies
+
+```
+Name        Version  License
+ Pillow      9.2.0    Historical Permission Notice and Disclaimer (HPND)
+ fastapi     0.80.0   MIT License
+ lz4         3.1.10   BSD License
+ matplotlib  3.5.3    Python Software Foundation License
+ numpy       1.23.2   BSD License
+ protobuf    4.21.5   3-Clause BSD License
+ requests    2.28.1   Apache Software License
+ rich        12.5.1   MIT License
+ uvicorn     0.18.3   BSD License
+```
+
+=== Initial committers (name, email, organization) and how long have they been working on project
+
+* Han Xiao, han.xiao@jina.ai, Jina AI, 10 months
+* Alaeddine Abdessalem, alaeddine.abdessalem@jina.ai, Jina AI, 8 months
+* Joan Fontanals, joan.martinez@jina.ai, Jina AI, 7 months
+* Johannes Messner, johannes.messner@jina.ai, Jina AI, 5 months
+* Sami Jaghouar, sami.jaghouar@jina.ai, Jina AI, 5 months
+
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc
+
+Yes, see:
+
+* https://github.com/jina-ai/docarray/blob/main/CONTRIBUTING.md[CONTRIBUTING.md]
+
+
+=== Total number of contributors to the project including their affiliations
+
+42 in total
+
+- delft university of technology
+- tencent
+- university of wisconsin milwaukee
+- ikara vision systems ug
+- huya
+- semi technologies
+- alpaca gmbh
+- plaksha tech leaders fellow | arcesium
+
+
+=== Does the project have a code of conduct
+
+https://github.com/jina-ai/docarray/blob/main/CODE_OF_CONDUCT.md[DocArray code of conduct], which refers to https://lfprojects.org/policies/code-of-conduct/.
+
+
+=== Did the project achieve any of the CII best practices badges
+
+Yes:
+
+* https://bestpractices.coreinfrastructure.org/en/projects/6554[ DocArray on bestpractices.coreinfrastructure.org]
+
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+* None
+
+
+
+=== Project website
+
+* https://docarray.jina.ai[DocArray Docs website]
+
+
+=== Project governance
+
+* https://github.com/jina-ai/docarray/blob/main/GOVERNANCE.md[GOVERNANCE.md]
+
+
+
+
+
+
