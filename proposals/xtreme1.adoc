@@ -1,0 +1,65 @@
+== Xtreme1 Project Proposal
+*Name of project*: Xtreme1
+
+*Requested project maturity level*: Sandbox 
+
+== Project description
+
+Xtreme1 is the next generation open source platform for multisensory training data. It accelerates the modelling process by advanced AI-powered tools, thounsands projects distilled ontologies and plentiful data curation features.
+Xtreme1 provides value to the AI community by:
+
+1. Supports labeling for image, 3D LiDAR and 2D/3D Fusion datasets;
+2. Built-in pre-labeling and interactive models support 2D/3D object detection, segmentation and classification；
+3. Ontology center for sharing AI problem definitions of object classes and data attributes in your model training;
+4. Supports data visualization, organization, versioning, validation, consensus, analysis, etc.;
+5. Supports engineer friendly open API and SDK for quick integration and development.
+
+=== Statement on alignment with LF AI’s mission
+Xtreme1 would help users to governance and crurate user’s datasets with full open source AI technology and compatible with other open source projects and technologies.
+The LF AI & Data can help Xtreme1 to reach a wider audience of users and developers and become a sustainable project with long-term support.
+
+=== Possible collaboration opportunities with current LF AI hosted projects
+- Milvus: https://github.com/milvus-io/milvus
+- ONNX: https://github.com/onnx/onnx
+- Horovod: https://github.com/horovod/horovod
+- Amundsen: https://github.com/amundsen-io/amundsen
+
+=== License name
+Apache 2.0
+
+=== Source control (GitHub, etc.)
+* https://github.com/basicai/xtreme1[main repo]
+
+=== Issue tracker
+https://github.com/basicai/xtreme1/issues[Github issues for checking issues and feature requests]
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+* https://github.com/basicai/xtreme1[Github issues]
+* https://slack.basic.ai/[Slack channel]
+* direct communication with the author by email
+
+=== External dependencies including licenses (name and version) of those dependencies
+* Please refer https://github.com/basicai/xtreme1/blob/master/NOTICE.md
+
+=== Initial committers (name, email, organization) and how long have they been working on project
+* Shilin Liu, alex@basic.ai, BasicAI, 6 months
+* Jiajun Wang, wangjiajun@basicfinder.com , BasicAI, 6 months
+* Yinbo Fan, fanyinbo@basicfinder.com , BasicAI, 6 months
+* Xin Li, cindy@basic.ai, 6 months
+* Fangjie Wang, frank@basic.ai, 6 months
+* Ziqian Zhang, nico@basic.ai, 6 months
+* Dazhi Li, lidazhi@basicfinder.com , BasicAI, 6 months
+
+=== Does the project have a code of conduct
+https://github.com/basicai/xtreme1/CODE_OF_CONDUCT.md[Xtreme1 code of conduct].
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+* None
+
+=== Project website
+* https://xtreme1.io
+
+=== Project governance
+Project committee will hold regular meeting to discuss the development requirements and future roadmap. Xtreme1 project committee is open to the community. External contributors are welcomed to join and contribute.
+
+=== Existing sponsorship: BasicAI started and has been the main contributor to the project so far.
