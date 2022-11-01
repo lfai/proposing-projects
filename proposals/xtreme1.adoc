@@ -51,7 +51,7 @@ https://github.com/basicai/xtreme1/issues[Github issues for checking issues and 
 * Dazhi Li, dazhi@basic.ai, BasicAI, 10 months
 
 === Does the project have a code of conduct
-https://github.com/basicai/xtreme1/CODE_OF_CONDUCT.md[Xtreme1 code of conduct].
+https://github.com/basicai/xtreme1/blob/main/CODE_OF_CONDUCT.md[Xtreme1 code of conduct].
 
 === Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
 * None
