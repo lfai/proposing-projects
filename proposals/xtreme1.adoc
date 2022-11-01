@@ -60,7 +60,7 @@ The LF AI & Data can help Xtreme1 to reach a wider audience of users and develop
 * https://xtreme1.io
 
 === Project governance
-* Project committee will hold regular meeting to discuss the development requirements and future roadmap. Xtreme1 project committee is open to the community. External contributors are welcomed to join and contribute.
+* Project committee will hold regular meeting to discuss the development requirements and future roadmap. Xtreme1 project committee is open to the community. External contributors are welcome to join the team.
 
 === Existing sponsorship: 
 * BasicAI started and has been the main contributor to the project so far.
