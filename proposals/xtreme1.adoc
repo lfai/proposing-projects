@@ -42,13 +42,13 @@ https://github.com/basicai/xtreme1/issues[Github issues for checking issues and 
 * Please refer https://github.com/basicai/xtreme1/blob/master/NOTICE.md
 
 === Initial committers (name, email, organization) and how long have they been working on project
-* Shilin Liu, alex@basic.ai, BasicAI, 6 months
-* Jiajun Wang, wangjiajun@basicfinder.com , BasicAI, 6 months
-* Yinbo Fan, fanyinbo@basicfinder.com , BasicAI, 6 months
-* Xin Li, cindy@basic.ai, 6 months
-* Fangjie Wang, frank@basic.ai, 6 months
-* Ziqian Zhang, nico@basic.ai, 6 months
-* Dazhi Li, lidazhi@basicfinder.com , BasicAI, 6 months
+* Shilin Liu, alex@basic.ai, BasicAI, 10 months
+* Jiajun Wang, jagger@basic.ai, BasicAI, 10 months
+* Yinbo Fan, yinbo@basic.ai, BasicAI, 10 months
+* Xin Li, cindy@basic.ai, BasicAI, 10 months
+* Fangjie Wang, frank@basic.ai, BasicAI, 10 months
+* Ziqian Zhang, nico@basic.ai, BasicAI, 10 months
+* Dazhi Li, dazhi@basic.ai, BasicAI, 10 months
 
 === Does the project have a code of conduct
 https://github.com/basicai/xtreme1/CODE_OF_CONDUCT.md[Xtreme1 code of conduct].
