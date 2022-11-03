@@ -54,4 +54,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [Feathr](https://github.com/linkedin/feathr) | [Hangfei Lin](https://github.com/lfai/proposing-projects/blob/master/proposals/FATE.md) | [08/25/2022] | Sandbox   | tbd | Hangfei Lin | tbd | tbd
 [Elyra](https://github.com/elyra-ai/elyra) | [Romeo Kienzler Lin](https://github.com/lfai/proposing-projects/blob/master/proposals/elyra.adoc) | [09/22/2022 - approved via email vote 10/5/2022] | Sandbox   | tbd | Romeo Kienzler | tbd | tbd
 [Docarray](https://github.com/jina-ai/docarray) | [Han Xiao](https://github.com/lfai/proposing-projects/blob/master/proposals/docarray.adoc) | [11/03/2022] | Sandbox   | tbd | Han Xiao | tbd | tbd
-[Xtreme1](https://github.com/jina-ai/docarray) | [Alex S. Liu](https://github.com/lfai/proposing-projects/blob/master/proposals/xtreme1.adoc) | [12/01/2022] | Sandbox   | tbd | Alex S. Liu | tbd | tbd
+[Xtreme1](https://github.com/basicai/xtreme1) | [Alex S. Liu](https://github.com/lfai/proposing-projects/blob/master/proposals/xtreme1.adoc) | [12/01/2022] | Sandbox   | tbd | Alex S. Liu | tbd | tbd
