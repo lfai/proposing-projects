@@ -1,0 +1,85 @@
+## CLAIMED Project Proposal
+
+*Name of the project*: CLAIMED, Component Library for AI, Machine Learning, ETL and Data Science
+
+*Requested maturity level*: Incubation (Sandbox)
+
+*Description*: CLAIMED is an open-source low code / no code component library for creating reproducible, scalable, trusted and auditable component based Data & AI pipelines using visual pipeline editors, docker, KNative or shell scripts. It allows senior data scientists to create reusable components easily. Citizen data scientists can reuse their code without programming skills and easily verify/modify their work. MLOps engineers are provided with tested and maintainable deliverables which scale on Kubernetes. Currently, apart from IBM's commercial pipeline editor, the Elyra pipeline editor is supported. CLAIMED comes with a component compiler which turn code assets (e.g. jupyter notebook) into executable Kubeflow Pipeline components. The generated container images are self-contained and also run on (local) docker or KNative. Additional exporters are planned (e.g. Airflow, Apache Nifi, SLURM)
+
+*Alignment with LF AI & Data’s mission*: CLAIMED is not reinventing the wheel. In contrast, it allows for consumption of existing LF AI projects in a streamlined, stable and reproducible way. It democratizes Data & AI. Facilitates
+verification, repetition and all aspects of TrustedAI.
+
+Have you identified possible collaboration opportunities with current LF AI hosted projects?
+
+* AIX360
+* ART
+* AIF360
+* KServe
+* ONNX
+* Elyra
+* Machine Learnign Exchange (MLX)
+* Flyte
+* Kedro
+* Ludwig
+
+*License*: Apache License 2.0, see: https://github.com/claimed-framework/component-library/blob/master/LICENSE
+
+*Source control*:
+
+https://github.com/claimed-framework/
+
+*Issue tracker*:
+
+https://github.com/claimed-framework/component-library/issues
+
+*External dependencies*:
+
+Languages:
+
+- Python
+
+Dependencies:
+ 
+- JupyterLab (soft requirement)
+- Elyra (soft requirement)
+- Docker
+- PIP
+- IPython
+
+*Initial committers*:
+
+  - Romeo Kienzler, IBM and IBM Research: https://github.com/romeokienzler
+  - Ivan Nesic, University Hospital Basel: https://github.com/fatkaratekid
+
+*Total number of contributors at the time of submitting this proposal*: 19
+
+*Has the project defined the roles of contributor, committer, maintainer, etc.?* In progress, ASF inspired
+
+*Project governance*: None, we will work with LFAI to set up the open governance model for this.
+
+TODO
+*Does the project have a code of conduct?* Yes, please see the Code of Conduct: https://github.com/elyra-ai/community/blob/main/code-of-conduct.md
+
+*Current mailing lists*:
+
+ - Matrix: #claimed:matrix.org
+ 
+*Infrastructure requests*: None at the moment
+
+
+*Release methodology & mechanics*: Releases are performed when committers agree to do so. The release is performed by tagging in Github, and pushing artefacts to docker hub. Usually every 2-4 weeks a release is published.
+
+*Social media accounts*: None
+
+*Website*: 
+
+Not yet
+
+*Project documentation*: 
+
+https://github.com/claimed-framework/component-library/wiki (for now)
+https://github.com/claimed-framework/c3/wiki (for now)
+
+*Existing sponsorship*:
+
+IBM currently sponsors 2 FTE to work on the project exclusively
