@@ -57,8 +57,7 @@ Dependencies:
 
 *Project governance*: None, we will work with LFAI to set up the open governance model for this.
 
-TODO
-*Does the project have a code of conduct?* Yes, please see the Code of Conduct: https://github.com/elyra-ai/community/blob/main/code-of-conduct.md
+*Does the project have a code of conduct?* Yes, please see the Code of Conduct: https://github.com/claimed-framework/component-library/blob/master/CODE_OF_CONDUCT.md
 
 *Current mailing lists*:
 
