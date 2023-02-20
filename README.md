@@ -56,4 +56,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [Docarray](https://github.com/jina-ai/docarray) | [Han Xiao](https://github.com/lfai/proposing-projects/blob/master/proposals/docarray.adoc) | [11/03/2022] | Sandbox   | tbd | Han Xiao | tbd | tbd
 [CLAIMED](https://github.com/claimed-framework/) | [Romeo Kienzler](https://github.com/lfai/proposing-projects/blob/master/proposals/claimed.adoc) | [11/17/2022] | Sandbox   | tbd |  Romeo Kienzler | tbd | tbd
 [Xtreme1](https://github.com/basicai/xtreme1) | [Alex S. Liu](https://github.com/lfai/proposing-projects/blob/master/proposals/xtreme1.adoc) | [12/01/2022] | Sandbox   | tbd | Alex S. Liu | tbd | tbd
-[OpenFL](https://github.com/intel/openfl) | [Olga Perepelkina](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenFL.md) | [01/26/2023] | Sandbox | tbd | Olga Perepelkina | tbd | 07/26/2024
+[OpenFL](https://github.com/intel/openfl) | [Olga Perepelkina](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenFL.md) | [02/03/2023 via email vote] | Sandbox | tbd | Olga Perepelkina | tbd | 08/03/2024
