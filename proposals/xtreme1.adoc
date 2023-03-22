@@ -35,7 +35,7 @@ The LF AI & Data can help Xtreme1 to reach a wider audience of users and develop
 
 === Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
 * https://github.com/basicai/xtreme1[Github issues]
-* https://slack.basic.ai/[Slack channel]
+* https://xtreme1io.slack.com/[Slack channel]
 * Direct communication with the author by email
 
 === External dependencies including licenses (name and version) of those dependencies
