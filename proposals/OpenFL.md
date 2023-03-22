@@ -9,7 +9,7 @@ Incubation
 ### Project description:
 OpenFL is a Python 3 library for federated learning that enables organizations to collaboratively train a model without sharing sensitive information.
 
-[Federated learning](https://en.wikipedia.org/wiki/Federated_learning) is a distributed machine learning approach that enables collaboration on machine learning projects without sharing sensitive data, such as patient records, financial data, or classified secrets (McMahan, 2016; Sheller, Reina, Edwards, Martin, & Bakas, 2019; Yang, Liu, Chen, & Tong, 2019; Sheller et al., 2020). In federated learning, the model moves to meet the data rather than the data moving to meet the model. The movement of data across the federation are the model parameters and their updates.
+[Federated learning](https://en.wikipedia.org/wiki/Federated_learning) is a distributed machine learning approach that enables collaboration on machine learning projects without sharing sensitive data, such as patient records, financial data, or classified secrets ([Pati S, et al., 2022](https://www.nature.com/articles/s41467-022-33407-5); [Reina A, et al., 2021](https://arxiv.org/abs/2105.06413); [Sheller MJ,  et al., 2020](https://www.nature.com/articles/s41598-020-69250-1)). In federated learning, the model moves to meet the data rather than the data moving to meet the model. The movement of data across the federation are the model parameters and their updates.
 
 OpenFL is Deep Learning framework-agnostic. Training of statistical models may be done with any deep learning framework, such as TensorFlow or PyTorch, via a plugin mechanism.
 
