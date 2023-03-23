@@ -1,11 +1,12 @@
-== DeepRec Project Proposal
+## DeepRec Project Proposal
 
+### Name of project:
+DeepRec
 
-* Name of project*: DeepRec
+### Requested project maturity level:
+Incubation
 
-* Requested project maturity level*: Incubation
-
-* Project description*
+### Project description
 
 DeepRec is a high-performance recommendation deep learning framework based on TensorFlow. 
 
@@ -17,32 +18,33 @@ DeepRec has super large-scale distributed training capability, supporting recomm
 
 DeepRec is supported by Alibaba, AntGroup, Intel and NVIDIA.
 
-* Statement on alignment with LF AI’s mission*
+### Statement on alignment with LF AI’s mission
 
 DeepRec provides AI developers, researchers and data scientists in recommendation, advertising and search with tooling to provide better AUC and higher performance.
 
-* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.*
+### Have you identified possible collaboration opportunities with current LF AI hosted projects
 
-- Horovod (already used)
+- Horovod
 - Feast
 - ONNX
 
-* License name*
-- Apache License 2.0
+### License name
+Apache License 2.0
 
-* Source control (GitHub, etc.)*
-- https://github.com/alibaba/DeepRec
+### Source control (GitHub, etc.)
+https://github.com/alibaba/DeepRec
 
-* Issue tracker (GitHub, JIRA, etc)*
-- https://github.com/alibaba/DeepRec/issues
+### Issue tracker (GitHub, JIRA, etc)
+https://github.com/alibaba/DeepRec/issues
 
-* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)*
+### Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
 
 - DingTalk and WeChat (in use)
 - Hope to have maillist and Slack channel under LFAI.
 
-* External dependencies* 
+### External dependencies
 
+- absl-py (Apache License 2.0)
 - abseil-cpp (Apache License 2.0)
 - alibabacloud-oss-sdk (Apache License 2.0)
 - Apache Kafka (Apache License 2.0)
@@ -58,6 +60,7 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - bazelbuild_apple_support (Apache License 2.0)
 - bazel-skylib (Apache License 2.0)
 - boost (Boost Software License)
+- brotli (MIT License)
 - bzip2 (Modified zlib License)
 - checkerframework_qual (Apache License 2.0)
 - colm (MIT License)
@@ -65,10 +68,10 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - cudnn-frountend (MIT License)
 - ComputeLibrary (MIT License)
 - c-ares (MIT License)
-- cpython (Apache License 2.0)
+- cython (Apache License 2.0)
 - concurrentqueue (BSD License/Boost Software License/zlib License)
 - cub (BSD-3-Clause License)
-- curl (specific variant of MIT License)
+- curl (MIT License)
 - double-conversion (BSD-3-Clause License)
 - Eigen3 (Mozilla Public License 2.0)
 - enum34 (PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2)
@@ -92,6 +95,7 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - hiredis (BSD-3-Clause license)
 - hwloc (BSD License)
 - hugectr (Apache License 2.0)
+- Intel-TensorFlow (Apache License 2.0)
 - jsoncpp (Public Domain/MIT License)
 - junit (Common Public License Version 1.0)
 - leveldb (BSD-3-Clause License)
@@ -108,6 +112,7 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - linenoise (BSD-2-Clause License)
 - llvm (Apache License 2.0)
 - lmdb (OpenLDAP Public License)
+- lz4 (BSD 2-Clause license/GPLv2 license)
 - MKL-DNN (Apache License 2.0)
 - MLIR (Apache License 2.0)
 - mxml (Apache License 2.0)
@@ -119,6 +124,7 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - nlohmann_json (MIT License)
 - nsync (Apache License 2.0)
 - numpy (BSD-3-Clause License)
+- Nvidia-TensorFlow (Apache License 2.0)
 - NVTX (Apache License 2.0)
 - oneDNN (Apache License 2.0)
 - oneTBB (Apache License 2.0)
@@ -133,13 +139,14 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - rpi-newer-crosstools (None)
 - rocPRIM (MIT License)
 - seastar (Apache License 2.0)
-- sctp (LGPL header only)
+- sctp (GNU General Public License v2.0)
 - six (MIT License)
 - sparsehash-c11 (BSD-3-Clause License)
 - sqllite (Public Domain)
 - squareup_javapoet (Apache License 2.0)
 - snappy (BSD 2-Clause License)
 - swig (GPLv3 License)
+- TensorFlow (Apache License 2.0)
 - termcolor (PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2)
 - thrift (Apache License 2.0)
 - UUID (LGPL header only)
@@ -151,7 +158,7 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - zstd (BSD License)
 
 
-* Initial committers (name, email, organization) and how long have they been working on project*
+### Initial committers (name, email, organization) and how long have they been working on project
 
 - Tongxuan LIU, tongxuan.ltx@alibaba-inc.com, Alibaba, 6+ years
 - Chen DING, candy.dc@alibaba-inc.com, Alibaba, 6+ years
@@ -172,49 +179,48 @@ DeepRec provides AI developers, researchers and data scientists in recommendatio
 - Ji ZHANG, zhangji.zhang@antgroup.com, AntGroup, 1+ years
 - Alex LIU, aleliu@nvidia.com, NVIDIA, 1+ years
 - Joey WANG, zehuanw@nvidia.com, NVIDIA, 1+ years
-- Randy WANG, ruotongw@nvidia.com, NVIDIA, 1+ years
 
-* Have the project defined the roles of contributor, committer, maintainer, etc.*
+### Have the project defined the roles of contributor, committer, maintainer, etc.
 
-- This will be a part of the governance document.
+This will be a part of the governance document.
 
-* Total number of contributors to the project including their affiliations.*
+### Total number of contributors to the project including their affiliations.
 
-- DeepRec: https://github.com/alibaba/DeepRec (140)
+DeepRec: https://github.com/alibaba/DeepRec (140)
 
-* Does the project have a release methodology*
+### Does the project have a release methodology
 
-- Release notes: https://github.com/alibaba/DeepRec/blob/main/RELEASE.md
+Release notes: https://github.com/alibaba/DeepRec/blob/main/RELEASE.md
 
-- Artifacts of a release
-    - Release Docker images for DeepRec (https://hub.docker.com/r/alideeprec/deeprec-release)
-    - Documentation (https://deeprec.readthedocs.io/en/latest)
-    - Python package on Pypi (WIP)
+Artifacts of a release
+- Release Docker images for DeepRec (https://hub.docker.com/r/alideeprec/deeprec-release)
+- Documentation (https://deeprec.readthedocs.io/en/latest)
+- Python package on Pypi (WIP)
 
-* Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+### Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
 
-- https://github.com/alibaba/DeepRec/blob/main/CODE_OF_CONDUCT.md
+https://github.com/alibaba/DeepRec/blob/main/CODE_OF_CONDUCT.md
 
-* Did the project achieve any of the CII best practices badges? 
+### Did the project achieve any of the CII best practices badges?
 
-- None yet
+None yet
 
-* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI*
+### Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI
 
-- Currently CICD is running test on Alibaba Cloud.
+Currently DeepRec's CICD is running on Alibaba Cloud.
 
-* Project website*
+### Project website
 
-- None yet
+None yet
 
-* Project governance*
+### Project governance
 
-- [WIP]
+[WIP]
 
-* Social media accounts*
+### Social media accounts
 - Twitter: None yet
 - Youtube: None yet
 
-* Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+### Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
 
-- Alibaba, AntGroup, Intel, NVIDIA have provided developer resources to improve DeepRec.
+Alibaba, AntGroup, Intel, NVIDIA have provided developer resources to improve DeepRec.
