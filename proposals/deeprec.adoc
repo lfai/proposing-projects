@@ -37,7 +37,7 @@ https://github.com/alibaba/DeepRec
 ### Issue tracker (GitHub, JIRA, etc)
 https://github.com/alibaba/DeepRec/issues
 
-### Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+### Collaboration tools
 
 - DingTalk and WeChat (in use)
 - Hope to have maillist and Slack channel under LFAI.
@@ -158,7 +158,7 @@ https://github.com/alibaba/DeepRec/issues
 - zstd (BSD License)
 
 
-### Initial committers (name, email, organization) and how long have they been working on project
+### Initial committers
 
 - Tongxuan LIU, tongxuan.ltx@alibaba-inc.com, Alibaba, 6+ years
 - Chen DING, candy.dc@alibaba-inc.com, Alibaba, 6+ years
@@ -167,8 +167,14 @@ https://github.com/alibaba/DeepRec/issues
 - Bangduo CHEN, chenbangduo.cbd@alibaba-inc.com, Alibaba, 1+ years
 - Junqi HU, hujunqi.hjq@alibaba-inc.com, Alibaba, 1+ years
 - Yitong HUANG, huangyitong.hyt@alibaba-inc.com, Alibaba, 1+ years
+- Man YUAN, yuanman.ym@alibaba-inc.com, Alibaba, 6+ years
+- Langshi CHEN, langshi.cls@alibaba-inc.com, Alibaba, 3+ years
+- Wanchen SUI, wanchen.swc@alibaba-inc.com, Alibaba, 1+ years
+- Lanbo LI, lanbo.llb@alibaba-inc.com, Alibaba, 1+ years
+- Ziji SHI, ziji.shi@alibaba-inc.com, Alibaba, 1+ years
 - Yong LI, jiufeng.ly@alibaba-inc.com, Alibaba, 6+ years
 - Wei LIN, weilin.lw@alibaba-inc.com, Alibaba, 6+ years
+- Jin OUYANG, oyjmical@gmail.com, Kuaishou, 4 years
 - Ruozhou ZANG, zrzn@foxmail.com, MetaApp, 1+ years
 - Changqing LI, changqing.li@intel.com, Intel, 2+ years
 - Pujiang HE, pujiang.he@intel.com, Intel, 2+ years
@@ -182,7 +188,9 @@ https://github.com/alibaba/DeepRec/issues
 
 ### Have the project defined the roles of contributor, committer, maintainer, etc.
 
-This will be a part of the governance document.
+This is a part of the governance document.
+
+https://github.com/alibaba/DeepRec/blob/main/GOVERNANCE.md
 
 ### Total number of contributors to the project including their affiliations.
 
@@ -193,11 +201,12 @@ DeepRec: https://github.com/alibaba/DeepRec (140)
 Release notes: https://github.com/alibaba/DeepRec/blob/main/RELEASE.md
 
 Artifacts of a release
+
 - Release Docker images for DeepRec (https://hub.docker.com/r/alideeprec/deeprec-release)
 - Documentation (https://deeprec.readthedocs.io/en/latest)
 - Python package on Pypi (WIP)
 
-### Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+### Does the project have a code of conduct?
 
 https://github.com/alibaba/DeepRec/blob/main/CODE_OF_CONDUCT.md
 
@@ -215,12 +224,13 @@ None yet
 
 ### Project governance
 
-[WIP]
+https://github.com/alibaba/DeepRec/blob/main/GOVERNANCE.md
 
 ### Social media accounts
+
 - Twitter: None yet
 - Youtube: None yet
 
-### Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+### Existing sponsorship
 
 Alibaba, AntGroup, Intel, NVIDIA have provided developer resources to improve DeepRec.
