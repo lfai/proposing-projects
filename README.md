@@ -58,3 +58,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [Xtreme1](https://github.com/basicai/xtreme1) | [Alex S. Liu](https://github.com/lfai/proposing-projects/blob/master/proposals/xtreme1.adoc) | [12/01/2022] | Sandbox   | tbd | Alex S. Liu | tbd | tbd
 [OpenFL](https://github.com/intel/openfl) | [Olga Perepelkina](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenFL.md) | [02/03/2023 via email vote] | Sandbox | tbd | Olga Perepelkina | tbd | 08/03/2024
 [DeepRec](https://github.com/alibaba/DeepRec) | [Tongxuan LIU](https://github.com/lfai/proposing-projects/blob/master/proposals/deeprec.adoc) | [04/06/2023] | Sandbox | tbd | Tongxuan LIU | tbd | tbd
+[LakeSoul](https://github.com/meta-soul/LakeSoul) | [Chen Xu](https://github.com/lfai/proposing-projects/blob/master/proposals/LakeSoul.md) | Schedule for [05/04/2023] | Sandbox | tbd | Chen Xu | tbd | tbd
