@@ -80,15 +80,15 @@ All collaborations are done via Github issues and pull requests.
 
 ### Initial committers (name, email, organization) and how long have they been working on project?
 
-| Name        | Email                   | Organization | Time     |
-| ----------- | ----------------------- | ------------ | -------- |
-| Miguel González-Fierro | info@miguelgfierro.com | Microsfot | 5 years |
-| Andreas Argyriou | anargyri@microsoft.com | Microsoft | 5 years |
-| Tao Wu | wutao@microsoft.com | Microsoft | 5 years |
-| Jun Ki Min | jumin@microsoft.com | Microsoft | 5 years |
-| Jianxun Lian | jialia@microsoft.com | Microsoft | 5 years |
-| Scott Graham | scgraham@microsoft.com | Microsoft | 5 years |
-| Simon Zhao | zhahe@microsoft.com | Microsoft | 2 years |
+| Name                   | Email                  | Organization | Time    |
+| ---------------------- | ---------------------- | ------------ | ------- |
+| Miguel González-Fierro | info@miguelgfierro.com | Microsoft    | 5 years |
+| Andreas Argyriou       | anargyri@microsoft.com | Microsoft    | 5 years |
+| Tao Wu                 | wutao@microsoft.com    | Microsoft    | 5 years |
+| Jun Ki Min             | jumin@microsoft.com    | Microsoft    | 5 years |
+| Jianxun Lian           | jialia@microsoft.com   | Microsoft    | 5 years |
+| Scott Graham           | scgraham@microsoft.com | Microsoft    | 5 years |
+| Simon Zhao             | zhahe@microsoft.com    | Microsoft    | 2 years |
 
 
 ### Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
