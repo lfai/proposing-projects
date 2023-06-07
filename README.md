@@ -59,3 +59,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [OpenFL](https://github.com/intel/openfl) | [Prashant Shah](https://github.com/lfai/proposing-projects/blob/master/proposals/OpenFL.md) | [02/03/2023 via email vote] | Sandbox | tbd | Prashant Shah | tbd | 08/03/2024
 [DeepRec](https://github.com/alibaba/DeepRec) | [Tongxuan LIU](https://github.com/lfai/proposing-projects/blob/master/proposals/deeprec.adoc) | [04/06/2023] | Sandbox | tbd | Tongxuan LIU | tbd | tbd
 [LakeSoul](https://github.com/meta-soul/LakeSoul) | [Xu Chen](https://github.com/lfai/proposing-projects/blob/master/proposals/LakeSoul.md) | [05/04/2023] | Sandbox | tbd | Chen Xu | tbd | tbd
+[Recommenders](https://github.com/microsoft/recommenders/blob/main/LICENSE)| [Miguel Fierro](https://github.com/lfai/proposing-projects/blob/master/proposals/Recommenders.md) | [06/29/2023] | Incubation | tbd | Miguel Fierro | tbd | tbd
