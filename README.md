@@ -60,3 +60,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [DeepRec](https://github.com/alibaba/DeepRec) | [Tongxuan LIU](https://github.com/lfai/proposing-projects/blob/master/proposals/deeprec.adoc) | [04/06/2023] | Sandbox | tbd | Tongxuan LIU | tbd | tbd
 [LakeSoul](https://github.com/meta-soul/LakeSoul) | [Xu Chen](https://github.com/lfai/proposing-projects/blob/master/proposals/LakeSoul.md) | [05/04/2023] | Sandbox | tbd | Chen Xu | tbd | tbd
 [Recommenders](https://github.com/microsoft/recommenders/blob/main/LICENSE)| [Miguel Fierro](https://github.com/lfai/proposing-projects/blob/master/proposals/Recommenders.md) | [06/29/2023] | Incubation | tbd | Miguel Fierro | tbd | tbd
+[InterSectional Fairness](https://github.com/lfai/proposing-projects/blob/master/proposals/isf.md)| [Koji Yamamoto](https://github.com/lfai/proposing-projects/blob/master/proposals/isf.md) | [06/15/2023] | Sandbox | tbd | Koji Yamamoto | tbd | tbd
