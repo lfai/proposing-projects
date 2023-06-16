@@ -23,7 +23,7 @@
 *** Elyta
 *** Kedro
 
-* License:  (name, version, and URL to license text)
+* License:  (name, version, and URL to license text): Apache License, Version 2.0
 
 * Source control:
 ** https://github.com/sapientml/sapientml
