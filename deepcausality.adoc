@@ -1,0 +1,124 @@
+=== Name of proposed project:
+
+DeepCausality
+
+=== Requested project maturity level:
+
+Sandbox
+
+=== Project Description:
+
+DeepCausality is the first hyper-geometric computational causality library for Rust that enables fast and deterministic context aware causal reasoning over complex multi-stage causality models. Deep Causality adds only minimal overhead, and thus is suitable for real-time applications without additional acceleration hardware.
+
+
+How is deep causality different from deep learning?
+
+* Free of the independent and identically distributed data (IID) assumption.
+* Deterministic and explainable causal reasoning.
+* Reasoning over causal collection, graph, or hyper-graph structure supported.
+
+A focus of this repository is to build state of the art computational causality for Rust
+
+=== Statement on alignment with LF AI’s mission:
+
+We aim to build an opensource community that encourages collaboration and learning of computational causality and seeks to explore novel applications. We believe that such a goal is in line with LF AI&Data's mission .
+
+=== Possible collaboration opportunities with current LF AI hosted projects: (https://lfai.foundation/projects/)
+
+DeepCausality provides fundamental causal datastructures and algorithms and as such is open
+to collaboration in many different fields. Potential projects for colleaboration might be:
+
+* 1chipML
+* ForestFlow
+* Xtreme1
+
+=== License name, version, and URL to license text
+
+MIT: https://github.com/deepcausality-rs/deep_causality/blob/main/LICENSE
+
+=== Source control
+
+https://github.com/orgs/deepcausality-rs/repositories
+
+
+=== Does the project sits in its own GH organization?
+
+GH organization.
+
+=== Do you have the GH DCO app active in the repos?
+YES
+
+=== Issue tracker (GitHub, JIRA, etc)
+YES
+
+GitHub Issues: https://github.com/deepcausality-rs/deep_causality/issues
+
+=== Collaboration tools
+
+All collaborations are done via Github issues and pull requests.
+
+=== External dependencies including licenses (name and version) of those dependencies.
+
+* Apache-2.0, MIT licenses found
+- PetGraph
+- criterion.rs
+- rand
+
+
+=== Initial committers (name, email, organization) and how long have they been working on project?
+
+
+Marvin Hansen,  marvin.hansen@gmail.com,  Emet-Labs,  1 year
+
+
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+YES: https://github.com/deepcausality-rs/deep_causality/blob/main/MAINTAINERS.md
+
+
+=== Total number of contributors to the project including their affiliations.
+
+1 contributor, Emet-Labs
+
+https://github.com/deepcausality-rs/deep_causality/blob/main/MAINTAINERS.md
+
+
+=== Does the project have a release methodology? Please document it in RELEASES.md.
+
+YES: https://github.com/deepcausality-rs/deep_causality/blob/main/RELEASE.md
+
+
+=== Does the project have a code of conduct?
+
+YES: https://github.com/deepcausality-rs/deep_causality/blob/main/CODE_OF_CONDUCT.md
+
+=== Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+
+NO. Working on it.
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+NO
+
+=== Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
+
+YES: https://deepcausality.com/
+
+=== Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+
+All pull requests can be reviewed by any member of the community and needs to be approved by at least one maintainer to be merged.
+
+See maintainers: https://github.com/deepcausality-rs/deep_causality/blob/main/MAINTAINERS.md
+
+We also have our contributions guidelines:
+
+https://github.com/deepcausality-rs/deep_causality/blob/main/CONTRIBUTING.md
+
+=== Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+
+No accounts.
+
+=== Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+
+Emet-Labs.com

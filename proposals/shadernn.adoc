@@ -1,0 +1,116 @@
+== Project Proposal Template
+
+
+* Name of project -- or proposed name (must be unique within LF AI) :
+
+  ShaderNN – A mobile inference framework for convolutional neural network
+
+* Requested project maturity level: 
+
+  Sandbox
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development) :
+
+  ShaderNN is a lightweight deep learning inference framework optimized for Convolutional Neural Networks. It provides high-performance inference for deep learning applications in image and graphics process on mobile devices. It uses texture-based input/output, which provides an efficient, zero-copy integration with real-time graphics pipeline or image processing applications, thereby saves expensive data transfers & format conversion between CPU and GPU which is critical for real time application on mobile platforms. It is built on native OpenGL ES (ShaderNN 1.0 ) and Vulkan (ShaderNN 2.0) graphics stack, which can be easily integrated with the graphics rendering pipeline to maximize the use of computing resources, suits for rendering, image/video and game AI applications.
+
+* Statement on alignment with LF AI’s mission :
+
+  ShaderNN falls within the mission of Deep Learning. This project provides a light weight inference framework for mobile image and graphics processing applications.
+
+* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain : 
+
+  We are working on collaborating possible LF AI hosted projects and will update it once they are finalized. 
+
+* License name, version, and URL to license text :
+
+  Apache-2.0 License, https://github.com/inferenceengine/shadernn/blob/dev_opensource_release/LICENSE
+
+* Source control (GitHub, etc.) - Please confirm tools in use : 
+
+  We use Github as source control
+
+* Does the project sits in its own GH organization? :
+
+  We are working on tranform it to a GH organization
+
+* Do you have the GH DCO app active in the repos? :
+
+  No
+
+* Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use :
+
+  We use Github issue tracker.
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use :
+
+  None
+
+* External dependencies including licenses (name and version) of those dependencies:
+- ncnn (BSD 3-Clause License)
+- MNN (Apache 2.0)
+- opencv (Apache 2.0)
+- libyuv (BSD 3-Clause License)
+- libjpeg (Covered three compatible BSD-style open source licenses: The IJG (Independent JPEG Group) License, The modified BSD-3 Clause License, The zlib License)
+- cli11 (BSD 3-Clause License)
+- cmrc (MIT License)
+- eigen (MPL2 License)
+- glad (MIT License)
+- glfw (Zlib License)
+- glm (MIT License)
+- picojson (BSD 2-Clause License)
+- stb_image (MIT License)
+- readerwriterqueue (Simplified BSD License)
+- uVkCompute (Apache 2.0)
+- volk (MIT License)
+- Tensorflow (Apache 2.0)
+- PyTorch (BSD 3-Clause License)
+- ONNX (Apache 2.0)
+- Netron (MIT License)
+
+
+* Initial committers (name, email, organization) and how long have they been working on project? 
+
+-  Qiang Qiu, qiang.qiu@oppo.com qiang.qiu@innopeaktech.com, 2 years, OPPO
+-  Yuzhong Yan, yuzhong.yan@oppo.com, 2 years, OPPO
+-  Abhishek Saxena, abhishek.saxena@oppo.com, 2 years, OPPO
+-  Alex Gorobets, alex.gorobets@oppo.com, 9 months, OPPO
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+  Project roles have not been formally defined yet.  Those info will be updated according OPPO’s policy after the project is approved.
+
+* Total number of contributors to the project including their affiliations :
+
+  We just start this open source project. Right now, we collaborate with Prof Xiaogang Jin from Zhejiang University to optimize the MNSS (Neural Supersampling Framework for Real-Time Rendering on Mobile Devices) model. His team will be one of contributors. 
+
+* Does the project have a release methodology? Please document it in RELEASES.md :
+
+  Not fully fledged yet. Currently it is released with a git tag. A RELEASES.md will be provided upon project approval and guidance.
+
+* Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+  
+  Yes, https://github.com/inferenceengine/shadernn/blob/dev_opensource_release/CODE_OF_CONDUCT.md
+
+* Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level :
+
+  No
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI? :
+
+  None
+
+* Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created? :
+
+  No
+
+* Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md:
+
+  No
+
+* Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers:
+
+  No
+
+* Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any :
+
+  No
