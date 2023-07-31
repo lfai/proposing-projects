@@ -17,6 +17,7 @@
 *** Adversarial Robustness Toolbox
 *** AI Explainability 360
 *** AI Fairness 360
+*** Intersectional Fairness
 ** Deployment
 *** Acumos
 ** Coding
@@ -27,8 +28,6 @@
 
 * Source control:
 ** https://github.com/sapientml/sapientml
-** https://github.com/sapientml/docs
-** https://github.com/sapientml/web
 
 * Does the project sits in its own GH organization?: Yes
 
