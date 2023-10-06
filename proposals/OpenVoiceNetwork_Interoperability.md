@@ -5,7 +5,9 @@ Open Voice Network Interoperability Project
 Incubation
 
 ## Project Description
-The Open Voice Network Interoperability Project seeks to open and democratize Conversational AI through the definition, development, demonstration, and industry adoption of a universal API for interoperability of natural language/generative AI-enabled conversational assistants.  To do so, the Project will develop (but not be limited to) multiple open-source specifications, developer sandboxes, libraries (Python, Java, Node.js, Javascript, Java/Rust, Objective C/Swift, others), and an open-source destination identification and registry system.  
+The Open Voice Network Interoperability Project seeks to open and democratize Conversational AI through the definition, development, demonstration, and industry adoption of a universal API for interoperability of natural language/generative AI-enabled conversational assistants.  
+
+The universal API for interoperability among conversational assistants will enable conversational assistants to marshal the expertise of other assistants in order to assist users in achieving goals that may be outside the expertise of the first assistant.  To to this, the API will enable assistants to securely transfer conversations and relevant data to other assistants.  This ability requires assistants to be able to find each other and to transmit information by means of a common protocol, similar to HTTP for the web.  To this end, the Project will develop (but not be limited to) multiple open-source specifications, developer sandboxes, libraries (Python, Java, Node.js, Javascript, Java/Rust, Objective C/Swift, others), and an open-source destination identification and registry system.  
 
 This project is lodged at the intersection of natural language AI (processing, understanding, generation) and language model generative AI. According to Precedence Research (Sept., 2023), this "conversational AI" market will grow at a 23.9% CAGR to a total available global market worth $86.4 billion (USD) by 2032.  The anticipated specifications for assistant authentication, liveness detection, the protection of user and organizational data, and interoperable system data security speak directly to Trusted & Responsible AI efforts.
 
@@ -26,7 +28,9 @@ The Open Voice Network Interoperability Project sees numerous potential collabor
 * The Models workstream of the Generative AI Commons 
 
 ## License Name, Version, and URL
-Specifications are developed under Apache License 2.0 https://github.com/open-voice-network/lib-interop/commit/3b12ea01aa48ed8094b75de5be830a34f82b3d0b
+Code is developed under Apache License 2.0 https://github.com/open-voice-network/lib-interop/commit/3b12ea01aa48ed8094b75de5be830a34f82b3d0b
+
+Specifications are developed under the Community Specifications License 1.0 https://github.com/open-voice-network/docs/blob/main/arch-wg/interoperability-community-specifications-license-cs-template.md
 
 ## URL For Source Code:
 https://github.com/open-voice-network/lib-interop
@@ -55,13 +59,13 @@ None.
 * Emmett Coin, EJTalk (emmett@ejtalk.com), since 2022.  
 
 ## Definition of Roles: Contributor, Committer, Maintainer, etc.?
-Not yet.
+To be determined. 
 
 ## Total Number of Contributors to the Project Including Their Affiliations at the Time of Submitting this Proposal
 The Project currently lists 43 GitHub contributors. 
 
 ## Project Release Methodology? 
-Not yet. 
+To be determined. 
 
 ## Project Code of Conduct
 https://github.com/open-voice-network/docs/blob/main/arch-wg/code-of-conduct.md
