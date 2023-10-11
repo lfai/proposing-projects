@@ -64,3 +64,5 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [ShaderNN]( https://github.com/inferenceengine/shadernn)| [Peng Zhouhu](https://github.com/lfai/proposing-projects/blob/master/proposals/shadernn.adoc) | [07/13/2023] | Sandbox | tbd | Peng Zhouhu | tbd | tbd
 [DeepCausality](https://github.com/orgs/deepcausality-rs/repositories)| [Marvin Hansen](https://github.com/lfai/proposing-projects/blob/master/proposals/deepcausality.adoc) | [08/10/2023] | Sandbox | tbd | Marvin Hansen | tbd | tbd
 [SapientML](https://github.com/sapientml/sapientml)| [Hiro Kobashi](https://github.com/lfai/proposing-projects/blob/master/proposals/sapientml.adoc) | [08/24/2023] | Sandbox | tbd | Hiro Kobashi | tbd | tbb
+[OVN Interop Project](https://github.com/sapientml/sapientml)| [Jon Stine](https://github.com/lfai/proposing-projects/blob/master/proposals/ovn-interop.md) | [10/19/2023] | Sandbox | tbd | Jon Stine | tbd | tbb
+[OVN Trustnmark Project](https://github.com/sapientml/sapientml)| [Jon Stine](https://github.com/lfai/proposing-projects/blob/master/proposals/onv_trustmark.md) | [10/19/2023] | Sandbox | tbd | Jon Stine | tbd | tbb
