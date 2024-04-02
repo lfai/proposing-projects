@@ -40,6 +40,20 @@ none
 
 Initial committers (name, email, organization) and how long have they been working on project?
 This is a new project with only Intel contributors.
+Ding, Ke <ke.ding@intel.com>; 
+Yao, Matrix <matrix.yao@intel.com>; 
+Wang, Yi A <yi.a.wang@intel.com>; 
+Wu, Yuan <yuan.wu@intel.com>; 
+Lv, Liang1 <liang1.lv@intel.com>; 
+Lv, Kaokao <kaokao.lv@intel.com>; 
+Yue, Wenjiao <wenjiao.yue@intel.com>; 
+Chen, Sihan <sihan.chen@intel.com>; 
+Han, Letong <letong.han@intel.com>; 
+Shen, Haihao <haihao.shen@intel.com>; 
+Chen, Suyue <suyue.chen@intel.com>; 
+Khened, Chaitanya <chaitanya.khened@intel.com>; 
+Zyczynski, Mikolaj <mikolaj.zyczynski@intel.com>; 
+Vance, Antony <antony.vance@intel.com>
 
 Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
 Part of the Charter that we will adopt when joining LF AI & Data. 
