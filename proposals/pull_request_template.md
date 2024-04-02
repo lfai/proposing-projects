@@ -1,6 +1,6 @@
 * Name of proposed project:
 
-* Requested project maturity level [Graduation or Incubation]:
+* Requested project maturity level [Graduation or Incubation or Sandbox]:
 
 * Project description [what it does, why it is valuable, origin and history, ongoing development]:
 
