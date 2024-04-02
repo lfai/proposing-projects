@@ -66,3 +66,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [SapientML](https://github.com/sapientml/sapientml)| [Hiro Kobashi](https://github.com/lfai/proposing-projects/blob/master/proposals/sapientml.adoc) | [08/24/2023] | Sandbox | tbd | Hiro Kobashi | tbd | tbb
 [OVN Interop Project](https://github.com/open-voice-network)| [Jon Stine](https://github.com/lfai/proposing-projects/blob/master/proposals/ovn-interop.md) | [10/19/2023] | Sandbox | tbd | Jon Stine | tbd | tbb
 [OVN Trustmark Project](https://github.com/open-voice-network)| [Jon Stine](https://github.com/lfai/proposing-projects/blob/master/proposals/onv_trustmark.md) | [10/19/2023] | Sandbox | tbd | Jon Stine | tbd | tbb
+[OPEA](https://github.com/opea-project) | [Rachel Roumeliotis](https://github.com/lfai/proposing-projects/blob/master/proposals/OPEA%20Project%20to%20LF%20AI%20%26%20Data) | [04/04/2024] | Sandbox   | tbd | Rachel Roumeliotis| tbd | tbd
