@@ -1,0 +1,139 @@
+### Name of project
+
+https://iree.dev[IREE]
+
+### Requested project maturity level
+
+Incubation
+
+### Project description (what it does, why it is valuable, origin and history, ongoing development).
+
+IREE (Intermediate Representation Execution Environment) is an MLIR-based
+end-to-end compiler and runtime that lowers Machine Learning (ML) models to a
+unified IR that scales up to meet the needs of the datacenter and down to
+satisfy the constraints and special considerations of mobile and edge
+deployments. The mission is to provide a toolkit for ML model deployment that
+is able to exploit heterogeneous compute environments and provide a consistent
+authoring flow to deploy across multiple platforms easily embracing new
+hardware or specialization.
+
+IREE started OSS-first development in 2019 driven by team at Google focussing
+on deployment of ML models on mobile. Since then IREE (and components built by
+IREE team) has developed an OSS community with contributions and users from
+multiple companies, grown to use over multiple plaforms spanning from embedded
+to distributed server deployment, from ML to usage inside game engines.
+
+### Statement on alignment with LF AI’s mission.
+
+As a group of engineers who have worked in AI, compilers and runtimes broadly
+for many years, we identify with the practical approach that LF AI&D takes by
+aiming to provide "a greenhouse" for concrete innovations, rooted in good
+open-source principles and execution. As the core contributors have worked for
+various entities over the years and integrated the technology into multiple
+product roadmaps, we've always taken pride in making the low level
+infrastructure investment an evergreen community project that can underlie many
+things as time and situations evolve. In this day and age, however, it takes
+more than a commitment to the low level engineering, and we appreciate the
+opportunity to align with LF AI&D so that we can together add the structure to
+the project itself so that it remains a viable, approachable and community
+grounded initiative.
+
+### Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+
+Not extensively. The IREE project already consumes ONNX programs but this is
+more a user relationship. Superficial evaluation would indicate potential
+opporutnies related to Ludwig, 1chipML, CLAIMED, Delta, RKWV and ShaderNN.
+
+### License name, version, and URL to license text
+
+Apache License v2.0 with LLVM exceptions, https://llvm.org/LICENSE.txt
+
+### Source control
+
+GitHub
+
+### Does the project sits in its own GH organization?
+
+Yes (iree-org).
+
+### Do you have the GH DCO app active in the repos?
+
+Currently Google CLA.
+
+### Issue tracker
+
+GitHub
+
+### Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+  * Mailing list: https://groups.google.com/g/iree-discuss/
+  * Discord: https://discord.gg/QB6xmkb
+
+### External dependencies including licenses (name and version) of those dependencies.
+
+  - google/benchmark -- Apache License 2.0
+  - pytorch/cpuinfo -- BSD 2-Clause "Simplified" License
+  - dvidelabs/flatcc -- Apache License 2.0
+  - google/googletest -- BSD 3-Clause "New" or "Revised" License
+  - shark-infra/hip-build-deps -- MIT License
+  - llvm/llvm-project -- Apache License v2.0 with LLVM Exceptions
+  - musl -- MIT license
+  - pybind/pybind11 -- BSD-style license
+  - KhronosGroup/spirv_cross -- Apache License 2.0
+  - openxla/stablehlo -- Apache License 2.0
+  - wolfpld/tracy -- 3-clause BSD license.
+  - KhronosGroup/vulkan_headers -- Apache License 2.0 OR MIT
+  - webgpu-native/webgpu-headers -- BSD 3-Clause "New" or "Revised" License
+
+### Initial committers (name, email, organization) and how long have they been working on project?
+
+* Ben Vanik, ben.vanik@gmail.com, AMD, 5 years
+* Hanhan Wang, hanhan0912@gmail.com, AMD, 5 years
+* Jacques Pienaar, jacques@japienaar.info, Google, 5 years
+* Lei Zhang, antiagainst@gmail.com, AMD, 5 years
+* Mahesh Ravishankar, mahesh.ravishankar@gmail.com, AMD, 5 years
+* Marius Brehler, marius.brehler@iml.fraunhofer.de, Fraunhoffer, 5 years
+* Rob Suderman, rob.suderman@gmail.com, AMD, 5 years
+* Scott Todd, scott.todd0@gmail.com, AMD, 5 years
+* Stella Laurenzo, stellaraccident@gmail.com, AMD, 5 years
+
+### Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+Yes, documented in https://github.com/iree-org/iree/blob/main/MAINTAINERS.md
+
+### Total number of contributors to the project including their affiliations.
+
+190 in lifetime, in top 100 the current affiliations are 30 AMD, 20 Google, 3 ARM, 3 Fraunhoffer institute.
+
+### Does the project have a release methodology? Please document it in RELEASES.md.
+
+Yes, see RELEASING.md.
+
+### Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+
+Yes, https://github.com/openxla/community/blob/main/CODE-OF-CONDUCT.md but will switch to LF code-of-conduct if accepted.
+
+### Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+
+Not yet, we are in the process of addressing this (https://www.bestpractices.dev/en/projects/8738).
+
+### Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+No.
+
+### Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
+
+Yes, iree.dev.
+
+### Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+
+We wish to work with LFAI to adopt a new one (current governance is based loosely on affiliation with LLVM and OpenXLA).
+
+### Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+
+https://www.youtube.com/@iree4356
+
+### Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+
+AMD and Google both actively contribute engineering as well as CI resources.
+
