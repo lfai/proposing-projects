@@ -4,7 +4,7 @@ https://iree.dev[IREE]
 
 ### Requested project maturity level
 
-Incubation
+Sandbox
 
 ### Project description (what it does, why it is valuable, origin and history, ongoing development).
 
