@@ -68,3 +68,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [OVN Trustmark Project](https://github.com/open-voice-network)| [Jon Stine](https://github.com/lfai/proposing-projects/blob/master/proposals/onv_trustmark.md) | [10/19/2023] | Sandbox | tbd | Jon Stine | tbd | tbd
 [OPEA](https://github.com/opea-project) | [Rachel Roumeliotis](https://github.com/lfai/proposing-projects/blob/master/proposals/OPEA%20Project%20to%20LF%20AI%20%26%20Data) | [04/04/2024] | Sandbox   | tbd | Rachel Roumeliotis| tbd | tbd
 [IREE](https://github.com/iree-org) | [Jacques Pienaar](https://github.com/lfai/proposing-projects/blob/master/proposals/IREE.adoc) | [05/02/2024] | Sandbox | tbd | Jacques Pienaar| tbd | tbd
+[Monocle](https://github.com/monocle2ai) | [Prasad Mujumdar](https://github.com/lfai/proposing-projects/blob/master/proposals/monocle-proposal.adoc) | Scheduled [06/27/2024] | Sandbox | tbd | Prasad Mujumda | tbd | tbd
