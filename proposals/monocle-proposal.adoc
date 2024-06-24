@@ -1,0 +1,107 @@
+== Machine Learning Exchange (MLX) Project Proposal
+
+*Name of the projects*: 
+
+  - Monocle
+
+*Requested maturity level*: Sandbox
+
+*Description*
+The goal of project Monocle is simplify monitoring genAI applications. It includes a 
+  - A set of python libraries to auto instrument genAI application code (typescript support being worked on) to generate traces and metrics
+  - A metamodel ie a way to express genAI application attributes and dependencies between various components (workflow, models, cloud infra etc)
+  - Out of box support for multiple genAI application frameworks, model hosting services etc to facilitate no-code or low-code tracing
+
+*Statement on alignment with LF AI’s mission.*:
+The mission of LF AI & Data is to build and support an open artificial intelligence (AI) and data community, and drive open source innovation in the AI and data domains by enabling collaboration and the creation of new opportunities for all the members of the community.
+
+The GenAI ecosystem is growing rapidly with a number of open soruce technology components. Application developers need new ways to monitor these app to get them ready for production and contineu to support those. Monocle is proposing to be the open source project to corrdiate with the community of technology builders and app developers to achieve this.
+
+
+*Have you identified possible collaboration opportunities with current LF AI hosted projects? Please explain*:
+We intended to collaboration with LF AI project proposing new standards and guidelines. We will contribute our work on monitoring to these projects and implements the standards/guidelines into Monocle. 
+  - Generative AI Commons
+  - OPEA
+  - Trusted AI
+  - MLOps
+We also intended to implement monitoring support in Monocle for LF AI project that are build tech stack components
+  - Milvus
+  - JanusGraph
+
+
+*License*: 
+
+  - Apache 2.0
+     * https://github.com/monocle2ai/monocle/blob/main/LICENSE
+
+*Source Control*:
+
+  - Git
+     * https://github.com/monocle2ai/monocle
+
+*External dependencies including licenses (name and version) of those dependencies*:
+certifi Mozilla Public 2.0
+charset-normalizer MIT 
+idna BSD 
+importlib_metadata Apache Software  2.0
+opentelemetry-api Apache Software  2.0
+opentelemetry-instrumentation Apache Software  2.0
+opentelemetry-sdk Apache Software  2.0
+opentelemetry-semantic-conventions Apache Software  2.0
+requests Apache Software  2.0
+typing_extensions Python Software Foundation 
+urllib3 MIT 
+wrapt BSD 
+zipp MIT 
+
+*Initial Committers:*
+This is a new proejct with committers currently from Okahu
+  - Prasad Mujumdar, Okahu
+  - Ravi Anne, Okahu
+  - Kshitiz Vijayvargiya, Okahu
+  - Akshay Yadav, Okahu
+  - Anshul Sharma, Okahu
+ 
+*Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md:*
+
+- https://github.com/monocle2ai/monocle/blob/main/MAINTAINER.md
+
+*Total number of contributors to the project including their affiliations:*
+
+- https://github.com/monocle2ai/monocle/blob/main/MAINTAINER.md
+
+
+*Infrastructure requests:*
+
+  - Hosting MLX on a Kubernetes cluster. Additionally we request help with website design and development
+
+*Current mailing lists:*
+
+  - Project currently does not have a mailing list.  
+
+*Resources:* 
+
+  * Discussions - Slack
+  * CI - Currently on Github. Would request LFAI and Data for Infrastrucuture support.
+  * Issues - repo tracks its issues via GitHub.
+  * Packages - repo publishes its own packages to PyPI
+
+*Website:*
+
+  - N/A
+
+*Release methodology & mechanics:*
+
+  - Builds on the main branch (and pull requests to the main branch) and to be published python release artifacts to Pypi.
+  - New git release tag for every release.
+  - Follow a MAJOR.MINOR version numbering
+  - Release to be voted with at least two approvals and no vetos
+
+
+*Social media accounts:*
+
+  - To be created
+
+*Existing sponsorship:*
+
+  - Okahu Inc
