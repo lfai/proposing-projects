@@ -9,10 +9,11 @@ https://www.project-aita.com[Aita]
 Sandbox
 
 ### Project description (what it does, why it is valuable, origin and history, ongoing development).
-
-Aita is a common llm agentic framework for data analysis. It aims to solves the common tasks such as translate TextToSql, Text to python scripts etc. to help data scientists and analysts to improve their productivity.
+Aita is a general LLM agentic framework designed for data analysis. It addresses common tasks such as translating text to SQL and text to Pandas scripts, helping data scientists and analysts enhance their productivity.
 
 ### Statement on alignment with LF AI’s mission.
+
+Aita aligns with the LF AI’s mission by advancing the development and adoption of AI and machine learning technologies. By providing a robust, agentic framework for data analysis, Aita simplifies and automates complex data tasks, thereby fostering innovation and productivity in the AI community. Its capabilities in translating text to SQL and Python scripts, along with seamless integration with various data sources and large language models, contribute to the LF AI's goal of making AI more accessible and efficient for data scientists and analysts.
 
 ### Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
 
