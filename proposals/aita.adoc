@@ -1,0 +1,86 @@
+== Project Proposal Template
+
+
+### Name of project
+https://www.project-aita.com[Aita]
+
+### Requested project maturity level: Sandbox | Incubation | Graduated.
+
+Sandbox
+
+### Project description (what it does, why it is valuable, origin and history, ongoing development).
+Aita is a general LLM agentic framework designed for data analysis. It addresses common tasks such as translating text to SQL and text to Pandas scripts, helping data scientists and analysts enhance their productivity.
+
+### Statement on alignment with LF AI’s mission.
+
+Aita aligns with the LF AI’s mission by advancing the development and adoption of AI and machine learning technologies. By providing a robust, agentic framework for data analysis, Aita simplifies and automates complex data tasks, thereby fostering innovation and productivity in the AI community. Its capabilities in translating text to SQL and Python scripts, along with seamless integration with various data sources and large language models, contribute to the LF AI's goal of making AI more accessible and efficient for data scientists and analysts.
+
+### Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+
+- Feast
+We have used Feast to build the feature store for storing the embeddings used for retrieval augmented generation.
+
+- Flyte
+Flyte can be used to orchestrate the data processing pipelines.
+
+- Amundsen & Unity Catalog
+Amundsen & Unity Catalog can be used to retrieve catalog data to be used in Retrieval Augmented Generation.
+
+### License name, version, and URL to license text
+Apache License 2.0
+
+### Source control (GitHub, etc.) - Please confirm tools in use.
+Github
+
+### Does the project sits in its own GH organization?
+Yes
+
+### Do you have the GH DCO app active in the repos?
+Yes
+
+### Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
+Github
+
+### Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
+Slack
+
+### External dependencies including licenses (name and version) of those dependencies.
+
+### Initial committers (name, email, organization) and how long have they been working on project?
+
+* Hao Xu, hao.xu@jpmchase.com, JPMorgan Chase, 2 years
+* Fang Feng, fangfeng077@gmail.com, PayPal, 2 years
+* Sushma Yad, sushma.y@gmail.com, Dropbox, half year
+* Mark Jin, kinkunchan@outlook.com, PayPal, half year
+* Francisco Javier Arceo, arceofrancisco@gmail.com, Red Hat, half year
+
+
+### Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+Yes
+
+### Total number of contributors to the project including their affiliations.
+6 total contributors till now
+
+### Does the project have a release methodology? Please document it in RELEASES.md.
+Yes
+
+### Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+Yes
+
+### Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+Non
+
+### Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+No
+
+### Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
+Yes, https://www.project-aita.com
+
+### Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+No
+
+### Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+Yes, https://www.linkedin.com/company/100569194
+
+### Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+Microsoft Accelerator, AWS Accelerator, NVIDIA Inception Program
