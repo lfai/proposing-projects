@@ -69,4 +69,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [OPEA](https://github.com/opea-project) | [Rachel Roumeliotis](https://github.com/lfai/proposing-projects/blob/master/proposals/OPEA%20Project%20to%20LF%20AI%20%26%20Data) | [04/04/2024] | Sandbox   | tbd | Rachel Roumeliotis| tbd | tbd
 [IREE](https://github.com/iree-org) | [Jacques Pienaar](https://github.com/lfai/proposing-projects/blob/master/proposals/IREE.adoc) | [05/02/2024] | Sandbox | tbd | Jacques Pienaar| tbd | tbd
 [Monocle](https://github.com/monocle2ai) | [Prasad Mujumdar](https://github.com/lfai/proposing-projects/blob/master/proposals/monocle-proposal.adoc) | [06/27/2024] | Sandbox | tbd | Prasad Mujumda | tbd | tbd
-[Aita](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [Hao Xu](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | tbd | Sandbox | tbd | Hao Xu | tbd | tbd
+[Aita (renamed Ryoma)](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [Hao Xu](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [07/25/2024] | Sandbox | tbd | Hao Xu | tbd | tbd
