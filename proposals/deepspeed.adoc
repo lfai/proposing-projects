@@ -24,43 +24,45 @@ GitHub
 Not yet, currently in https://github.com/microsoft but moving to https://github.com/deepspeedai
 
 * Do you have the GH DCO app active in the repos?
-No
+No, Microsoft CLA is currently used to track this.
 
 * Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
 GitHub
 
 * Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
-
+GitHub currently used.
 
 * External dependencies including licenses (name and version) of those dependencies.
-
+N/A
 
 * Initial committers (name, email, organization) and how long have they been working on project?
+Olatunji Ruwase, olruwase@microsoft.com, Microsoft, 5 years
+Jeff Rasley, , , 5 years
 
 
 * Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
-
+This is documented in CODEOWNERS.md, will be updated to support a full MAINTAINERS.md.
 
 * Total number of contributors to the project including their affiliations.
-
+370 at the time of this writing.  Affiliations include: Microsoft, HuggingFace, Intel, AMD, Contextual.AI, Huawei, Snowflake.
 
 * Does the project have a release methodology? Please document it in RELEASES.md.
-
+Need to add.
 
 * Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
-
+Yes, currently the Microsoft Open Source Code of Conduct, documented in [CODE_OF_CONDUCT.md](https://github.com/microsoft/DeepSpeed/blob/master/CODE_OF_CONDUCT.md).
 
 * Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
-
+Badge status available [here](https://www.bestpractices.dev/en/projects/9530)
 
 * Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
-
+Need to determine.
 
 * Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
 Yes, https://www.deepspeed.ai/
 
 * Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
-
+Need to add.
 
 * Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
 Yes, Twitter for English and Japanese and Zhihu.
