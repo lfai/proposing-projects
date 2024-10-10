@@ -70,3 +70,4 @@ For any questions, please contact the LF AI & Data staff via info@lfaidata.found
 [IREE](https://github.com/iree-org) | [Jacques Pienaar](https://github.com/lfai/proposing-projects/blob/master/proposals/IREE.adoc) | [05/02/2024] | Sandbox | tbd | Jacques Pienaar| tbd | tbd
 [Monocle](https://github.com/monocle2ai) | [Prasad Mujumdar](https://github.com/lfai/proposing-projects/blob/master/proposals/monocle-proposal.adoc) | [06/27/2024] | Sandbox | tbd | Prasad Mujumda | tbd | tbd
 [Aita (renamed Ryoma)](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [Hao Xu](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [07/25/2024] | Sandbox | tbd | Hao Xu | tbd | tbd
+[DeepSpeed](https://github.com/lfai/proposing-projects/blob/master/proposals/aita.adoc) | [Logan Adams](https://github.com/lfai/proposing-projects/blob/master/proposals/deepspeed.adoc) | [10/14/2024] | Incubation | tbd | Logan Adams | tbd | tbd
