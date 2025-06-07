@@ -1,0 +1,71 @@
+== SynerFuse Project Proposal
+
+
+* Name of project: SynerFuse
+
+* Requested project maturity level: Sandbox
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development):
+
+This open source project is trying to build an open AI framework to enable the distributed training in between heterogeneous accelators.
+AI infrastructure may contain different types or generations of accelerator systems. One of the key challenges is to uniform these heterogenous accelerators into a resource pool and improve the utilization rate. 
+Large scale model training normally requires a massive amount of computing resources. It's important and valuable to have an open AI framework that enable training or inferencing task crossing multi-architecture accelerators.  
+This project is initialized by China Mobile Research Institute, and currently the main developers are from China Mobile.
+A draft version of this AI framework with basic functions has been implemented. It has been verified with LLaMA2 7B & 13B models with several types of GPUs devices. 
+
+* Statement on alignment with LF AI’s mission: 
+The mission of LF AI & Data is to build and support an open artificial intelligence (AI) and data community, and drive open source innovation in the AI and data domains by enabling collaboration and the creation of new opportunities for all the members of the community.
+
+* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? ：
+1.COIA: collaborate with COIA and relative projects, understanding the needs during the project promotion and implementation, and enhance the project collabration.
+2.OPEA: collaborate with OPEA project to be one of the training framework components. 
+3.Horovod: collaborate with horovod to support TensorFlow framework.
+4.Elastic Deep Learning: monitor performance of training tasks in real time and flexibly adjust resources while tasks are running.
+
+* License name, version, and URL to license text：MIT License
+
+* Source control (GitHub, etc.):
+https://github.com/SynerFuse/SynerFuse
+
+* Do you have the GH DCO app active in the repos: No
+
+* Issue tracker (GitHub, JIRA, etc) : Github Issues, JIRA
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) : mailing lists,wiki
+
+* External dependencies including licenses (name and version) of those dependencies:
+Apache License, Version 2.0 available at http://www.apache.org/licenses/LICENSE-2.0
+MIT License https://en.wikipedia.org/wiki/MIT_License
+
+* Initial committers (name, email, organization) and how long have they been working on project:
+- Lei Huang<huangleiyjy@chinamobile.com>, ChinaMobile;
+- Zhengwei Chen<chenzhengwei@sd.chinamobile.com>, ChinaMobile;
+- Jie Ren<renjie2@sd.chinamobile.com>, ChinaMobile;
+- Haoran Zhang<zhanghaoran2@sd.chinamobile.com>, ChinaMobile;
+- Rui Zhu<zhurui@sd.chinamobile.com>, ChinaMobile;
+- Yucong Li<liyucong@sd.chinamobile.com>, ChinaMobile;
+- Yutong Tian<tianyutong@sd.chinamobile.com>, ChinaMobile;
+- Qi Han<hanqi@sd.chinamobile.com>, ChinaMobile;
+- Haikuan Huang<huanghaikuan@sd.chinamobile.com>, ChinaMobile.
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? 
+Part of the Charter that we will adopt when joining LF AI & Data.
+
+* Does the project have a release methodology? Yes. The release roadmap will be included in the github release md.
+
+* Does the project have a code of conduct? Will define that when joining LF AI & Data.
+
+* Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level. 
+- Yes. This project has got OpenSSF best practices .
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+- No.
+
+* Project website: Not yet. Planning to. 
+
+* Project governance:
+This will be provided by the project technical charter after joining LF AI & Data similar to all hosted projects.
+
+* Social media accounts： Not yet.
+
+* Existing sponsorship：None beyond CMCC yet. 
