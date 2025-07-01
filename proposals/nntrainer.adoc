@@ -1,0 +1,164 @@
+== NNTrainer Project Proposal
+
+
+=== Name of project
+
+NNTrainer
+
+=== Requested project maturity level
+
+Sandbox.
+
+=== Project description (what it does, why it is valuable, origin and history, ongoing development).
+
+
+NNTrainer is a software framework for training neural network models on embedded devices with limited hardware resources.
+
+
+Most neural network training frameworks focus on high performance computers (e.g., workstations or clouds), which have relatively huge memory and data, powerful processors, and virtually infinite energy.
+NNTrainer provides unique characteristics as a neural network training framework that allows lightweight devices (mobile phones and home appliances) to train and fine-tune neural networks without remote servers.
+NNTrainer focuses on saving peak memory consumption, optimizations for lightweight devices, and training scenarios (low-data, real-time, low-computation, or privacy-preserving) for mobile phones and home appliances.
+
+
+
+
+NNTrainer was started as a subproject of NNStreamer, another LFAI project, in Samsung, 2019.
+However, common code between NNStreamer and NNTrainer was found to be minimal.
+Thus, it was detached from NNStreamer and developed as an independent software package.
+
+
+
+From its initial development, NNTrainer has been an open source software project accepting public contributions.
+The first "practical" application of NNTrainer was voice personalization (on-device fine-tuned TTS), which was first released with Galaxy S23 in 2023: https://www.zdnet.com/article/this-new-samsung-galaxy-feature-lets-you-clone-your-own-voice-sort-of/[ZDNet: This new Samsung Galaxy feature lets you clone your own voice (sort of)].
+Since its first practical application, several practical applications have appeared with even less powerful hardware: e.g., refrigerators, air conditioners, robotic vacuums, and ovens.
+Surprisingly, NNTrainer provides on-device training and fine-tuning services for machine learning mechanisms in such home appliacnes with less than 1GB of available memory and a slow embedded CPU core.
+
+
+In 2024, Galaxy S24 have introduced on-device generative AI services with large language models (LLMs).
+NNTrainer has started supporting LLMs and productized LLM applications as well.
+Recent contributions in 2025 mostly focus on LLM serving and expanding hardware support; i.e., reduce peak memory consumption, increase throughput, add NPU supports, and add Windows supports.
+NNTrainer allows running 30B/20B MoE LLM models on mobile phones with around 1 to 3 GiB of DRAM with reasonable token generation throughput and faster end-to-end latency.
+
+More information is available at
+
+* https://github.com/nnstreamer/nntrainer[Github repo] (The main NNTrainer page)
+* https://conf.researchr.org/details/icse-2024/icse-2024-software-engineering-in-practice/5/A-New-Frontier-of-AI-On-Device-AI-Training-and-Personalization[ICSE 2024 Conference] (2024.4.) "A New Frontier of AI: On-Device AI Training and Personalization"
+* https://arxiv.org/abs/2206.04688[Arxiv article] (2022.6.) "NNTrainer: Light-Weight On-Device Training Framework"
+* https://www.youtube.com/watch?v=HKKowY78P1[SDC 21' presentation] (2021.10.) "[Tech Talk] NNTrainer: Personalize neural networks on devices!"
+* https://www.youtube.com/watch?v=HWiV7WbIM3E&t=48s[SSDC 21' presentation] (2021.11.) (Korean)
+
+
+=== Statement on alignment with LF AI’s mission.
+
+NNTrainer supports innovation of on-device, resource-efficient, open-source neural network training and personalization under a neutral, vendor-agnostic governance model, and drives interoperable, scalable AI capabilities directly on embedded devices.
+
+=== Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain. 
+
+* ONNX: ONNX is going to be the standard model format of NNTrainer in the next versions. It is likely that NNTrainer is going to be fully compatible with ONNX within a few months. It is highly desirable if NNTrainer's quantization formats and LLM context and weight save/load can be upstreamed to ONNX standard format.
+* NNStreamer: NNTrainer provides plugins for NNStreamer and its other spun-off projects (Device MLOps and ML API). Many consumer electronics products access nntrainer via NNStreamer and its APIs.
+
+
+=== License name, version, and URL to license text
+
+Apache 2.0. https://github.com/nnstreamer/nntrainer/blob/main/LICENSE
+
+=== Source control (GitHub, etc.)
+
+https://github.com/nnstreamer/nntrainer[Github]
+
+=== Does the project sits in its own GH organization?
+
+It is sharing a GH organization with NNStreamer.
+
+=== Do you have the GH DCO app active in the repos?
+
+Yes.  
+
+=== Issue tracker (GitHub, JIRA, etc)
+
+https://github.com/nnstreamer/nntrainer/issues[Github Issues]
+
+=== Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.)
+
+* https://github.com/nnstreamer/nntrainer/issues[Github Issues] and https://github.com/nnstreamer/nntrainer/discussions[Github Discussions]
+
+=== External dependencies including licenses (name and version) of those dependencies.
+
+** Meson (Apache 2.0)
+** Openblas (BSD-3)
+** Iniparser (MIT)
+** FlatBuffers (Apache 2.0). Optional
+** GTest (BSD-3). Optional (when user builds unit tests)
+** Python >= 3 (PSF). Optional
+** NNStreamer (LGPL 2.1). Optional (when user wants nnstreamer plugins)
+** GStreamer (LGPL 2.1). Optional (when user wants nnstreamer plugins)
+** ONNX (Apache 2.0)
+** ruy (Apache 2.0)
+** ggml (MIT)
+** CLBlast  (Apache 2.0)
+
+
+=== Initial committers (name, email, organization) and how long have they been working on project?
+
+** Jijoong Moon, jijoong.moon@samsung.com, Samsung Research, 7 years
+** MyungJoo Ham, myungjoo.ham@samsung.com, Samsung Research, 7 years
+** Hyeonseok Lee, hs89.lee@samsung.com, Samsung Research, 6 years
+** Mete Ozay, m.ozay@samsung.com, Samsung Research UK, 5 years 
+** Donghak Park, donghak.park@samsung.com, Samsung Research, 4 years
+** Seungbaek Hong, sb92.hone@samsung.com, Samsung Research, 4 years
+** Donghyeon Jeong, dhyeon.jeong@samsung.com / djeong20@illinois.edu, Samsung Research, 3 years
+** Sungsik Kong, ss.kong@samsung.com, Samsung Research, 3 years
+** Daekyung Jung, dk11.jung@samsung.com, Samsung Research, 2 years
+** Eunju Yang, ej.yang@samsung.com, Samsung Research, 2 years
+
+=== Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+
+Yes. https://github.com/nnstreamer/nntrainer/blob/main/MAINTAINERS.md
+
+=== Total number of contributors to the project including their affiliations.
+
+44 (2025-06-26, https://github.com/nnstreamer/nntrainer/graphs/contributors )
+
+** Samsung Research (Samsung)
+** SRI Bangalore (Samsung)
+** SR Poland  (Samsung)
+** Samsung R&D Institute UK (Samsung)
+** NHN
+** Meta
+** Mango Boost
+** Danggeun Market
+** Seoul National University (students)
+
+=== Does the project have a release methodology? Please document it in RELEASES.md. 
+
+Yes. https://github.com/nnstreamer/nntrainer/blob/main/RELEASE.md
+
+=== Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+
+Yes. https://github.com/nnstreamer/nntrainer/blob/main/CODE_OF_CONDUCT.md
+
+=== Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level. 
+
+"openssf best practics: passing" in https://github.com/nnstreamer/nntrainer?tab=readme-ov-file#nntrainer
+
+https://www.bestpractices.dev/en/projects/9179
+
+=== Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+
+No.
+
+=== Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created? 
+
+No.
+
+=== Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+
+Yes. https://github.com/nnstreamer/nntrainer/blob/main/CONTRIBUTING.md
+
+=== Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers. 
+
+No.
+
+=== Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+
+No.
