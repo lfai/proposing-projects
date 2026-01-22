@@ -301,4 +301,4 @@ While OpenTelemetry provides general-purpose observability, genai-telemetry offe
 * Email: [reachbisht8@gmail.com]
 * GitHub: https://github.com/genai-telemetry/genai-telemetry
 
-Signed-off-by: Kamal Singh Bisht <reachbisht8@gmail.com>
+Signed-off-by: genai-telemetry <reachbisht8@gmail.com>
