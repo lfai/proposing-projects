@@ -1,0 +1,304 @@
+= GenAI Telemetry Project Proposal
+
+== Project Information
+
+*Name of project:* genai-telemetry
+
+*Requested project maturity level:* Sandbox
+
+== Project Description
+
+genai-telemetry is a platform-agnostic observability SDK for tracing GenAI/LLM applications. It enables developers to export traces, token usage, costs, and performance metrics to multiple observability backends including Splunk, Elasticsearch, OpenTelemetry, Datadog, Prometheus, Grafana Loki, AWS CloudWatch, and more.
+
+=== Why It Is Valuable
+
+As organizations rapidly adopt Large Language Models (LLMs) and Generative AI in production systems, there is a critical gap in observability tooling specifically designed for AI workloads. Traditional APM tools lack the ability to capture AI-specific metrics such as:
+
+* Token consumption (input/output)
+* Model latency and throughput
+* Cost tracking per request
+* Hallucination detection metrics
+* RAG pipeline performance
+* Agent execution traces
+
+genai-telemetry addresses this gap by providing:
+
+* *Simple decorator-based instrumentation* - Trace LLM calls, embeddings, retrievers, tools, chains, and agents with a single line of code
+* *Multi-platform support* - Export to 10+ observability backends without vendor lock-in
+* *Automatic token extraction* - Built-in support for OpenAI and Anthropic response formats
+* *Lightweight design* - Minimal dependencies using Python standard library for core functionality
+* *Batch processing* - Configurable batching for high-throughput production applications
+
+=== Origin and History
+
+The project originated from real-world challenges in monitoring GenAI applications in enterprise environments. It was created to provide a vendor-neutral, open-source solution for GenAI observability that integrates with existing enterprise monitoring infrastructure.
+
+The SDK was published on PyPI in January 2025 and has been designed to complement existing observability standards like OpenTelemetry while adding AI-specific semantic conventions.
+
+=== Ongoing Development
+
+Active development includes:
+
+* Additional LLM provider support (Cohere, Google Vertex AI, AWS Bedrock)
+* Cost tracking and estimation features
+* Hallucination detection metrics
+* Async decorator variants
+* Sampling configuration for high-volume environments
+* Integration with emerging GenAI observability standards
+
+== Statement on Alignment with LF AI & Data's Mission
+
+genai-telemetry directly supports LF AI & Data's mission to build and support an open AI community by:
+
+1. *Democratizing GenAI observability* - Providing free, open-source tooling that enables organizations of all sizes to monitor their AI applications
+2. *Promoting interoperability* - Supporting multiple backends prevents vendor lock-in and promotes open standards
+3. *Enabling responsible AI* - Observability is foundational to responsible AI deployment, enabling teams to monitor for issues like hallucinations, bias, and performance degradation
+4. *Supporting MLOps best practices* - Integrates with existing MLOps and DevOps tooling to enable mature AI operations
+
+== Collaboration Opportunities with LF AI & Data Projects
+
+We have identified collaboration opportunities with the following LF AI & Data hosted projects:
+
+|===
+|Project |Collaboration Opportunity
+
+|*OpenLineage*
+|Integration for AI pipeline lineage tracking - connecting model inputs/outputs with data lineage
+
+|*MLflow*
+|Complementary telemetry export to MLflow tracking server for experiment monitoring
+
+|*Trusted AI (AI Fairness 360, AI Explainability 360)*
+|Integration points for explainability and fairness metrics in observability pipelines
+
+|*Flyte*
+|Decorator compatibility for tracing GenAI tasks within Flyte workflows
+
+|*ONNX*
+|Support for tracing ONNX model inference alongside LLM API calls
+|===
+
+== License
+
+Apache License 2.0
+
+https://github.com/genai-telemetry/genai-telemetry/blob/main/LICENSE
+
+== Source Control
+
+GitHub: https://github.com/genai-telemetry/genai-telemetry
+
+== Issue Tracker
+
+GitHub Issues: https://github.com/genai-telemetry/genai-telemetry/issues
+
+== Collaboration Tools
+
+* *Current:* GitHub Issues, GitHub Discussions
+* *Requested:* Slack channel under LF AI & Data workspace, mailing list
+
+== External Dependencies
+
+All dependencies are open source with permissive licenses:
+
+|===
+|Dependency |Version |License |Purpose
+
+|requests
+|>=2.25.0
+|Apache 2.0
+|HTTP client for exporters
+
+|opentelemetry-api
+|>=1.0.0
+|Apache 2.0
+|OTLP exporter (optional)
+
+|opentelemetry-sdk
+|>=1.0.0
+|Apache 2.0
+|OTLP exporter (optional)
+
+|boto3
+|>=1.26.0
+|Apache 2.0
+|CloudWatch exporter (optional)
+|===
+
+Core functionality uses only Python standard library.
+
+== Initial Committers
+
+|===
+|Name |Email |Organization |Duration
+
+|Kamal Singh Bisht
+|[reachbisht8@gmail.com]
+|Individual
+|2+ months
+|===
+
+== Infrastructure Requests
+
+* CI/CD: GitHub Actions (currently in use)
+* Package hosting: PyPI (currently published)
+* Documentation hosting: Would appreciate help with documentation site
+
+== Project Website
+
+* Current: README documentation on GitHub
+* Domain reserved: No
+* Request: Would appreciate LF AI & Data support for project website creation
+
+== Project Governance
+
+* Current: GOVERNANCE.md in development
+* Request: Will work with LF AI & Data to establish open governance model
+
+== Social Media Accounts
+
+* None currently
+* Plan to create project-specific accounts upon LF AI & Data acceptance
+
+== Existing Sponsorship
+
+None currently. This is an independently developed open-source project.
+
+== Release Methodology
+
+* Semantic versioning (MAJOR.MINOR.PATCH)
+* Releases published to PyPI
+* Changelog maintained in CHANGELOG.md
+* Current version: 0.6.0
+
+== Code of Conduct
+
+Will adopt LF AI & Data Code of Conduct upon acceptance.
+
+Current: https://github.com/genai-telemetry/genai-telemetry/blob/main/CODE_OF_CONDUCT.md (to be added)
+
+== Contributor Guidelines
+
+https://github.com/genai-telemetry/genai-telemetry/blob/main/CONTRIBUTING.md (to be added)
+
+All contributions require Developer Certificate of Origin (DCO) sign-off.
+
+== Project Architecture
+
+[source]
+----
+genai-telemetry/
+├── core/                    # Core telemetry manager and span classes
+├── exporters/               # All exporter implementations
+│   ├── splunk/             # Splunk HEC exporter
+│   ├── elasticsearch/      # Elasticsearch exporter
+│   ├── opentelemetry/      # OTLP exporter
+│   ├── datadog/            # Datadog exporter
+│   ├── prometheus/         # Prometheus Push Gateway exporter
+│   ├── loki/               # Grafana Loki exporter
+│   ├── cloudwatch/         # AWS CloudWatch exporter
+│   ├── console/            # Console output exporter
+│   ├── file/               # File exporter
+│   └── multi/              # Multi-exporter for multiple backends
+├── decorators/             # Tracing decorators
+├── utils/                  # Helper utilities (token extraction, etc.)
+└── examples/               # Usage examples
+----
+
+== Supported Decorators
+
+|===
+|Decorator |Purpose
+
+|`@trace_llm`
+|Trace LLM/chat completion calls
+
+|`@trace_embedding`
+|Trace embedding generation
+
+|`@trace_retrieval`
+|Trace vector store retrievals
+
+|`@trace_tool`
+|Trace tool/function calls
+
+|`@trace_chain`
+|Trace LLM chains/pipelines
+
+|`@trace_agent`
+|Trace autonomous agents
+|===
+
+== Quick Start Example
+
+[source,python]
+----
+from genai_telemetry import setup_telemetry, trace_llm
+
+# Setup with your preferred backend
+setup_telemetry(
+    workflow_name="my-chatbot",
+    exporter="splunk",
+    splunk_url="https://splunk.example.com:8088",
+    splunk_token="your-hec-token"
+)
+
+# Trace your LLM calls
+@trace_llm(model_name="gpt-4o", model_provider="openai")
+def chat(message: str):
+    response = openai_client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": message}]
+    )
+    return response
+
+# Use it
+answer = chat("What is the meaning of life?")
+----
+
+== Roadmap
+
+=== Short-term (3-6 months)
+* Additional LLM provider support (Cohere, Google Vertex AI)
+* Cost tracking and estimation
+* Async decorator variants
+* Improved documentation and examples
+
+=== Medium-term (6-12 months)
+* Hallucination detection metrics
+* Sampling configuration for high-volume environments
+* Integration with LF AI & Data projects (OpenLineage, MLflow)
+* Semantic conventions alignment with emerging standards
+
+=== Long-term (12+ months)
+* Real-time alerting capabilities
+* Dashboard templates for common platforms
+* Enterprise features (multi-tenancy, RBAC)
+
+== Additional Information
+
+=== Why Sandbox Level?
+
+We are requesting Sandbox level as the project is in early stages with:
+
+* Growing but nascent community
+* Production-ready core functionality
+* Active development and clear roadmap
+* Need for broader community input and adoption
+
+=== Unique Value Proposition
+
+While OpenTelemetry provides general-purpose observability, genai-telemetry offers:
+
+1. *AI-native semantic conventions* - Purpose-built for LLM/GenAI workloads
+2. *Simplified developer experience* - Single decorator instrumentation
+3. *Multi-backend flexibility* - Works with existing enterprise monitoring investments
+4. *Token-aware metrics* - Automatic extraction from major LLM providers
+
+== Contact
+
+* Primary contact: Kamal Singh Bisht
+* Email: [reachbisht8@gmail.com]
+* GitHub: https://github.com/genai-telemetry/genai-telemetry
+
+Signed-off-by: kamal-s-bisht <k.bisht7@gmail.com>
