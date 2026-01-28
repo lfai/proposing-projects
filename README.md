@@ -1,7 +1,7 @@
 ![alt text](https://artwork.lfaidata.foundation/lfaidata-assets/lfaidata/horizontal/color/lfaidata-horizontal-color.png)
 
 # Hosting Projects under the LF AI & Data Foundation 
-This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/LFAI%26Data-Project%20LifecycleDocument.pdf">LF AI & Data Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI & Data Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI & Data hosted project. 
+This repo contains the <a href="https://github.com/lfai/proposing-projects/blob/master/input.md">LF AI & Data Project Proposal Process and Lifecycle Document</a> that explains the process to host new projects in the LF AI & Data Foundation. It is your starting point to learn the various project stages, the process to follow to propose hosting a new project, the lifecycle of how a project transitions between stages, in addition to the benefits of being an LF AI & Data hosted project. 
 This repo also includes a <a href="https://github.com/lfai/proposing-projects/blob/master/proposal-template.adoc">template</a> that we recommend you use when making such a proposal. We also make available copies of <a href="https://github.com/lfai/proposing-projects/tree/master/proposals">previous proposals</a> for your referenece. 
 
 For any questions, please contact the LF AI & Data staff via info@lfaidata.foundation.
