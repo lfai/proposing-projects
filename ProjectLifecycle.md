@@ -71,47 +71,36 @@ requirements:
 
 #### Tasks to be performed by the project’s team requesting incubation status
 
-&nbsp;&nbsp;● Submit a Project Contribution Proposal via a GitHub pull request to <u><https://github.com/lfai/proposing-projects/tree/master/proposals>.</u>
+  - Submit a Project Contribution Proposal via a GitHub pull request to <u><https://github.com/lfai/proposing-projects/tree/master/proposals>.</u>
 
-&nbsp;&nbsp;● Move the project’s code into its own GitHub organization and not under its founder’s organization.
+  - Move the project’s code into its own GitHub organization and not under its founder’s organization.
 
-&nbsp;&nbsp;● Enable two-factor authentication for all members of the project’s GitHub org.
+  - Enable two-factor authentication for all members of the project’s GitHub org.
 
-&nbsp;&nbsp;● Install the [<u>GitHub DCO app</u>](https://github.com/apps/dco) on all repos.  
+  - Install the [<u>GitHub DCO app</u>](https://github.com/apps/dco) on all repos.  
 
-&nbsp;&nbsp;● Add @thelinuxfoundation as a co-owner of the GitHub org.  
+  - Add @thelinuxfoundation as a co-owner of the GitHub org.  
 
-&nbsp;&nbsp;● Achieve and maintain an [<u>OpenSSF Best Practices Badge Program</u>](https://bestpractices.coreinfrastructure.org/) (Passing).  
+  - Achieve and maintain an [<u>OpenSSF Best Practices Badge Program</u>](https://bestpractices.coreinfrastructure.org/) (Passing).  
 
-&nbsp;&nbsp;● Identify who on the project will handle security issues (could be a team).  
+  - Identify who on the project will handle security issues (could be a team).  
 
-&nbsp;&nbsp;● LF AI & Data will set up a mailing list to receive and discuss security vulnerability reporting.  
+  - LF AI & Data will set up a mailing list to receive and discuss security vulnerability reporting.  
 
-&nbsp;&nbsp;● Have the following files in GitHub:  
+  - Have the following files in GitHub:
+    - LICENSE.mdat the root of the repository specifying the terms and conditions for using, distributing, and modifying the software. In addition, you should provide information on the license of any third-party code included in the project.
+    - README.md welcomes new community members to the project and explains why the project is useful and how to get started.
+    - CONTRIBUTING.mdexplains how to contribute to the project. The file explains the types of contributions needed and how the development process works.
+    - CODEOWNERSto define individuals or teams responsible for code in a repository; document current project owners and emeritus committers.
+    - CODE_OF_CONDUCT.md sets the ground rules for participants’ behavior and helps facilitate a friendly, welcoming environment. By default, projects should leverage the [<u>Linux Foundation Code of Conduct</u>](https://lfprojects.org/policies/code-of-conduct/) unless an alternate Code of Conduct is approved prior.
+    - RELEASE.mdprovides documentation on the release methodology, cadence, criteria, etc.
+    - GOVERNANCE.mddocuments the project’s technical governance.
+    - SUPPORT.md lets users and developers know how to get help with the project.
+    - SECURITY.mdinforms users and developers on how to report security issues and vulnerabilities.
 
-&nbsp;&nbsp;&nbsp;&nbsp;○ LICENSE.mdat the root of the repository specifying the terms and conditions for using, distributing, and modifying the software. In addition, you should provide information on the license of any third-party code included in the project.  
+  - \[Optional but highly recommended\] Include a Software Package Data Exchange (SPDX) short-form identifier in a comment at the top headers of each source code file.
 
-&nbsp;&nbsp;&nbsp;&nbsp;○ README.md welcomes new community members to the project and explains why the project is useful and how to get started.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ CONTRIBUTING.mdexplains how to contribute to the project. The file explains the types of contributions needed and how the development process works.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ CODEOWNERSto define individuals or teams responsible for code in a repository; document current project owners and emeritus committers.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ CODE_OF_CONDUCT.md sets the ground rules for participants’ behavior and helps facilitate a friendly, welcoming environment. By default, projects should leverage the [<u>Linux Foundation Code of Conduct</u>](https://lfprojects.org/policies/code-of-conduct/) unless an alternate Code of Conduct is approved prior.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ RELEASE.mdprovides documentation on the release methodology, cadence, criteria, etc.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ GOVERNANCE.mddocuments the project’s technical governance.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ SUPPORT.md lets users and developers know how to get help with the project.  
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;○ SECURITY.mdinforms users and developers on how to report security issues and vulnerabilities.
-
-● \[Optional but highly recommended\] Include a Software Package Data Exchange (SPDX) short-form identifier in a comment at the top headers of each source code file.
-
-After achieving a majority TAC vote, a project will be welcomed into the
-Sandbox stage.
+After achieving a majority TAC vote, a project will be welcomed into the Sandbox stage.
 
 
 <br>
@@ -121,13 +110,16 @@ Sandbox stage.
 To be accepted into the Incubation stage, a project must meet all the
 requirements of the Sandbox stage plus:
 
-1\. Have at least three organizations actively contributing to the project.
-2\. Have a defined Technical Steering Committee (TSC) with a chairperson identified, with open and transparent communication.
-3\. Have reached a minimum of 500 stars on GitHub.
-4\. Have achieved and maintained an [<u>OpenSSF Best Practices Badge Program</u>](https://bestpractices.coreinfrastructure.org/) (Silver).
+1\. Have at least three organizations actively contributing to the project.  
 
-After achieving a majority TAC vote, a project will be welcomed into the
-Incubation stage.
+2\. Have a defined Technical Steering Committee (TSC) with a chairperson identified, with open and transparent communication.  
+
+3\. Have reached a minimum of 500 stars on GitHub.  
+
+4\. Have achieved and maintained an [<u>OpenSSF Best Practices Badge Program</u>](https://bestpractices.coreinfrastructure.org/) (Silver).  
+
+
+After achieving a majority TAC vote, a project will be welcomed into the Incubation stage.
 
 
 <br>
@@ -146,13 +138,9 @@ Incubation stage requirements plus:
 
 Since some of these criteria can vary depending on a project's type, scope, and size, the TAC has final judgment over the activity level adequate to meet these criteria.
 
-To graduate, the project must receive the affirmative vote of the TAC
-and the Governing Board.
+To graduate, the project must receive the affirmative vote of the TAC and the Governing Board.
 
-When a project graduates, it will be eligible to have a technical lead
-appointed to represent the project on the LF AI & Data Technical
-Advisory Council. The project is expected to nominate a lead to the TAC
-who can attend and participate in the bi-weekly TAC calls.
+When a project graduates, it will be eligible to have a technical lead appointed to represent the project on the LF AI & Data Technical Advisory Council. The project is expected to nominate a lead to the TAC who can attend and participate in the bi-weekly TAC calls.
 
 
 <br>
@@ -164,25 +152,17 @@ who can attend and participate in the bi-weekly TAC calls.
 
 Sandbox stage projects are eligible to receive the following benefits:
 
-● Neutral hosting of the project’s trademark and assets by LF AI & Data.  
+  - Neutral hosting of the project’s trademark and assets by LF AI & Data.  
 
-● Appointment of a TAC member as a project sponsor and provide recommendations regarding governance best practices.  
-
-● LF AI & Data blog post or similar announcing the project's hosting in the Foundation (quarterly announcements).  
-
-● Right to refer to the project as an [“<u>LF AI & Data Sandbox Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge),” with the right, subject to applicable trademark usage guidelines, to display the LF AI & Data logo on the project’s code repository.  
-
-● An initial and regularly scheduled license scan of the project’s codebase with results reported to the project’s mailing list.  
-
-● Ongoing source code security scans and reports.  
-
-● Infrastructure support includes mailing lists, wiki space, slack channel, etc.  
-
-● Marketing, communication, and PR support are limited to significant announcements.  
-
-● Access to the [<u>LFX</u>](https://lfx.linuxfoundation.org/) platform.  
-
-● Support of the Foundation staff who are eager to help with the project.  
+  - Appointment of a TAC member as a project sponsor and provide recommendations regarding governance best practices.
+  - LF AI & Data blog post or similar announcing the project's hosting in the Foundation (quarterly announcements).
+  - Right to refer to the project as an [“<u>LF AI & Data Sandbox Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge),” with the right, subject to applicable trademark usage guidelines, to display the LF AI & Data logo on the project’s code repository.
+  - An initial and regularly scheduled license scan of the project’s codebase with results reported to the project’s mailing list.
+  - Ongoing source code security scans and reports.
+  - Infrastructure support includes mailing lists, wiki space, slack channel, etc.
+  - Marketing, communication, and PR support are limited to significant announcements.
+  - Access to the [<u>LFX</u>](https://lfx.linuxfoundation.org/) platform.
+  - Support of the Foundation staff who are eager to help with the project.  
 
 <br>
 
@@ -192,16 +172,10 @@ Sandbox stage projects are eligible to receive the following benefits:
 Incubation stage projects are eligible to receive all the benefits of
 the Sandbox stage projects plus:  
 
-● Right to refer to the project as an [“<u>LF AI & Data Incubation Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge)<u>,</u>” with the right, subject to applicable trademark usage guidelines, to display the LF AI & Data logo on the project’s code repository.  
-
-
-● Creative and artwork support covering website, logo, and other required creative work.  
-
-
-● Marketing, communication, and PR support, including project promotion via blog posts, social media, and LF AI & Data website.  
-
-
-● Access to the Bevy platform for community-hosted events.  
+  - Right to refer to the project as an [“<u>LF AI & Data Incubation Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge)<u>,</u>” with the right, subject to applicable trademark usage guidelines, to display the LF AI & Data logo on the project’s code repository.
+  - Creative and artwork support covering website, logo, and other required creative work.
+  - Marketing, communication, and PR support, including project promotion via blog posts, social media, and LF AI & Data website.
+  - Access to the Bevy platform for community-hosted events.  
 
 <br>
 
@@ -210,16 +184,12 @@ the Sandbox stage projects plus:
 Graduation stage projects are eligible for all the benefits of
 Incubation stage projects plus:
 
-● LF AI & Data blog announcement or similar announcing the project graduation, including promotion activities.
-
-● Graduation stage projects may receive support as determined by the Governing Board. ● Right to refer to the project as an [“<u>LF AI & Data Graduation Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge),”
+  - LF AI & Data blog announcement or similar announcing the project graduation, including promotion activities.
+  - Graduation stage projects may receive support as determined by the Governing Board. ● Right to refer to the project as an [“<u>LF AI & Data Graduation Project</u>](https://github.com/lfai/artwork/tree/main/lfaidata-assets/lfaidata-project-badge),”
 with the right, subject to applicable trademark usage guidelines, to display the LF AI & Data logo on the project’s code repository.
-
-● Voting seat on the TAC.
-
-● Advanced IT infrastructure support (pending board approval).
-
-● Additional ecosystem development opportunities include training courses, certification development, and conformance programs (pending board approval).
+Voting seat on the TAC.
+  - Advanced IT infrastructure support (pending board approval).
+  - Additional ecosystem development opportunities include training courses, certification development, and conformance programs (pending board approval).
 
 <br>
 
@@ -231,21 +201,16 @@ will be transitioned to the Emeritus stage and archived in such cases.
 
 What does archiving for an LF AI & Data project mean?
 
-● LF AI & Data will no longer provide support for the project beyond what’s deemed necessary as part of the archiving process.
-
-● LF AI & Data will list the project online as archived.
-
-● All assets, including trademarks of archived projects, will remain hosted by LF AI & Data and the Linux Foundation.
+  - LF AI & Data will no longer provide support for the project beyond what’s deemed necessary as part of the archiving process.
+  - LF AI & Data will list the project online as archived.
+  - All assets, including trademarks of archived projects, will remain hosted by LF AI & Data and the Linux Foundation.
 
 ### _Process of Archiving a Project_
 
-● A proposal must be submitted to the TAC via the regularly scheduled TAC call.
-
-● The proposal will be presented to the TAC and include an explanation supporting archiving of the project.
-
-● The proposal must remain open for at least two weeks of discussion.
-
-● A vote must be finalized with 2/3 approval from the TAC and 2/3 approval from the Governing Board.
+  - A proposal must be submitted to the TAC via the regularly scheduled TAC call.
+  - The proposal will be presented to the TAC and include an explanation supporting archiving of the project.
+  - The proposal must remain open for at least two weeks of discussion.
+  - A vote must be finalized with 2/3 approval from the TAC and 2/3 approval from the Governing Board.
 
 <br>
 
@@ -275,5 +240,6 @@ To provide feedback on this document, please email
 info@lfaidata.foundation or subscribe to the [<u>TAC mailing
 list</u>](https://wiki.lfaidata.foundation/pages/viewpage.action?pageId=7733361&src=contextnavpagetreemode)
 and email directly to the list.
+
 
 
