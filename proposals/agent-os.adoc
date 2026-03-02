@@ -1,0 +1,158 @@
+== Name of proposed project:
+
+Agent OS — Governance Kernel for Autonomous AI Agents
+
+== Requested project maturity level:
+
+Sandbox
+
+== Project Description:
+
+Agent OS is an open-source governance kernel for autonomous AI agents, providing runtime policy enforcement, capability sandboxing, and kill-switch controls. Inspired by operating system kernel design, it mediates all agent actions through a mandatory governance layer that agents cannot bypass.
+
+The project originated in late 2025 to address the growing need for runtime governance as AI agents became more autonomous. Existing solutions focused on input/output guardrails, but none provided kernel-level enforcement during agent execution.
+
+**The Agent OS ecosystem consists of 5 interoperating packages:**
+
+- **Agent OS** (core kernel) — Policy engine, capability sandbox, virtual filesystem, approval workflows
+- **Agent Mesh** — Inter-agent trust layer with DID-based identity and IATP (Inter-Agent Trust Protocol)
+- **Agent Hypervisor** — Execution isolation with ring-based permission model and kill switch
+- **Agent SRE** — Observability, circuit breakers, anomaly detection, and reliability engineering
+- **Agent Governance** — Meta-framework, compliance mapping, and OWASP Agentic Top 10 coverage
+
+The stack covers **9 of 10 OWASP Agentic Top 10 risks** and is the only full-stack, open-source, runtime governance system for AI agents.
+
+All 5 packages are published on PyPI. An MCP (Model Context Protocol) server enables integration with Claude Desktop, Cursor, and other MCP-compatible tools.
+
+Ongoing development focuses on closing the ASI-04 (supply chain) gap, formal verification of policy engines, and multi-framework adapter support (CrewAI, LangChain, AutoGen, MetaGPT).
+
+== Statement on alignment with LF AI's mission:
+
+Agent OS directly aligns with LF AI & Data's mission to support open source innovation in AI. As AI agents become increasingly autonomous, governance infrastructure becomes critical for safe deployment. Agent OS provides this infrastructure as a neutral, open-source project that any framework can integrate with — preventing vendor lock-in and enabling a shared governance standard.
+
+The project is particularly relevant as the industry shifts from single-agent to multi-agent systems, where runtime governance, inter-agent trust, and execution isolation become essential safety requirements.
+
+== Possible collaboration opportunities with current LF AI hosted projects:
+
+- **Trusted AI** — Agent OS policy engine and capability sandbox directly implement trustworthy AI principles at the agent level
+- **AI Fairness 360** — Agent OS audit logging and approval workflows can integrate fairness checks into agent decision pipelines
+- **Adversarial Robustness Toolbox** — Agent Hypervisor execution rings provide complementary runtime protection to ART's adversarial robustness testing
+- **ONNX** — Agent OS VFS (Virtual Filesystem) can manage ONNX model access with policy-controlled loading
+- **Flyte** — Agent OS governance can wrap Flyte workflow tasks with policy enforcement
+
+== License name, version, and URL to license text
+
+MIT License: https://github.com/imran-siddique/agent-os/blob/master/LICENSE
+
+== Source control
+
+GitHub: https://github.com/imran-siddique
+
+Primary repositories:
+- https://github.com/imran-siddique/agent-os
+- https://github.com/imran-siddique/agent-mesh
+- https://github.com/imran-siddique/agent-hypervisor
+- https://github.com/imran-siddique/agent-sre
+- https://github.com/imran-siddique/agent-governance
+
+== Does the project sit in its own GH organization?
+
+Currently under the personal GitHub account (imran-siddique). We are open to transferring to a dedicated GitHub organization as part of the LF AI onboarding process.
+
+== Do you have the GH DCO app active in the repos?
+
+Not yet. Will activate as part of the onboarding process.
+
+== Issue tracker
+
+GitHub Issues for all repositories:
+- https://github.com/imran-siddique/agent-os/issues
+- https://github.com/imran-siddique/agent-governance/issues
+
+== Collaboration tools
+
+- GitHub Issues and Pull Requests for development
+- GitHub Discussions enabled on agent-governance
+- Issue templates (bug reports, feature requests) configured on all repos
+
+== External dependencies including licenses
+
+Python packages (all MIT/Apache-2.0/BSD compatible):
+- pydantic (MIT) — data validation
+- pyyaml (MIT) — policy file parsing
+- cryptography (Apache-2.0/BSD) — DID identity and trust verification
+- httpx (BSD) — async HTTP for inter-agent communication
+- structlog (Apache-2.0) — structured logging
+- prometheus-client (Apache-2.0) — metrics export
+
+Node.js (MCP server):
+- @modelcontextprotocol/sdk (MIT) — MCP protocol
+- zod (MIT) — schema validation
+- winston (MIT) — logging
+
+== Initial committers
+
+Imran Siddique, imran-siddique (GitHub), independent, working on the project since October 2025.
+
+External contributors:
+- pava0206 (GitHub) — FAQ documentation for agent-governance
+- harshiys (GitHub) — Framework installation examples
+- nirmalkrishnav (GitHub) — Bug reports and feature requests on agent-os
+
+== Have the project defined the roles of contributor, committer, maintainer, etc.?
+
+YES:
+- CONTRIBUTING.md in all 5 repositories
+- MAINTAINERS section in each repo
+- CODE_OF_CONDUCT.md (Contributor Covenant v2.1) in all repos
+
+== Total number of contributors to the project including their affiliations
+
+4 contributors:
+- 1 maintainer (Imran Siddique — independent)
+- 3 external contributors (pava0206, harshiys, nirmalkrishnav)
+
+== Does the project have a release methodology?
+
+YES. Semantic versioning (semver) with:
+- GitHub Releases with changelogs
+- Automated PyPI publishing via GitHub Actions (publish.yml)
+- npm publishing for MCP server
+- Current versions: agent-os v2.0.1, agent-mesh v2.0.1, agent-hypervisor v2.0.1, agent-sre v1.1.1, agent-governance v1.0.1
+
+== Does the project have a code of conduct?
+
+YES: https://github.com/imran-siddique/agent-os/blob/master/CODE_OF_CONDUCT.md
+
+All 5 repositories include the Contributor Covenant v2.1 code of conduct.
+
+== Did the project achieve any of the CII best practices badges?
+
+Not yet. Will apply for the OpenSSF Best Practices Passing Badge as part of the Sandbox onboarding process.
+
+== Do you have any specific infrastructure requests?
+
+No specific infrastructure requests at this time.
+
+== Project website
+
+No dedicated website yet. Primary documentation is in GitHub READMEs. The MCP server is listed on Glama: https://glama.ai/mcp/servers/@imran-siddique/agentos-mcp-server
+
+We would welcome assistance creating a project website as part of LF AI hosting.
+
+== Project governance
+
+All pull requests require review and approval by at least one maintainer. Branch protection is enabled on all repositories with required CI checks.
+
+- CONTRIBUTING.md: https://github.com/imran-siddique/agent-os/blob/master/CONTRIBUTING.md
+- SECURITY.md: https://github.com/imran-siddique/agent-os/blob/master/SECURITY.md
+
+We are open to evolving the governance model as the community grows, including establishing a formal Technical Steering Committee.
+
+== Social media accounts
+
+No dedicated project social media accounts. Promoted via personal LinkedIn and Medium articles.
+
+== Existing sponsorship
+
+No external funding or sponsorship to date. This is an independent, community-driven open source project.
