@@ -42,18 +42,18 @@ The project is particularly relevant as the industry shifts from single-agent to
 
 == License name, version, and URL to license text
 
-MIT License: https://github.com/imran-siddique/agent-os/blob/master/LICENSE
+MIT License: https://github.com/microsoft/agent-governance-toolkit/blob/master/LICENSE
 
 == Source control
 
 GitHub: https://github.com/imran-siddique
 
 Primary repositories:
-- https://github.com/imran-siddique/agent-os
-- https://github.com/imran-siddique/agent-mesh
-- https://github.com/imran-siddique/agent-hypervisor
-- https://github.com/imran-siddique/agent-sre
-- https://github.com/imran-siddique/agent-governance
+- https://github.com/microsoft/agent-governance-toolkit
+- https://github.com/microsoft/agent-governance-toolkit
+- https://github.com/microsoft/agent-governance-toolkit
+- https://github.com/microsoft/agent-governance-toolkit
+- https://github.com/microsoft/agent-governance-toolkit
 
 == Does the project sit in its own GH organization?
 
@@ -66,8 +66,8 @@ Not yet. Will activate as part of the onboarding process.
 == Issue tracker
 
 GitHub Issues for all repositories:
-- https://github.com/imran-siddique/agent-os/issues
-- https://github.com/imran-siddique/agent-governance/issues
+- https://github.com/microsoft/agent-governance-toolkit/issues
+- https://github.com/microsoft/agent-governance-toolkit/issues
 
 == Collaboration tools
 
@@ -122,7 +122,7 @@ YES. Semantic versioning (semver) with:
 
 == Does the project have a code of conduct?
 
-YES: https://github.com/imran-siddique/agent-os/blob/master/CODE_OF_CONDUCT.md
+YES: https://github.com/microsoft/agent-governance-toolkit/blob/master/CODE_OF_CONDUCT.md
 
 All 5 repositories include the Contributor Covenant v2.1 code of conduct.
 
@@ -144,8 +144,8 @@ We would welcome assistance creating a project website as part of LF AI hosting.
 
 All pull requests require review and approval by at least one maintainer. Branch protection is enabled on all repositories with required CI checks.
 
-- CONTRIBUTING.md: https://github.com/imran-siddique/agent-os/blob/master/CONTRIBUTING.md
-- SECURITY.md: https://github.com/imran-siddique/agent-os/blob/master/SECURITY.md
+- CONTRIBUTING.md: https://github.com/microsoft/agent-governance-toolkit/blob/master/CONTRIBUTING.md
+- SECURITY.md: https://github.com/microsoft/agent-governance-toolkit/blob/master/SECURITY.md
 
 We are open to evolving the governance model as the community grows, including establishing a formal Technical Steering Committee.
 
