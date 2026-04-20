@@ -1,0 +1,51 @@
+== Agent Governance Toolkit
+
+* Name of project: Agent Governance Toolkit (AGT)
+* Requested project maturity level: Sandbox
+* Project description:
+
+The Agent Governance Toolkit is an open-source runtime governance framework for autonomous AI agents. It provides deterministic policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering -- the security infrastructure layer that agentic AI systems need for safe production deployment.
+
+Unlike prompt-level guardrails that filter inputs/outputs, AGT operates at the runtime level -- intercepting every agent action and enforcing policy before execution. Agents cannot bypass governance because it is external, mandatory, and sits between the agent and its tools.
+
+Origin: Created by Microsoft as an open-source project (MIT licensed) to address the governance gap in AI agent frameworks. Public Preview released March 2026. Currently at v3.2.0 with 9,500+ tests across 8 Python packages, 7 npm packages, 1 NuGet package, 2 Rust crates, and 1 Go module.
+
+Key capabilities:
+- Policy-as-Code engine (YAML, OPA/Rego, Cedar) with less than 5ms evaluation latency
+- Zero-trust agent identity (Ed25519 + post-quantum ML-DSA-65 + SPIFFE/SVID)
+- Merkle-chained tamper-evident audit logging
+- Execution sandboxing (4-tier privilege rings)
+- SRE for agents (SLO engine, error budgets, chaos testing)
+- 12+ framework integrations (Semantic Kernel, AutoGen, LangChain, CrewAI, Google ADK, OpenAI Agents, MCP, A2A)
+- Covers 10/10 OWASP Agentic Top 10 risks
+- Compliance mappings: EU AI Act, SOC 2, HIPAA, NIST AI RMF
+
+* Statement on alignment with LF AI mission:
+
+AGT directly aligns with LF AI and Data mission of supporting open-source AI innovation. It provides the runtime trust infrastructure (identity, policy, audit) that makes AI agents production-safe, implements open protocols (IATP, SPIFFE, MCP, A2A), works with any agent framework, and has a community-extensible architecture.
+
+* Collaboration opportunities with current LF AI hosted projects:
+
+- Trusted AI (AI Fairness 360, AI Explainability 360): AGT policy engine could integrate fairness/explainability checks as governance rules
+- Flyte/Elyra: Agent workflow orchestration with governance checkpoints
+- ONNX Runtime: Governed model inference within agent tool calls
+- OpenLineage: Integration with AGT Merkle audit chain for lineage tracking
+
+* License: MIT (https://github.com/microsoft/agent-governance-toolkit/blob/main/LICENSE)
+* Source control: GitHub (https://github.com/microsoft/agent-governance-toolkit)
+* Does the project sit in its own GH organization? No, it is in the microsoft organization with its own dedicated team and governance structure.
+* Do you have the GH DCO app active in the repos? The project uses the Microsoft CLA via the Microsoft CLA bot.
+* Issue tracker: GitHub Issues (https://github.com/microsoft/agent-governance-toolkit/issues)
+* Collaboration tools: GitHub Discussions, GitHub Issues, GitHub PRs.
+* External dependencies including licenses: pydantic (MIT), cryptography (Apache 2.0/BSD), pynacl (Apache 2.0), httpx (BSD), aiohttp (Apache 2.0), pyyaml (MIT), structlog (Apache 2.0/MIT), click (BSD), rich (MIT), fastapi (MIT), uvicorn (BSD). All permissively licensed.
+* Initial committers: Imran Siddique (imran.siddique@microsoft.com, Microsoft) -- Project Lead, since 2025
+* Have the project defined roles of contributor, committer, maintainer? Yes. MAINTAINERS.md: https://github.com/microsoft/agent-governance-toolkit/blob/main/MAINTAINERS.md GOVERNANCE.md: https://github.com/microsoft/agent-governance-toolkit/blob/main/GOVERNANCE.md
+* Total number of contributors: 15+ contributors across multiple organizations.
+* Does the project have a release methodology? Yes. Semantic Versioning, Microsoft-signed releases via ESRP.
+* Does the project have a code of conduct? Yes. https://github.com/microsoft/agent-governance-toolkit/blob/main/CODE_OF_CONDUCT.md
+* Did the project achieve any of the CII best practices badges? OpenSSF Scorecard configured and monitored. CII Best Practices badge application in progress.
+* Specific infrastructure requests: None at this time.
+* Project website: https://github.com/microsoft/agent-governance-toolkit
+* Project governance: https://github.com/microsoft/agent-governance-toolkit/blob/main/GOVERNANCE.md
+* Social media accounts: None dedicated to the project at this time.
+* Existing sponsorship: Microsoft Corporation provides engineering resources, CI/CD infrastructure, ESRP signing certificates. MIT licensed, open to all contributors.
