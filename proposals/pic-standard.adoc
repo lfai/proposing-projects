@@ -1,0 +1,43 @@
+== PIC Standard
+
+* Name of project: PIC Standard (Provenance & Intent Contracts)
+* Requested project maturity level: Sandbox
+* Project description:
+
+PIC Standard is an open-source pre-execution action-boundary verification primitive for AI agents. Before a high-impact tool call executes, the agent emits a structured Action Proposal (intent, impact, provenance, claims, evidence, action), and the verifier resolves it against a verifiable causal chain — claim → evidence → trusted provenance — failing closed if the chain is invalid or insufficient for the declared impact class.
+
+Unlike runtime policy enforcement (capability/rule-based allow-deny) and unlike post-execution receipt or audit primitives (which document what already happened), PIC operates at the *pre-execution action boundary*: it verifies that this specific tool call is causally justified, by verifiable evidence, under the operator's trust roots, before the side effect occurs.
+
+Origin: Created by Fabio Marcello Salvadori (MadeInPluto, https://madeinpluto.com) as an open-source project (Apache 2.0) on 2026-01-08. First public release on PyPI (v0.1.0) on 2026-01-09. Currently at *v0.8.1.1* (May 2026) with frozen PIC Canonical JSON v1 canonicalization spec, published conformance suite with CI runner, and integrations across LangGraph, MCP, OpenClaw, Cordum, and an HTTP bridge. Recent supply-chain hardening: v0.8.1.1 is the project's first cryptographically-signed release, with PEP 740 attestations on PyPI artifacts and Ed25519-signed git tags (see `RELEASING.md`). 80% Python statement-coverage gate and code-style enforcement (Ruff + ESLint/Prettier) are CI-enforced. The OpenSSF Best Practices ladder has been climbed visibly (Passing → Silver). Public roadmap targets a TypeScript reference verifier (v0.9.0 cross-implementation milestone) and an IETF Internet-Draft submission (v1.0 protocol freeze). Defensive publication: RFC-0001 (Apache 2.0, Zenodo DOI 10.5281/zenodo.18725562).
+
+Prior foundation-track feedback: PIC was previously submitted to the Agentic AI Foundation (AAIF) Growth process (https://github.com/aaif/project-proposals/issues/16). The review outcome did not approve hosting at that stage, but the feedback clarified PIC's positioning as a pre-execution action-verification contract distinct from runtime policy enforcement and post-execution receipt/audit primitives, while identifying org-readiness items such as multi-organization maintainership and named production adopters. PIC is filing at LF AI Sandbox because Sandbox is the better maturity stage for developing those governance and adoption foundations under neutral stewardship.
+
+* Statement on alignment with LF AI mission:
+
+PIC fits the *Trusted & Responsible AI* category as a runtime safety primitive that makes AI agent actions causally accountable before execution. It is Apache-2.0 licensed, framework-neutral (integrates with any agent runtime), and locally deterministic — verification runs in-process under the operator's control with no mandatory cloud dependency. The project advances LF AI's mission of supporting open-source AI infrastructure by providing the missing pre-execution verification primitive in the agent-AI stack.
+
+* Collaboration opportunities with current LF AI hosted projects:
+
+- *Trusted-AI / responsible-AI projects:* PIC's verification gate could explore consuming fairness, explainability, or risk signals as evidence types in the Action Proposal's claims-and-evidence chain.
+- *DeepCausality:* Natural alignment — DeepCausality provides causal reasoning primitives; PIC enforces causal-chain integrity at the action boundary. Composition could surface formal causal-reasoning evidence into PIC verification.
+- *Monocle (LLM agent observability):* PIC's verification verdicts and Action Proposal records are structured observability artifacts that Monocle could ingest for end-to-end agent monitoring.
+- *Aita / Ryoma (AI agent for data analysis):* Agent platforms benefit from PIC as the pre-execution verification gate for tool calls that touch sensitive data.
+
+* License: Apache 2.0 (https://github.com/madeinplutofabio/pic-standard/blob/main/LICENSE)
+* Source control: GitHub (https://github.com/madeinplutofabio/pic-standard)
+* Does the project sit in its own GH organization? No, currently in the maintainer's individual account (`madeinplutofabio`). The project is prepared to migrate to a dedicated GitHub organization during LF AI onboarding if accepted, consistent with LF AI Sandbox requirements.
+* Do you have the GH DCO app active in the repos? Yes — DCO sign-off is required on all commits per CONTRIBUTING.md, enforced by the GitHub DCO App on incoming pull requests.
+* Issue tracker: GitHub Issues (https://github.com/madeinplutofabio/pic-standard/issues)
+* Collaboration tools: GitHub Discussions, GitHub Issues, GitHub Pull Requests.
+* External dependencies including licenses: Core and optional dependencies are documented in `pyproject.toml`, `integrations/openclaw/package.json`, and `THIRD_PARTY_NOTICES.md`. Primary Python dependencies include pydantic (MIT), cryptography (Apache 2.0/BSD), pynacl (Apache 2.0), pyyaml (MIT), click (BSD), and rich (MIT). Optional extras include langgraph (MIT) and mcp (MIT). The OpenClaw integration uses npm dependencies listed in `integrations/openclaw/package.json`. All known direct dependencies are permissively licensed; dependency review will be refreshed during foundation onboarding.
+* Initial committers: Fabio Marcello Salvadori (fabio@madeinpluto.com, MadeInPluto) — Project Lead, since 2026-01-08.
+* Have the project defined roles of contributor, committer, maintainer? Yes, documented in MAINTAINERS.md (https://github.com/madeinplutofabio/pic-standard/blob/main/MAINTAINERS.md). The project is actively recruiting co-maintainers; cross-implementation work (TypeScript verifier, normative semantics, integration stewardship) are open contribution areas.
+* Total number of contributors: Small but growing; actively recruiting under the LF AI Sandbox visibility this proposal would provide.
+* Does the project have a release methodology? Yes — semantic versioning and release verification are documented in `RELEASES.md` / `RELEASING.md`, including the cryptographically-signed release pipeline (PEP 740 attestations on PyPI + Ed25519-signed git tags) introduced in v0.8.1.1. 22 releases since January 2026.
+* Does the project have a code of conduct? Yes. CODE_OF_CONDUCT.md (https://github.com/madeinplutofabio/pic-standard/blob/main/CODE_OF_CONDUCT.md) — Contributor Covenant.
+* Did the project achieve any of the CII best practices badges? Yes — *OpenSSF Best Practices Silver badge* (project #12790, https://www.bestpractices.dev/projects/12790).
+* Specific infrastructure requests: Guidance on Sandbox onboarding steps, including project sponsor/member pathway, migration to a dedicated GitHub organization if accepted, and LF AI-standard project infrastructure such as mailing list/security reporting channels.
+* Project website: GitHub repository (https://github.com/madeinplutofabio/pic-standard) with documentation at /docs. A dedicated project website will be requested as part of LF AI Sandbox onboarding if accepted.
+* Project governance: GOVERNANCE.md (https://github.com/madeinplutofabio/pic-standard/blob/main/GOVERNANCE.md). Maintainer-led, with documented MAINTAINERS.md and CONTRIBUTING.md.
+* Social media accounts: None dedicated to the project at this time. Updates currently shared via the maintainer's personal LinkedIn.
+* Existing sponsorship: The project is sponsored by MadeInPluto (https://madeinpluto.com), the project lead's agentic AI practice. MadeInPluto provides engineering time, infrastructure, and the maintainer's sustained attention to the project. No external corporate sponsorship.
