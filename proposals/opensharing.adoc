@@ -121,15 +121,17 @@ is added, enumerate them here with name, version, and license.
 
 * *Initial committers* (name, email, organization) and how long have they been working on project?
 +
-Committers of record on the repo (all Databricks):
+Committers of record on the repo:
+
+* Lin Zhou — lin.zhou@databricks.com — Databricks (GitHub `linzhou-db`)
+* Huey Han — huey.han@databricks.com — Databricks (GitHub `hueyhuilonghan`)
+* Abhijit Chakankar — abhijit.chakankar@databricks.com — Databricks (GitHub `chakankardb`)
+* Akram Chetibi — achetibi@mba2017.hbs.edu — Databricks (GitHub `Akramio`)
 +
-* Lin Zhou (GitHub `linzhou-db`)
-* Huey Han (GitHub `hueyhuilonghan`)
-* Abhijit Chakankar (GitHub `chakankardb`)
-* Akram [surname] (GitHub `Akramio`)
-+
-_TODO (finalize before review):_ add each committer's email and tenure on the project (the template
-asks for email; provide work email to bind the employer under DCO).
+_TODO (finalize before review):_ add each committer's tenure on the project.
+Akram's commit email above is a personal address; supply a Databricks work email
+if DCO should bind the employer. Ashish Singh (asingh@apache.org, GitHub
+`SinghAsDev`) also has commits — confirm whether they are an initial committer.
 
 * *Have the project defined the roles of contributor, committer, maintainer, etc.?* Please document it in MAINTAINERS.md.
 +
@@ -181,8 +183,8 @@ _TODO (finalize before review):_ name the security contact/team so LF can set up
 
 * *Project website* - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
 +
-_TODO (finalize before review):_ confirm the website/domain (e.g. opensharing.io). Note the
-domain transfer to LF is a post-vote item; state current status here.
+Yes — https://opensharing.io. (Per Charter §5.b the project owns the domain; the
+transfer of the domain registration to LF is a post-vote onboarding item.)
 
 * *Project governance* - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
 +
