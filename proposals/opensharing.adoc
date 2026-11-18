@@ -1,0 +1,210 @@
+== Project Proposal: OpenSharing
+
+_Submitted for LF AI & Data TAC review. Requested maturity: *Sandbox*._
+
+* *Name of project* -- or proposed name (must be unique within LF AI)
++
+**OpenSharing**
+
+* *Requested project maturity level:* Sandbox | Incubation | Graduated.
++
+**Sandbox.** Incubation is named as the 6–12 month goal (see roadmap), but the
+project does not yet meet the Incubation bar (>=500 GitHub stars, >=3 actively
+contributing organizations, seated TSC with an identified chair, OpenSSF Best
+Practices badge at Silver), so admission is requested at Sandbox.
+
+* *Project description* (what it does, why it is valuable, origin and history, ongoing development).
++
+OpenSharing is a cross-platform, vendor-neutral protocol for zero-copy sharing of
+Data and AI assets. It defines one discovery API, one credential-vending model,
+and one access-control model across tables (Delta, Iceberg, Parquet), volumes
+(directories of files in any format), AgentSkills, and Models — with Agent and
+Page asset types under community proposal. Any compliant server can share to any
+compliant client; there is no required SDK and no required platform.
++
+It is valuable because sharing across organizational boundaries is still
+point-to-point plumbing: custom integrations per partner, manual copies,
+catalog/format fragmentation (Delta vs. Iceberg), and — critically — no standard
+at all for the assets that now matter most (models, agents, agent skills), nor
+for regulated or on-premises data that cannot move. A sharing protocol is the one
+component of the AI/data stack that structurally cannot be single-vendor, which
+is why it belongs in a neutral foundation.
++
+*Origin and history:* OpenSharing generalizes Delta Sharing (open-sourced 2021,
+`delta-io/delta-sharing`, Apache-2.0), which established that an open sharing
+protocol could win cross-vendor adoption. OpenSharing inherits the zero-copy +
+short-lived-credential-vending model and the implementer ecosystem, and extends
+the protocol beyond a single table format to be format- and asset-general, under
+neutral governance. The Technical Charter was adopted June 9, 2026 (OpenSharing a
+Series of LF Projects, LLC).
++
+*Ongoing development:* The specification is developed openly at
+`github.com/OpenSharing-IO/OpenSharing` under Apache-2.0.
++
+Repo metrics as of Aug 26, 2026: 149 GitHub stars, 16 forks, 4 contributors.
++
+_TODO (finalize before review):_ confirm Delta Sharing *adoption* figures before filing. The DAIS
+2026 materials carry three inconsistent versions ("300+ partners / 115% YoY",
+"350+ providers / 100%+ YoY", "54k active shares / 33% to open recipients"). Pick
+one set, source it, and label it "Databricks-reported."
+
+* *Statement on alignment with LF AI's mission.*
++
+LF AI & Data hosts the open building blocks of the AI and data stack — formats
+(ONNX, Delta Lake), catalogs (Unity Catalog, Amundsen), lineage (OpenLineage,
+Marquez), and stores (Milvus, Feast). None of them define how an asset crosses an
+*organizational* boundary. OpenSharing is the interchange layer between those
+building blocks, and it is governed rather than proprietary. Vendor-neutral
+governance is a precondition for adoption of a sharing protocol, not a
+nice-to-have.
+
+* *Have you identified possible collaboration opportunities with current LF AI hosted projects* (https://lfai.foundation/projects/)? Please explain.
++
+Yes. Concrete near-term collaborations (next 1–2 quarters):
++
+[cols="1,1,3",options="header"]
+|===
+| Project | Stage | Collaboration
+| Delta Lake | Incubation | Delta as a first-class shared table format; shared lineage with the Delta Sharing protocol
+| Unity Catalog | Sandbox | Catalog-side implementation of share/schema/asset governance
+| OpenLineage / Marquez | Graduated | Lineage that survives a sharing handoff — provenance across an organizational boundary
+| ONNX | Graduated | Model assets as a shared type; ONNX as a portable model payload format
+| Milvus / Feast | Graduated / Incubation | Embeddings and features as shared Volume/Table assets
+|===
++
+Delta Lake and Unity Catalog are the honest near-term answers; the rest are
+opportunities. (Graduation later requires a completed collaboration with another
+hosted project.)
+
+* *License name, version, and URL to license text*
++
+Apache License, Version 2.0 — https://www.apache.org/licenses/LICENSE-2.0.
+Documentation is licensed CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/);
+data contributions under CDLA-Permissive-2.0 (https://cdla.dev/permissive-2-0).
+
+* *Source control* (GitHub, etc.) - Please confirm tools in use.
++
+GitHub: `github.com/OpenSharing-IO/OpenSharing`.
+
+* *Does the project sit in its own GH organization?*
++
+Yes — `OpenSharing-IO` (not a founder's personal org).
+
+* *Do you have the GH DCO app active in the repos?*
++
+In progress. DCO sign-off is required by Charter §7.b.ii; the GitHub DCO app
+(https://probot.github.io/apps/dco) is being enabled on all `OpenSharing-IO`
+repos ahead of the vote.
++
+_TODO (finalize before review):_ confirm the DCO status check is live on `main` before filing.
+
+* *Issue tracker* (GitHub, JIRA, etc) - Please confirm tools in use.
++
+GitHub Issues on `OpenSharing-IO/OpenSharing` (enabled).
+
+* *Collaboration tools* (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
++
+Requesting from LF AI & Data as part of hosting: project mailing lists, a Slack
+channel, a wiki, and LFX tooling. Public TSC meetings will be held on a published
+cadence (Charter §2.b).
++
+_TODO (finalize before review):_ list any collaboration tools already in use today (e.g. an existing
+Slack/Discord, mailing list, or Google Group), if any.
+
+* *External dependencies including licenses* (name and version) of those dependencies.
++
+The repository is specification-only (a `spec/` tree plus `assets/`, README, and
+ROADMAP); there are no external runtime dependencies.
++
+_TODO (finalize before review):_ if/when a reference implementation with build/runtime dependencies
+is added, enumerate them here with name, version, and license.
+
+* *Initial committers* (name, email, organization) and how long have they been working on project?
++
+Committers of record on the repo:
+
+* Lin Zhou — lin.zhou@databricks.com — Databricks (GitHub `linzhou-db`)
+* Huey Han — huey.han@databricks.com — Databricks (GitHub `hueyhuilonghan`)
+* Abhijit Chakankar — abhijit.chakankar@databricks.com — Databricks (GitHub `chakankardb`)
+* Akram Chetibi — achetibi@mba2017.hbs.edu — Databricks (GitHub `Akramio`)
++
+_TODO (finalize before review):_ add each committer's tenure on the project.
+Akram's commit email above is a personal address; supply a Databricks work email
+if DCO should bind the employer. Ashish Singh (asingh@apache.org, GitHub
+`SinghAsDev`) also has commits — confirm whether they are an initial committer.
+
+* *Have the project defined the roles of contributor, committer, maintainer, etc.?* Please document it in MAINTAINERS.md.
++
+Roles are defined in the Technical Charter §2.c (Contributor, Maintainer;
+promotion by majority TSC approval). A `MAINTAINERS.md` (and `CONTRIBUTING.md`,
+which the Charter makes load-bearing for TSC voting membership) is being landed in
+the repo.
++
+_TODO (finalize before review):_ confirm `MAINTAINERS.md` and `CONTRIBUTING.md` are committed before
+the vote — the Charter delegates TSC voting membership to `CONTRIBUTING`.
+
+* *Total number of contributors to the project including their affiliations.*
++
+4 contributors (Lin Zhou, Huey Han, Abhijit Chakankar, Akram), all currently
+Databricks-affiliated (as of Aug 26, 2026).
+
+* *Does the project have a release methodology?* Please document it in RELEASES.md.
++
+For a specification project this is a spec-versioning policy. A `RELEASES.md`
+describing versioning and release cadence is being landed.
++
+_TODO (finalize before review):_ commit `RELEASES.md` (spec-versioning + cadence) and link it here.
+
+* *Does the project have a code of conduct?* If yes, please share the URL. If no, please create CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
++
+Yes — the project adopts the LF Projects Code of Conduct
+(https://lfprojects.org/policies/code-of-conduct/), per Charter §4.b, with
+`conduct@lfai.foundation` as the contact. A `CODE_OF_CONDUCT.md` pointing to that
+policy is being landed in the repo.
+
+* *Did the project achieve any of the CII best practices badges?* A different badge is required depending on the requested incubation level.
++
+The OpenSSF Best Practices (formerly CII) badge has been *started*, which is the
+Sandbox requirement (the LF onboarding correspondence confirms the badge "does not
+need to be completed up front, merely started"). Silver is targeted as part of the
+path to Incubation.
++
+_TODO (finalize before review):_ provide the badge project URL and current percentage once the
+project is registered at https://www.bestpractices.dev.
+
+* *Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
++
+Neutral hosting of the trademark, domain, and project assets; a TAC sponsor to
+advise on governance; mailing lists, a Slack channel, wiki, and LFX; and license
+and security scanning. A named security contact and an LF-hosted security mailing
+list are also requested.
++
+_TODO (finalize before review):_ name the security contact/team so LF can set up the security list.
+
+* *Project website* - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
++
+Yes — https://opensharing.io. (Per Charter §5.b the project owns the domain; the
+transfer of the domain registration to LF is a post-vote onboarding item.)
+
+* *Project governance* - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
++
+Yes. Governance is defined by the Technical Charter (adopted June 9, 2026):
+TSC holds all technical oversight; voting members are the Maintainers documented
+in `CONTRIBUTING`; one vote per member, 50% quorum, majority to decide, two-thirds
+to amend the charter or grant a license exception; open participation regardless
+of competitive interest (§4.d); public meetings.
++
+_TODO (finalize before review):_ provide the URL to the committed Charter and to `GOVERNANCE.md` once
+landed (e.g. `github.com/OpenSharing-IO/OpenSharing/blob/main/charter/CHARTER.md`).
+
+* *Social media accounts* - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
++
+_TODO (finalize before review):_ list any project social accounts (or state none yet). Per
+Charter §5.b the project owns these; per the LF onboarding they will be shared
+with LF via a secure channel post-vote.
+
+* *Existing sponsorship* (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
++
+Databricks — an LF AI & Data member — is the sponsoring organization. Databricks
+originated the specification (building on its open-sourcing of Delta Sharing in
+2021), employs the initial maintainers, and has funded development to date.
