@@ -1,0 +1,135 @@
+== Swizzle AI (`swizzle-runtime`) Project Proposal
+
+* *Name of project -- or proposed name (must be unique within LF AI)*
++
+Swizzle AI (`swizzle-runtime`)
+
+* *Requested project maturity level: Sandbox | Incubation | Graduated.*
++
+Sandbox
+
+* *Project description (what it does, why it is valuable, origin and history, ongoing development).*
++
+**Swizzle AI (`swizzle-runtime` / `swizzle-rt`)** is an open-source (Apache-2.0), pure-Rust high-throughput inference runtime and cloud-native routing stack for GGUF and `.ktc` Large Language Models (LLMs) and Vision-Language-Action (VLA) robotics models across CPU (x86-64 AVX2/F16C, ARM NEON), NVIDIA CUDA (`sm_75`–`sm_120`), and cross-vendor Vulkan GPUs (AMD, Intel, Apple, ARM).
++
+**Why it is valuable:** Existing local and edge inference runtimes suffer from a fundamental trade-off between hardware throughput and numerical reproducibility — running the same quantized model across CPU, CUDA, and Vulkan or across different batch sizes produces divergent token streams due to non-associative floating-point reductions, approximate vocabulary pruning, and non-deterministic speculative decoding. Swizzle Runtime achieves hardware-roofline performance while guaranteeing **bit-for-bit identical greedy output and cryptographic inference receipts (`swizzle-rt verify-receipt`, `X-Swizzle-Receipt-Hash`)** across every supported hardware pass.
++
+As detailed in our 28-page technical report (https://github.com/Swizzle-AI/swizzle-runtime/blob/main/docs/Swizzle_Runtime_Technical_Report.pdf[`SWZ-TR-2026-01`]), `swizzle-runtime` introduces four core systems innovations across a 10-crate Rust workspace:
++
+1. **Zero-Padding XOR Shared-Memory GEMM Tiling & Balanced Reductions (`Theorem 6.1`)**: 16-byte XOR shared-memory permutation `gemm_swizzle(r, b) = b ^ ((r & 7) << 4)` eliminating 32-way shared-memory bank conflicts on Tensor Core `ldmatrix.x4`, paired with compile-time balanced binary tree reductions (`TreeSum<K>`) that guarantee batch-size and backend invariance.
+2. **Exact Two-Stage Vocabulary Screening (`Shortlist`, `Theorem 9.1`)**: Three-term Cauchy-Schwarz + IEEE-754 directed-rounded upper bound (`R_head`, `R_copy`, `R_spread`, and slack `$\delta_{\text{slack}} = (d+8)\cdot 2^{-23}$`) with zero-sync GPU warp-ballot compaction (`__ballot_sync` + `__popc`), pruning 85%–97% of full-precision vocabulary rows with zero false negatives.
+3. **Lossless Ensemble Speculative Decoding (`RAD-1`, `Theorem 10.1`)**: Online score-weighted ensemble combining a 262,144-token Suffix Automaton (`SessionIndex`), prompt suffix `Lookup`, and neural Multi-Token Prediction (`MtpDrafter`) with counterfactual EMA scoring and exact residual rejection sampling.
+4. **Two-Tier `Warm Start` Prefix Caching & Hybrid Recurrent Rollback**: 256-token grid-aligned RAM/disk prefix caching across turns and sessions for both Transformer KV caches and hybrid recurrent architectures (`DeltaNetState` and `Mamba2State`), plus `Convoy` continuous batching and `Zero Wait` async host-device overlap.
++
+**Companion Repositories in the `Swizzle-AI` Organization:**
++
+* https://github.com/Swizzle-AI/swizzle-runtime[`Swizzle-AI/swizzle-runtime`] — Core 10-crate Rust, CUDA, and Vulkan inference runtime (`swizzle-rt`).
+* https://github.com/Swizzle-AI/swizzle-gateway[`Swizzle-AI/swizzle-gateway`] — High-throughput sub-1ms Go L7 gateway with dual wire protocol (OpenAI & Anthropic), AST-diff prefix cache registry, and teleop buffer.
+* https://github.com/Swizzle-AI/swizzle-router[`Swizzle-AI/swizzle-router`] — Semantic router, Matryoshka domain-adapted embeddings, prompt intent classification, and prefix-aware multi-cluster load balancer.
+* https://github.com/Swizzle-AI/swizzle-kernels[`Swizzle-AI/swizzle-kernels`] — Hardware-roofline CUDA, Triton, and TPU Pallas fused mega-kernels.
+* https://github.com/Swizzle-AI/swizzle-robotics[`Swizzle-AI/swizzle-robotics`] — Real-time robotics VLA world models, 80.5 Hz visual servoing, and quintic spline trajectory smoothing.
+* https://github.com/Swizzle-AI/swizzle-python-sdk[`Swizzle-AI/swizzle-python-sdk`] — Official Python client SDK for speculative streaming, prefix-cached routing, and 80 Hz robotics telemetry.
+
+* *Statement on alignment with LF AI’s mission.*
++
+Swizzle AI directly advances LF AI & Data's mission to build and support an open, vendor-neutral, and trustworthy AI and data ecosystem:
++
+1. **Vendor-Neutral Hardware Acceleration**: Runs from a single static Rust binary across CPU, NVIDIA CUDA, and cross-vendor Vulkan GPUs without proprietary runtime lock-in.
+2. **Trustworthy, Reproducible & Auditable AI**: Enforces bit-exact deterministic output and emits cryptographic inference receipts (`swizzle-rt verify-receipt`), directly supporting LF AI & Data's Trusted AI initiatives.
+3. **Open Standards & Interoperability**: Native support for open GGUF model weights and drop-in wire compatibility with OpenAI (`/v1/chat/completions`, `/v1/completions`, `/v1/embeddings`), `llama.cpp`, and Ollama endpoints.
+
+* *Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.*
++
+Yes, we have identified concrete technical collaboration opportunities with several LF AI & Data projects:
++
+* **ONNX**: Interoperability between ONNX quantized model graphs and Swizzle Runtime's `.ktc` / GGUF tensor execution and `Shortlist` vocabulary screening kernels.
+* **Milvus**: Pairing Milvus vector retrieval with `swizzle-runtime` (`/v1/embeddings`) and `swizzle-router` for low-latency, prefix-cached local RAG pipelines with deterministic receipts.
+* **Kompute**: Collaborating on cross-vendor Vulkan compute shader optimizations (`VK_KHR_shader_subgroup_ballot` and cooperative matrix extensions) for non-NVIDIA GPU inference.
+* **Trusted AI Working Groups**: Integrating Swizzle Runtime's deterministic inference receipt verification (`X-Swizzle-Receipt-Hash`) as a reference implementation for auditable and reproducible model execution.
+
+* *License name, version, and URL to license text*
++
+Apache License 2.0: https://github.com/Swizzle-AI/swizzle-runtime/blob/main/LICENSE (with https://github.com/Swizzle-AI/swizzle-runtime/blob/main/NOTICE[`NOTICE`]). All repositories under the `Swizzle-AI` organization are licensed under Apache-2.0.
+
+* *Source control (GitHub, etc.) - Please confirm tools in use.*
++
+GitHub: https://github.com/Swizzle-AI (core repository: https://github.com/Swizzle-AI/swizzle-runtime)
+
+* *Does the project sits in its own GH organization?*
++
+Yes — https://github.com/Swizzle-AI
+
+* *Do you have the GH DCO app active in the repos?*
++
+Yes — DCO sign-off (`git commit -s`) is documented and enforced via our contribution guidelines (https://github.com/Swizzle-AI/swizzle-runtime/blob/main/CONTRIBUTING.md[`CONTRIBUTING.md`]) and repository checks.
+
+* *Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.*
++
+GitHub Issues: https://github.com/Swizzle-AI/swizzle-runtime/issues
+
+* *Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.*
++
+Currently using GitHub Issues, Pull Requests, and Discussions across the `Swizzle-AI` organization. Upon joining LF AI & Data Sandbox, we would like to leverage LFX Project Control Center, LFX Mentorship, an LF AI & Data Slack channel, and LF-hosted mailing lists (including a security disclosure list).
+
+* *External dependencies including licenses (name and version) of those dependencies.*
++
+`swizzle-runtime` is engineered with minimal external dependencies in Rust, all under permissive OSI-approved licenses (`Apache-2.0` or `MIT`):
++
+* `rayon` (`1.10`) — `MIT OR Apache-2.0`
+* `memmap2` (`0.9`) — `MIT OR Apache-2.0`
+* `serde` (`1.0`) — `MIT OR Apache-2.0`
+* `serde_json` (`1.0`) — `MIT OR Apache-2.0`
+* `ash` (`0.38`, Vulkan bindings) — `MIT OR Apache-2.0`
+* `half` (`2.4`, `f16`/`bf16`) — `MIT OR Apache-2.0`
+* `sha2` (`0.10`, receipt hashing) — `MIT OR Apache-2.0`
+* `clap` (`4.5`, CLI) — `MIT OR Apache-2.0`
+
+* *Initial committers (name, email, organization) and how long have they been working on project?*
++
+* Paramveer Singh — param15.veer.singh@gmail.com (GitHub: https://github.com/Paramveersingh-S[`@Paramveersingh-S`]), Swizzle AI — Founder & Lead Maintainer (1+ year).
+
+* *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.*
++
+Yes — roles and responsibilities (Contributors, Reviewers, Maintainers, and Technical Steering Committee) are defined in:
++
+* https://github.com/Swizzle-AI/swizzle-runtime/blob/main/GOVERNANCE.md[`GOVERNANCE.md`]
+* https://github.com/Swizzle-AI/swizzle-runtime/blob/main/MAINTAINERS.md[`MAINTAINERS.md`]
+
+* *Total number of contributors to the project including their affiliations.*
++
+1 core maintainer/committer (Paramveer Singh, Swizzle AI), actively onboarding external open-source contributors across the Rust, Go, and Kubernetes AI inference communities.
+
+* *Does the project have a release methodology? Please document it in RELEASES.md.*
++
+Yes — documented in https://github.com/Swizzle-AI/swizzle-runtime/blob/main/RELEASES.md[`RELEASES.md`] and https://github.com/Swizzle-AI/swizzle-runtime/blob/main/CHANGELOG.md[`CHANGELOG.md`].
+
+* *Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.*
++
+Yes — https://github.com/Swizzle-AI/swizzle-runtime/blob/main/CODE_OF_CONDUCT.md[`CODE_OF_CONDUCT.md`] (aligned with the Contributor Covenant and LF Projects Code of Conduct).
+
+* *Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.*
++
+In progress for Sandbox entry; all OpenSSF (CII) Best Practices Passing requirements (`LICENSE`, `NOTICE`, `GOVERNANCE.md`, `MAINTAINERS.md`, `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, `RELEASES.md`, `ROADMAP.md`, `ADOPTERS.md`, and automated CI test suites) are in place in the repository.
+
+* *Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?*
++
+* Onboarding onto LFX Project Control Center (PCC), LFX Insights, LFX Crowdfunding, and LFX Mentorship.
+* Multi-architecture GPU CI runner support (NVIDIA CUDA and AMD/Intel Vulkan) as available for Sandbox projects.
+* LF AI & Data security reporting mailing list and project Slack channel.
+
+* *Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?*
++
+Yes — https://swizzle-ten.vercel.app (and GitHub documentation portal at https://github.com/Swizzle-AI/swizzle-runtime).
+
+* *Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.*
++
+Yes — documented in https://github.com/Swizzle-AI/swizzle-runtime/blob/main/GOVERNANCE.md[`GOVERNANCE.md`] (and organization-wide at https://github.com/Swizzle-AI/.github/blob/main/GOVERNANCE.md[`Swizzle-AI/.github/GOVERNANCE.md`]).
+
+* *Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.*
++
+* X / Twitter: https://x.com/Swizzler112[`@Swizzler112`]
+* GitHub Organization: https://github.com/Swizzle-AI
+
+* *Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.*
++
+Independent open-source development funded by the founder to date; machine-readable funding manifests (https://github.com/Swizzle-AI/swizzle-runtime/blob/main/funding.json[`funding.json`] and https://github.com/Swizzle-AI/.github/blob/main/FUNDING.yml[`FUNDING.yml`]) are configured for LFX Crowdfunding, Open Source Collective, and GitHub Sponsors.
