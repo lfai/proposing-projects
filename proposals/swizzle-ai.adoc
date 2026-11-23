@@ -86,7 +86,7 @@ Currently using GitHub Issues, Pull Requests, and Discussions across the `Swizzl
 
 * *Initial committers (name, email, organization) and how long have they been working on project?*
 +
-* Paramveer Singh — paramveersingh@swizzle.ai (GitHub: https://github.com/Paramveersingh-S[`@Paramveersingh-S`]), Swizzle AI — Founder & Lead Maintainer (1+ year).
+* Paramveer Singh — param15.veer.singh@gmail.com (GitHub: https://github.com/Paramveersingh-S[`@Paramveersingh-S`]), Swizzle AI — Founder & Lead Maintainer (1+ year).
 
 * *Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.*
 +
