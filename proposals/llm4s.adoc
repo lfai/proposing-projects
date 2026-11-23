@@ -1,0 +1,79 @@
+LLM4S proposal to LF AI & Data TAC
+
+* Name of project -- or proposed name (must be unique within LF AI)
+LLM4S
+Repository: https://github.com/llm4s/llm4s
+Website: https://llm4s.org
+
+* Requested project maturity level: Sandbox | Incubation | Graduated.
+Incubation
+
+* Project description (what it does, why it is valuable, origin and history, ongoing development).
+LLM4S is an open-source, type-safe framework for building production-ready AI applications and agentic systems in Scala. It enables developers to build reliable, observable, and scalable LLM-powered applications with support for AI agents, tool calling, structured outputs, Retrieval-Augmented Generation (RAG), streaming, memory, and multiple LLM providers. LLM4S is designed with a strong focus on functional programming, modularity, and enterprise-grade reliability. The project is actively maintained with public development on GitHub, comprehensive documentation, a weekly community Dev Hour on Discord, and contributions from developers across the open-source community.
+
+* Statement on alignment with LF AI’s mission.
+LLM4S aligns with the LF AI & Data mission by providing an open, vendor-neutral framework for developing production-ready AI applications. The project promotes open collaboration, interoperability, community-driven development, and the adoption of open standards for AI engineering.
+
+* Have you identified possible collaboration opportunities with current LF AI hosted projects (https://lfai.foundation/projects/)? Please explain.
+We are currently assessing collaboration opportunities with existing LF AI & Data hosted projects (e.g. in the observability/tracing and RAG/data space) and are open to guidance from the TAC on natural points of overlap.
+
+* License name, version, and URL to license text
+MIT License, available at https://github.com/llm4s/llm4s/blob/main/LICENSE
+
+* Source control (GitHub, etc.) - Please confirm tools in use.
+GitHub: https://github.com/llm4s/llm4s
+
+* Does the project sits in its own GH organization?
+Yes: https://github.com/llm4s
+
+* Do you have the GH DCO app active in the repos?
+Yes. The GitHub DCO app is installed and active on the `llm4s` org, and DCO sign-off is additionally enforced via a merged CI check (https://github.com/llm4s/llm4s/pull/1103).
+
+* Issue tracker (GitHub, JIRA, etc) - Please confirm tools in use.
+GitHub Issues: https://github.com/llm4s/llm4s/issues
+
+* Collaboration tools (mailing lists, wiki, IRC, Slack, Glitter, etc.) - Please confirm tools in use and state request for tools you'd like to use.
+GitHub Discussions, GitHub Issues, GitHub Pull Requests, Discord (https://discord.com/invite/DjPMufnhG6), and our website (https://llm4s.org). We also host a weekly contributor Dev Hour on Discord every Tuesday at 17:00 UTC for live sync, code review, and onboarding.
+
+* External dependencies including licenses (name and version) of those dependencies.
+Major dependencies include Cats, uPickle/ujson, Azure OpenAI SDK, Anthropic SDK (Java), OpenTelemetry, Monocle, PureConfig, HikariCP, Neo4j Java driver, Cask, and AWS SDK for Java. All are released under compatible open-source licenses (primarily Apache 2.0 and MIT).
+
+* Initial committers (name, email, organization) and how long have they been working on project?
+Kannupriya Kalra, kannupriyakalra@gmail.com, kannupriya@llm4s.org, Independent, project co-founder
+Rory Graves, rory.graves@fieldmark.co.uk, rory@llm4s.org, Independent, project co-founder
+
+* Have the project defined the roles of contributor, committer, maintainer, etc.? Please document it in MAINTAINERS.md.
+Yes: https://github.com/llm4s/llm4s/blob/main/MAINTAINERS.md, with roles defined in https://github.com/llm4s/llm4s/blob/main/GOVERNANCE.md#roles
+
+* Total number of contributors to the project including their affiliations.
+66 contributors on GitHub as of this writing, drawn primarily from the independent open-source community.
+
+* Does the project have a release methodology? Please document it in RELEASES.md.
+Yes: https://github.com/llm4s/llm4s/blob/main/RELEASES.md, documenting the existing tag-triggered release process (GitHub Actions, published to Sonatype Central / Maven Central).
+
+* Does the project have a code of conduct? If yes, please share the URL. If no, please created CODE_OF_CONDUCT.md and point to https://lfprojects.org/policies/code-of-conduct/. You can use conduct@lfai.foundation as email for contact on this topic.
+Yes: https://github.com/llm4s/llm4s/blob/main/CODE_OF_CONDUCT.md
+
+* Did the project achieve any of the CII best practices badges? A different badge is required depending on the requested incubation level.
+Not yet. We will pursue the CII Best Practices badge as part of onboarding.
+
+* Do you have any specific infrastructure requests needed as part of hosting the project in the LF AI?
+None at this time.
+
+* Project website - Do you have a web site? If no, did you reserve a domain, and would like you to have a website created?
+Yes: https://llm4s.org
+
+* Project governance - Do you have a working governance model for the project? Please provide URL to where it is documented, typically GOVERNANCE.md.
+Yes: https://github.com/llm4s/llm4s/blob/main/GOVERNANCE.md
+
+* Social media accounts - Do you have any Twitter/LinkedIn/Facebook/etc. project accounts? Please provide pointers.
+LinkedIn: https://www.linkedin.com/company/llm4s-foundation/
+Reddit: https://www.reddit.com/user/llm4s_foundation/
+X / Twitter: https://x.com/llm4sfoundation/
+Bluesky: https://bsky.app/profile/llm4s-foundation.bsky.social
+Mastodon: https://mastodon.social/@llm4s_foundation/
+Open Collective: https://opencollective.com/llm4s
+Global AI Discord community (~400 members): https://discord.com/invite/DjPMufnhG6
+
+* Existing sponsorship (e.g., whether any organization has provided funding or other support to date, and a description of that support), if any.
+LLM4S participated in Google Summer of Code (GSoC) 2025 under the Scala Center organization umbrella. Google funded 4 contributors as paid interns to work on large LLM4S projects over the summer (multimodal/voice LLM support, an agentic toolkit, RAG-in-a-box, and tracing/observability). Beyond GSoC, the project has not received direct organizational funding to date and is otherwise community-supported.
